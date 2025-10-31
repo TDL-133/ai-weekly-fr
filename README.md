@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 18-24 Octobre 2025
+**Période :** 25-31 Octobre 2025
 
-[Voir la newsletter](./AI_Weekly_Oct18-24_2025.html)
+[Voir la newsletter](./AI_Weekly_Oct25-31_2025_Balanced.html)
 
 ## 📊 Contenu
 
@@ -23,12 +23,13 @@ Les actualités sont compilées à partir des newsletters et sources suivantes :
 - [Alpha Signal](https://alphasignal.ai/last-email/)
 - [Mozza Bytes](https://mozzabytes.substack.com/)
 - [Upmynt](https://www.upmynt.com/)
-- [NLP Newsletter](https://nlp.elvissaravia.com/)
+- [NLP Newsletter (Elvis Saravia)](https://nlp.elvissaravia.com/)
 - [The AI Report](https://www.theaireport.ai/newsletters)
-- [TLDR AI](https://tldr.tech/)
-- [AI Tidbits](https://www.aitidbits.ai/)
-- [Superhuman](https://www.superhuman.ai/)
-- [IA Ethique Insider](https://iaethiqueinsider.substack.com/)
+- [TLDR AI](https://tldr.tech/ai)
+- [AI Tidbits (Sahar Mor)](https://www.aitidbits.ai/)
+- [Superhuman (Zain Kahn)](https://www.superhuman.ai/)
+- [IA Ethique Insider (Daphnée)](https://iaethiqueinsider.substack.com/)
+- [Human in the Loop (Andreas Horn)](https://www.humanintheloop.online/)
 
 ## 📝 À propos
 

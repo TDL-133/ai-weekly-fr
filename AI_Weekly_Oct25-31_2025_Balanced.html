@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly - 25-31 Octobre 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #111827;
+            background-color: white;
+        }
+
+        .container {
+            max-width: 48rem;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .title {
+            font-size: 2.25rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+
+        .date {
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+
+        .note {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-header {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+
+        .red { color: #ef4444; }
+        .yellow { color: #eab308; }
+        .green { color: #22c55e; }
+        .bg-red { background-color: #ef4444; }
+        .bg-yellow { background-color: #eab308; }
+        .bg-green { background-color: #22c55e; }
+
+        .articles {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        article {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+        }
+
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        .article-content {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+
+        .article-number {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-top: 0.25rem;
+            min-width: 2.5rem;
+        }
+
+        .article-body {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            color: #111827;
+            transition: color 0.2s;
+        }
+
+        article:hover .article-title {
+            color: #2563eb;
+        }
+
+        .article-title a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-summary {
+            color: #4b5563;
+            margin-bottom: 1rem;
+            line-height: 1.625;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.875rem;
+            color: #9ca3af;
+            align-items: center;
+        }
+
+        .article-source {
+            font-weight: 500;
+        }
+
+        .sources-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .sources-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: #111827;
+        }
+
+        .sources-list {
+            display: grid;
+            gap: 0.75rem;
+            font-size: 0.875rem;
+        }
+
+        .source-item {
+            color: #4b5563;
+        }
+
+        .source-item a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .source-item a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+            .title {
+                font-size: 1.875rem;
+            }
+            .article-content {
+                gap: 1rem;
+            }
+            .article-number {
+                font-size: 1.25rem;
+                min-width: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">AI Weekly</h1>
+            <p class="subtitle">Design by Dagorsey & Claude</p>
+            <div class="divider"></div>
+            <p class="date">25-31 Octobre 2025</p>
+            <p class="note">Les sources sont indiquées sous chaque article</p>
+        </div>
+
+        <!-- Section Critique -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title red">🔴 Critique</h2>
+                <div class="category-divider bg-red"></div>
+            </div>
+            <div class="articles">
+                <!-- Article 1 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">01</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://openai.com/index/introducing-aardvark/" target="_blank">OpenAI lance Aardvark, un agent GPT-5 pour la sécurité du code</a>
+                            </h3>
+                            <p class="article-summary">
+                                OpenAI dévoile Aardvark, un agent autonome alimenté par GPT-5 qui analyse les dépôts de code, identifie les vulnérabilités et propose des corrections vérifiées. Il a déjà révélé 10 CVE dans des projets open-source avec 92% de précision.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 - The AI Report -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">02</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.cbsnews.com/news/nvidia-5-trillion-nvda-stock-market-cap-valuation-ai-chips/" target="_blank">Nvidia devient la première entreprise à 5 000 milliards de dollars</a>
+                            </h3>
+                            <p class="article-summary">
+                                Nvidia franchit une étape historique avec une valorisation de 5 billions de dollars, alimentée par la demande explosive pour ses puces IA. Les actions ont augmenté de 51% cette année, malgré les craintes d'une bulle IA similaire au krach des dotcom.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : The AI Report</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 - Superhuman -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">03</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/10/28/microsoft-365-copilot-now-enables-you-to-build-apps-and-workflows/" target="_blank">Microsoft lance App Builder et Workflows dans Copilot</a>
+                            </h3>
+                            <p class="article-summary">
+                                Microsoft Copilot permet désormais de créer des applications complètes via des commandes conversationnelles, sans coder. La fonctionnalité Workflows automatise les tâches routinières sur toute la plateforme, incluse dans l'abonnement à 30$/mois.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Superhuman (Zain Kahn)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 - Human in the Loop -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">04</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.humanintheloop.online/p/21-edition-openai-s-atlas-the-first-real-ai-browser-and-maybe-the-next-os" target="_blank">OpenAI Atlas : le premier vrai navigateur IA (et peut-être le prochain OS)</a>
+                            </h3>
+                            <p class="article-summary">
+                                Atlas d'OpenAI redéfinit la navigation web avec un navigateur piloté par l'IA qui comprend, navigue et agit sur le web de manière autonome. Cette innovation pourrait représenter la prochaine génération de systèmes d'exploitation.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Human in the Loop (Andreas Horn)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 - The AI Report -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">05</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.theaireport.ai/newsletter/government-2-0-how-ai-agents-are-changing-public-services" target="_blank">Government 2.0 : Les agents IA transforment les services publics</a>
+                            </h3>
+                            <p class="article-summary">
+                                Analyse de Salesforce sur comment les agents IA révolutionnent les services gouvernementaux, rendant l'administration plus rapide, intelligente et humaine. Une transformation majeure des services publics à l'ère de l'IA.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : The AI Report</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 - IA Ethique Insider -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">06</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://iaethiqueinsider.substack.com/p/big-tech-vs-societe-civile-lamerique" target="_blank">Big Tech vs Société civile : l'Amérique se déchire sur le futur de l'IA</a>
+                            </h3>
+                            <p class="article-summary">
+                                10 000 commentaires, 6 visions du monde, zéro consensus. La consultation américaine sur l'avenir de l'IA révèle des fractures profondes entre les géants technologiques et la société civile sur la régulation et l'orientation de l'IA.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : IA Ethique Insider (Daphnée)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 7 - NLP Newsletter -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">07</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/abs/2510.18234" target="_blank">DeepSeek-OCR : compression optique 10-20x pour les LLM</a>
+                            </h3>
+                            <p class="article-summary">
+                                DeepSeek explore la compression de contextes textuels longs en représentations visuelles avec un ratio de 10-20x. L'architecture DeepEncoder atteint 97% de précision OCR à 10x de compression, révolutionnant la mémoire des LLM.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : NLP Newsletter (Elvis Saravia)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 8 - Mozza Bytes -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number red">08</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/openai-completes-for-profit-transition" target="_blank">OpenAI complète sa transition vers le profit</a>
+                            </h3>
+                            <p class="article-summary">
+                                OpenAI finalise sa transformation en entreprise à but lucratif, marquant un tournant majeur dans l'industrie de l'IA. Cette restructuration soulève des questions sur l'équilibre entre objectifs commerciaux et mission initiale de l'IA sûre.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Mozza Bytes</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Section Important -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title yellow">🟡 Important</h2>
+                <div class="category-divider bg-yellow"></div>
+            </div>
+            <div class="articles">
+                <!-- Article 9 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">09</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766" target="_blank">Microsoft introduit Researcher avec Computer Use dans Copilot</a>
+                            </h3>
+                            <p class="article-summary">
+                                Copilot peut désormais naviguer, rechercher et agir en toute sécurité sur le web de manière autonome. Cette fonctionnalité "Computer Use" permet au Copilot d'accéder et de résumer du contenu web directement.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 10 - Superhuman -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">10</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/microsoft-launches-ai-browser" target="_blank">Microsoft lance un navigateur IA</a>
+                            </h3>
+                            <p class="article-summary">
+                                Microsoft dévoile son navigateur piloté par l'IA, quelques jours après l'Atlas d'OpenAI. Une course s'engage entre les géants tech pour définir l'avenir de la navigation web assistée par intelligence artificielle.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Superhuman (Zain Kahn)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 11 - The AI Report -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">11</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.theaireport.ai/newsletter/lilly-nvidia-boost-drug-research" target="_blank">Lilly et NVIDIA boostent la recherche pharmaceutique avec l'IA</a>
+                            </h3>
+                            <p class="article-summary">
+                                Le partenariat entre Eli Lilly et NVIDIA accélère la découverte de médicaments grâce à l'IA. Cette collaboration vise à réduire significativement le temps et les coûts de développement de nouveaux traitements.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : The AI Report</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 12 - Superhuman -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">12</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/big-tech-kicks-off-earnings-season" target="_blank">Les licenciements IA sont-ils vraiment dus à l'IA ?</a>
+                            </h3>
+                            <p class="article-summary">
+                                Amazon coupe 14 000 postes, Chegg 45%, Salesforce 4 000 rôles service client. Mais les experts suggèrent que l'IA est un prétexte commode pour des ajustements économiques post-pandémie plutôt que la vraie cause.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Superhuman (Zain Kahn)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 13 - NLP Newsletter -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">13</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/abs/2510.15103" target="_blank">Apprentissage continu via Memory Finetuning Sparse</a>
+                            </h3>
+                            <p class="article-summary">
+                                Meta AI résout l'oubli catastrophique dans les modèles de langage en ne mettant à jour que les emplacements mémoire activés par les nouvelles connaissances. Résultat : 89% moins de dégradation des performances qu'avec le fine-tuning standard.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : NLP Newsletter (Elvis Saravia)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 14 - Upmynt -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">14</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/claude-comes-to-excel" target="_blank">Claude arrive dans Excel pour transformer l'analyse de données</a>
+                            </h3>
+                            <p class="article-summary">
+                                L'intégration de Claude dans Microsoft Excel révolutionne l'analyse de données pour les utilisateurs professionnels. Cette collaboration apporte les capacités de raisonnement avancé directement dans l'outil tableur le plus utilisé.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Upmynt</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 15 - NLP Newsletter -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">15</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/abs/2510.18855" target="_blank">Ring-1T : Premier modèle thinking open-source avec 1 trillion de paramètres</a>
+                            </h3>
+                            <p class="article-summary">
+                                Ring-1T atteint 93.4 sur AIME-2025 et médaille d'argent IMO-2025. Innovations IcePop, C3PO++ et architecture ASystem permettent l'entraînement RL à l'échelle du trillion avec ~50B paramètres actifs par token.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : NLP Newsletter (Elvis Saravia)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 16 - Mozza Bytes -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number yellow">16</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                Figma acquiert Weavy pour construire des outils créatifs natifs IA
+                            </h3>
+                            <p class="article-summary">
+                                Figma annonce l'acquisition de Weavy pour accélérer le développement d'outils créatifs conçus nativement avec l'IA. Cette acquisition marque l'engagement de Figma à intégrer profondément l'IA dans le workflow de design.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Mozza Bytes</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Section Bon à Savoir -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title green">🟢 Bon à Savoir</h2>
+                <div class="category-divider bg-green"></div>
+            </div>
+            <div class="articles">
+                <!-- Article 17 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">17</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora" target="_blank">OpenAI ajoute un système de crédits pour Codex et Sora</a>
+                            </h3>
+                            <p class="article-summary">
+                                Nouveau système de crédits permettant aux utilisateurs Plus et Pro d'étendre l'accès à Codex et Sora après avoir atteint leurs limites. Offre plus de flexibilité dans l'utilisation des fonctionnalités avancées.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 18 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">18</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://docs.cloud.google.com/vertex-ai/generative-ai/docs/context-cache/context-cache-overview" target="_blank">Google augmente la réduction Gemini 2.5 caching de 75% à 90%</a>
+                            </h3>
+                            <p class="article-summary">
+                                Google réduit les coûts de tokens d'entrée pour les prompts répétés, passant de 75% à 90% de réduction avec le caching Gemini 2.5. Une amélioration significative pour les applications utilisant des contextes répétitifs.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 19 - The AI Report -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">19</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.theaireport.ai/newsletter/google-ai-studio-launches-vibe-coding" target="_blank">Google AI Studio lance le "vibe coding"</a>
+                            </h3>
+                            <p class="article-summary">
+                                Google introduit une nouvelle approche du codage assisté par IA avec "vibe coding" dans AI Studio. Cette fonctionnalité permet de générer du code à partir de descriptions de style et d'ambiance plutôt que d'instructions techniques précises.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : The AI Report</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 20 - Superhuman -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">20</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/openai-reportedly-working-on-music-tool" target="_blank">OpenAI travaillerait sur un outil de génération musicale</a>
+                            </h3>
+                            <p class="article-summary">
+                                Selon des sources, OpenAI développe un outil IA pour créer de la musique, rivalisant avec Suno et autres générateurs audio. Cela élargit l'offre multimodale d'OpenAI au-delà du texte, de l'image et de la vidéo.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Superhuman (Zain Kahn)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 21 - NLP Newsletter -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">21</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/abs/2510.19506" target="_blank">Lookahead Routing améliore le routage des LLM</a>
+                            </h3>
+                            <p class="article-summary">
+                                Framework de routage conscient des réponses qui prédit les représentations latentes des sorties possibles du modèle. Atteint 7,7% de gain de score moyen sur les benchmarks par rapport au SOTA RouterDC.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : NLP Newsletter (Elvis Saravia)</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 22 - Mozza Bytes -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">22</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/sora-releases-character-cameos" target="_blank">Sora de OpenAI lance les "cameos de personnages"</a>
+                            </h3>
+                            <p class="article-summary">
+                                Sora introduit une fonctionnalité permettant d'intégrer des personnages récurrents dans différentes vidéos générées. Cette innovation ouvre de nouvelles possibilités narratives pour les créateurs de contenu vidéo IA.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Mozza Bytes</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 23 - Upmynt -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">23</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/robotics-special-chinese-startup-drops-cheapest-humanoid-robot" target="_blank">Startup chinoise dévoile le "robot humanoïde le moins cher"</a>
+                            </h3>
+                            <p class="article-summary">
+                                Une startup chinoise présente un robot humanoïde à prix cassé, démocratisant l'accès à la robotique avancée. Cette innovation pourrait accélérer l'adoption des robots humanoïdes dans divers secteurs industriels et domestiques.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Upmynt</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 24 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">24</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct" target="_blank">Moonshot AI lance Kimi Linear, architecture d'attention linéaire 6x plus rapide</a>
+                            </h3>
+                            <p class="article-summary">
+                                Moonshot AI dévoile Kimi Linear, un modèle open-source avec attention linéaire atteignant 6× la vitesse de décodage sur les tâches à contexte long. Performance comparable aux modèles traditionnels avec efficacité supérieure.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 25 - Alpha Signal -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">25</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.perplexity.ai/hub/blog/introducing-perplexity-patents" target="_blank">Perplexity dévoile Patents, agent de recherche IA pour brevets mondiaux</a>
+                            </h3>
+                            <p class="article-summary">
+                                Perplexity lance Patents, un agent de recherche IA avec accès direct aux bases de données mondiales de brevets. Cet outil révolutionne la recherche de propriété intellectuelle en rendant l'information accessible à tous.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Alpha Signal</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 26 - Upmynt -->
+                <article>
+                    <div class="article-content">
+                        <div class="article-number green">26</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.superhuman.ai/p/google-makes-major-quantum-breakthrough" target="_blank">Google réalise une percée majeure dans le quantique</a>
+                            </h3>
+                            <p class="article-summary">
+                                Google annonce une avancée significative dans le calcul quantique, rapprochant la technologie d'applications pratiques pour l'IA. Cette percée pourrait révolutionner l'entraînement et l'inférence des modèles IA à grande échelle.
+                            </p>
+                            <div class="article-meta">
+                                <span class="article-source">Source : Upmynt</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Sources Section -->
+        <div class="sources-section">
+            <h2 class="sources-title">📚 Sources</h2>
+            <div class="sources-list">
+                <div class="source-item">1. <strong>Alpha Signal</strong> - <a href="https://alphasignal.ai/last-email/" target="_blank">alphasignal.ai</a></div>
+                <div class="source-item">2. <strong>Mozza Bytes</strong> - <a href="https://mozzabytes.substack.com/" target="_blank">mozzabytes.substack.com</a></div>
+                <div class="source-item">3. <strong>Upmynt</strong> - <a href="https://www.upmynt.com/" target="_blank">upmynt.com</a></div>
+                <div class="source-item">4. <strong>NLP Newsletter (Elvis Saravia)</strong> - <a href="https://nlp.elvissaravia.com/" target="_blank">nlp.elvissaravia.com</a></div>
+                <div class="source-item">5. <strong>The AI Report</strong> - <a href="https://www.theaireport.ai/newsletters" target="_blank">theaireport.ai</a></div>
+                <div class="source-item">6. <strong>TLDR AI</strong> - <a href="https://tldr.tech/ai" target="_blank">tldr.tech/ai</a></div>
+                <div class="source-item">7. <strong>AI Tidbits (Sahar Mor)</strong> - <a href="https://www.aitidbits.ai/" target="_blank">aitidbits.ai</a></div>
+                <div class="source-item">8. <strong>Superhuman (Zain Kahn)</strong> - <a href="https://www.superhuman.ai/" target="_blank">superhuman.ai</a></div>
+                <div class="source-item">9. <strong>IA Ethique Insider (Daphnée)</strong> - <a href="https://iaethiqueinsider.substack.com/" target="_blank">iaethiqueinsider.substack.com</a></div>
+                <div class="source-item">10. <strong>Human in the Loop (Andreas Horn)</strong> - <a href="https://www.humanintheloop.online/" target="_blank">humanintheloop.online</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

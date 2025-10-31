@@ -18,13 +18,14 @@ if you don't find the newsletters email go through their urls below and use thes
 these are the urls to scrap : 
 Alpha Signal, https://alphasignal.ai/last-email/
 Mozza Bytes, https://mozzabytes.substack.com/
- Upmynt, https://www.upmynt.com/
- NLP Newsletter, https://nlp.elvissaravia.com/
+Upmynt, https://www.upmynt.com/
+NLP Newsletter (Elvis Saravia), https://nlp.elvissaravia.com/
 The AI Report, https://www.theaireport.ai/newsletters
- TLDR AI  https://tldr.tech/
-AI Tidbits https://www.aitidbits.ai/
-Superhuman – Zain K https://www.superhuman.ai/
-Daphnée de IA Ethique Insider https://iaethiqueinsider.substack.com/
+TLDR AI, https://tldr.tech/ai
+AI Tidbits (Sahar Mor), https://www.aitidbits.ai/
+Superhuman (Zain Kahn), https://www.superhuman.ai/
+IA Ethique Insider (Daphnée), https://iaethiqueinsider.substack.com/
+Human in the Loop (Andreas Horn), https://www.humanintheloop.online/
 
 I trust you to do a balanced summary with all the sources : this is very important
 
@@ -43,4 +44,3 @@ put the link in the title of the news as a hyperlink
 be a hundred times more specific
 I want the revue to be in french
 
-please be aware not to exceed your token context window limit of 200k tokens the aim is to produce an final output without exceeding this limit the best way to do that is to count the tokens as you answer
