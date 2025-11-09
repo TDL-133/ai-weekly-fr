@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Weekly Newsletter - 25-31 Octobre 2025</title>
+    <title>AI Weekly - 2-8 Novembre 2025</title>
     <style>
         * {
             margin: 0;
@@ -13,101 +13,89 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.5;
+            line-height: 1.6;
             color: #111827;
             background-color: white;
         }
 
-        .min-h-screen { min-height: 100vh; }
-        .max-w-3xl { max-width: 48rem; }
-        .mx-auto { margin-left: auto; margin-right: auto; }
-        
-        .px-8 { padding-left: 2rem; padding-right: 2rem; }
-        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-        .mb-1 { margin-bottom: 0.25rem; }
-        .mb-3 { margin-bottom: 0.75rem; }
-        .mb-4 { margin-bottom: 1rem; }
-        .mb-16 { margin-bottom: 4rem; }
-        .mt-1 { margin-top: 0.25rem; }
-        
-        .text-center { text-align: center; }
-        .text-xs { font-size: 0.75rem; line-height: 1rem; }
-        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
-        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
-        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
-        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
-        .font-light { font-weight: 300; }
-        .font-medium { font-weight: 500; }
-        .leading-relaxed { line-height: 1.625; }
-        
-        .text-gray-400 { color: #9ca3af; }
-        .text-gray-500 { color: #6b7280; }
-        .text-gray-600 { color: #4b5556; }
-        
-        .text-red-500 { color: #ef4444; }
-        .text-yellow-500 { color: #eab308; }
-        .text-green-500 { color: #22c55e; }
-        
+        .container {
+            max-width: 48rem;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .header h1 {
+            font-size: 2.25rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
         .subtitle {
             font-style: italic;
             color: #6b7280;
             font-size: 1rem;
             margin-bottom: 1rem;
         }
-        
-        .category-section {
-            margin-bottom: 3rem;
-        }
-        
-        .category-header {
-            margin-bottom: 2rem;
-        }
-        
-        .category-title {
-            font-size: 1.5rem;
-            font-weight: 400;
-            margin-bottom: 0.5rem;
-        }
-        
-        .category-divider {
-            height: 2px;
-            width: 3rem;
-        }
-        
-        .category-divider.red { background-color: #ef4444; }
-        .category-divider.yellow { background-color: #eab308; }
-        .category-divider.green { background-color: #22c55e; }
-        
-        .flex { display: flex; }
-        .flex-1 { flex: 1 1 0%; }
-        .items-start { align-items: flex-start; }
-        .gap-4 { gap: 1rem; }
-        .gap-6 { gap: 1.5rem; }
-        .space-y-12 > * + * { margin-top: 3rem; }
-        
+
         .divider {
             width: 4rem;
             height: 1px;
             background-color: #d1d5db;
             margin: 1rem auto;
         }
-        
-        .group {
-            transition: all 0.2s ease;
-        }
-        
-        .group:hover .article-title {
-            color: #2563eb;
-        }
-        
-        .article-title {
-            transition: color 0.2s ease;
-            text-decoration: none;
-            color: #111827;
+
+        .date {
+            color: #6b7280;
+            font-size: 0.875rem;
         }
 
-        .article-title:hover {
-            color: #2563eb;
+        .note {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-header {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+
+        .articles {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        article {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out forwards;
         }
 
         @keyframes fadeIn {
@@ -120,12 +108,7 @@
                 transform: translateY(0);
             }
         }
-        
-        article {
-            animation: fadeIn 0.5s ease-out forwards;
-            animation-fill-mode: both;
-        }
-        
+
         article:nth-child(1) { animation-delay: 0.1s; }
         article:nth-child(2) { animation-delay: 0.2s; }
         article:nth-child(3) { animation-delay: 0.3s; }
@@ -137,404 +120,498 @@
         article:nth-child(9) { animation-delay: 0.9s; }
         article:nth-child(10) { animation-delay: 1.0s; }
 
+        .article-content {
+            display: flex;
+            gap: 1.5rem;
+            align-items: start;
+        }
+
+        .article-number {
+            font-size: 1.5rem;
+            font-weight: 300;
+            min-width: 3rem;
+            margin-top: 0.25rem;
+        }
+
+        .article-body {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.75rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title:hover {
+            color: #2563eb;
+        }
+
+        .article-description {
+            color: #4b5563;
+            margin-bottom: 1rem;
+            line-height: 1.625;
+        }
+
+        .article-source {
+            font-size: 0.875rem;
+            color: #9ca3af;
+            font-style: italic;
+        }
+
         .sources-section {
             margin-top: 4rem;
             padding-top: 2rem;
-            border-top: 1px solid #d1d5db;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .sources-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            text-align: center;
         }
 
         .sources-list {
-            list-style: none;
-            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
 
-        .sources-list li {
-            margin-bottom: 0.5rem;
+        .source-item {
+            color: #4b5563;
+            font-size: 0.875rem;
         }
 
-        .sources-list a {
+        .source-item a {
             color: #2563eb;
             text-decoration: none;
         }
 
-        .sources-list a:hover {
+        .source-item a:hover {
             text-decoration: underline;
         }
 
         @media (max-width: 768px) {
-            .px-8 { padding-left: 1rem; padding-right: 1rem; }
-            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
-            .text-4xl { font-size: 1.875rem; }
-            .text-xl { font-size: 1.125rem; }
-            .mb-16 { margin-bottom: 2rem; }
-            .space-y-12 > * + * { margin-top: 2rem; }
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            .header h1 {
+                font-size: 1.875rem;
+            }
+
+            .article-content {
+                gap: 1rem;
+            }
+
+            .article-number {
+                font-size: 1.25rem;
+                min-width: 2.5rem;
+            }
+
+            .article-title {
+                font-size: 1.125rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="min-h-screen">
-        <div class="max-w-3xl mx-auto px-8 py-16">
-            <!-- Header -->
-            <div class="text-center mb-16">
-                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
-                <p class="subtitle">Design by Dagorsey & Claude</p>
-                <p class="text-gray-500 text-sm mb-1">25-31 Octobre 2025</p>
-                <p class="text-gray-400 text-xs">Les sources sont disponibles à la fin de la newsletter</p>
-                <div class="divider"></div>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>AI Weekly</h1>
+            <p class="subtitle">Design by Dagorsey & Claude</p>
+            <div class="divider"></div>
+            <p class="date">2-8 Novembre 2025</p>
+            <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
+        </div>
+
+        <!-- Section Critique -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title text-red-500">Critique</h2>
+                <div class="category-divider red"></div>
             </div>
-
-            <!-- Content -->
-            <div>
-                <!-- 🔴 CRITIQUE -->
-                <div class="category-section">
-                    <div class="category-header">
-                        <h2 class="category-title text-red-500">🔴 Critique</h2>
-                        <div class="category-divider red"></div>
+            <div class="articles">
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">01</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.nytimes.com/2025/11/07/business/media/ai-news-media.html" target="_blank">L'IA transforme radicalement les salles de rédaction mondiales</a>
+                            </h3>
+                            <p class="article-description">L'intelligence artificielle révolutionne la façon dont les journalistes collectent et diffusent l'information. Les médias traditionnels utilisent massivement des outils d'OpenAI et Google pour rationaliser le travail autrefois chronophage : trier d'énormes quantités d'informations, localiser des sources et suggérer des titres.</p>
+                            <p class="article-source">Source : The New York Times</p>
+                        </div>
                     </div>
-                    <div class="space-y-12">
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://openai.com/index/introducing-aardvark/" class="article-title">OpenAI lance Aardvark, un agent GPT-5 pour la sécurité du code</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI dévoile Aardvark, un agent autonome alimenté par GPT-5 qui scanne les dépôts de code, identifie les vulnérabilités et propose des correctifs vérifiés. L'outil a déjà découvert 10 CVE réelles dans des projets open-source avec un taux de détection de 92%.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal</p>
-                                </div>
-                            </div>
-                        </article>
+                </article>
 
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.wsj.com/tech/ai/nvidia-first-5-trillion-company-market-cap-ae513ff0" class="article-title">Nvidia devient la première entreprise valorisée à 5 000 milliards de dollars</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Le fabricant de puces IA franchit ce nouveau cap seulement trois mois après avoir atteint les 4 000 milliards. Nvidia annonce 500 milliards de dollars de commandes de puces et un partenariat de 1 milliard avec Nokia pour la technologie 6G.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Wall Street Journal</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/openai-completes-for-profit-transition" class="article-title">OpenAI complète sa transition vers une structure à but lucratif</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'entreprise d'IA achève sa restructuration organisationnelle majeure, passant d'une organisation à but non lucratif à une entité commerciale. Cette transformation vise à attirer davantage d'investissements pour le développement de l'AGI.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766" class="article-title">Microsoft lance Researcher avec Computer Use dans Copilot</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Microsoft introduit une mise à jour majeure permettant à Copilot d'accéder au web, de naviguer et d'agir de manière autonome en ligne de façon sécurisée. Cette fonctionnalité transforme Copilot en un véritable assistant de recherche intelligent.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Microsoft</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.perplexity.ai/hub/blog/introducing-perplexity-patents" class="article-title">Perplexity dévoile Patents, un agent de recherche avec accès aux bases brevets mondiales</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Perplexity lance un nouvel outil de recherche IA avec accès direct aux bases de données de brevets internationales. Cette innovation démocratise la recherche de propriété intellectuelle pour les innovateurs et chercheurs.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Perplexity</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/big-tech-kicks-off-earnings-season" class="article-title">Les géants de la tech démarrent la saison des résultats financiers</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Meta prévoit une augmentation des dépenses et enregistre une charge fiscale ponctuelle, tandis que les investissements massifs dans l'IA continuent de façonner les stratégies des grandes entreprises technologiques.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora" class="article-title">OpenAI introduit un système de crédits pour ChatGPT et Sora</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI annonce un nouveau système de crédits permettant aux utilisateurs Plus et Pro d'étendre l'accès à Codex et Sora après avoir atteint leurs limites. Ce modèle offre plus de flexibilité dans l'utilisation des outils avancés.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / OpenAI</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/chatgpt-for-doctors-hits-6b-valuation" class="article-title">'ChatGPT pour médecins' atteint une valorisation de 6 milliards de dollars</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Une plateforme d'IA médicale spécialisée atteint une valorisation record, reflétant l'adoption croissante de l'intelligence artificielle dans le secteur de la santé et son potentiel de transformation des soins médicaux.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">02</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://techcrunch.com/2025/11/03/elad-gil-on-which-ai-markets-have-winners-and-which-are-still-wide-open/" target="_blank">Elad Gil identifie les gagnants et opportunités du marché IA</a>
+                            </h3>
+                            <p class="article-description">L'investisseur légendaire Elad Gil déclare que l'IA est le boom technologique le plus imprévisible de sa carrière. Certains segments comme les modèles fondamentaux ont déjà des leaders clairs (Google, Anthropic, OpenAI), tandis que des marchés comme la fintech IA, la comptabilité et la sécurité IA restent largement ouverts.</p>
+                            <p class="article-source">Source : TechCrunch (TLDR AI)</p>
+                        </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- 🟡 IMPORTANT -->
-                <div class="category-section">
-                    <div class="category-header">
-                        <h2 class="category-title text-yellow-500">🟡 Important</h2>
-                        <div class="category-divider yellow"></div>
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">03</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/" target="_blank">Google Maps intègre Gemini avec 4 nouvelles fonctionnalités IA</a>
+                            </h3>
+                            <p class="article-description">Google déploie des questions d'itinéraire multi-étapes, des directions basées sur des points de repère, des alertes de trafic proactives et la possibilité de pointer votre caméra vers n'importe quel lieu pour interroger Gemini. Google améliore également la recherche IA pour gérer des requêtes complexes comme trouver et réserver des billets de concert dans votre budget en une seule fois.</p>
+                            <p class="article-source">Source : Superhuman (Zain Kahn)</p>
+                        </div>
                     </div>
-                    <div class="space-y-12">
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/microsoft-launches-ai-browser" class="article-title">Microsoft lance un navigateur dopé à l'IA</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Microsoft dévoile un nouveau navigateur intégrant nativement des fonctionnalités d'intelligence artificielle pour améliorer la navigation, la recherche et la productivité des utilisateurs.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
+                </article>
 
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/google-makes-major-quantum-breakthrough" class="article-title">Google réalise une avancée majeure dans le quantique</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Google annonce une percée significative dans l'informatique quantique qui pourrait accélérer le développement de systèmes d'IA plus puissants et la résolution de problèmes complexes impossibles pour les ordinateurs classiques.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/openai-rolls-out-chatgpt-atlas-web-browser" class="article-title">OpenAI déploie le navigateur web ChatGPT Atlas</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI lance Atlas, un navigateur web intégré directement dans ChatGPT, permettant à l'IA d'accéder et d'interagir avec le contenu web de manière autonome pour fournir des réponses plus complètes et actualisées.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/claude-comes-to-excel" class="article-title">Claude arrive dans Excel</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic intègre Claude directement dans Microsoft Excel, permettant aux utilisateurs d'exploiter l'IA pour l'analyse de données, la création de formules complexes et l'automatisation de tâches dans les feuilles de calcul.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://docs.cloud.google.com/vertex-ai/generative-ai/docs/context-cache/context-cache-overview" class="article-title">Google augmente la réduction du cache Gemini 2.5 de 75% à 90%</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Google réduit significativement les coûts des tokens d'entrée pour les prompts répétés avec Gemini 2.5, rendant l'utilisation de contextes longs plus abordable pour les développeurs.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Google Cloud</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct" class="article-title">Moonshot AI dévoile Kimi Linear, une nouvelle architecture d'attention plus rapide</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Moonshot AI publie en open-source un modèle avec architecture d'attention linéaire atteignant une vitesse de décodage 6× supérieure sur les tâches à contexte long, révolutionnant l'efficacité des grands modèles de langage.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Hugging Face</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://arxiv.org/abs/2510.21618" class="article-title">Nouvelle technologie "Memory Folding" donne des capacités de raisonnement au DeepAgent</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Une recherche révolutionnaire introduit le Memory Folding, une méthode qui combine apprentissage par renforcement et distillation supervisée, permettant aux modèles plus petits d'égaler les performances des grands modèles.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / arXiv</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://arxiv.org/abs/2510.24699" class="article-title">Alibaba introduit AgentFold, un système de mémoire dynamique pour agents web</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Alibaba présente AgentFold qui remplace les journaux d'historique passifs par une gestion active du contexte, surpassant DeepSeek-V3.1-671B et OpenAI o4-mini avec uniquement du fine-tuning supervisé.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / arXiv</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/openai-reportedly-working-on-music-tool" class="article-title">OpenAI travaillerait sur un outil de création musicale</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Selon des sources, OpenAI développe un nouvel outil d'IA capable de générer de la musique de qualité professionnelle, élargissant son offre au-delà du texte et des images vers la création audio.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">04</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://openai.com/index/aws-and-openai-partnership/" target="_blank">AWS et OpenAI annoncent un partenariat stratégique de plusieurs années à 38 milliards $</a>
+                            </h3>
+                            <p class="article-description">OpenAI bénéficie d'un accès immédiat et croissant à l'infrastructure de classe mondiale d'AWS pour ses charges de travail IA avancées. AWS fournira des UltraServers EC2 équipés de centaines de milliers de puces, avec la capacité de passer à des dizaines de millions de CPU pour les charges de travail IA génératives avancées d'OpenAI.</p>
+                            <p class="article-source">Source : OpenAI / AWS (Alpha Signal)</p>
+                        </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- 🟢 BON À SAVOIR -->
-                <div class="category-section">
-                    <div class="category-header">
-                        <h2 class="category-title text-green-500">🟢 Bon à Savoir</h2>
-                        <div class="category-divider green"></div>
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">05</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/abs/2511.02864" target="_blank">Google DeepMind utilise l'IA pour faire avancer la recherche mathématique</a>
+                            </h3>
+                            <p class="article-description">DeepMind collabore avec Terence Tao et Javier Gómez-Serrano pour utiliser leurs agents IA (AlphaEvolve, AlphaProof et Gemini Deep Think) dans la recherche mathématique avancée. AlphaEvolve a découvert une nouvelle construction pour la conjecture de Kakeya en champs finis, que Gemini Deep Think a ensuite prouvé correcte et qu'AlphaProof a formalisée en Lean.</p>
+                            <p class="article-source">Source : Google DeepMind (NLP Newsletter)</p>
+                        </div>
                     </div>
-                    <div class="space-y-12">
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/sora-releases-character-cameos" class="article-title">Sora lance "character cameos"</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI ajoute une nouvelle fonctionnalité à Sora permettant d'intégrer des personnages récurrents dans différentes vidéos, offrant plus de cohérence narrative pour les créateurs de contenu.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
+                </article>
 
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook" class="article-title">Guide complet de formation SmolLM3 par Hugging Face</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Hugging Face publie un guide détaillé expliquant comment entraîner SmolLM3, couvrant la préparation des données, la configuration distribuée et les techniques de post-training pour optimiser les performances.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / Hugging Face</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://arxiv.org/abs/2510.15831" class="article-title">VISTA de Google enseigne aux modèles vidéo à s'auto-améliorer</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Google et NUS présentent VISTA, un agent de génération vidéo auto-améliorant qui affine itérativement les prompts via feedback multi-agents, améliorant la qualité et l'alignement vidéo de 60% par rapport aux meilleures solutions actuelles.</p>
-                                    <p class="text-xs text-gray-400">Source : Alpha Signal / arXiv</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/sunday-special-brain-chip-helps-the-blind-see-again" class="article-title">Une puce cérébrale aide les aveugles à retrouver la vue</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Une avancée médicale majeure démontre comment les interfaces cerveau-machine combinées à l'IA peuvent restaurer partiellement la vision chez des personnes atteintes de cécité, ouvrant de nouvelles perspectives thérapeutiques.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/robotics-special-chinese-startup-drops-cheapest-humanoid-robot" class="article-title">Une startup chinoise lance le robot humanoïde le moins cher du marché</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Une entreprise chinoise dévoile un robot humanoïde à un prix révolutionnaire, rendant la robotique avancée accessible à un marché plus large et accélérant l'adoption de cette technologie dans divers secteurs.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://www.superhuman.ai/p/inside-openai-s-quest-to-build-the-world-s-smartest-coding-assistant" class="article-title">Dans les coulisses de la quête d'OpenAI pour créer l'assistant de codage le plus intelligent</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Un regard approfondi sur les efforts d'OpenAI pour développer le meilleur assistant de programmation IA, révélant les défis techniques et les innovations qui façonnent l'avenir du développement logiciel assisté par IA.</p>
-                                    <p class="text-xs text-gray-400">Source : Superhuman (Zain Kahn)</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://adage.com/technology/ai/aa-emerging-tech-news-and-trends-chatgpt-apple-reddit/" class="article-title">Apple préparerait l'intégration de publicités dans Maps</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Selon des rapports, Apple envisage d'introduire des publicités dans son application Plans, marquant une nouvelle expansion de sa stratégie publicitaire et une opportunité pour les annonceurs de cibler les utilisateurs en mobilité.</p>
-                                    <p class="text-xs text-gray-400">Source : Ad Age</p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3">
-                                        <a href="https://adage.com/technology/ai/aa-emerging-tech-news-and-trends-chatgpt-apple-reddit/" class="article-title">ChatGPT lance une fonctionnalité "connaissance d'entreprise"</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI introduit une nouvelle fonctionnalité permettant aux entreprises d'intégrer leurs connaissances internes dans ChatGPT, créant des assistants IA personnalisés qui comprennent le contexte et les processus spécifiques de chaque organisation.</p>
-                                    <p class="text-xs text-gray-400">Source : Ad Age</p>
-                                </div>
-                            </div>
-                        </article>
-
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">06</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.testingcatalog.com/openai-readies-gpt-5-1-thinking-model-ahead-of-gemini-3-pro/" target="_blank">OpenAI prépare GPT-5.1 Thinking avant Gemini 3 Pro</a>
+                            </h3>
+                            <p class="article-description">GPT-5.1 Thinking a été repéré dans un composant backend responsable des processus de raisonnement avancé dans ChatGPT, indiquant une sortie imminente. Les rumeurs pointent vers une gamme de trois modèles (Mini, Thinking et une possible mise à niveau axée sur Codex), chacun conçu pour répondre à différents besoins des utilisateurs et contraintes de calcul.</p>
+                            <p class="article-source">Source : Testing Catalog (AI Tidbits)</p>
+                        </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Sources Section -->
-                <div class="sources-section">
-                    <h3 class="text-xl font-medium mb-4 text-gray-700">Sources</h3>
-                    <ul class="sources-list text-sm">
-                        <li><a href="https://alphasignal.ai/last-email/" target="_blank">Alpha Signal</a></li>
-                        <li><a href="https://mozzabytes.substack.com/" target="_blank">Mozza Bytes</a></li>
-                        <li><a href="https://www.upmynt.com/" target="_blank">Upmynt</a></li>
-                        <li><a href="https://nlp.elvissaravia.com/" target="_blank">NLP Newsletter</a></li>
-                        <li><a href="https://www.theaireport.ai/newsletters" target="_blank">The AI Report</a></li>
-                        <li><a href="https://tldr.tech/" target="_blank">TLDR AI</a></li>
-                        <li><a href="https://www.aitidbits.ai/" target="_blank">AI Tidbits</a></li>
-                        <li><a href="https://www.superhuman.ai/" target="_blank">Superhuman (Zain Kahn)</a></li>
-                        <li><a href="https://iaethiqueinsider.substack.com/" target="_blank">IA Ethique Insider (Daphnée)</a></li>
-                        <li>Human in the Loop (Andreas Horn)</li>
-                    </ul>
-                </div>
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">07</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://microsoft.ai/news/towards-humanist-superintelligence/" target="_blank">Microsoft établit une nouvelle équipe Superintelligence</a>
+                            </h3>
+                            <p class="article-description">Le PDG de Microsoft AI, Mustafa Suleyman, annonce l'équipe MAI Superintelligence, une division de recherche dédiée à la construction de systèmes avancés qui résolvent des problèmes spécifiques dans des domaines comme la médecine et l'énergie. Suleyman a souligné la construction d'une "Superintelligence Humaniste", donnant la priorité à l'IA qui "travaille toujours pour et au service des gens et de l'humanité".</p>
+                            <p class="article-source">Source : Microsoft AI (The AI Report)</p>
+                        </div>
+                    </div>
+                </article>
 
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-red-500">08</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://arxiv.org/pdf/2511.01805" target="_blank">Les conversations étendues modifient les croyances des modèles de langage</a>
+                            </h3>
+                            <p class="article-description">Une recherche montre que les conversations prolongées peuvent remodeler la façon dont les modèles IA répondent à la même question. Après 10 tours de débat sur des dilemmes moraux, GPT-5 a inversé sa position 54,7% du temps lorsqu'on lui a posé à nouveau la question. Lorsque les modèles ont changé leurs croyances déclarées, ils ont également choisi différents outils pour accomplir les tâches.</p>
+                            <p class="article-source">Source : ArXiv (Human in the Loop)</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Section Important -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title text-yellow-500">Important</h2>
+                <div class="category-divider yellow"></div>
+            </div>
+            <div class="articles">
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">09</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://adage.com/technology/ai/aa-production-companies-generative-ai-coke-nfl-google/" target="_blank">Les sociétés de production s'adaptent à l'IA générative</a>
+                            </h3>
+                            <p class="article-description">Les sociétés de production embauchent des directeurs IA et utilisent davantage la technologie alors que les clients la demandent de plus en plus. Dans certains cas, notamment chez Fortune et Business Insider, des publications ont exploré l'utilisation de l'IA pour rédiger des articles complets, en informant les lecteurs de leur intention de l'utiliser pour les brouillons.</p>
+                            <p class="article-source">Source : Ad Age (Mozza Bytes)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">10</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.businessinsider.com/ai-tools-used-most-by-companies-chatgpt-claude-copilot-gemini-2025-11" target="_blank">Les outils IA les plus utilisés par les entreprises révélés</a>
+                            </h3>
+                            <p class="article-description">Une étude de Wharton révèle que presque 75% des entreprises obtiennent un ROI positif des projets IA. ChatGPT d'OpenAI est utilisé bien plus que Claude d'Anthropic, ce qui est surprenant. Microsoft Copilot est clairement en avance sur Google, probablement parce que Copilot est intégré dans les logiciels de travail de Microsoft utilisés par de nombreuses entreprises.</p>
+                            <p class="article-source">Source : Business Insider (Upmynt)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">11</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://blog.google/technology/developers/gemini-api-structured-outputs/" target="_blank">Gemini API améliore la fiabilité des agents IA avec des sorties structurées</a>
+                            </h3>
+                            <p class="article-description">Google lance des améliorations majeures aux sorties structurées dans l'API Gemini, garantissant que les réponses IA adhèrent strictement aux schémas de données standard de l'industrie, y compris JSON. Pour les développeurs, cela signifie passer moins de temps à corriger les sorties IA inattendues et plus de temps à construire des systèmes de production fiables.</p>
+                            <p class="article-source">Source : Google Blog (Superhuman)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">12</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://moonshotai.github.io/Kimi-K2/thinking.html" target="_blank">Kimi K2 Thinking : un modèle de raisonnement open-source chinois</a>
+                            </h3>
+                            <p class="article-description">Le laboratoire chinois Moonshot AI a publié un modèle de raisonnement open-source qui égale ou surpasse GPT-5 et Claude Sonnet 4.5 sur certains benchmarks, notamment 44,9% sur le Humanity's Last Exam et 71,3% sur SWE-Bench Verified. Cela démontre la compétitivité croissante des modèles IA chinois.</p>
+                            <p class="article-source">Source : Moonshot AI (NLP Newsletter)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">13</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://techcrunch.com/2025/11/04/anthropic-expects-b2b-demand-to-boost-revenue-to-70b-in-2028-report/" target="_blank">Anthropic projette 70 milliards $ de revenus d'ici 2028</a>
+                            </h3>
+                            <p class="article-description">La startup IA serait sur la bonne voie pour atteindre 9 milliards $ de revenus récurrents annuels d'ici la fin de l'année. Son principal moteur de croissance ? Une stratégie B2B agressive qui lui a permis de décrocher des partenariats avec Microsoft 365, Salesforce, Deloitte et Cognizant.</p>
+                            <p class="article-source">Source : TechCrunch (Superhuman)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">14</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.thedrum.com/opinion/when-should-search-teams-hop-on-the-ai-mode-bandwagon" target="_blank">Quand les équipes de recherche doivent-elles adopter le mode IA ?</a>
+                            </h3>
+                            <p class="article-description">Il est clair que les marques doivent évoluer ou risquer l'obsolescence. Mais se tromper dans la transition pourrait leur faire perdre la visibilité durement acquise. Avec AI Mode, Google prend désormais en charge le gros du travail avec des réponses instantanées sans clic qui s'écoulent dans un ton conversationnel, changeant fondamentalement le positionnement SERP.</p>
+                            <p class="article-source">Source : The Drum (Mozza Bytes)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">15</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://ailiteracy.institute/ai-literacy-review-november-4-2025/" target="_blank">L'Estonie lance la première Journée nationale de l'alphabétisation IA d'Europe</a>
+                            </h3>
+                            <p class="article-description">L'Estonie prend les devants en matière d'éducation IA avec le lancement de la première Journée nationale de l'alphabétisation IA d'Europe. Cette initiative vise à sensibiliser le public aux opportunités et aux défis de l'intelligence artificielle, soulignant l'importance de l'éducation et de la formation continue dans ce domaine en évolution rapide.</p>
+                            <p class="article-source">Source : AI Literacy Institute (IA Ethique Insider)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">16</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.investopedia.com/dow-jones-today-11072025-11845583" target="_blank">Les préoccupations concernant l'évaluation de l'IA font pression sur les valeurs technologiques</a>
+                            </h3>
+                            <p class="article-description">Les actions ont chuté vendredi alors que le sentiment de refroidissement de l'IA pesait sur le secteur technologique, le Nasdaq étant en passe d'afficher sa pire semaine depuis les tarifs "Liberation Day" du président Trump début avril. Le Nasdaq a chuté de près de 2% jeudi, les fabricants de puces et autres actions technologiques subissant des pressions malgré des résultats meilleurs que prévu.</p>
+                            <p class="article-source">Source : Investopedia (Upmynt)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-yellow-500">17</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.mobihealthnews.com/video/collaboration-will-shape-ais-future" target="_blank">La collaboration façonnera l'avenir de l'IA dans la santé</a>
+                            </h3>
+                            <p class="article-description">Rob Havasy de HIMSS et Karla Eidem de PMI prédisent que les partenariats seront essentiels dans le monde entier pour rendre l'IA dans la santé durable en partageant les coûts, les ressources et les leçons apprises. La gouvernance des données et la collaboration entre les organisations seront cruciales pour développer des systèmes IA fiables dans le secteur de la santé.</p>
+                            <p class="article-source">Source : MobiHealthNews (Human in the Loop)</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Section Bon à Savoir -->
+        <div class="category-section">
+            <div class="category-header">
+                <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                <div class="category-divider green"></div>
+            </div>
+            <div class="articles">
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">18</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://x.com/sandbar/status/1986112726889078911" target="_blank">D'anciens employés de Meta lancent Sandbar avec Stream Ring</a>
+                            </h3>
+                            <p class="article-description">Sandbar, une startup de wearables IA, lance Stream Ring, une bague intelligente qui écrit des notes pendant que vous parlez et fournit des commentaires réfléchis en temps réel. Elle se connecte également à n'importe quelle paire d'écouteurs et vous permet de contrôler votre musique. La Stream Ring commence à 249$ en précommande et sera livrée à l'été 2026.</p>
+                            <p class="article-source">Source : Sandbar (Superhuman)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">19</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://x.com/wabi/status/1976330759133868131" target="_blank">Wabi lève 20 millions $ pour construire le "YouTube des applications"</a>
+                            </h3>
+                            <p class="article-description">Wabi est une plateforme sociale où vous pouvez créer et partager des mini-applications avec une simple invite. La plateforme gère l'ensemble du processus de création, y compris la configuration d'une base de données et la décision de l'apparence de l'interface de l'application. Wabi a été lancé en version bêta le mois dernier.</p>
+                            <p class="article-source">Source : Wabi (Superhuman)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">20</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://gemini.google.com/app" target="_blank">Gemini peut maintenant créer des présentations personnalisées avec une seule invite</a>
+                            </h3>
+                            <p class="article-description">Le mode Canvas de Gemini peut désormais générer des decks de diapositives complets à partir de zéro. Il suffit de taper "créer une présentation" dans Gemini Canvas, de télécharger toutes les notes de projet ou matériaux pertinents, et d'affiner vos diapositives à l'aide d'invites de suivi. Une fonctionnalité qui fait gagner un temps précieux aux professionnels.</p>
+                            <p class="article-source">Source : Google Gemini (Superhuman)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">21</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://economictimes.indiatimes.com/magazines/panache/what-are-the-hottest-jobs-within-ai-hiring-up-800-this-year/articleshow/125036908.cms" target="_blank">Le poste le plus recherché en IA : ingénieur déployé sur le terrain</a>
+                            </h3>
+                            <p class="article-description">Le nouveau poste incontournable est l'ingénieur déployé sur le terrain (FDE). Des entreprises comme OpenAI, Anthropic et Cohere embauchent rapidement ces professionnels hybrides qui peuvent à la fois coder et collaborer directement avec les clients pour adapter les modèles IA à une utilisation dans le monde réel. Les offres d'emploi pour les FDE ont augmenté de plus de 800% en 2025.</p>
+                            <p class="article-source">Source : Economic Times (Alpha Signal)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">22</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/" target="_blank">arXiv riposte contre le "slop IA"</a>
+                            </h3>
+                            <p class="article-description">arXiv, le principal référentiel en libre accès pour les articles scientifiques, a annoncé qu'il n'accepterait plus les articles de revue et les documents de position en informatique en raison d'une vague de soumissions de faible qualité générées par IA. Le site a déclaré que sa section CS a été submergée par des articles qui sont "guère plus que des bibliographies annotées".</p>
+                            <p class="article-source">Source : arXiv (The AI Report)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">23</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.besttechie.com/november-2025-tech-roundup-ai-solar-dreams-and-the-great-google-epic-truce/" target="_blank">Google et Epic Games concluent un accord historique</a>
+                            </h3>
+                            <p class="article-description">Dans un rebondissement digne d'un soap opera, Google et Epic Games ont finalement conclu un règlement dans leur procès antitrust de longue date. Cela signifie que Google autorisera désormais les magasins d'applications concurrents à prospérer sur Android, inaugurant une nouvelle ère de choix et de flexibilité pour les développeurs et les utilisateurs.</p>
+                            <p class="article-source">Source : BestTechie (TLDR AI)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">24</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://radicaldatascience.wordpress.com/2025/11/05/ai-news-briefs-bulletin-board-for-november-2025/" target="_blank">Geoffrey Hinton met en garde contre les dangers de l'IA</a>
+                            </h3>
+                            <p class="article-description">Un an après avoir remporté le prix Nobel pour ses travaux liés à l'apprentissage automatique, Geoffrey Hinton, le "parrain de l'IA", tire la sonnette d'alarme. Il dit que l'intelligence artificielle pourrait un jour surpasser et dominer ses créateurs. Hinton avertit que les géants de la technologie vont trop vite et que la survie de l'humanité dépend de la façon dont nous agissons maintenant.</p>
+                            <p class="article-source">Source : Radical Data Science (AI Tidbits)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">25</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://www.salesforce.com/news/stories/data-analytics-trends-2026/" target="_blank">84% des dirigeants tech disent que leurs données ne peuvent pas soutenir les ambitions IA</a>
+                            </h3>
+                            <p class="article-description">Salesforce publie son rapport State of Data & Analytics révélant la refonte massive des données requise pour que les entreprises exécutent avec succès leurs stratégies IA. Bien que 63% des chefs d'entreprise décrivent leurs organisations comme axées sur les données, le même nombre de dirigeants techniques disent qu'ils ont du mal à orienter les priorités commerciales avec les données.</p>
+                            <p class="article-source">Source : Salesforce (IA Ethique Insider)</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="article-content">
+                        <div class="article-number text-green-500">26</div>
+                        <div class="article-body">
+                            <h3 class="article-title">
+                                <a href="https://soumith.ch/blog/2025-11-06-leaving-meta-and-pytorch.md.html" target="_blank">Soumith Chintala quitte Meta et PyTorch après 11 ans</a>
+                            </h3>
+                            <p class="article-description">Soumith Chintala a quitté Meta après avoir travaillé dans l'entreprise pendant 11 ans. Chintala a passé près de huit ans à diriger PyTorch, le faisant passer de rien à plus de 90% d'adoption en IA. Il prévoit de passer à quelque chose de petit et nouveau. PyTorch a été laissé entre de bonnes mains, et Chintala est confiant que ses valeurs resteront intactes.</p>
+                            <p class="article-source">Source : Soumith Chintala (Human in the Loop)</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Section Sources -->
+        <div class="sources-section">
+            <h2 class="sources-title">Sources</h2>
+            <div class="sources-list">
+                <div class="source-item">1. <strong>Alpha Signal</strong> - <a href="https://alphasignal.ai/last-email/" target="_blank">https://alphasignal.ai/last-email/</a></div>
+                <div class="source-item">2. <strong>Mozza Bytes</strong> - <a href="https://mozzabytes.substack.com/" target="_blank">https://mozzabytes.substack.com/</a></div>
+                <div class="source-item">3. <strong>Upmynt</strong> - <a href="https://www.upmynt.com/" target="_blank">https://www.upmynt.com/</a></div>
+                <div class="source-item">4. <strong>NLP Newsletter (Elvis Saravia)</strong> - <a href="https://nlp.elvissaravia.com/" target="_blank">https://nlp.elvissaravia.com/</a></div>
+                <div class="source-item">5. <strong>The AI Report</strong> - <a href="https://www.theaireport.ai/newsletters" target="_blank">https://www.theaireport.ai/newsletters</a></div>
+                <div class="source-item">6. <strong>TLDR AI</strong> - <a href="https://tldr.tech/ai" target="_blank">https://tldr.tech/ai</a></div>
+                <div class="source-item">7. <strong>AI Tidbits (Sahar Mor)</strong> - <a href="https://www.aitidbits.ai/" target="_blank">https://www.aitidbits.ai/</a></div>
+                <div class="source-item">8. <strong>Superhuman (Zain Kahn)</strong> - <a href="https://www.superhuman.ai/" target="_blank">https://www.superhuman.ai/</a></div>
+                <div class="source-item">9. <strong>IA Ethique Insider (Daphnée)</strong> - <a href="https://iaethiqueinsider.substack.com/" target="_blank">https://iaethiqueinsider.substack.com/</a></div>
+                <div class="source-item">10. <strong>Human in the Loop (Andreas Horn)</strong> - <a href="https://www.humanintheloop.online/" target="_blank">https://www.humanintheloop.online/</a></div>
             </div>
         </div>
     </div>
