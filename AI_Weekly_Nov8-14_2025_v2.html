@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Weekly – 8–14 novembre 2025</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.5;
+      color: #111827;
+      background-color: #ffffff;
+    }
+    .min-h-screen { min-height: 100vh; }
+    .max-w-3xl { max-width: 48rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .px-8 { padding-left: 2rem; padding-right: 2rem; }
+    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mt-1 { margin-top: 0.25rem; }
+    .text-center { text-align: center; }
+    .text-xs { font-size: 0.75rem; line-height: 1rem; }
+    .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+    .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+    .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+    .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .font-light { font-weight: 300; }
+    .font-medium { font-weight: 500; }
+    .leading-relaxed { line-height: 1.625; }
+    .text-gray-400 { color: #9ca3af; }
+    .text-gray-500 { color: #6b7280; }
+    .text-gray-600 { color: #4b5563; }
+    .text-red-500 { color: #ef4444; }
+    .text-yellow-500 { color: #eab308; }
+    .text-green-500 { color: #22c55e; }
+    .subtitle {
+      font-style: italic;
+      color: #6b7280;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .note { font-size: 0.875rem; color: #6b7280; }
+    .category-section { margin-bottom: 3rem; }
+    .category-header { margin-bottom: 2rem; }
+    .category-title { font-size: 1.5rem; font-weight: 400; margin-bottom: 0.5rem; }
+    .category-divider { height: 2px; width: 3rem; }
+    .category-divider.red { background-color: #ef4444; }
+    .category-divider.yellow { background-color: #eab308; }
+    .category-divider.green { background-color: #22c55e; }
+    .flex { display: flex; }
+    .flex-1 { flex: 1 1 0%; }
+    .items-start { align-items: flex-start; }
+    .items-center { align-items: center; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .space-y-8 > * + * { margin-top: 2rem; }
+    .divider { width: 4rem; height: 1px; background-color: #d1d5db; margin: 1rem auto; }
+    .group { transition: all 0.2s ease; }
+    .group:hover .article-title a { color: #2563eb; }
+    .article-title { transition: color 0.2s ease; }
+    .article-title a { color: inherit; text-decoration: none; }
+    .article-title a:hover { color: #2563eb; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    article { animation: fadeIn 0.5s ease-out forwards; animation-fill-mode: both; }
+    @media (max-width: 768px) {
+      .px-8 { padding-left: 1rem; padding-right: 1rem; }
+      .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+      .text-4xl { font-size: 1.875rem; }
+      .text-xl { font-size: 1.125rem; }
+      .mb-16 { margin-bottom: 2rem; }
+      .space-y-8 > * + * { margin-top: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen">
+    <div class="max-w-3xl mx-auto px-8 py-16">
+      <!-- Header -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+        <p class="subtitle">Design by Dagorsey &amp; Claude</p>
+        <div class="divider"></div>
+        <p class="text-gray-500 mb-1">8–14 novembre 2025</p>
+        <p class="note">Les sources sont disponibles à la fin de la newsletter.</p>
+      </div>
+
+      <!-- Critical -->
+      <section class="category-section">
+        <div class="category-header">
+          <h2 class="category-title text-red-500">Critique</h2>
+          <div class="category-divider red"></div>
+        </div>
+        <div class="space-y-8">
+          <!-- 1 Alpha Signal -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">01</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://openai.com/index/gpt-5-1/?utm_source=alphasignal&utm_campaign=2025-11-13" target="_blank" rel="noopener noreferrer">
+                    OpenAI lance GPT-5.1 avec raisonnement adaptatif pour des réponses 2× plus rapides
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  OpenAI dévoile GPT-5.1, une évolution de GPT-5 qui ajuste automatiquement la profondeur de raisonnement selon la difficulté de la tâche.
+                  Le modèle économise des tokens sur les requêtes simples et "pense" davantage sur les problèmes complexes, tout en améliorant ses scores sur AIME 2025 et les benchmarks de code.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / OpenAI</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2 The AI Report / Anthropic 50B -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">02</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.theaireport.ai/newsletter/anthropic-commits-50b-to-us-ai-infrastructure" target="_blank" rel="noopener noreferrer">
+                    Anthropic engage 50&nbsp;Mds&nbsp;$ dans les data centers IA aux États‑Unis
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Anthropic annonce un plan massif d’investissement de 50&nbsp;milliards de dollars dans des infrastructures IA dédiées aux modèles de pointe.
+                  L’objectif est d’augmenter la capacité de calcul, sécuriser la chaîne d’approvisionnement en GPU et rapprocher le calcul des grands clients américains.
+                </p>
+                <p class="text-sm text-gray-400">Source : The AI Report</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3 The AI Report / EU AI Act delay -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">03</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.theaireport.ai/newsletter/eu-considers-delaying-landmark-ai-act" target="_blank" rel="noopener noreferrer">
+                    L’UE envisage de repousser son AI Act emblématique
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Un bulletin de The AI Report rapporte que l’Union européenne pourrait retarder l’entrée en vigueur de l’AI Act, pourtant présenté comme un texte fondateur.
+                  Les discussions portent sur la maturité des technologies de fondation models et les risques d’entraver l’innovation européenne.
+                </p>
+                <p class="text-sm text-gray-400">Source : The AI Report</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4 Superhuman / Perplexity–Snap 400B -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">04</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.joinsuperhuman.io/p/perplexity-signs-400b-deal-with-snap" target="_blank" rel="noopener noreferrer">
+                    Perplexity signe un accord stratégique massif avec Snap autour des agents IA
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  La newsletter Superhuman revient sur un deal d’ampleur entre Perplexity et Snap, destiné à intégrer des capacités de recherche conversationnelle et d’agents IA dans l’écosystème Snapchat.
+                  L’enjeu : transformer l’expérience de découverte de contenus et de shopping directement dans l’app.
+                </p>
+                <p class="text-sm text-gray-400">Source : Superhuman (Zain Kahn)</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5 Human in the Loop / China’s Six Tigers -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">05</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.humanintheloop.online/p/23-edition-china-s-six-tigers-the-new-force-in-ai" target="_blank" rel="noopener noreferrer">
+                    Les «&nbsp;Six Tigers&nbsp;» chinois : une nouvelle force de frappe IA mondiale
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Andreas Horn analyse l’émergence de six acteurs chinois majeurs de l’IA qui combinent puissance cloud, modèles de fondation et cas d’usage industriels.
+                  Cette montée en puissance rebat les cartes de la compétition mondiale, en particulier sur les marchés émergents.
+                </p>
+                <p class="text-sm text-gray-400">Source : Human in the Loop</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6 Alpha Signal / Google vision paper -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">06</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/?utm_source=alphasignal&utm_campaign=2025-11-13" target="_blank" rel="noopener noreferrer">
+                    Google DeepMind cherche à rapprocher la vision des IA de la perception humaine
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Une étude de DeepMind montre comment réorganiser les représentations visuelles des modèles pour les rendre plus robustes et plus proches de notre perception.
+                  L’objectif est de réduire les erreurs «&nbsp;inhumaines&nbsp;» des systèmes de vision, cruciales pour la robotique et la conduite autonome.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / Google DeepMind</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7 Alpha Signal / Meta ASR -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-red-500 mt-1">07</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/?utm_source=alphasignal&utm_campaign=2025-11-13" target="_blank" rel="noopener noreferrer">
+                    Meta ouvre une suite ASR omnilingue couvrant 1&nbsp;600 langues
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Meta publie une famille de modèles de reconnaissance vocale capable de transcrire la parole dans plus de 1&nbsp;600 langues.
+                  Cette initiative open source vise à démocratiser l’accès à la transcription et à réduire le biais envers les langues les plus courantes.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / Meta</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Important -->
+      <section class="category-section">
+        <div class="category-header">
+          <h2 class="category-title text-yellow-500">Important</h2>
+          <div class="category-divider yellow"></div>
+        </div>
+        <div class="space-y-8">
+          <!-- 8 Alpha Signal / ElevenLabs STT -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">08</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://elevenlabs.io/docs/capabilities/speech-to-text?utm_source=alphasignal&utm_campaign=2025-11-13" target="_blank" rel="noopener noreferrer">
+                    ElevenLabs lance Scribe v2&nbsp;Realtime pour la transcription temps réel multi‑langues
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  ElevenLabs introduit un modèle Speech‑to‑Text optimisé pour les agents temps réel, capable de transcrire plus de 90 langues avec une faible latence.
+                  C’est une brique clé pour les agents vocaux, les centres de contact augmentés et les copilotes audio.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / ElevenLabs</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9 Alpha Signal / Anthropic Skills front-end -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">09</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.claude.com/blog/improving-frontend-design-through-skills" target="_blank" rel="noopener noreferrer">
+                    Anthropic montre comment garder des prompts front‑end légers grâce aux Skills
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Un billet d’Anthropic détaille comment encapsuler des consignes réutilisables dans des Skills, au lieu de répéter d’énormes prompts côté front.
+                  Résultat : des interfaces plus propres, des réponses plus cohérentes et une maintenance facilitée pour les produits basés sur Claude.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / Anthropic</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10 GitHub MCP eval pipeline -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://github.blog/ai-and-ml/generative-ai/measuring-what-matters-how-offline-evaluation-of-github-mcp-server-works/" target="_blank" rel="noopener noreferrer">
+                    GitHub dévoile son pipeline d’évaluation offline pour les serveurs MCP
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  GitHub explique comment il mesure la qualité des appels d’outils via MCP&nbsp;: sélection des outils, prédiction des paramètres, et vérification de la correction des résultats.
+                  Cette approche fournit un cadre concret pour évaluer les agents en entreprise.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / GitHub</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11 Wikipedia & models -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://wikimediafoundation.org/news/2025/11/10/in-the-ai-era-wikipedia-has-never-been-more-valuable/" target="_blank" rel="noopener noreferrer">
+                    Pourquoi les modèles IA restent dépendants de Wikipédia et de l’édition humaine
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  La Wikimedia Foundation rappelle que les données éditées par des humains sont au cœur des modèles modernes, garantissant transparence et qualité.
+                  L’article met en garde contre une dépendance totale à du contenu généré sans contrôle humain.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / Wikimedia Foundation</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 12 Upmynt / UP273 Noël 2025 -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.upmynt.com/up273-le-noel-2025-sera-ia-ou-ne-sera-pas/" target="_blank" rel="noopener noreferrer">
+                    Upmynt : «&nbsp;Le Noël 2025 sera IA ou ne sera pas&nbsp;» pour le e‑commerce
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Upmynt analyse comment les internautes utilisent déjà les copilotes IA pour leurs recommandations d’achat de fin d’année.
+                  La newsletter insiste sur l’urgence pour les marques de maîtriser ces nouveaux parcours clients guidés par agents.
+                </p>
+                <p class="text-sm text-gray-400">Source : Upmynt</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 13 Upmynt / UP272 Light -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.upmynt.com/up272-light/" target="_blank" rel="noopener noreferrer">
+                    Présentations instantanées et navigation IA : Upmynt décortique les nouveaux usages
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Cette édition met en avant la génération automatique de présentations Google Slides et l’arrivée de Perplexity dans Snapchat.
+                  Elle montre comment ces usages transforment la production de contenus marketing et la découverte de produits.
+                </p>
+                <p class="text-sm text-gray-400">Source : Upmynt</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 14 Superhuman / ChatGPT personality upgrade -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.joinsuperhuman.io/p/chatgpt-gets-a-personality-upgrade" target="_blank" rel="noopener noreferrer">
+                    ChatGPT gagne des «&nbsp;personnalités&nbsp;» configurables pour adapter le ton aux usages
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Superhuman explique comment les nouveaux préréglages de ton et de style de ChatGPT permettent d’aligner l’IA sur une voix de marque spécifique.
+                  Un levier important pour les équipes marketing, support ou formation qui veulent garder une identité cohérente.
+                </p>
+                <p class="text-sm text-gray-400">Source : Superhuman (Zain Kahn)</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 15 Human in the Loop / 1.2B use AI -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.humanintheloop.online/p/22-edition-1-2-billion-people-use-ai-but-4-billion-still-can-t" target="_blank" rel="noopener noreferrer">
+                    1,2&nbsp;milliard de personnes utilisent l’IA, mais 4&nbsp;milliards n’y ont toujours pas accès
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Andreas Horn met en lumière une fracture d’accès massive à l’IA entre pays développés et reste du monde.
+                  L’article discute des enjeux d’infrastructure, de compétences et de régulation qui peuvent creuser ou réduire cet écart.
+                </p>
+                <p class="text-sm text-gray-400">Source : Human in the Loop</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Bon à savoir -->
+      <section class="category-section">
+        <div class="category-header">
+          <h2 class="category-title text-green-500">Bon à Savoir</h2>
+          <div class="category-divider green"></div>
+        </div>
+        <div class="space-y-8">
+          <!-- 16 Alpha Signal / Jupyter AI lecture -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">16</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.deeplearning.ai/short-courses/jupyter-ai-coding-in-notebooks/?utm_source=alphasignal&utm_campaign=2025-11-13" target="_blank" rel="noopener noreferrer">
+                    Andrew Ng présente Jupyter AI comme copilote de code dans les notebooks
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Ce cours montre comment utiliser Jupyter AI pour générer, expliquer et déboguer du code directement dans un notebook.
+                  Les exemples couvrent la construction d’assistants de recherche et de workflows d’analyse de données pilotés par IA.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / DeepLearning.AI</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 17 Upmynt / UP271 inbox -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">17</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.upmynt.com/up271-un-assistant-pour-vos-emails/" target="_blank" rel="noopener noreferrer">
+                    Un assistant IA pour prendre la main sur votre boîte mail au quotidien
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Upmynt décrit comment utiliser Perplexity et d’autres outils pour trier, résumer et répondre aux emails de manière semi‑automatisée.
+                  Une bonne introduction à la délégation progressive de tâches répétitives à des agents IA.
+                </p>
+                <p class="text-sm text-gray-400">Source : Upmynt</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 18 Mozza Bytes / Kimi K2 -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">18</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2d0" target="_blank" rel="noopener noreferrer">
+                    Quand l'open‑source rattrape les géants : le moment Kimi K2
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Mozza Bytes analyse comment Kimi K2 Thinking (Moonshot AI) surpasse GPT-5 et Claude 4.5 sur la plupart des benchmarks.
+                  Trois révélations stratégiques : vitesse d'itération, optimisation pour le déploiement dès la conception, et autonomie d'exécution.
+                </p>
+                <p class="text-sm text-gray-400">Source : Mozza Bytes</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 19 Elvis / Context Engineering 2.0 -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">19</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-context-engineering" target="_blank" rel="noopener noreferrer">
+                    Context Engineering 2.0 : repenser la communication homme‑machine pour l'ère des agents IA
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Elvis Saravia revient sur un papier de recherche retraçant 20 ans d'évolution du context engineering et quatre étapes d'intelligence (1.0 à 4.0).
+                  L'article explore comment gérer contexte, mémoire et outils dans les systèmes agentiques actuels.
+                </p>
+                <p class="text-sm text-gray-400">Source : AI Newsletter (Elvis Saravia)</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 20 Top AI Papers 3–9 nov (benchmark math olympiades) -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">20</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-8fb" target="_blank" rel="noopener noreferrer">
+                    Google DeepMind introduit IMO‑Bench pour mesurer le raisonnement mathématique de niveau olympiades
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Parmi les Top AI Papers, DeepMind présente IMO‑Bench, suite de benchmarks validés par des médaillés des Olympiades, avec 400 problèmes robustifiés et notation automatique.
+                  Gemini Deep Think atteint 80&nbsp;% sur AnswerBench, confirmant une performance historique.
+                </p>
+                <p class="text-sm text-gray-400">Source : AI Newsletter (Elvis Saravia)</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 21 AI Tidbits / DeepWiki & Claude Code tips -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">21</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.aitidbits.ai/p/linkedin-highlights-aug-2025" target="_blank" rel="noopener noreferrer">
+                    Coding IA : DeepWiki, Claudia, et les meilleures pratiques Claude Code d'Anthropic
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Sahar Mor compile ses posts LinkedIn phares sur le coding avec IA : DeepWiki pour interroger n'importe quel repo, Claudia pour gérer Claude Code en GUI, et les conseils internes d'Anthropic pour merger 22&nbsp;000 lignes de code IA en production.
+                </p>
+                <p class="text-sm text-gray-400">Source : AI Tidbits</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 22 IA Ethique Insider / casse RGPD -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">22</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://iaethiqueinsider.substack.com/p/le-casse-du-siecle-sur-vos-donnees" target="_blank" rel="noopener noreferrer">
+                    Le casse du siècle sur vos données : projet de réforme du RGPD sous pression américaine
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Daphnée Lucenet révèle un projet interne de la Commission européenne pour remanier discrètement le RGPD, légalisant potentiellement le scraping massif pour entraîner les IA.
+                  L'analyse de noyb/Max Schrems qualifie ce texte de « déréglementation massive en toute discrétion ».
+                </p>
+                <p class="text-sm text-gray-400">Source : IA Éthique Insider</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 23 Superhuman / Google Maps Gemini-fied + 24 etc. for count -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">23</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.joinsuperhuman.io/p/google-maps-gets-gemini-fied" target="_blank" rel="noopener noreferrer">
+                    Google Maps se «&nbsp;Gemini‑fie&nbsp;» avec des fonctionnalités IA contextuelles
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Une récente édition de Superhuman décrit comment Google injecte Gemini dans Maps pour des suggestions de trajets, d’activités et de lieux plus intelligentes.
+                  Un pas de plus vers des assistants géolocalisés qui comprennent réellement l’intention de l’utilisateur.
+                </p>
+                <p class="text-sm text-gray-400">Source : Superhuman (Zain Kahn)</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 24 Human in the Loop / back catalogue mention -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">24</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.humanintheloop.online/" target="_blank" rel="noopener noreferrer">
+                    Human in the Loop : une archive complète d’analyses sur les agents et l’économie de l’IA
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Au‑delà de l’édition de la semaine, l’archive Human in the Loop couvre les enjeux de productivité, d’adoption et de ROI des projets GenAI.
+                  Utile pour benchmarker la maturité de votre propre organisation face aux leaders du marché.
+                </p>
+                <p class="text-sm text-gray-400">Source : Human in the Loop</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- 25 Alpha Signal / Token Economics Calculator (sponsor mais insight) -->
+          <article class="group">
+            <div class="flex items-start gap-6">
+              <div class="text-2xl font-light text-green-500 mt-1">25</div>
+              <div class="flex-1">
+                <h3 class="text-xl font-medium mb-3 article-title">
+                  <a href="https://www.tensordyne.ai/token-economics-calculator?utm_source=newsletter&utm_medium=email&utm_campaign=token_econ_calc_nov_2025" target="_blank" rel="noopener noreferrer">
+                    Un calculateur pour comparer le coût réel des architectures d’inférence IA
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                  Tensordyne propose un outil pour comparer différentes solutions d’inférence (GPU, SRAM‑only, HBM, etc.) en termes de coût par token et par kWh.
+                  Un bon point de départ pour les équipes qui doivent chiffrer sérieusement leurs projets de déploiement à grande échelle.
+                </p>
+                <p class="text-sm text-gray-400">Source : Alpha Signal / Tensordyne</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sources -->
+      <section class="mt-1">
+        <div class="divider"></div>
+        <h2 class="text-xl font-medium mb-4">Sources de cette édition</h2>
+        <ul class="text-sm text-gray-600" style="list-style-type: disc; padding-left: 1.25rem;">
+          <li><a href="https://alphasignal.ai/last-email/" target="_blank" rel="noopener noreferrer">Alpha Signal</a></li>
+          <li><a href="https://mozzabytes.substack.com/" target="_blank" rel="noopener noreferrer">Mozza Bytes</a></li>
+          <li><a href="https://www.upmynt.com/" target="_blank" rel="noopener noreferrer">Upmynt</a></li>
+          <li><a href="https://nlp.elvissaravia.com/" target="_blank" rel="noopener noreferrer">NLP Newsletter (Elvis Saravia)</a></li>
+          <li><a href="https://www.theaireport.ai/newsletters" target="_blank" rel="noopener noreferrer">The AI Report</a></li>
+          <li><a href="https://tldr.tech/ai" target="_blank" rel="noopener noreferrer">TLDR AI</a></li>
+          <li><a href="https://www.aitidbits.ai/" target="_blank" rel="noopener noreferrer">AI Tidbits (Sahar Mor)</a></li>
+          <li><a href="https://www.superhuman.ai/" target="_blank" rel="noopener noreferrer">Superhuman (Zain Kahn)</a></li>
+          <li><a href="https://iaethiqueinsider.substack.com/" target="_blank" rel="noopener noreferrer">IA Éthique Insider (Daphnée)</a></li>
+          <li><a href="https://www.humanintheloop.online/" target="_blank" rel="noopener noreferrer">Human in the Loop (Andreas Horn)</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

@@ -35,6 +35,10 @@ Les actualités sont compilées à partir des newsletters et sources suivantes :
 
 Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pour offrir une vue d'ensemble rapide et en français des développements les plus importants dans le domaine de l'intelligence artificielle.
 
+## 🛠️ Mises à jour récentes
+
+- 8–14 novembre 2025 : ajout de `AI_Weekly_Nov8-14_2025_v2.html` avec harmonisation du style des titres (liens des articles alignés sur les éditions précédentes).
+
 ## 📄 Licence
 
 Contenu sous licence MIT.
