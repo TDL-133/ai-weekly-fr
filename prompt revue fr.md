@@ -13,7 +13,7 @@ your goal here is to scan my emails with the gmail tool until you find all these
 
 use only these newsletters in a balance way, ensuring that they are all equally represented
 
-if you don't find the newsletters email go through their urls below and use these scraping tools : firecrawl, tavily, sequential thinking
+if you don't find the newsletters email go through their urls below and use these scraping tools : parallel search, parallel task, firecrawl, tavily, sequential thinking
 
 these are the urls to scrap : 
 Alpha Signal, https://alphasignal.ai/last-email/

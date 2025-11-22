@@ -27,7 +27,7 @@ This repository generates **AI Weekly** - a French-language newsletter that aggr
 
 ### 1. Content Collection
 Use MCP tools to scrape the 10 required newsletter sources:
-- **Primary tools**: firecrawl, tavily, sequential thinking
+- **Primary tools**: parallel search, parallel task, firecrawl, tavily, sequential thinking
 - **Fallback**: Gmail tool to search user's email for newsletter subscriptions
 - **Balance requirement**: All sources must be equally represented in the final output
 
@@ -123,7 +123,7 @@ The template (`revue fr template.html`) uses utility-first CSS classes:
 
 ## Scraping Strategy
 
-1. **Start with website scraping** (firecrawl/tavily) for most recent editions
+1. **Start with website scraping** (parallel/firecrawl/tavily) for most recent editions
 2. **Fallback to Gmail** if website scraping fails or returns old content
 3. **Use sequential thinking** for complex extraction tasks
 4. **Extract week range** from prompt or user specification
@@ -132,7 +132,8 @@ The template (`revue fr template.html`) uses utility-first CSS classes:
 ## MCP Tools Configuration
 
 The user has MCP tools configured including:
-- **firecrawl** - Primary web scraping tool
+- **parallel search and task** - Primary web scraping tool
+- **firecrawl** - Secondary web scraping tool
 - **tavily** - Search and extraction tool
 - **sequential thinking** - Complex reasoning for categorization
 - **Gmail** (if available) - Newsletter email access
