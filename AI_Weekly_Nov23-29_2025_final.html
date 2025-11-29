@@ -163,6 +163,7 @@
                 <p class="subtitle">by Dagorsey & Claude</p>
                 <div class="divider"></div>
                 <p class="text-gray-500">23-29 Novembre 2025</p>
+                <p class="text-xs text-gray-400 mt-1">Les sources sont disponibles à la fin de la newsletter</p>
             </div>
 
             <!-- Content -->
@@ -515,8 +516,31 @@
                 </div>
             `;
             
+            // Sources section
+            const sourcesHTML = `
+                <div class="category-section" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e5e7eb;">
+                    <div class="category-header">
+                        <h2 class="category-title text-gray-600">Sources</h2>
+                    </div>
+                    <div class="text-sm text-gray-500 leading-relaxed">
+                        <p style="margin-bottom: 0.5rem;">Cette newsletter agrège et traduit les actualités des sources suivantes :</p>
+                        <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://alphasignal.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Alpha Signal</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://mozzabytes.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Mozza Bytes</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.upmynt.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Upmynt</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://nlp.elvissaravia.com/" target="_blank" style="color: #2563eb; text-decoration: none;">NLP Newsletter</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.theaireport.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">The AI Report</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://tldr.tech/" target="_blank" style="color: #2563eb; text-decoration: none;">TLDR AI</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.aitidbits.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">AI Tidbits</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.superhuman.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Superhuman</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://iaethiqueinsider.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">IA Éthique Insider</a></li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
             // Combine all sections
-            container.innerHTML = criticalHTML + importantHTML + goodToKnowHTML;
+            container.innerHTML = criticalHTML + importantHTML + goodToKnowHTML + sourcesHTML;
         }
 
         // Initialize on page load
