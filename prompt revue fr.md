@@ -1,46 +1,105 @@
-Go to my gmail and the links I give you below and make me a summary of all my newsletters about AI for the week that just ended
-I will give you the last day to revue
- 
-I want a bullet point answer with the main news concerning AI 
-I want a title for each news with two lines of description / text 
-rank me these news from the most important to the less one I want at least 25 news with three zones : critical, important, good to know
+# AI Weekly Newsletter Generation Instructions
 
-use only these newsletters in a balance way, from my gmail account, ensuring that they are all equally represented :
-Alpha Signal, Mozza Bytes, Upmynt, NLP Newsletter, The AI Report, TLDR AI, 
-Andreas Horn / human in the loop, Daphnée de IA Ethique Insider, 
-Superhuman – Zain K, AI Tidbits.
-your goal here is to scan my emails with the gmail tool until you find all these newsletters for the week that just ended
+## SECTION 1: Content Collection & Sources
 
-use only these newsletters in a balance way, ensuring that they are all equally represented
+### Step 1: Collect newsletters from Gmail
+Go to my gmail and scan emails for AI newsletters from the week that just ended.
+I will specify the last day to review.
 
-if you don't find the newsletters email go through their urls below and use these scraping tools : parallel search, parallel task, firecrawl, tavily, sequential thinking
+### Step 2: Required sources (all must be equally represented)
+Use these 10 newsletters in a balanced way:
+- Alpha Signal
+- Mozza Bytes
+- Upmynt
+- NLP Newsletter (Elvis Saravia)
+- The AI Report
+- TLDR AI
+- AI Tidbits (Sahar Mor)
+- Superhuman (Zain Kahn)
+- IA Ethique Insider (Daphnée)
+- Human in the Loop (Andreas Horn)
 
-these are the urls to scrap : 
-Alpha Signal, https://alphasignal.ai/last-email/
-Mozza Bytes, https://mozzabytes.substack.com/
-Upmynt, https://www.upmynt.com/
-NLP Newsletter (Elvis Saravia), https://nlp.elvissaravia.com/
-The AI Report, https://www.theaireport.ai/newsletters
-TLDR AI, https://tldr.tech/ai
-AI Tidbits (Sahar Mor), https://www.aitidbits.ai/
-Superhuman (Zain Kahn), https://www.superhuman.ai/
-IA Ethique Insider (Daphnée), https://iaethiqueinsider.substack.com/
-Human in the Loop (Andreas Horn), https://www.humanintheloop.online/
+### Step 3: Fallback to web scraping
+If newsletters not found in Gmail, scrape these URLs using parallel search, parallel task, firecrawl, tavily, or sequential thinking:
+- Alpha Signal: https://alphasignal.ai/last-email/
+- Mozza Bytes: https://mozzabytes.substack.com/
+- Upmynt: https://www.upmynt.com/
+- NLP Newsletter: https://nlp.elvissaravia.com/
+- The AI Report: https://www.theaireport.ai/newsletters
+- TLDR AI: https://tldr.tech/ai
+- AI Tidbits: https://www.aitidbits.ai/
+- Superhuman: https://www.superhuman.ai/
+- IA Ethique Insider: https://iaethiqueinsider.substack.com/
+- Human in the Loop: https://www.humanintheloop.online/
 
-I trust you to do a balanced summary with all the sources : this is very important
+**CRITICAL**: All 10 sources must be equally represented in the final newsletter.
 
-Use the ai_newsletter_minimal.html file as a template
+## SECTION 2: Content Requirements
 
-below the title you must write down design by Dagorsey & Claude
-below this you must write down the start and end date of the week
-below this date you must write down that the sources are available at the end of the newsletter
-at the end of the newsletter you must write down all the sources you used for this news letter specifically
+### News Selection
+- Minimum 25 news items
+- Each item must have:
+  - Title (in French)
+  - Two-line description/summary (in French)
+  - Precise and unique URL to the specific article
+- All content must be in French
 
-the title of the weekly review will always be "AI Weekly"
+### Categorization
+Rank news from most important to least, distributed across 3 zones:
+1. **🔴 Critique (Critical)**: Major announcements, significant regulatory changes, industry-disrupting developments
+2. **🟡 Important**: Notable developments, significant research, important partnerships
+3. **🟢 Bon à Savoir (Good to Know)**: Interesting updates, emerging trends, useful tools
 
-please provide the precise and unique link for each news
-put the link in the title of the news as a hyperlink
+## SECTION 3: HTML Structure Requirements (MANDATORY)
 
-be a hundred times more specific
-I want the revue to be in french
+Use `revue fr template.html` as the base template.
+
+### Header Structure (in order):
+1. **Title**: "AI Weekly" (h1, centered)
+2. **Subtitle**: "by Dagorsey & Claude" (italics, gray)
+3. **Divider line** (horizontal, centered)
+4. **Date**: "[Start Date]-[End Date] [Month] [Year]" (e.g., "23-29 Novembre 2025")
+5. **Sources note**: "Les sources sont disponibles à la fin de la newsletter" (small text, gray)
+
+### Content Structure:
+- Three category sections with colored dividers:
+  - 🔴 Critique (red divider)
+  - 🟡 Important (yellow divider) 
+  - 🟢 Bon à Savoir (green divider)
+- Each news item:
+  - Numbered (01, 02, 03...)
+  - **Title must be a clickable hyperlink** to the article URL
+  - Two-line summary
+  - Source name and date
+
+### Footer Structure:
+- Section titled "Sources"
+- List of all 10 newsletters used
+- Each source must have a clickable URL
+- Format: "• [Newsletter Name](URL)"
+
+## SECTION 4: VALIDATION CHECKLIST
+
+Before considering the newsletter complete, verify ALL of these:
+
+**✓ Required Elements:**
+- [ ] All news titles are clickable hyperlinks to specific article URLs
+- [ ] Note "Les sources sont disponibles à la fin de la newsletter" appears below the date
+- [ ] Sources section at bottom with all 10 newsletters and their URLs
+- [ ] Layout matches template (colors, spacing, typography)
+
+**✓ Content Quality:**
+- [ ] Minimum 25 news items
+- [ ] All 10 sources equally represented (balanced coverage)
+- [ ] 3 categories: Critique (red), Important (yellow), Bon à Savoir (green)
+- [ ] All content in French
+- [ ] Each news has unique, specific URL (not homepage)
+
+**✓ Technical:**
+- [ ] Valid HTML structure
+- [ ] All links open in new tab (target="_blank")
+- [ ] Responsive design preserved
+- [ ] Animations and hover effects working
+
+If ANY item is unchecked, the newsletter is NOT ready for publication.
 

@@ -138,3 +138,86 @@ The user has MCP tools configured including:
 - **sequential thinking** - Complex reasoning for categorization
 - **Gmail** (if available) - Newsletter email access
 - **brightdata/playwright** - Alternative scraping tools
+
+## Newsletter Quality Requirements
+
+### 4 Critical Requirements
+Every AI Weekly newsletter MUST include these elements. Missing any of these is a blocking issue:
+
+#### 1. Clickable Links in All Titles
+- **Requirement**: Every news title must be a hyperlink to the specific article
+- **Format**: `<a href="{article_url}" target="_blank">{title}</a>`
+- **Validation**: 
+  ```bash
+  # Check that all news items have clickable titles
+  grep -c '<a href=' AI_Weekly_*.html
+  # Should match the number of news items (minimum 25)
+  ```
+
+#### 2. Sources Note Below Date
+- **Requirement**: Text "Les sources sont disponibles à la fin de la newsletter" appears under the date
+- **Location**: In header, between date and content
+- **Format**: `<p class="text-xs text-gray-400 mt-1">Les sources sont disponibles à la fin de la newsletter</p>`
+- **Validation**:
+  ```bash
+  grep "Les sources sont disponibles" AI_Weekly_*.html
+  ```
+
+#### 3. Sources Section in Footer
+- **Requirement**: Complete list of 10 newsletters with clickable URLs at end of newsletter
+- **Sources to include**:
+  - Alpha Signal (https://alphasignal.ai/)
+  - Mozza Bytes (https://mozzabytes.substack.com/)
+  - Upmynt (https://www.upmynt.com/)
+  - NLP Newsletter (https://nlp.elvissaravia.com/)
+  - The AI Report (https://www.theaireport.ai/)
+  - TLDR AI (https://tldr.tech/)
+  - AI Tidbits (https://www.aitidbits.ai/)
+  - Superhuman (https://www.superhuman.ai/)
+  - IA Éthique Insider (https://iaethiqueinsider.substack.com/)
+  - Human in the Loop (https://www.humanintheloop.online/)
+- **Validation**:
+  ```bash
+  # Check for Sources section
+  grep -i "sources" AI_Weekly_*.html | grep -i "<h2"
+  # Check number of source links (should be 10)
+  grep -A 15 "Sources" AI_Weekly_*.html | grep -c '<a href='
+  ```
+
+#### 4. Layout Matches Template
+- **Requirement**: Colors, spacing, typography match `revue fr template.html`
+- **Key elements**:
+  - Red/yellow/green category dividers
+  - Numbered news items (01, 02, 03...)
+  - Gray metadata (source, date)
+  - Hover effects on titles
+  - Staggered fade-in animations
+- **Validation**: Visual inspection + compare CSS classes with template
+
+### Quick Validation Commands
+
+Before finalizing a newsletter, run these checks:
+
+```bash
+# 1. Count news items (should be ≥25)
+grep -c '"id":' AI_Weekly_Nov23-29_2025_final.html
+
+# 2. Verify all titles have links
+grep -o '<a href="[^"]*"[^>]*>[^<]*</a>' AI_Weekly_*.html | wc -l
+
+# 3. Check sources note
+grep "Les sources sont disponibles" AI_Weekly_*.html
+
+# 4. Verify Sources section exists
+grep -A 20 "Sources" AI_Weekly_*.html | grep "Alpha Signal"
+
+# 5. Count source URLs (should be 10)
+grep -A 25 "Sources" AI_Weekly_*.html | grep -c "https://"
+```
+
+### Reference Documentation
+
+For complete checklist and detailed requirements, see:
+- **`prompt revue fr.md`** - Full generation instructions with validation checklist
+- **`revue fr template.html`** - Reference template for layout and styling
+- **`AI_Weekly_Nov23-29_2025_final.html`** - Example of correctly formatted newsletter
