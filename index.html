@@ -46,7 +46,7 @@
         /* Colors */
         .text-gray-400 { color: #9ca3af; }
         .text-gray-500 { color: #6b7280; }
-        .text-gray-600 { color: #4b5563; }
+        .text-gray-600 { color: #4b5556; }
         
         /* Category colors */
         .text-red-500 { color: #ef4444; }
@@ -113,6 +113,12 @@
         
         .article-title {
             transition: color 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .article-title:hover {
+            color: #2563eb;
         }
 
         /* Animations */
@@ -143,6 +149,40 @@
         article:nth-child(9) { animation-delay: 0.9s; }
         article:nth-child(10) { animation-delay: 1.0s; }
 
+        /* Sources section */
+        .sources-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .sources-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+        
+        .sources-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .sources-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .sources-list a {
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+        
+        .sources-list a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .px-8 { padding-left: 1rem; padding-right: 1rem; }
@@ -160,393 +200,501 @@
             <!-- Header -->
             <div class="text-center mb-16">
                 <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
-                <p class="subtitle">by Dagorsey & Claude</p>
+                <p class="subtitle">Design by Dagorsey & Claude</p>
                 <div class="divider"></div>
-                <p class="text-gray-500">23-29 Novembre 2025</p>
+                <p class="text-gray-500">30 novembre - 3 décembre 2025</p>
                 <p class="text-xs text-gray-400 mt-1">Les sources sont disponibles à la fin de la newsletter</p>
             </div>
 
             <!-- Content -->
             <div id="minimal-news-container">
-                <!-- News items will be populated here by categories -->
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // News data organized by categories
-        const newsData = {
-            critical: [
-                {
-                    id: "1",
-                    title: "DeepSeek-Math-V2 : révolution en mathématiques formelles",
-                    summary: "DeepSeek dévoile un modèle open-source de 685B paramètres qui atteint des résultats de niveau médaille d'or aux Olympiades Internationales de Mathématiques 2025 (IMO) et au CMO 2024, avec un système unique de génération et vérification de preuves formelles.",
-                    rank: 1,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://github.com/deepseek-ai/DeepSeek-Math-V2/"
-                },
-                {
-                    id: "2",
-                    title: "Anthropic lance Claude Opus 4.5 : le modèle le plus puissant",
-                    summary: "Anthropic dévoile Claude Opus 4.5, son modèle le plus performant avec des capacités de raisonnement avancées, un contexte étendu et des prix API réduits. Le modèle offre une amélioration significative pour le coding et l'automatisation.",
-                    rank: 2,
-                    source: "The AI Report / Superhuman",
-                    timeAgo: "25 nov",
-                    url: "https://www.anthropic.com/news/claude-opus-4-5"
-                },
-                {
-                    id: "3",
-                    title: "Google lance Gemini 3 : une nouvelle ère pour l'IA",
-                    summary: "Google déploie Gemini 3, sa nouvelle génération de modèles d'IA avec Gemini 3 Pro, Flash et Nano Banana Pro. Le modèle promet des usages sans précédent et une explosion du trafic, marquant le retour en force de Google dans la course à l'IA.",
-                    rank: 3,
-                    source: "Upmynt / Mozza Bytes / IA Éthique Insider",
-                    timeAgo: "25 nov",
-                    url: "https://blog.google/intl/fr-fr/nouveautes-produits/gemini-3/"
-                },
-                {
-                    id: "4",
-                    title: "DeepScholar : système de recherche open-source 2× plus rapide",
-                    summary: "Des chercheurs de Berkeley et Stanford lancent DeepScholar, un système de synthèse de recherche open-source propulsé par LOTUS qui traite des centaines de documents académiques 2 fois plus rapidement que DeepResearch d'OpenAI, avec une structure de données sémantique innovante.",
-                    rank: 4,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://deep-scholar.vercel.app/"
-                },
-                {
-                    id: "5",
-                    title: "Fuite de données OpenAI via Mixpanel : analyse de l'incident",
-                    summary: "OpenAI coupe son partenariat avec Mixpanel après qu'une violation de sécurité a exposé des informations de profil basiques d'utilisateurs de l'API. L'incident soulève des questions sur la sécurité des services d'analytics tiers.",
-                    rank: 5,
-                    source: "Alpha Signal / TLDR",
-                    timeAgo: "27-28 nov",
-                    url: "https://openai.com/index/mixpanel-incident/"
-                },
-                {
-                    id: "6",
-                    title: "SAP construit un cloud IA européen pour la souveraineté numérique",
-                    summary: "SAP lance une infrastructure cloud IA dédiée à l'Europe, répondant aux préoccupations de souveraineté numérique. Cette initiative vise à offrir une alternative européenne aux géants américains du cloud computing pour les entreprises soucieuses de la réglementation RGPD.",
-                    rank: 6,
-                    source: "The AI Report",
-                    timeAgo: "28 nov",
-                    url: "https://www.theaireport.ai/newsletter/sap-builds-eu-ai-cloud-for-european-sovereignty"
-                },
-                {
-                    id: "7",
-                    title: "La Maison Blanche suspend le décret sur les lois IA des États",
-                    summary: "L'administration américaine suspend un décret exécutif qui aurait permis de contourner les lois étatiques sur l'IA. Cette décision marque un tournant dans la régulation de l'IA aux États-Unis, laissant plus d'autonomie aux États pour définir leurs propres règles.",
-                    rank: 7,
-                    source: "The AI Report",
-                    timeAgo: "24 nov",
-                    url: "https://www.theaireport.ai/newsletter/white-house-halts-executive-order-to-override-state-ai-laws"
-                },
-                {
-                    id: "8",
-                    title: "CEMA : la France doit se préparer à la guerre technologique",
-                    summary: "Le chef d'état-major des armées appelle la France à se préparer à une guerre qui intègre désormais massivement l'IA et les technologies avancées. Un avertissement sur l'urgence de la souveraineté numérique et technologique européenne.",
-                    rank: 8,
-                    source: "IA Éthique Insider",
-                    timeAgo: "25 nov",
-                    url: "https://iaethiqueinsider.substack.com/p/ne-saviez-vous-pas-que-nous-etions"
-                }
-            ],
-            important: [
-                {
-                    id: "9",
-                    title: "Alibaba remporte le Best Paper à NeurIPS avec gated attention",
-                    summary: "L'équipe Qwen d'Alibaba décroche le prix du meilleur papier à NeurIPS 2025 pour une amélioration architecturale : un gate sigmoïde par tête d'attention qui stabilise l'entraînement et améliore les performances sur les longues séquences de contexte.",
-                    rank: 9,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://openreview.net/forum?id=1b7whO4SfY"
-                },
-                {
-                    id: "10",
-                    title: "Anthropic améliore Claude avec auto-compaction de contexte",
-                    summary: "Anthropic déploie une nouvelle fonctionnalité permettant à Claude de compresser automatiquement les anciens messages pour éviter les interruptions dues aux limites de contexte en pleine conversation, améliorant l'expérience utilisateur des conversations longues.",
-                    rank: 10,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://x.com/alexalbert__/status/1993711472149774474"
-                },
-                {
-                    id: "11",
-                    title: "Anthropic publie un framework pour agents IA durables",
-                    summary: "Anthropic présente un système \"initializer-plus-coder\" qui maintient les agents Claude stables sur de nombreuses fenêtres de contexte, permettant des workflows agents plus longs et plus fiables pour les tâches complexes.",
-                    rank: 11,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
-                },
-                {
-                    id: "12",
-                    title: "Alibaba Tongyi lance Z-Image : génération d'images photoréalistes",
-                    summary: "Tongyi MAI d'Alibaba dévoile Z-Image, un modèle open-source compact qui rivalise avec les générateurs d'images plus imposants en termes de photoréalisme et de rendu de texte, offrant une alternative accessible et performante.",
-                    rank: 12,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
-                },
-                {
-                    id: "13",
-                    title: "Perplexity introduit des assistants IA avec mémoire",
-                    summary: "Perplexity lance une fonctionnalité de mémoire cross-modèles qui stocke les préférences et l'historique récent, permettant des réponses personnalisées et une continuité dans les interactions avec différents modèles d'IA.",
-                    rank: 13,
-                    source: "Alpha Signal",
-                    timeAgo: "28 nov",
-                    url: "https://www.perplexity.ai/hub/blog/introducing-ai-assistants-with-memory"
-                },
-                {
-                    id: "14",
-                    title: "xAI de Musk construit une ferme solaire pour son datacenter IA",
-                    summary: "L'entreprise xAI d'Elon Musk annonce la construction d'une ferme solaire dédiée pour alimenter son datacenter d'IA, visant à réduire l'empreinte carbone de l'entraînement des modèles tout en assurant une autonomie énergétique.",
-                    rank: 14,
-                    source: "The AI Report",
-                    timeAgo: "27 nov",
-                    url: "https://www.theaireport.ai/newsletter/musk-s-xai-builds-solar-farm-for-ai-data-center"
-                },
-                {
-                    id: "15",
-                    title: "TSMC poursuit un ex-cadre chez Intel pour vol de secrets industriels",
-                    summary: "Le géant taiwanais de la fabrication de puces TSMC engage des poursuites judiciaires contre un ancien cadre désormais chez Intel, l'accusant de vol de secrets commerciaux. L'affaire révèle les tensions croissantes dans l'industrie des semi-conducteurs.",
-                    rank: 15,
-                    source: "The AI Report",
-                    timeAgo: "26 nov",
-                    url: "https://www.theaireport.ai/newsletter/tsmc-sues-ex-executive-at-intel-over-trade-secrets"
-                },
-                {
-                    id: "16",
-                    title: "L'Europe affaiblit le RGPD et la loi IA sous pression",
-                    summary: "La Commission Européenne cède aux pressions des géants tech américains en assouplissant le RGPD et l'AI Act. IA Éthique Insider dénonce un affaiblissement dangereux de la protection des données et de la régulation de l'IA en Europe.",
-                    rank: 16,
-                    source: "IA Éthique Insider",
-                    timeAgo: "25 nov",
-                    url: "https://iaethiqueinsider.substack.com/p/ne-saviez-vous-pas-que-nous-etions"
-                }
-            ],
-            goodToKnow: [
-                {
-                    id: "17",
-                    title: "3 usages sans précédent permis par Gemini 3",
-                    summary: "Upmynt explore trois cas d'usage révolutionnaires rendus possibles par Gemini 3, démontrant les nouvelles capacités du modèle dans des scénarios pratiques du quotidien professionnel et créatif.",
-                    rank: 17,
-                    source: "Upmynt",
-                    timeAgo: "26 nov",
-                    url: "https://www.upmynt.com/up277-sans-precedent/"
-                },
-                {
-                    id: "18",
-                    title: "Corrigez votre accent français en anglais grâce à l'IA",
-                    summary: "Un nouvel outil IA permet aux francophones d'améliorer leur prononciation anglaise en analysant et corrigeant en temps réel les particularités de l'accent français, avec des retours personnalisés pour chaque utilisateur.",
-                    rank: 18,
-                    source: "Upmynt",
-                    timeAgo: "26 nov",
-                    url: "https://www.upmynt.com/up277-sans-precedent/"
-                },
-                {
-                    id: "19",
-                    title: "Flux.2 : nouveau modèle de génération d'images",
-                    summary: "Black Forest Labs annonce Flux.2, une nouvelle génération de son modèle de génération d'images qui promet une qualité supérieure et une meilleure compréhension des prompts textuels complexes.",
-                    rank: 19,
-                    source: "Upmynt",
-                    timeAgo: "26 nov",
-                    url: "https://www.upmynt.com/up277-sans-precedent/"
-                },
-                {
-                    id: "20",
-                    title: "iPhone Fold sans pli à 2400$, selon un rapport",
-                    summary: "Les ingénieurs d'Apple auraient réalisé une percée technologique avec un design d'iPhone pliable sans pli visible. Le produit serait en phase de pré-production de masse pour un lancement potentiel en septembre prochain.",
-                    rank: 20,
-                    source: "TLDR",
-                    timeAgo: "28 nov",
-                    url: "https://www.cnet.com/tech/mobile/iphone-fold-will-be-creaseless-and-cost-2400-report-says/"
-                },
-                {
-                    id: "21",
-                    title: "Google ajuste les limites d'accès gratuit à Gemini 3 Pro",
-                    summary: "Face à une demande massive, Google modifie les limites d'accès gratuit à Gemini 3 Pro. Les utilisateurs gratuits connaîtront des quotas plus restrictifs, tandis que les abonnés payants conservent un accès prioritaire.",
-                    rank: 21,
-                    source: "TLDR",
-                    timeAgo: "27-28 nov",
-                    url: "https://9to5google.com/2025/11/27/gemini-3-pro-free-limits/"
-                },
-                {
-                    id: "22",
-                    title: "Le \"Manhatt(AI)n Project\" : nouvelle course à l'armement IA",
-                    summary: "Une nouvelle initiative gouvernementale américaine comparable au projet Manhattan vise à assurer la suprématie des États-Unis en matière d'IA face à la Chine, avec des investissements massifs dans la recherche et le développement d'IA avancée.",
-                    rank: 22,
-                    source: "Superhuman",
-                    timeAgo: "27 nov",
-                    url: "https://www.superhuman.ai/p/the-manhattain-project"
-                },
-                {
-                    id: "23",
-                    title: "Comment faire recommander votre marque par ChatGPT",
-                    summary: "Superhuman AI partage des stratégies pour optimiser la présence de votre marque dans les réponses de ChatGPT, un nouvel enjeu marketing alors que les utilisateurs se tournent vers l'IA pour des recommandations.",
-                    rank: 23,
-                    source: "Superhuman",
-                    timeAgo: "26 nov",
-                    url: "https://www.superhuman.ai/p/the-manhattain-project"
-                },
-                {
-                    id: "24",
-                    title: "Comment automatiser votre travail avec les agents IA",
-                    summary: "Superhuman AI propose un guide pratique pour utiliser les nouveaux agents IA, notamment avec Opus 4.5, pour automatiser des tâches professionnelles répétitives et gagner en productivité au quotidien.",
-                    rank: 24,
-                    source: "Superhuman",
-                    timeAgo: "25 nov",
-                    url: "https://www.superhuman.ai/p/anthropics-most-powerful-model-is-here"
-                },
-                {
-                    id: "25",
-                    title: "Agent-R1 : nouveau framework de RL pour agents",
-                    summary: "Le NLP Newsletter présente Agent-R1, un framework de reinforcement learning innovant pour entraîner des agents IA plus performants, aux côtés des annonces Gemini 3 et Nano Banana Pro, dans sa rubrique hebdomadaire AI Agents.",
-                    rank: 25,
-                    source: "NLP Newsletter",
-                    timeAgo: "22 nov",
-                    url: "https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-3-nano-banana"
-                }
-            ]
-        };
-
-        // Function to get number color based on category
-        function getNumberColor(rank) {
-            if (rank <= 8) return 'text-red-500';
-            if (rank <= 16) return 'text-yellow-500';
-            return 'text-green-500';
-        }
-
-        // Render function for categorized layout
-        function renderCategorizedLayout() {
-            const container = document.getElementById('minimal-news-container');
-            
-            // Create HTML for Critical section
-            const criticalHTML = `
+                <!-- Critique Section -->
                 <div class="category-section">
                     <div class="category-header">
                         <h2 class="category-title text-red-500">Critique</h2>
                         <div class="category-divider red"></div>
                     </div>
                     <div class="space-y-12">
-                        ${newsData.critical.map((item) => `
-                            <article class="group">
-                                <div class="flex items-start gap-6">
-                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
-                                        ${String(item.rank).padStart(2, '0')}
-                                    </div>
-                                    <div class="flex-1">
-                                        <h2 class="text-xl font-medium mb-3 article-title">
-                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
-                                        </h2>
-                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
-                                        <div class="flex items-center gap-4 text-sm text-gray-400">
-                                            <span>${item.source}</span>
-                                            <span>•</span>
-                                            <span>${item.timeAgo}</span>
-                                        </div>
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">01</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.anthropic.com/news/claude-opus-4-5" target="_blank" class="article-title">Claude Opus 4.5 : Anthropic reprend la couronne du code</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic lance Claude Opus 4.5, présenté comme le meilleur modèle au monde pour le code et les agents. Il atteint 80,9% sur SWE-bench Verified, surpassant GPT-5.1 et Gemini 3. Les prix ont été divisés par trois.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, IA Ethique Insider, The AI Report, NLP Newsletter, Superhuman, Mozza Bytes</span>
+                                        <span>•</span>
+                                        <span>6 sources</span>
                                     </div>
                                 </div>
-                            </article>
-                        `).join('')}
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">02</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://runwayml.com/research/introducing-runway-gen-4.5" target="_blank" class="article-title">Runway Gen-4.5 domine les benchmarks vidéo</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Gen-4.5 atteint le score le plus élevé jamais enregistré (1,247) sur le benchmark Artificial Analysis Text-to-Video, devant Veo 3 et Sora. Le modèle excelle dans la précision physique et la cohérence des matériaux.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI, Superhuman</span>
+                                        <span>•</span>
+                                        <span>3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">03</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.whitehouse.gov/ostp/news-updates/2025/11/25/genesis-mission/" target="_blank" class="article-title">Genesis Mission : Trump lance le « Projet Manhattan » de l'IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Donald Trump signe un décret présidentiel lançant la « Genesis Mission », une initiative pour centraliser les ressources scientifiques américaines autour de l'IA. Des partenariats avec Nvidia, Oracle et AWS sont prévus.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Mozza Bytes, IA Ethique Insider, Superhuman</span>
+                                        <span>•</span>
+                                        <span>3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">04</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://huggingface.co/deepseek-ai/DeepSeek-V3.2" target="_blank" class="article-title">DeepSeek V3.2 : un modèle open-source qui rivalise avec Gemini-3 Pro</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">DeepSeek lance V3.2, un modèle open-source avec une architecture d'attention repensée. La variante Speciale égale Gemini-3.0-Pro sur les benchmarks de raisonnement complexe et atteint des scores médaille d'or sur IMO 2025.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI</span>
+                                        <span>•</span>
+                                        <span>2 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">05</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.salesforce.com/news/press-releases/2025/11/black-friday-ai-traffic/" target="_blank" class="article-title">L'IA explose le Black Friday : 14,2 milliards de dollars générés</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Les assistants et agents IA ont généré 14,2 milliards de dollars de ventes en ligne mondiales lors du Black Friday. Le trafic provenant des GPT et consorts a augmenté de 805% chez les e-commerçants.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt, Superhuman</span>
+                                        <span>•</span>
+                                        <span>2 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">06</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://alignment.anthropic.com/blog/evaluating-honesty-lie-detection/" target="_blank" class="article-title">Anthropic : les agents IA extraient 4,6M$ via des bugs blockchain</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic publie SCONE-bench, un testbed blockchain qui mesure le succès d'exploitation en dollars. Les agents frontier extraient 4,6M$ de contrats déployés après leur date limite de mars 2025.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">07</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://huggingface.co/blog/transformers-v5" target="_blank" class="article-title">Hugging Face lance Transformers v5 avec une architecture modulaire</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Transformers v5 restructure les architectures en modules plus petits. Une nouvelle interface AttentionInterface unifie les types d'attention (FA1/2/3, FlexAttention, SDPA). PyTorch devient le seul backend.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">08</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://iaethiqueinsider.substack.com/p/la-souverainete-numerique-and-lextraterritoriali" target="_blank" class="article-title">OVHcloud sommé de livrer des données européennes au Canada</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Un tribunal de l'Ontario ordonne à OVHcloud de transmettre des données clients stockées en Europe à la police canadienne. L'affaire pourrait créer un précédent remettant en cause les promesses de souveraineté des clouds européens.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>IA Ethique Insider</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-            `;
-            
-            // Create HTML for Important section
-            const importantHTML = `
+
+                <!-- Important Section -->
                 <div class="category-section">
                     <div class="category-header">
                         <h2 class="category-title text-yellow-500">Important</h2>
                         <div class="category-divider yellow"></div>
                     </div>
                     <div class="space-y-12">
-                        ${newsData.important.map((item) => `
-                            <article class="group">
-                                <div class="flex items-start gap-6">
-                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
-                                        ${String(item.rank).padStart(2, '0')}
-                                    </div>
-                                    <div class="flex-1">
-                                        <h2 class="text-xl font-medium mb-3 article-title">
-                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
-                                        </h2>
-                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
-                                        <div class="flex items-center gap-4 text-sm text-gray-400">
-                                            <span>${item.source}</span>
-                                            <span>•</span>
-                                            <span>${item.timeAgo}</span>
-                                        </div>
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">09</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.theaireport.ai/newsletter/openai-buys-stake-in-thrive-holdings" target="_blank" class="article-title">OpenAI prend une participation dans Thrive Holdings</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI s'associe à Thrive Holdings pour intégrer l'IA dans les processus commerciaux à haut volume. Les équipes OpenAI travailleront directement au sein des entreprises de Thrive pour améliorer vitesse et efficacité.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report, TLDR AI</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
                                     </div>
                                 </div>
-                            </article>
-                        `).join('')}
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.theaireport.ai/newsletter/amazon-connect-adds-autonomous-ai-agents" target="_blank" class="article-title">Amazon Connect ajoute des agents IA autonomes</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Amazon intègre des agents IA autonomes dans sa plateforme de centre de contact Amazon Connect. Ces agents peuvent gérer des interactions client complexes sans intervention humaine.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>1er décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://arxiv.org/abs/2511.16931" target="_blank" class="article-title">OmniScientist : un framework pour les scientifiques IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Des chercheurs présentent OmniScientist, un framework end-to-end permettant aux IA de conduire des recherches autonomes sur l'ensemble du cycle scientifique : revue littéraire, idéation, expérimentation, rédaction et relecture.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>30 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://arxiv.org/abs/2511.19333" target="_blank" class="article-title">INTELLECT-3 : 106B paramètres, entraîné par RL à grande échelle</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">INTELLECT-3 est un modèle Mixture-of-Experts de 106B paramètres (12B actifs) entraîné par reinforcement learning. Il atteint 90,8% sur AIME 2024 et surpasse DeepSeek R1-0528 sur plusieurs benchmarks.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>30 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.theaireport.ai/newsletter/sap-builds-eu-ai-cloud-for-european-sovereignty" target="_blank" class="article-title">SAP construit un Cloud IA européen pour la souveraineté</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">SAP annonce la création d'un cloud IA dédié à l'Union européenne, conçu pour répondre aux exigences de souveraineté des données et de conformité réglementaire européenne.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.theaireport.ai/newsletter/musk-s-xai-builds-solar-farm-for-ai-data-center" target="_blank" class="article-title">xAI de Musk construit une ferme solaire pour ses datacenters</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">xAI, la startup IA d'Elon Musk, développe une ferme solaire dédiée pour alimenter ses centres de données d'entraînement d'IA, répondant aux préoccupations croissantes sur la consommation énergétique de l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>27 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.superhuman.ai/p/anthropic-ceo-called-to-testify" target="_blank" class="article-title">Le CEO d'Anthropic convoqué pour témoigner au Congrès</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le PDG d'Anthropic est appelé à témoigner devant le Congrès américain sur les risques et les opportunités de l'IA avancée, dans un contexte de surveillance réglementaire accrue du secteur.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">16</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://iaethiqueinsider.substack.com/p/la-souverainete-numerique-and-lextraterritoriali" target="_blank" class="article-title">ChatGPT s'apprête à afficher des publicités personnalisées</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Des références découvertes dans la version bêta Android de ChatGPT révèlent l'arrivée de fonctionnalités publicitaires : « search ads carousel » et « bazaar content ». Avec 800M d'utilisateurs, le potentiel de revenus est considérable.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>IA Ethique Insider</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-            `;
-            
-            // Create HTML for Good to Know section
-            const goodToKnowHTML = `
+
+                <!-- Bon à Savoir Section -->
                 <div class="category-section">
                     <div class="category-header">
                         <h2 class="category-title text-green-500">Bon à Savoir</h2>
                         <div class="category-divider green"></div>
                     </div>
                     <div class="space-y-12">
-                        ${newsData.goodToKnow.map((item) => `
-                            <article class="group">
-                                <div class="flex items-start gap-6">
-                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
-                                        ${String(item.rank).padStart(2, '0')}
-                                    </div>
-                                    <div class="flex-1">
-                                        <h2 class="text-xl font-medium mb-3 article-title">
-                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
-                                        </h2>
-                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
-                                        <div class="flex items-center gap-4 text-sm text-gray-400">
-                                            <span>${item.source}</span>
-                                            <span>•</span>
-                                            <span>${item.timeAgo}</span>
-                                        </div>
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">17</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://github.com/microsoft/Fara" target="_blank" class="article-title">Microsoft lance Fara-7B, un agent open-weight pour le contrôle d'ordinateur</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Fara-7B est un agent de 7B paramètres qui contrôle un ordinateur en regardant l'écran. Il atteint 73,5% sur WebVoyager, compétitif avec des systèmes beaucoup plus grands reposant sur l'orchestration multi-modèles.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>1er décembre</span>
                                     </div>
                                 </div>
-                            </article>
-                        `).join('')}
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">18</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://klingai.com/" target="_blank" class="article-title">Kuaishou lance Kling O1, un modèle unifié pour la vidéo</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La startup chinoise Kuaishou présente Kling O1, un modèle unique pour la génération et l'édition vidéo détaillée. Il surpasse Google Veo 3.1 sur plusieurs benchmarks.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">19</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://github.com/nicobytes/vert" target="_blank" class="article-title">Vert : conversions de fichiers locales via WebAssembly</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Vert permet des conversions de fichiers images, documents et audio directement dans le navigateur via WebAssembly. Aucun upload nécessaire, préservant la confidentialité des données.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>1er décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">20</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://poloclub.github.io/transformer-explainer/" target="_blank" class="article-title">Un exemple interactif de l'architecture Transformer</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Une visualisation interactive exceptionnelle de l'architecture Transformer (le T dans GPT) permet de comprendre en profondeur le fonctionnement des modèles de langage.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Mozza Bytes</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">21</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-aa1" target="_blank" class="article-title">Outils IA de la semaine : Firecut, Ripplica, Nao, Agenta</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Firecut pour l'édition vidéo intelligente, Ripplica pour automatiser des tâches depuis un enregistrement vidéo, Nao pour éditer du code data, et Agenta pour la gestion collaborative de prompts.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Mozza Bytes</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">22</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation/" target="_blank" class="article-title">Black Forest Labs lève 300M$ à 3,25 milliards de valorisation</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le créateur du modèle Flux, dont les cofondateurs ont aussi créé Stable Diffusion, lève des fonds auprès de Salesforce Ventures, a16z, Nvidia et d'autres.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">23</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://openai.com/index/accenture-partnership/" target="_blank" class="article-title">Accenture déploie ChatGPT Enterprise pour ses professionnels</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Accenture va déployer ChatGPT Enterprise auprès de dizaines de milliers de ses professionnels, marquant le plus grand effort de montée en compétences via OpenAI Certifications à ce jour.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">24</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.theverge.com/news/835466/apple-ai-chief-john-giannandrea-steps-down-siri" target="_blank" class="article-title">Le chef de l'IA d'Apple quitte ses fonctions après les retards de Siri</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">John Giannandrea quitte son poste après que Tim Cook aurait « perdu confiance » dans son leadership suite aux retards répétés sur la mise à jour de Siri.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">25</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://www.upmynt.com/r/c961aeab" target="_blank" class="article-title">Samsung veut intégrer Perplexity dans Bixby pour le Galaxy S26</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Tout comme Apple s'appuiera sur Gemini pour Siri, Samsung voudrait exploiter Perplexity pour améliorer son assistant vocal Bixby. L'intégration serait effective à partir du S26.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt</span>
+                                        <span>•</span>
+                                        <span>1er décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">26</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3">
+                                        <a href="https://github.com/google-deepmind" target="_blank" class="article-title">L'IA de DeepMind bat les modèles traditionnels de prévision des ouragans</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le modèle IA de Google DeepMind a livré les prévisions les plus précises de la saison 2025 des ouragans atlantiques, surpassant les systèmes physiques établis comme le Global Forecast System de la NOAA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>IA Ethique Insider</span>
+                                        <span>•</span>
+                                        <span>2 décembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-            `;
-            
-            // Sources section
-            const sourcesHTML = `
-                <div class="category-section" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e5e7eb;">
-                    <div class="category-header">
-                        <h2 class="category-title text-gray-600">Sources</h2>
-                    </div>
-                    <div class="text-sm text-gray-500 leading-relaxed">
-                        <p style="margin-bottom: 0.5rem;">Cette newsletter agrège et traduit les actualités des sources suivantes :</p>
-                        <ul style="list-style: none; padding: 0; margin-top: 1rem;">
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://alphasignal.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Alpha Signal</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://mozzabytes.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Mozza Bytes</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.upmynt.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Upmynt</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://nlp.elvissaravia.com/" target="_blank" style="color: #2563eb; text-decoration: none;">NLP Newsletter</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.theaireport.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">The AI Report</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://tldr.tech/" target="_blank" style="color: #2563eb; text-decoration: none;">TLDR AI</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.aitidbits.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">AI Tidbits</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.superhuman.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Superhuman</a></li>
-                            <li style="margin-bottom: 0.5rem;">• <a href="https://iaethiqueinsider.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">IA Éthique Insider</a></li>
-                        </ul>
-                    </div>
-                </div>
-            `;
-            
-            // Combine all sections
-            container.innerHTML = criticalHTML + importantHTML + goodToKnowHTML + sourcesHTML;
-        }
+            </div>
 
-        // Initialize on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            renderCategorizedLayout();
-        });
-    </script>
+            <!-- Sources Section -->
+            <div class="sources-section">
+                <h2 class="sources-title">Sources</h2>
+                <ul class="sources-list">
+                    <li><a href="https://alphasignal.ai/" target="_blank">Alpha Signal</a></li>
+                    <li><a href="https://mozzabytes.substack.com/" target="_blank">Mozza Bytes</a></li>
+                    <li><a href="https://www.upmynt.com/" target="_blank">Upmynt</a></li>
+                    <li><a href="https://nlp.elvissaravia.com/" target="_blank">NLP Newsletter</a></li>
+                    <li><a href="https://www.theaireport.ai/" target="_blank">The AI Report</a></li>
+                    <li><a href="https://tldr.tech/ai" target="_blank">TLDR AI</a></li>
+                    <li><a href="https://www.aitidbits.ai/" target="_blank">AI Tidbits</a></li>
+                    <li><a href="https://www.superhuman.ai/" target="_blank">Superhuman</a></li>
+                    <li><a href="https://iaethiqueinsider.substack.com/" target="_blank">IA Éthique Insider</a></li>
+                    <li><a href="https://www.humanintheloop.online/" target="_blank">Human in the Loop</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
