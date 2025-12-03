@@ -43,21 +43,36 @@ Use MCP tools to scrape the 10 required newsletter sources:
 9. **IA Ethique Insider** (Daphnée) - https://iaethiqueinsider.substack.com/
 10. **Human in the Loop** (Andreas Horn) - Search via Gmail
 
-### 3. Content Categorization
-Organize **minimum 25 news items** into three priority tiers:
+### 3. Viralité Analysis (News Ranking)
+**CRITICAL**: Before categorizing, perform a cross-source viralité analysis:
 
-- 🔴 **Critique (Critical)**: Major announcements, significant regulatory changes, industry-disrupting developments
-- 🟡 **Important**: Notable developments, significant research, important partnerships
-- 🟢 **Bon à Savoir (Good to Know)**: Interesting updates, emerging trends, useful tools
+1. **Collect all news** from all 10 sources first
+2. **Cross-reference** each news item across sources to count coverage
+3. **Rank by viralité** (number of sources covering the same story):
+   - **6+ sources** = Extremely viral, top priority
+   - **3-5 sources** = High viralité, critical news
+   - **2 sources** = Medium viralité, important news
+   - **1 source** = Low viralité, good to know
 
-### 4. Content Requirements
+4. **Display viralité** in each news item's metadata (e.g., "Alpha Signal, TLDR AI, Superhuman • 3 sources")
+
+### 4. Content Categorization
+Organize **minimum 25 news items** into three priority tiers, **ranked by viralité within each tier**:
+
+- 🔴 **Critique (Critical)**: High viralité (3+ sources) OR major announcements, significant regulatory changes, industry-disrupting developments
+- 🟡 **Important**: Medium viralité (2 sources) OR notable developments, significant research, important partnerships
+- 🟢 **Bon à Savoir (Good to Know)**: Single-source coverage, interesting updates, emerging trends, useful tools
+
+**Within each category**, news items must be ordered by viralité (most sources first).
+
+### 5. Content Requirements
 Each news item must include:
 - **Title** (in French) with hyperlink to source
 - **Two-line description** (in French)
 - **Specific, unique URL** for the news item (not the newsletter homepage)
 - Balanced representation across all 10 sources
 
-### 5. HTML Output Structure
+### 6. HTML Output Structure
 ```
 Header:
   - Title: "AI Weekly"
@@ -85,10 +100,12 @@ Footer:
 - All newsletter content must be **in French** (titles, descriptions, categories)
 - Template structure uses French labels: "Critique", "Important", "Bon à Savoir"
 
-### Source Balance
+### Source Balance & Diversity
 - Each of the 10 sources should contribute roughly equal number of articles
 - Scan all sources comprehensively before selecting items
 - Do not over-represent any single newsletter
+- **Top news items must come from diverse sources** (not all from the same newsletter)
+- When multiple sources cover the same story, list ALL sources in the metadata
 
 ## Working with Files
 

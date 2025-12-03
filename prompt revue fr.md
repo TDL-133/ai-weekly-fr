@@ -3,7 +3,13 @@ I will give you the last day to revue
  
 I want a bullet point answer with the main news concerning AI 
 I want a title for each news with two lines of description / text 
-rank me these news from the most important to the less one I want at least 25 news with three zones : critical, important, good to know
+rank me these news by VIRALITÉ (how many sources cover the same story):
+- First, cross-reference all news across all 10 sources
+- Count how many sources mention each news item
+- Rank from most viral (6+ sources) to least viral (1 source)
+- Display the source count for each news (e.g., "Alpha Signal, TLDR AI • 2 sources")
+
+I want at least 25 news with three zones : critical (high viralité 3+ sources), important (medium viralité 2 sources), good to know (single source)
 
 use only these newsletters in a balance way, from my gmail account, ensuring that they are all equally represented :
 Alpha Signal, Mozza Bytes, Upmynt, NLP Newsletter, The AI Report, TLDR AI, 
