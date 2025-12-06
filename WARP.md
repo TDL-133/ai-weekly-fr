@@ -74,6 +74,17 @@ Footer:
   - Sources section with all 10 newsletters and their URLs
 ```
 
+### 6. File Updates (IMPORTANT)
+After generating a new newsletter:
+1. **Save the newsletter** as `AI_Weekly_[DateRange].html` (e.g., `AI_Weekly_Dec1-6_2025.html`)
+2. **Copy to index.html**: Always update `index.html` with the new newsletter content:
+   ```bash
+   cp AI_Weekly_[DateRange].html index.html
+   ```
+3. **Commit both files** in the same PR:
+   - The dated newsletter file (for archive)
+   - The updated `index.html` (for the live site)
+
 ## Critical Constraints
 
 ### Token Budget Management
