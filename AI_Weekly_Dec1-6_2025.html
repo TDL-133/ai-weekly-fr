@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly - 1er-6 décembre 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            color: #111827;
+            background-color: white;
+        }
+
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        
+        .text-center { text-align: center; }
+        .text-xs { font-size: 0.75rem; line-height: 1rem; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+        
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5556; }
+        
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+        
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .category-section {
+            margin-bottom: 3rem;
+        }
+        
+        .category-header {
+            margin-bottom: 2rem;
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+        
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+        
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+        
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+        
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+        
+        .group {
+            transition: all 0.2s ease;
+        }
+        
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+        
+        .article-title {
+            transition: color 0.2s ease;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: #2563eb;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        article {
+            animation: fadeIn 0.5s ease-out forwards;
+            animation-fill-mode: both;
+        }
+        
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+
+        /* Sources section */
+        .sources-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .sources-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+
+        .sources-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+        }
+
+        .sources-list li a {
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+
+        .sources-list li a:hover {
+            color: #2563eb;
+        }
+
+        .note {
+            font-size: 0.875rem;
+            color: #9ca3af;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <!-- Header -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">Design by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">1er - 6 décembre 2025</p>
+                <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <!-- Content -->
+            <div id="minimal-news-container">
+                <!-- Critical Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">01</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://aws.amazon.com/blogs/aws/introducing-amazon-nova-forge-build-your-own-frontier-models-using-nova/">Amazon dévoile son arsenal IA complet à re:Invent 2025</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Amazon présente Nova 2, Nova Forge pour créer des modèles personnalisés, Nova Act pour les agents autonomes, et la puce Trainium 3 promettant 50% de réduction des coûts par rapport à Nvidia.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI, Superhuman, The AI Report • 4 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">02</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://mistral.ai/news/mistral-3">Mistral lance Mistral 3 avec 10 nouveaux modèles open-weight</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La startup française dévoile Mistral Large 3 (675B paramètres, 41B actifs) et des modèles edge 3B-14B sous licence Apache 2.0. Le Ministral 14B atteint 85% sur AIME '25, rivalisant avec GPT-5.1.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI, Superhuman, Upmynt • 4 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">03</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://blog.google/products/gemini/gemini-3-deep-think/">Google lance Gemini 3 Deep Think pour le raisonnement avancé</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le nouveau mode de raisonnement utilise des hypothèses parallèles pour résoudre des problèmes complexes. Scores : 41% sur Humanity's Last Exam, 45.1% sur ARC-AGI-2, 93.8% sur GPQA Diamond.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI, Superhuman • 3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">04</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/">OpenAI déclare « Code Red » face à la montée de Gemini</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Sam Altman reporte les publicités ChatGPT pour se concentrer sur les performances. Gemini a gagné 200M d'utilisateurs en 3 mois et passe 4x plus de temps sur l'app que ChatGPT selon les données d'octobre.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI, Superhuman, Upmynt • 3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">05</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html">Anthropic prépare une IPO historique à $300 milliards</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'entreprise a engagé un cabinet d'avocats et des banques majeures pour préparer ce qui pourrait être l'une des plus grandes introductions en bourse de l'histoire, en concurrence directe avec OpenAI.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI, Superhuman, The AI Report • 3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">06</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone">Anthropic acquiert Bun alors que Claude Code atteint $1 milliard</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic rachète le toolkit JavaScript haute performance Bun pour accélérer Claude Code, qui a atteint 1 milliard de dollars de revenus annuels seulement 6 mois après son lancement.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI • 2 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">07</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://blog.google/products/workspace/workspace-studio/">Google Workspace Studio : agents IA sans code pour Gmail, Docs et Sheets</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google lance une plateforme permettant de créer des agents IA personnalisés pour automatiser les flux de travail dans Gmail, Docs et Drive sans écrire une ligne de code.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI, Superhuman • 3 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Important Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">08</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/research/ai-interviewer">Anthropic Interviewer : 1 250 interviews pour étudier l'usage de l'IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic lance un outil d'interviews IA à grande échelle. Résultats : 91% des scientifiques veulent plus d'assistance recherche, les créatifs gèrent le stigmate autour de l'IA, les travailleurs gardent leurs tâches identitaires.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI • 2 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">09</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.techbuzz.ai/articles/anthropic-inks-200m-snowflake-deal-reaches-12-600-customers">Anthropic signe un partenariat de $200M avec Snowflake</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le plus grand partenariat entreprise d'Anthropic donne accès à Claude pour 12 600 clients Snowflake. Un pivot stratégique vers le B2B pour défier directement les concurrents.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://techcrunch.com/2025/12/04/eu-investigating-meta-over-policy-change-that-bans-rival-ai-chatbots-from-whatsapp/">L'UE enquête sur Meta pour l'interdiction des chatbots IA sur WhatsApp</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La Commission européenne ouvre une enquête antitrust contre Meta qui bannit ChatGPT, Perplexity et autres de WhatsApp tout en gardant Meta AI. Risque : amendes jusqu'à 10% du CA mondial.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://research.perplexity.ai/articles/browsesafe">Perplexity lance BrowseSafe contre les injections de prompts</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">BrowseSafe est un modèle et benchmark open-source pour détecter les tentatives d'injection de prompts cachées dans les pages web, protégeant les agents IA lors de la navigation.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal, TLDR AI • 2 sources</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://arxiv.org/abs/2412.xxxxx">Google Research publie Titans : 2M+ tokens sans attention complète</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Présenté à NeurIPS, Titans utilise une mémoire neuronale profonde avec mise à jour par « surprise » pour supporter des contextes de plus de 2 millions de tokens sans attention quadratique.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.superhuman.ai/p/metaverse-reverse">Meta réduit de 30% le budget Metaverse pour se concentrer sur l'IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Mark Zuckerberg réoriente les ressources de Reality Labs vers l'intelligence artificielle, confirmant le pivot stratégique majeur de Meta vers l'IA générative.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic">Comment l'IA transforme le travail chez Anthropic</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Une étude interne révèle que 27% du travail assisté par Claude n'aurait pas eu lieu autrement. Inquiétude : le mentorat décline car Claude devient le premier recours pour les questions.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://links.tldrnewsletter.com/ri2aNf">Nvidia remporte une victoire de lobbying sur les exportations de puces IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Nvidia obtient des assouplissements sur les restrictions d'exportation de puces IA, renforçant sa position dominante sur le marché mondial des semi-conducteurs pour l'intelligence artificielle.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Good to Know Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">16</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.runwayml.com/gen-4.5">Runway Gen-4.5 domine le classement vidéo text-to-video</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le nouveau modèle Runway se hisse en tête du classement Artificial Analysis devant Veo 3. Promesse : résultats « indiscernables des images du monde réel » pour les visuels cinématographiques.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">17</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://notebooklm.google.com/">NotebookLM étend la personnalisation du chat à 10 000 caractères</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google permet désormais des prompts système 20x plus longs dans NotebookLM, améliorant le contrôle sur le ton, le format et le style de raisonnement de l'assistant.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">18</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://cursor.sh/changelog">Cursor s'associe à OpenAI pour améliorer l'intégration Codex</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Cursor optimise son intégration avec OpenAI Codex via un design shell-forward, un mapping d'outils amélioré et des workflows linter pour une meilleure expérience développeur.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">19</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://openai.com/blog/codex-api">OpenAI ouvre l'accès API à GPT-5.1-Codex-Max</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le modèle de code agentique le plus puissant d'OpenAI devient accessible via l'API Responses, accompagné d'un guide de prompting détaillé pour optimiser les performances.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">20</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://openai.com/blog/gpt-5-1-development">OpenAI détaille les méthodes de développement de GPT-5.1</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Dans un nouveau podcast, OpenAI explique les techniques pour façonner le ton du modèle et les différences avec les versions précédentes, incluant les récompenses basées sur l'honnêteté.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">21</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.reuters.com/technology/eau-de-ai-amazon-gives-techies-whiff-software-driven-perfume-2025-12-04/">Amazon présente un parfum généré par IA à re:Invent</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Un lab interactif utilisant SageMaker permet de créer des parfums personnalisés via 4 modèles IA différents. Longues files d'attente mais résultats mitigés pour ce cas d'usage subjectif.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">22</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/nonprofits">Claude pour Nonprofits : jusqu'à 75% de réduction</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic lance un programme offrant aux organisations à but non lucratif un accès à Claude avec des réductions significatives et une formation gratuite à la maîtrise de l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">23</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://deepseek.com/v3-2">DeepSeek lance V3.2 et V3.2-Speciale</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Les nouveaux modèles chinois rivalisent en performance pure avec GPT-5 et Gemini 3, confirmant la montée en puissance de l'IA chinoise sur la scène mondiale.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">24</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://github.com/gadievron/raptor/">RAPTOR : framework de sécurité offensive basé sur Claude Code</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Un nouveau framework open-source combine outils de sécurité traditionnels avec l'automatisation agentique pour analyser le code, prouver l'exploitabilité et proposer des correctifs.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">25</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://ampcode.com/news/amp-inc">Amp se sépare de Sourcegraph pour devenir un lab de recherche indépendant</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Amp devient une entreprise indépendante pour se concentrer sur la frontière de l'IA appliquée au développement logiciel, anticipant une transformation fondamentale de la façon dont nous codons.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">26</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.aitidbits.ai/p/claude-code-best-practices">Tirer le meilleur de Claude Code : subagents, skills et fichiers contexte</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Guide détaillé sur les fonctionnalités avancées de Claude Code : subagents pour déléguer des tâches spécialisées, skills modulaires et fichiers CLAUDE.md pour le contexte persistant.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>AI Tidbits • 1 source</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Sources Section -->
+                <div class="sources-section">
+                    <h3 class="sources-title">Sources</h3>
+                    <ul class="sources-list">
+                        <li><a href="https://alphasignal.ai/last-email/">Alpha Signal</a></li>
+                        <li><a href="https://mozzabytes.substack.com/">Mozza Bytes</a></li>
+                        <li><a href="https://www.upmynt.com/">Upmynt</a></li>
+                        <li><a href="https://nlp.elvissaravia.com/">NLP Newsletter</a></li>
+                        <li><a href="https://www.theaireport.ai/newsletters">The AI Report</a></li>
+                        <li><a href="https://tldr.tech/">TLDR AI</a></li>
+                        <li><a href="https://www.aitidbits.ai/">AI Tidbits</a></li>
+                        <li><a href="https://www.superhuman.ai/">Superhuman</a></li>
+                        <li><a href="https://iaethiqueinsider.substack.com/">IA Ethique Insider</a></li>
+                        <li><a href="#">Human in the Loop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
