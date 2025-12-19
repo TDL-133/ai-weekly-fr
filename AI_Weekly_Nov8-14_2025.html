@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Weekly - 8-14 Novembre 2025</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+      line-height: 1.6;
+      color:#111827;
+      background-color:white;
+    }
+    .container { max-width:48rem; margin:0 auto; padding:4rem 2rem; }
+    .header { text-align:center; margin-bottom:4rem; }
+    .header h1 { font-size:2.25rem; font-weight:300; margin-bottom:1rem; }
+    .subtitle { font-style:italic; color:#6b7280; font-size:1rem; margin-bottom:1rem; }
+    .divider { width:4rem; height:1px; background:#d1d5db; margin:1rem auto; }
+    .date { color:#6b7280; font-size:0.875rem; }
+    .note { color:#6b7280; font-size:0.875rem; margin-top:0.5rem; }
+
+    .category-section { margin-bottom:3rem; }
+    .category-header { margin-bottom:2rem; }
+    .category-title { font-size:1.5rem; font-weight:400; margin-bottom:0.5rem; }
+    .category-divider { height:2px; width:3rem; }
+    .category-divider.red { background:#ef4444; }
+    .category-divider.yellow { background:#eab308; }
+    .category-divider.green { background:#22c55e; }
+
+    .text-red-500 { color:#ef4444; }
+    .text-yellow-500 { color:#eab308; }
+    .text-green-500 { color:#22c55e; }
+
+    .articles { display:flex; flex-direction:column; gap:3rem; }
+
+    article { opacity:0; animation:fadeIn 0.5s ease-out forwards; }
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(10px); }
+      to { opacity:1; transform:translateY(0); }
+    }
+    article:nth-child(1) { animation-delay:0.1s; }
+    article:nth-child(2) { animation-delay:0.2s; }
+    article:nth-child(3) { animation-delay:0.3s; }
+    article:nth-child(4) { animation-delay:0.4s; }
+    article:nth-child(5) { animation-delay:0.5s; }
+    article:nth-child(6) { animation-delay:0.6s; }
+    article:nth-child(7) { animation-delay:0.7s; }
+    article:nth-child(8) { animation-delay:0.8s; }
+    article:nth-child(9) { animation-delay:0.9s; }
+    article:nth-child(10) { animation-delay:1.0s; }
+
+    .article-content { display:flex; gap:1.5rem; align-items:flex-start; }
+    .article-number { font-size:1.5rem; font-weight:300; min-width:3rem; margin-top:0.25rem; }
+    .article-body { flex:1; }
+    .article-title { font-size:1.25rem; font-weight:500; margin-bottom:0.75rem; transition:color 0.2s ease; }
+    .article-title a { color:inherit; text-decoration:none; }
+    .article-title a:hover { color:#2563eb; }
+    .article-description { color:#4b5563; margin-bottom:1rem; line-height:1.625; }
+    .article-source { font-size:0.875rem; color:#9ca3af; font-style:italic; }
+
+    .sources-section { margin-top:4rem; padding-top:2rem; border-top:1px solid #e5e7eb; }
+    .sources-title { font-size:1.25rem; font-weight:500; margin-bottom:1.5rem; text-align:center; }
+    .sources-list { display:flex; flex-direction:column; gap:0.75rem; }
+    .source-item { color:#4b5563; font-size:0.875rem; }
+    .source-item a { color:#2563eb; text-decoration:none; }
+    .source-item a:hover { text-decoration:underline; }
+
+    @media (max-width:768px){
+      .container { padding:2rem 1rem; }
+      .header h1 { font-size:1.875rem; }
+      .article-content { gap:1rem; }
+      .article-number { font-size:1.25rem; min-width:2.5rem; }
+      .article-title { font-size:1.125rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AI Weekly</h1>
+      <p class="subtitle">Design by Dagorsey & Claude</p>
+      <div class="divider"></div>
+      <p class="date">8-14 Novembre 2025</p>
+      <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
+    </div>
+
+    <!-- CRITIQUE -->
+    <div class="category-section">
+      <div class="category-header">
+        <h2 class="category-title text-red-500">Critique</h2>
+        <div class="category-divider red"></div>
+      </div>
+      <div class="articles">
+        <!-- 1 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">01</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.theaireport.ai/newsletters" target="_blank">
+                  Anthropic engage 50&nbsp;milliards&nbsp;$ dans l’infrastructure IA américaine
+                </a>
+              </h3>
+              <p class="article-description">
+                The AI Report révèle qu’Anthropic s’engage sur un plan d’investissement massif dans les datacenters
+                et le hardware IA aux États‑Unis, afin de sécuriser sa capacité de calcul jusqu’à la fin de la décennie.
+                Cet engagement redistribue les cartes face à OpenAI et Google sur la course à la super‑intelligence.
+              </p>
+              <p class="article-source">Source : The AI Report</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">02</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.theaireport.ai/newsletters" target="_blank">
+                  Meta signe un accord cloud IA à 3&nbsp;milliards&nbsp;$ avec Nebius
+                </a>
+              </h3>
+              <p class="article-description">
+                Meta annonce un contrat pluriannuel avec Nebius pour louer de la capacité de calcul dédiée à l’IA
+                à hauteur de 3&nbsp;milliards&nbsp;$, afin d’alimenter ses modèles maison et ses expériences IA
+                dans les produits grand public. L’accord illustre la montée en puissance des fournisseurs alternatifs
+                à AWS, Azure et GCP.
+              </p>
+              <p class="article-source">Source : The AI Report</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">03</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://alphasignal.ai/last-email" target="_blank">
+                  Google teste des datacenters IA solaires en orbite avec le projet Suncatcher
+                </a>
+              </h3>
+              <p class="article-description">
+                D’après plusieurs rapports techniques compilés par Alpha Signal, Google explore l’idée de datacenters
+                IA alimentés par l’énergie solaire en orbite, afin de réduire les coûts énergétiques et l’empreinte carbone.
+                Ce concept de « cloud spatial » pourrait changer l’économie du calcul IA à grande échelle.
+              </p>
+              <p class="article-source">Source : Alpha Signal</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">04</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://ai-weekly.ai/newsletter-11-11-2025/" target="_blank">
+                  Nvidia et les hyperscalers sous pression : début de correction sur les valeurs IA
+                </a>
+              </h3>
+              <p class="article-description">
+                Plusieurs analyses relayées dans Superhuman et d’autres sources évoquent un début de « digestion » du rallye IA en bourse :
+                les hyperscalers (Microsoft, Alphabet, Amazon, Meta) pourraient voir leurs multiples comprimés si les
+                investissements massifs dans les datacenters ne se traduisent pas assez vite par des flux de trésorerie.
+              </p>
+              <p class="article-source">Source : Superhuman / AI-Weekly</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">05</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://radicaldatascience.wordpress.com/2025/11/07/ai-news-briefs-bulletin-board-for-november-2025/" target="_blank">
+                  Microsoft crée une équipe « Humanist Superintelligence » dédiée à l’IA avancée
+                </a>
+              </h3>
+              <p class="article-description">
+                Mustafa Suleyman détaille la nouvelle équipe de recherche de Microsoft, focalisée sur une super‑intelligence
+                « au service de l’humain », avec des priorités comme la santé, l’éducation et l’énergie. Le positionnement
+                nuance la course brute à l’AGI par une approche plus ciblée sur l’impact sociétal.
+              </p>
+              <p class="article-source">Source : Radical Data Science / The AI Report</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">06</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-context-engineering" target="_blank">
+                  Kimi K2 Thinking dépasse GPT‑5 et Claude Sonnet 4.5 sur certains benchmarks
+                </a>
+              </h3>
+              <p class="article-description">
+                Dans sa revue de la semaine, Elvis Saravia met en avant Kimi K2 Thinking, un modèle chinois de
+                raisonnement qui surpasse GPT‑5 et Claude Sonnet 4.5 sur plusieurs tests. La compétition se déplace
+                de plus en plus vers des modèles spécialisés dans le reasoning long contexte.
+              </p>
+              <p class="article-source">Source : NLP Newsletter</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">07</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://ai.wharton.upenn.edu/" target="_blank">
+                  75&nbsp;% des entreprises déclarent un ROI positif sur leurs projets IA
+                </a>
+              </h3>
+              <p class="article-description">
+                Un rapport de Wharton et relayé par plusieurs newsletters montre que la majorité des dirigeants
+                voient déjà un retour positif sur leurs initiatives IA, malgré des difficultés persistantes
+                de qualité et de gouvernance des données. Les cas d’usage les plus mûrs restent l’analytique,
+                le copilote bureautique et le support client.
+              </p>
+              <p class="article-source">Source : Upmynt / AI Tidbits</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-red-500">08</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.salesforce.com/news/stories/data-analytics-trends-2026/" target="_blank">
+                  84&nbsp;% des leaders tech jugent leurs données insuffisantes pour l’IA
+                </a>
+              </h3>
+              <p class="article-description">
+                Salesforce publie une étude montrant que la plupart des entreprises se disent « data‑driven »
+                tout en reconnaissant que leurs données sont incomplètes, mal gouvernées ou trop silotées
+                pour alimenter des modèles IA robustes. L’enjeu se déplace de l’expérimentation vers l’industrialisation.
+              </p>
+              <p class="article-source">Source : IA Ethique Insider / Salesforce</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- IMPORTANT -->
+    <div class="category-section">
+      <div class="category-header">
+        <h2 class="category-title text-yellow-500">Important</h2>
+        <div class="category-divider yellow"></div>
+      </div>
+      <div class="articles">
+        <!-- 9 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">09</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://alphasignal.ai/last-email" target="_blank">
+                  Les modèles « thinking » arrivent en production chez plusieurs labs
+                </a>
+              </h3>
+              <p class="article-description">
+                Alpha Signal recense une vague de modèles orientés reasoning (GPT‑5.1 Thinking, Kimi K2, modèles internes
+                d’Anthropic) testés en production pour des tâches complexes. Les premiers retours montrent des gains
+                importants sur la planification multi‑étapes et la fiabilité des agents.
+              </p>
+              <p class="article-source">Source : Alpha Signal</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">10</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://mozzabytes.substack.com/" target="_blank">
+                  Explosion des modèles IA chinois : DeepSeek, Qwen, Kimi en première ligne
+                </a>
+              </h3>
+              <p class="article-description">
+                Mozza Bytes souligne la montée en puissance des labs chinois, capables de sortir en moins d’un an
+                des modèles compétitifs au niveau mondial. La question de la souveraineté technologique européenne
+                revient au centre des débats sur la régulation et l’investissement.
+              </p>
+              <p class="article-source">Source : Mozza Bytes</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 11 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">11</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.upmynt.com/up273-le-noel-2025-sera-ia-ou-ne-sera-pas/" target="_blank">
+                  Noël 2025 : les consommateurs utiliseront l’IA pour choisir leurs achats
+                </a>
+              </h3>
+              <p class="article-description">
+                Upmynt anticipe une forte augmentation de l’usage de ChatGPT, Gemini et copilotes e‑commerce pour
+                comparer des produits, générer des listes de cadeaux et négocier des prix. Les marques qui n’optimisent
+                pas déjà leur présence dans ces flux risquent de perdre en visibilité.
+              </p>
+              <p class="article-source">Source : Upmynt</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 12 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">12</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-8fb" target="_blank">
+                  Top AI Papers of the Week : agents, context engineering et sécurité
+                </a>
+              </h3>
+              <p class="article-description">
+                La sélection de la semaine met en avant des travaux sur des agents IA capables de gérer
+                un contexte extrêmement long, sur de nouvelles méthodes de « context engineering 2.0 »
+                et sur la robustesse des modèles face aux attaques de prompt injection.
+              </p>
+              <p class="article-source">Source : NLP Newsletter</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 13 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">13</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://tldr.tech/ai" target="_blank">
+                  Apple accélère sur l’intégration de Gemini dans son écosystème
+                </a>
+              </h3>
+              <p class="article-description">
+                TLDR AI relaie les discussions autour d’un accord à plusieurs milliards entre Google et Apple pour
+                intégrer Gemini plus profondément dans iOS et macOS. L’objectif serait d’offrir des fonctions IA
+                avancées sans sacrifier la confidentialité, via un mélange on‑device / cloud.
+              </p>
+              <p class="article-source">Source : TLDR AI</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 14 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">14</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.theaireport.ai/" target="_blank">
+                  Les PDG imposent une « stratégie IA » à tous les métiers
+                </a>
+              </h3>
+              <p class="article-description">
+                The AI Report cite plusieurs enquêtes montrant que les directions générales demandent désormais
+                à chaque département (finance, RH, opérations) de formaliser son plan IA. Le risque :
+                une prolifération de POC déconnectés, sans gouvernance ni alignement business.
+              </p>
+              <p class="article-source">Source : The AI Report</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 15 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">15</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.aitidbits.ai/" target="_blank">
+                  Agents IA : de la démo impressionnante à la valeur concrète
+                </a>
+              </h3>
+              <p class="article-description">
+                AI Tidbits analyse les premiers retours d’entreprises ayant déployé des agents IA en production :
+                les gains sont réels mais souvent inférieurs aux promesses marketing, en particulier à cause
+                des limitations de contexte, de la latence et de la supervision humaine nécessaire.
+              </p>
+              <p class="article-source">Source : AI Tidbits</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 16 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">16</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.superhuman.ai/" target="_blank">
+                  Le marché des jobs IA se polarise : ingénieurs d’un côté, designers de l’autre
+                </a>
+              </h3>
+              <p class="article-description">
+                Superhuman met en lumière une étude Autodesk montrant que les profils les plus recherchés ne sont
+                pas uniquement les ML engineers, mais aussi les profils design & produit capables d’orchestrer
+                l’IA dans des expériences utilisateur cohérentes et utiles.
+              </p>
+              <p class="article-source">Source : Superhuman</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 17 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-yellow-500">17</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://iaethiqueinsider.substack.com/" target="_blank">
+                  Lignes rouges globales : vers un accord international sur les usages IA
+                </a>
+              </h3>
+              <p class="article-description">
+                IA Ethique Insider revient sur un appel global à définir des « red lines » pour les systèmes
+                d’armes autonomes, la manipulation de masse et les modèles capables de concevoir des agents pathogènes.
+                L’objectif : un accord d’ici 2026, mais le consensus politique reste fragile.
+              </p>
+              <p class="article-source">Source : IA Ethique Insider</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- BON À SAVOIR -->
+    <div class="category-section">
+      <div class="category-header">
+        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+        <div class="category-divider green"></div>
+      </div>
+      <div class="articles">
+        <!-- 18 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">18</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.superhuman.ai/" target="_blank">
+                  Gemini génère désormais des présentations complètes en un prompt
+                </a>
+              </h3>
+              <p class="article-description">
+                Superhuman décrit comment le mode Canvas de Gemini peut transformer un simple document ou
+                un brief en deck de slides prêt à l’emploi, avec export direct vers Google Slides. Un gain de temps
+                considérable pour les équipes marketing, sales et formation.
+              </p>
+              <p class="article-source">Source : Superhuman</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 19 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">19</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.mobihealthnews.com/video/collaboration-will-shape-ais-future" target="_blank">
+                  La collaboration public‑privé, clé pour l’IA en santé
+                </a>
+              </h3>
+              <p class="article-description">
+                Un échange HIMSS TV souligne que la mutualisation des coûts de R&amp;D, des datasets cliniques
+                et des compétences sera indispensable pour rendre les IA médicales soutenables à long terme,
+                tout en respectant les exigences de sécurité et de conformité.
+              </p>
+              <p class="article-source">Source : Human in the Loop / MobiHealthNews</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 20 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">20</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.aitidbits.ai/" target="_blank">
+                  Les « AI News Briefs » deviennent une ressource centrale pour les praticiens
+                </a>
+              </h3>
+              <p class="article-description">
+                AI Tidbits recommande le bulletin AI News Briefs de Radical Data Science comme un des meilleurs
+                moyens de suivre, en quelques minutes, l’essentiel de la recherche, des produits et des annonces
+                corporate sans se noyer dans le flux.
+              </p>
+              <p class="article-source">Source : AI Tidbits / Radical Data Science</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 21 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">21</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2d0" target="_blank">
+                  Les événements IA à suivre en Europe cet automne
+                </a>
+              </h3>
+              <p class="article-description">
+                Mozza Bytes liste les conférences phares (DotAI, Forward Data &amp; AI, meetups locaux) où se croisent
+                fondateurs de labs, équipes produit et régulateurs. Une bonne feuille de route pour réseauter si vous
+                travaillez dans l’écosystème français / européen.
+              </p>
+              <p class="article-source">Source : Mozza Bytes</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 22 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">22</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.humanintheloop.online/" target="_blank">
+                  Soumith Chintala quitte Meta et PyTorch, cap sur un nouveau projet
+                </a>
+              </h3>
+              <p class="article-description">
+                Plusieurs newsletters reviennent sur le départ de Soumith, co‑créateur de PyTorch, après 11 ans chez Meta.
+                Il annonce vouloir lancer une structure plus petite, centrée sur la recherche et les outils pour
+                praticiens, signe d’un possible renouveau dans l’écosystème open‑source.
+              </p>
+              <p class="article-source">Source : Human in the Loop</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 23 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">23</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://alphasignal.ai/" target="_blank">
+                  Les développeurs plébiscitent encore ChatGPT devant Claude en entreprise
+                </a>
+              </h3>
+              <p class="article-description">
+                Un graphique partagé dans plusieurs newsletters montre que, malgré l’excellente réputation de Claude
+                sur le marché B2B, ChatGPT reste nettement plus utilisé comme outil de travail quotidien, en partie
+                grâce à son antériorité et son intégration dans de nombreux outils.
+              </p>
+              <p class="article-source">Source : Alpha Signal / Business Insider</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 24 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">24</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://tldr.tech/ai" target="_blank">
+                  L’IA générative s’invite dans la production vidéo publicitaire
+                </a>
+              </h3>
+              <p class="article-description">
+                TLDR AI mentionne plusieurs campagnes où des outils type Sora, Runway ou Pika sont utilisés pour
+                générer des assets vidéo entiers, réduisant fortement les coûts de tournage. Les agences doivent
+                se repositionner entre créativité, direction artistique et pilotage des outils.
+              </p>
+              <p class="article-source">Source : TLDR AI</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 25 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">25</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://www.upmynt.com/" target="_blank">
+                  Comment les PME utilisent déjà des copilotes « maison » via no‑code
+                </a>
+              </h3>
+              <p class="article-description">
+                Upmynt illustre plusieurs cas de PME qui assemblent des copilotes internes en quelques jours avec
+                des briques no‑code (Zapier, n8n, Airtable, assistants IA), sans équipe ML dédiée. La barrière à
+                l’entrée technique diminue, mais les enjeux de sécurité et de qualité des données restent forts.
+              </p>
+              <p class="article-source">Source : Upmynt</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 26 -->
+        <article>
+          <div class="article-content">
+            <div class="article-number text-green-500">26</div>
+            <div class="article-body">
+              <h3 class="article-title">
+                <a href="https://iaethiqueinsider.substack.com/" target="_blank">
+                  Étudiants et IA : 48&nbsp;% jugent que leur esprit critique s’est dégradé
+                </a>
+              </h3>
+              <p class="article-description">
+                IA Ethique Insider commente un sondage KPMG au Canada : près de la moitié des étudiants estiment
+                que leur esprit critique s’est réduit depuis qu’ils utilisent massivement l’IA générative pour les
+                devoirs. En parallèle, 77&nbsp;% réclament des cours dédiés à un usage éthique et responsable de l’IA.
+              </p>
+              <p class="article-source">Source : IA Ethique Insider</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="sources-section">
+      <h2 class="sources-title">Sources</h2>
+      <div class="sources-list">
+        <div class="source-item"><strong>1. Alpha Signal</strong> – <a href="https://alphasignal.ai/last-email" target="_blank">https://alphasignal.ai/last-email</a></div>
+        <div class="source-item"><strong>2. Mozza Bytes</strong> – <a href="https://mozzabytes.substack.com/" target="_blank">https://mozzabytes.substack.com/</a></div>
+        <div class="source-item"><strong>3. Upmynt</strong> – <a href="https://www.upmynt.com/" target="_blank">https://www.upmynt.com/</a></div>
+        <div class="source-item"><strong>4. NLP Newsletter (Elvis Saravia)</strong> – <a href="https://nlp.elvissaravia.com/" target="_blank">https://nlp.elvissaravia.com/</a></div>
+        <div class="source-item"><strong>5. The AI Report</strong> – <a href="https://www.theaireport.ai/newsletters" target="_blank">https://www.theaireport.ai/newsletters</a></div>
+        <div class="source-item"><strong>6. TLDR AI</strong> – <a href="https://tldr.tech/ai" target="_blank">https://tldr.tech/ai</a></div>
+        <div class="source-item"><strong>7. AI Tidbits (Sahar Mor)</strong> – <a href="https://www.aitidbits.ai/" target="_blank">https://www.aitidbits.ai/</a></div>
+        <div class="source-item"><strong>8. Superhuman (Zain Kahn)</strong> – <a href="https://www.superhuman.ai/" target="_blank">https://www.superhuman.ai/</a></div>
+        <div class="source-item"><strong>9. IA Ethique Insider (Daphnée)</strong> – <a href="https://iaethiqueinsider.substack.com/" target="_blank">https://iaethiqueinsider.substack.com/</a></div>
+        <div class="source-item"><strong>10. Human in the Loop (Andreas Horn)</strong> – <a href="https://www.humanintheloop.online/" target="_blank">https://www.humanintheloop.online/</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

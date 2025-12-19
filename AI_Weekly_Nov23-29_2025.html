@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Newsletter</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.5; color: #111827; background-color: white; }
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        .text-center { text-align: center; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5563; }
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+        .subtitle { font-style: italic; color: #6b7280; font-size: 1rem; margin-bottom: 1rem; }
+        .category-section { margin-bottom: 3rem; }
+        .category-header { margin-bottom: 2rem; }
+        .category-title { font-size: 1.5rem; font-weight: 400; margin-bottom: 0.5rem; }
+        .category-divider { height: 2px; width: 3rem; }
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+        .divider { width: 4rem; height: 1px; background-color: #d1d5db; margin: 1rem auto; }
+        .group { transition: all 0.2s ease; }
+        .group:hover .article-title { color: #2563eb; }
+        .article-title { transition: color 0.2s ease; }
+        .article-title a { color: inherit; text-decoration: none; }
+        .article-title a:hover { color: #2563eb; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        article { animation: fadeIn 0.5s ease-out forwards; animation-fill-mode: both; }
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        .sources-section { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid #e5e7eb; }
+        .sources-title { font-size: 1.25rem; font-weight: 500; margin-bottom: 1.5rem; color: #111827; }
+        .sources-list { list-style: none; padding: 0; }
+        .sources-list li { margin-bottom: 0.75rem; color: #4b5563; }
+        .sources-list a { color: #2563eb; text-decoration: none; }
+        .sources-list a:hover { text-decoration: underline; }
+        .note { font-size: 0.875rem; color: #6b7280; font-style: italic; margin-bottom: 2rem; }
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">Design by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">23-29 Novembre 2025</p>
+                <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <div id="minimal-news-container">
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">01</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://github.com/deepseek-ai/DeepSeek-Math-V2" target="_blank">DeepSeek dévoile un modèle mathématique open-source rivalisant avec les meilleurs</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">DeepSeek-Math-V2 (685B paramètres) atteint 118/120 sur Putnam et obtient des performances niveau or aux olympiades mathématiques (IMO 2025, CMO 2024). Le système combine un générateur avec un vérificateur dédié qui score chaque étape de dérivation, permettant une précision sans précédent en raisonnement mathématique formel.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>DeepSeek / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">02</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/news/claude-opus-4-5" target="_blank">Anthropic lance Claude Opus 4.5 : plus puissant, moins cher, plus efficace</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le nouveau modèle phare d'Anthropic améliore drastiquement les performances en codage et raisonnement complexe tout en réduisant les coûts API. Opus 4.5 introduit également une fonctionnalité de compaction automatique des messages anciens pour éviter les interruptions en pleine conversation, permettant des sessions de chat ultra-longues.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Anthropic / TLDR / Superhuman</span>
+                                        <span>•</span>
+                                        <span>25 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">03</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents" target="_blank">Anthropic présente un framework pour des agents IA stables sur longue durée</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le système "initializer-plus-coder harness" maintient la cohérence des agents Claude sur plusieurs fenêtres de contexte. Cette approche pilotée par fonctionnalités permet aux agents d'effectuer des opérations complexes sans dériver comportementalement, marquant une avancée majeure pour les workflows autonomes multi-étapes.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Anthropic / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">04</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://openreview.net/forum?id=1b7whO4SfY" target="_blank">L'équipe Qwen d'Alibaba remporte le Best Paper de NeurIPS pour une innovation majeure</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le papier primé introduit une porte sigmoïde dans le mécanisme d'attention qui stabilise l'entraînement et améliore le traitement des longs contextes. Cette modification architecturale simple mais élégante réduit les pics d'activation et atténue les "attention-sink tokens", avec une amélioration de 0.2 perplexité sur tous les benchmarks.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alibaba Qwen / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">05</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://openai.com/index/mixpanel-incident/" target="_blank">OpenAI coupe l'accès à Mixpanel suite à une fuite de données API</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Une brèche de sécurité chez Mixpanel a exposé des données analytics restreintes d'utilisateurs de l'API OpenAI. Bien que seules des informations de profil basiques aient été compromises (ChatGPT non affecté), l'incident soulève des questions sur la sécurité des chaînes d'approvisionnement dans l'écosystème IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>OpenAI / Alpha Signal / TLDR</span>
+                                        <span>•</span>
+                                        <span>27-28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">06</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://deep-scholar.vercel.app/" target="_blank">DeepScholar : le système de recherche open-source 2× plus rapide que DeepResearch</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Des chercheurs de Berkeley et Stanford lancent une alternative ouverte aux moteurs de synthèse des grands labs. Propulsé par LOTUS, DeepScholar traite des centaines de papers avec optimisations pipeline de 100×-400× et génère des rapports longs avec citations en accédant au web en temps réel.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Berkeley/Stanford / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">07</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theaireport.ai/newsletter/sap-builds-eu-ai-cloud-for-european-sovereignty" target="_blank">SAP construit un cloud IA européen pour la souveraineté numérique de l'UE</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le géant allemand investit massivement dans une infrastructure IA dédiée à l'Europe, répondant aux préoccupations de souveraineté des données. Cette initiative intervient alors que l'UE affaiblit paradoxalement le RGPD sous pression économique, créant une tension entre ambitions souverainistes et réalités réglementaires.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>SAP / The AI Report</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">08</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://iaethiqueinsider.substack.com/p/et-si-nous-faisions-le-point-sur" target="_blank">Yann LeCun quitte Meta pour développer ses "world models"</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le pionnier de l'IA et architecte des réseaux convolutifs part créer une IA ancrée dans le monde réel. LeCun affirme que "l'IA finira par dépasser l'intelligence humaine mais pas avec les LLMs actuels", prônant une approche basée sur la physique et l'interaction avec l'environnement plutôt que sur le pur langage.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Meta / IA Ethique Insider</span>
+                                        <span>•</span>
+                                        <span>19 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">09</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theaireport.ai/newsletter/white-house-halts-executive-order-to-override-state-ai-laws" target="_blank">La Maison Blanche suspend un décret pour contourner les lois étatiques sur l'IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'administration américaine recule face aux États qui souhaitent réguler l'IA localement, marquant un tournant dans la gouvernance de l'IA aux USA. Cette décision reflète les tensions croissantes entre régulation fédérale et souveraineté des États sur les questions technologiques sensibles.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Maison Blanche / The AI Report</span>
+                                        <span>•</span>
+                                        <span>24 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank">Meta lance SAM 3 : segmentation pilotée par texte et reconstruction 3D</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Les nouveaux modèles open-source permettent de segmenter n'importe quel objet via commande textuelle et de reconstruire des objets 3D à partir d'une seule image. SAM 3 élargit considérablement les cas d'usage de vision par ordinateur en combinant langage naturel et compréhension spatiale avancée.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Meta AI / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>20 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.perplexity.ai/hub/blog/introducing-ai-assistants-with-memory" target="_blank">Perplexity introduit la mémoire cross-modèle pour ses assistants IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La fonctionnalité stocke préférences et historique récent de manière sécurisée, permettant une personnalisation persistante des réponses. Cette mémoire transcende les sessions individuelles, offrant une expérience conversationnelle véritablement continue et contextuelle sur la durée.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Perplexity / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://huggingface.co/Tongyi-MAI/Z-Image-Turbo" target="_blank">Alibaba Tongyi dévoile Z-Image : modèle compact rivalisant avec les géants</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ce modèle open-source photorealistic égale les performances des générateurs plus imposants en réalisme et rendu de texte. Z-Image prouve qu'efficacité et qualité peuvent coexister, démocratisant la génération d'images haute fidélité pour des déploiements à moindre coût.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alibaba Tongyi / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-gemini-3-nano-banana" target="_blank">Google limite l'accès gratuit à Gemini 3 Pro face à la demande explosive</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Suite au lancement de Gemini 3, Google ajuste les quotas gratuits en raison d'une utilisation massive. Nano Banana Pro, le modèle d'images de Gemini 2.5, domine GenImage-Bench avec des capacités inédites de contrôle, modification et compréhension visuelle intégrées à Gemini 3.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Google / TLDR / NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>22-27 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theaireport.ai/newsletter/jeff-bezos-returns-to-operations-with-6-2b-ai-startup" target="_blank">Jeff Bezos revient aux opérations avec une startup IA de 6,2 milliards$</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le fondateur d'Amazon s'implique directement dans une nouvelle venture d'intelligence artificielle ultra-capitalisée. Ce retour opérationnel marque un tournant après des années de retrait progressif d'Amazon, signalant l'importance stratégique qu'il accorde à cette initiative IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report / Superhuman</span>
+                                        <span>•</span>
+                                        <span>18 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theaireport.ai/newsletter/tsmc-sues-ex-executive-at-intel-over-trade-secrets" target="_blank">TSMC poursuit un ancien cadre chez Intel pour vol de secrets industriels</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le fabricant taiwanais de puces attaque en justice un ex-dirigeant désormais chez Intel, l'accusant d'avoir emporté des informations confidentielles. Cette affaire reflète l'intensification de la guerre des talents et des technologies dans l'industrie des semi-conducteurs, cruciale pour l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TSMC / The AI Report</span>
+                                        <span>•</span>
+                                        <span>26 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">16</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://x.ai/news/grok-4-1-fast" target="_blank">xAI présente Grok 4.1 Fast avec 2M tokens de contexte</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le nouveau modèle d'Elon Musk offre un raisonnement longue portée stable avec fenêtre de contexte massive. L'Agent Tools API permet aux développeurs de créer des agents sophistiqués avec accès à des outils externes et capacités d'action concrètes dans le monde réel.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>xAI / Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>20 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">17</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.upmynt.com/up277-sans-precedent/" target="_blank">Gemini 3 offre 3 usages sans précédent selon Upmynt</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La plateforme française d'analyse IA identifie trois cas d'usage révolutionnaires permis par Gemini 3. La nouvelle version excelle particulièrement dans la génération d'infographies réelles avec Nano Banana Pro, transformant radicalement la création de contenus visuels professionnels.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt / Google</span>
+                                        <span>•</span>
+                                        <span>26 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">18</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-cfc" target="_blank">Les news IA de la semaine par Mozza Bytes</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La newsletter francophone compile les derniers outils, événements et levées de fonds de la semaine. Focus sur l'écosystème français et européen de l'IA avec analyses des tendances émergentes et impacts business des nouvelles technologies déployées.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Mozza Bytes</span>
+                                        <span>•</span>
+                                        <span>25 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">19</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.superhuman.ai/p/anthropics-most-powerful-model-is-here" target="_blank">Automatisez votre travail avec les agents IA selon Superhuman</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Guide pratique sur l'utilisation des derniers agents IA pour automatiser workflows complexes. Superhuman partage des techniques concrètes pour intégrer Claude Opus 4.5 et autres modèles avancés dans des processus métier quotidiens, avec exemples et bonnes pratiques.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman AI</span>
+                                        <span>•</span>
+                                        <span>25 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">20</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.superhuman.ai/p/nano-banana-pro-goes-live" target="_blank">De la première prompt à l'app finale avec Commands</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Tutorial step-by-step pour transformer une idée en application fonctionnelle en utilisant les outils IA de nouvelle génération. L'article démontre comment Nano Banana Pro et autres modèles peuvent accélérer dramatiquement le cycle de développement produit.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman AI</span>
+                                        <span>•</span>
+                                        <span>21 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">21</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-df4" target="_blank">Top AI Papers of the Week par Elvis Saravia</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Sélection hebdomadaire des papiers de recherche IA les plus impactants (17-23 novembre). La newsletter NLP couvre les avancées en agents IA, SIMA 2 de DeepMind pour mondes virtuels 3D, et les dernières percées en traitement du langage naturel.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter / Elvis Saravia</span>
+                                        <span>•</span>
+                                        <span>23 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">22</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.aitidbits.ai/p/open-source-agents" target="_blank">La boîte à outils open-source pour construire des agents IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Sahar Mor présente un guide opinionné et orienté développeurs des meilleurs frameworks open-source pour agents IA. Comparaison détaillée des architectures, patterns d'implémentation et trade-offs pour bâtir des agents avec impact réel en production.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>AI Tidbits / Sahar Mor</span>
+                                        <span>•</span>
+                                        <span>28 novembre 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">23</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://tldr.tech/" target="_blank">iPhone pliable sans pli à 2400$ selon les rumeurs</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Apple aurait réalisé des avancées majeures pour créer un design pliable sans crease visible. Le produit serait passé du stade expérimental à la pré-production de masse, avec lancement prévu septembre prochain. Le prix élevé reflète la complexité technique de cette innovation.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>CNET / TLDR Tech</span>
+                                        <span>•</span>
+                                        <span>28 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">24</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.superhuman.ai/p/robotics-special-sunday-s-new-robot-does-your-dishes" target="_blank">Le nouveau robot de Sunday fait la vaisselle pour vous</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Sunday dévoile un robot domestique capable d'effectuer des tâches ménagères complexes comme la vaisselle. L'essor de la robotique grand public s'accélère avec des designs plus abordables et des capacités pratiques réelles, rapprochant la promesse d'assistants robotiques du quotidien.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Sunday Robotics / Superhuman</span>
+                                        <span>•</span>
+                                        <span>22 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">25</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://iaethiqueinsider.substack.com/p/ne-saviez-vous-pas-que-nous-etions" target="_blank">Les câbles sous-marins : enjeu géopolitique majeur de l'IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Plus de 95% du trafic international transite par ces infrastructures vitales pour l'IA. Meta, Google, Amazon et Microsoft contrôlent désormais 50% du marché avec des investissements de 13 milliards$ prévus sur 2025-2027, soulevant des questions de souveraineté et de résilience.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>IA Ethique Insider</span>
+                                        <span>•</span>
+                                        <span>25 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">26</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theaireport.ai/newsletter/musk-s-xai-builds-solar-farm-for-ai-data-center" target="_blank">xAI de Musk construit une ferme solaire pour son datacenter IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Face aux critiques sur la consommation énergétique de l'IA, Elon Musk investit dans le solaire pour alimenter les infrastructures xAI. Cette initiative illustre la pression croissante sur les géants tech pour décarboner leurs opérations IA massives et répondre aux enjeux climatiques.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>xAI / The AI Report</span>
+                                        <span>•</span>
+                                        <span>27 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">27</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.superhuman.ai/p/sunday-special-scientists-grow-bone-marrow-in-the-lab" target="_blank">Des scientifiques cultivent de la moelle osseuse en laboratoire</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Percée biomédicale majeure avec la culture de moelle osseuse fonctionnelle in vitro. Cette avancée pourrait révolutionner les traitements de leucémie et autres maladies sanguines, ouvrant la voie à des thérapies personnalisées sans dépendre de donneurs compatibles.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Recherche médicale / Superhuman</span>
+                                        <span>•</span>
+                                        <span>23 novembre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="sources-section">
+                    <h3 class="sources-title">Sources</h3>
+                    <ul class="sources-list">
+                        <li>1. <a href="https://alphasignal.ai/last-email/" target="_blank">Alpha Signal</a> - Résumés quotidiens des dernières actualités IA</li>
+                        <li>2. <a href="https://mozzabytes.substack.com/" target="_blank">Mozza Bytes</a> - Analyses IA francophones hebdomadaires</li>
+                        <li>3. <a href="https://www.upmynt.com/" target="_blank">Upmynt</a> - Newsletter IA française bi-hebdomadaire</li>
+                        <li>4. <a href="https://nlp.elvissaravia.com/" target="_blank">NLP Newsletter (Elvis Saravia)</a> - Top AI Papers et AI Agents Weekly</li>
+                        <li>5. <a href="https://www.theaireport.ai/newsletters" target="_blank">The AI Report</a> - Actualités IA pour dirigeants d'entreprise</li>
+                        <li>6. <a href="https://tldr.tech/" target="_blank">TLDR AI</a> - Résumés tech quotidiens incluant l'IA</li>
+                        <li>7. <a href="https://www.aitidbits.ai/" target="_blank">AI Tidbits (Sahar Mor)</a> - Perspectives hebdomadaires sur l'IA</li>
+                        <li>8. <a href="https://www.superhuman.ai/" target="_blank">Superhuman (Zain Kahn)</a> - Newsletter IA quotidienne n°1</li>
+                        <li>9. <a href="https://iaethiqueinsider.substack.com/" target="_blank">IA Éthique Insider (Daphnée)</a> - Analyses éthiques et réglementaires</li>
+                        <li>10. Human in the Loop (Andreas Horn) - Via recherche Gmail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
