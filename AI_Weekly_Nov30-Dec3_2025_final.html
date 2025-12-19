@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            color: #111827;
+            background-color: white;
+        }
+
+        /* Container */
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        
+        /* Spacing */
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        
+        /* Typography */
+        .text-center { text-align: center; }
+        .text-xs { font-size: 0.75rem; line-height: 1rem; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+        
+        /* Colors */
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5563; }
+        
+        /* Category colors */
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+        
+        /* Subtitle styling */
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Category section styling */
+        .category-section {
+            margin-bottom: 3rem;
+        }
+        
+        .category-header {
+            margin-bottom: 2rem;
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+        
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+        
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+        
+        /* Layout */
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+        
+        /* Divider */
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+        
+        /* Article styling */
+        .group {
+            transition: all 0.2s ease;
+        }
+        
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+        
+        .article-title {
+            transition: color 0.2s ease;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        article {
+            animation: fadeIn 0.5s ease-out forwards;
+            animation-fill-mode: both;
+        }
+        
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <!-- Header -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">30 Novembre - 3 Décembre 2025</p>
+                <p class="text-xs text-gray-400 mt-1">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <!-- Content -->
+            <div id="minimal-news-container">
+                <!-- News items will be populated here by categories -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // News data organized by categories
+        const newsData = {
+            critical: [
+                {
+                    id: "1",
+                    title: "Anthropic dévoile SCONE-bench : les agents IA extraient 4,6M$ de contrats blockchain",
+                    summary: "Anthropic publie SCONE-bench, un testbed blockchain reproductible qui mesure le succès des exploits en dollars. Les agents frontières ont extrait 4,6 millions de dollars de contrats déployés après leur cutoff de mars 2025, démontrant des capacités d'exploitation sophistiquées.",
+                    rank: 1,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://www.anthropic.com/news/scone-bench"
+                },
+                {
+                    id: "2",
+                    title: "Runway présente Gen-4.5 : premier sur les benchmarks vidéo",
+                    summary: "Runway annonce Gen-4.5, son modèle le plus puissant pour des visuels cinématographiques et réalistes. Le modèle atteint un score de 1 247 sur le benchmark Text-to-Video d'Artificial Analysis, le plus élevé enregistré à ce jour.",
+                    rank: 2,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://runwayml.com/research/introducing-gen-4-5"
+                },
+                {
+                    id: "3",
+                    title: "Hugging Face lance Transformers v5 avec interface d'attention unifiée",
+                    summary: "Hugging Face réorganise tous les modèles en composants modulaires plus clairs avec Transformers v5. Une nouvelle AttentionInterface unifie FA1/2/3, FlexAttention et SDPA, simplifiant l'intégration et la maintenance.",
+                    rank: 3,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://huggingface.co/blog/transformers-v5"
+                },
+                {
+                    id: "4",
+                    title: "DeepSeek dévoile un modèle de raisonnement open-source rivalisant avec Gemini 3 Pro",
+                    summary: "DeepSeek présente un modèle de raisonnement open-source qui égale les performances de Gemini 3 Pro de Google. Cette avancée majeure démontre que des modèles open-source peuvent rivaliser avec les meilleurs modèles propriétaires.",
+                    rank: 4,
+                    source: "Alpha Signal",
+                    timeAgo: "1 déc",
+                    url: "https://github.com/deepseek-ai/DeepSeek-R1"
+                },
+                {
+                    id: "5",
+                    title: "OpenAI prend une participation dans Thrive Holdings",
+                    summary: "OpenAI investit stratégiquement dans Thrive Holdings, élargissant son influence dans l'écosystème de la santé et du bien-être. Cette acquisition marque une diversification des investissements d'OpenAI au-delà de l'IA pure.",
+                    rank: 5,
+                    source: "The AI Report",
+                    timeAgo: "2 déc",
+                    url: "https://www.theaireport.ai/newsletter/openai-buys-stake-in-thrive-holdings"
+                },
+                {
+                    id: "6",
+                    title: "Amazon Connect ajoute des agents IA autonomes",
+                    summary: "Amazon intègre des agents IA autonomes dans Amazon Connect, permettant une automatisation complète des interactions client. Les agents peuvent gérer des conversations complexes sans intervention humaine.",
+                    rank: 6,
+                    source: "The AI Report",
+                    timeAgo: "1 déc",
+                    url: "https://www.theaireport.ai/newsletter/amazon-connect-adds-autonomous-ai-agents"
+                },
+                {
+                    id: "7",
+                    title: "Kuaishou lance Kling O1 : modèle unifié surpassant Google Veo 3.1",
+                    summary: "La startup chinoise Kuaishou dévoile Kling O1, un modèle unifié pour la génération et l'édition vidéo détaillée qui surpasse Google Veo 3.1. Le modèle combine génération et édition dans une seule architecture.",
+                    rank: 7,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://kling.kuaishou.com/en/o1"
+                },
+                {
+                    id: "8",
+                    title: "Runway bat Sora et Veo sur la génération vidéo",
+                    summary: "Runway établit un nouveau standard avec Gen-4.5, surpassant OpenAI Sora et Google Veo sur les benchmarks de génération vidéo. Le modèle excelle particulièrement sur les mouvements de caméra complexes et les détails fins.",
+                    rank: 8,
+                    source: "Superhuman",
+                    timeAgo: "2 déc",
+                    url: "https://www.superhuman.ai/p/runway-beats-sora-veo-at-video"
+                }
+            ],
+            important: [
+                {
+                    id: "9",
+                    title: "Google intègre les sorties structurées de Gemini 3 Pro avec Search",
+                    summary: "Google combine les sorties structurées de Gemini 3 Pro avec la recherche intégrée pour une meilleure récupération d'informations. Cette intégration améliore significativement la précision et la pertinence des réponses.",
+                    rank: 9,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://ai.google.dev/gemini-api/docs/structured-output"
+                },
+                {
+                    id: "10",
+                    title: "Manus lance Projects : espace de travail permanent pour tâches récurrentes",
+                    summary: "Manus présente Projects pour transformer les tâches récurrentes en espaces de travail structurés avec instructions et fichiers sauvegardés. L'outil vise à simplifier la gestion de projets IA répétitifs.",
+                    rank: 10,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://manus.app/projects"
+                },
+                {
+                    id: "11",
+                    title: "Nous Research active le chat anonyme gratuit et paiements crypto",
+                    summary: "Nous Research permet désormais le chat anonyme gratuit et ajoute des paiements crypto pour l'inférence via Coinbase. Cette initiative démocratise l'accès aux modèles d'IA avancés.",
+                    rank: 11,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://nous.chat"
+                },
+                {
+                    id: "12",
+                    title: "Artificial Analysis compare modèles ouverts et fermés avec framework d'ouverture",
+                    summary: "Artificial Analysis lance un nouveau benchmark pour mesurer la transparence des modèles IA, comparant systématiquement les approches ouvertes et fermées. Le framework évalue plusieurs dimensions de l'ouverture.",
+                    rank: 12,
+                    source: "Alpha Signal",
+                    timeAgo: "2 déc",
+                    url: "https://artificialanalysis.ai/models/transparency"
+                },
+                {
+                    id: "13",
+                    title: "L'IA écrase les records du Black Friday",
+                    summary: "Les outils IA ont joué un rôle majeur dans le succès du Black Friday 2025, avec une automatisation massive des ventes et du service client. Les entreprises rapportent des gains d'efficacité sans précédent grâce aux agents IA.",
+                    rank: 13,
+                    source: "Superhuman",
+                    timeAgo: "1 déc",
+                    url: "https://www.superhuman.ai/p/ai-crushed-black-friday"
+                },
+                {
+                    id: "14",
+                    title: "CEO d'Anthropic convoqué pour témoigner devant le Congrès",
+                    summary: "Le PDG d'Anthropic, Dario Amodei, est appelé à témoigner devant le Congrès américain sur les risques et opportunités de l'IA. Cette audition marque une intensification de l'examen réglementaire des entreprises d'IA de pointe.",
+                    rank: 14,
+                    source: "Superhuman",
+                    timeAgo: "28 nov",
+                    url: "https://www.superhuman.ai/p/anthropic-ceo-called-to-testify"
+                },
+                {
+                    id: "15",
+                    title: "SAP construit un cloud IA européen pour la souveraineté numérique",
+                    summary: "SAP lance une infrastructure cloud IA dédiée à l'Europe, répondant aux préoccupations de souveraineté numérique. L'initiative vise à offrir une alternative européenne conforme au RGPD.",
+                    rank: 15,
+                    source: "The AI Report",
+                    timeAgo: "28 nov",
+                    url: "https://www.theaireport.ai/newsletter/sap-builds-eu-ai-cloud-for-european-sovereignty"
+                },
+                {
+                    id: "16",
+                    title: "xAI de Musk construit une ferme solaire pour son datacenter IA",
+                    summary: "L'entreprise xAI d'Elon Musk annonce la construction d'une ferme solaire dédiée pour alimenter son datacenter d'IA. Le projet vise à réduire l'empreinte carbone de l'entraînement des modèles.",
+                    rank: 16,
+                    source: "The AI Report",
+                    timeAgo: "27 nov",
+                    url: "https://www.theaireport.ai/newsletter/musk-s-xai-builds-solar-farm-for-ai-data-center"
+                }
+            ],
+            goodToKnow: [
+                {
+                    id: "17",
+                    title: "Effet wahou : les dernières avancées qui impressionnent",
+                    summary: "Upmynt explore les récentes avancées IA qui génèrent un effet wahou chez les utilisateurs. De la génération vidéo aux agents autonomes, la semaine a été riche en innovations spectaculaires.",
+                    rank: 17,
+                    source: "Upmynt",
+                    timeAgo: "1 déc",
+                    url: "https://www.upmynt.com/um278-effet-wahou/"
+                },
+                {
+                    id: "18",
+                    title: "Retour d'Inde : l'élan de l'IA est indéniable",
+                    summary: "Andreas Horn partage ses observations sur l'écosystème IA indien. Le pays connaît une croissance explosive des startups IA et une adoption massive des technologies d'IA dans tous les secteurs.",
+                    rank: 18,
+                    source: "Human in the Loop",
+                    timeAgo: "1 déc",
+                    url: "https://www.humanintheloop.online/p/back-from-india"
+                },
+                {
+                    id: "19",
+                    title: "La souveraineté numérique et l'extraterritorialité sans bullsh*t",
+                    summary: "Daphnée analyse les enjeux de souveraineté numérique et d'extraterritorialité dans le contexte de l'IA. L'article démystifie les concepts et propose une vision pragmatique des défis européens.",
+                    rank: 19,
+                    source: "IA Éthique Insider",
+                    timeAgo: "2 déc",
+                    url: "https://iaethiqueinsider.substack.com/p/souverainete-numerique-extraterritorialite"
+                },
+                {
+                    id: "20",
+                    title: "Les news IA de la semaine selon Mozza Bytes",
+                    summary: "Mozza Bytes compile les actualités IA marquantes de la semaine. L'édition couvre les annonces majeures, les nouvelles recherches et les tendances émergentes de l'écosystème IA.",
+                    rank: 20,
+                    source: "Mozza Bytes",
+                    timeAgo: "2 déc",
+                    url: "https://mozzabytes.substack.com/"
+                },
+                {
+                    id: "21",
+                    title: "Le Projet Manhatt(AI)n : nouvelle course à l'armement IA",
+                    summary: "Une initiative gouvernementale américaine comparable au projet Manhattan vise à assurer la suprématie des États-Unis en IA face à la Chine. Le programme mobilise des investissements massifs dans la recherche IA avancée.",
+                    rank: 21,
+                    source: "Superhuman",
+                    timeAgo: "26 nov",
+                    url: "https://www.superhuman.ai/p/the-manhattain-project"
+                },
+                {
+                    id: "22",
+                    title: "Premier aperçu de la 'matière noire' technologique",
+                    summary: "Superhuman explore les technologies IA émergentes qui restent invisibles au grand public mais façonnent l'avenir. Ces innovations en coulisses préparent les prochaines révolutions technologiques.",
+                    rank: 22,
+                    source: "Superhuman",
+                    timeAgo: "30 nov",
+                    url: "https://www.superhuman.ai/p/sunday-special-our-first-glimpse-of-dark-matter"
+                },
+                {
+                    id: "23",
+                    title: "Figure AI au tribunal : un lanceur d'alerte porte plainte",
+                    summary: "Un lanceur d'alerte intente une action en justice contre Figure AI, soulevant des questions sur les pratiques de l'entreprise de robotique. L'affaire attire l'attention sur la transparence dans l'industrie robotique.",
+                    rank: 23,
+                    source: "Superhuman",
+                    timeAgo: "29 nov",
+                    url: "https://www.superhuman.ai/p/robotics-special-whistleblower-takes-figure-ai-to-court"
+                },
+                {
+                    id: "24",
+                    title: "Meta explore les 'résumés quotidiens' pour Facebook",
+                    summary: "Meta teste une fonctionnalité de résumés quotidiens générés par IA pour Facebook. L'outil vise à aider les utilisateurs à rester informés sans être submergés par le flux d'actualités.",
+                    rank: 24,
+                    source: "Superhuman",
+                    timeAgo: "24 nov",
+                    url: "https://www.superhuman.ai/p/meta-explores-daily-briefs-for-facebook"
+                },
+                {
+                    id: "25",
+                    title: "Comment transformer une vidéo YouTube en infographie avec l'IA",
+                    summary: "Superhuman partage un guide pratique pour utiliser l'IA afin de transformer n'importe quelle vidéo YouTube en infographie visuelle. L'outil démocratise la création de contenu visuel professionnel.",
+                    rank: 25,
+                    source: "Superhuman",
+                    timeAgo: "2 déc",
+                    url: "https://www.superhuman.ai/p/runway-beats-sora-veo-at-video"
+                }
+            ]
+        };
+
+        // Function to get number color based on category
+        function getNumberColor(rank) {
+            if (rank <= 8) return 'text-red-500';
+            if (rank <= 16) return 'text-yellow-500';
+            return 'text-green-500';
+        }
+
+        // Render function for categorized layout
+        function renderCategorizedLayout() {
+            const container = document.getElementById('minimal-news-container');
+            
+            // Create HTML for Critical section
+            const criticalHTML = `
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+                        ${newsData.critical.map((item) => `
+                            <article class="group">
+                                <div class="flex items-start gap-6">
+                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
+                                        ${String(item.rank).padStart(2, '0')}
+                                    </div>
+                                    <div class="flex-1">
+                                        <h2 class="text-xl font-medium mb-3 article-title">
+                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
+                                        </h2>
+                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
+                                        <div class="flex items-center gap-4 text-sm text-gray-400">
+                                            <span>${item.source}</span>
+                                            <span>•</span>
+                                            <span>${item.timeAgo}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            // Create HTML for Important section
+            const importantHTML = `
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+                        ${newsData.important.map((item) => `
+                            <article class="group">
+                                <div class="flex items-start gap-6">
+                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
+                                        ${String(item.rank).padStart(2, '0')}
+                                    </div>
+                                    <div class="flex-1">
+                                        <h2 class="text-xl font-medium mb-3 article-title">
+                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
+                                        </h2>
+                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
+                                        <div class="flex items-center gap-4 text-sm text-gray-400">
+                                            <span>${item.source}</span>
+                                            <span>•</span>
+                                            <span>${item.timeAgo}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            // Create HTML for Good to Know section
+            const goodToKnowHTML = `
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+                        ${newsData.goodToKnow.map((item) => `
+                            <article class="group">
+                                <div class="flex items-start gap-6">
+                                    <div class="text-2xl font-light ${getNumberColor(item.rank)} mt-1">
+                                        ${String(item.rank).padStart(2, '0')}
+                                    </div>
+                                    <div class="flex-1">
+                                        <h2 class="text-xl font-medium mb-3 article-title">
+                                            <a href="${item.url}" target="_blank" style="color: inherit; text-decoration: none;">${item.title}</a>
+                                        </h2>
+                                        <p class="text-gray-600 mb-4 leading-relaxed">${item.summary}</p>
+                                        <div class="flex items-center gap-4 text-sm text-gray-400">
+                                            <span>${item.source}</span>
+                                            <span>•</span>
+                                            <span>${item.timeAgo}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            // Sources section
+            const sourcesHTML = `
+                <div class="category-section" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e5e7eb;">
+                    <div class="category-header">
+                        <h2 class="category-title text-gray-600">Sources</h2>
+                    </div>
+                    <div class="text-sm text-gray-500 leading-relaxed">
+                        <p style="margin-bottom: 0.5rem;">Cette newsletter agrège et traduit les actualités des sources suivantes :</p>
+                        <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://alphasignal.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Alpha Signal</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://mozzabytes.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Mozza Bytes</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.upmynt.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Upmynt</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://nlp.elvissaravia.com/" target="_blank" style="color: #2563eb; text-decoration: none;">NLP Newsletter</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.theaireport.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">The AI Report</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://tldr.tech/" target="_blank" style="color: #2563eb; text-decoration: none;">TLDR AI</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.aitidbits.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">AI Tidbits</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.superhuman.ai/" target="_blank" style="color: #2563eb; text-decoration: none;">Superhuman</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://iaethiqueinsider.substack.com/" target="_blank" style="color: #2563eb; text-decoration: none;">IA Éthique Insider</a></li>
+                            <li style="margin-bottom: 0.5rem;">• <a href="https://www.humanintheloop.online/" target="_blank" style="color: #2563eb; text-decoration: none;">Human in the Loop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            // Combine all sections
+            container.innerHTML = criticalHTML + importantHTML + goodToKnowHTML + sourcesHTML;
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            renderCategorizedLayout();
+        });
+    </script>
+</body>
+</html>
