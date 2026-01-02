@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            color: #111827;
+            background-color: white;
+        }
+
+        /* Container */
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        
+        /* Spacing */
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+        
+        /* Typography */
+        .text-center { text-align: center; }
+        .text-xs { font-size: 0.75rem; line-height: 1rem; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+        
+        /* Colors */
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5556; }
+        
+        /* Category colors */
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+        
+        /* Subtitle styling */
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Category section styling */
+        .category-section {
+            margin-bottom: 3rem;
+        }
+        
+        .category-header {
+            margin-bottom: 2rem;
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+        
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+        
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+        
+        /* Layout */
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+        
+        /* Divider */
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+        
+        /* Article styling */
+        .group {
+            transition: all 0.2s ease;
+        }
+        
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+        
+        .article-title {
+            transition: color 0.2s ease;
+        }
+        
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        .article-title a:hover {
+            color: #2563eb;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        article {
+            animation: fadeIn 0.5s ease-out forwards;
+            animation-fill-mode: both;
+        }
+        
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+        
+        /* Sources section */
+        .sources-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .sources-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+        
+        .sources-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+        }
+        
+        .sources-list li {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+        
+        .sources-list a {
+            color: #6b7280;
+            text-decoration: none;
+        }
+        
+        .sources-list a:hover {
+            color: #2563eb;
+        }
+        
+        .note {
+            font-size: 0.8rem;
+            color: #9ca3af;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <!-- Header -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">27 décembre 2025 - 2 janvier 2026</p>
+                <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <!-- Content -->
+            <div id="minimal-news-container">
+                <!-- Critique Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">01</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://techcrunch.com/2025/12/31/investors-predict-ai-is-coming-for-labor-in-2026/" target="_blank">Les investisseurs prédisent que l'IA va transformer le marché du travail en 2026</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA pourrait automatiser 11,7% des emplois, poussant les entreprises à réduire les postes d'entrée de gamme. Les VCs prévoient un impact significatif sur la main-d'œuvre en 2026, avec un transfert des budgets du personnel vers l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">02</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.cnbc.com/2025/12/30/elon-musk-wants-robots-everywhere-china-is-making-that-a-reality.html" target="_blank">Robots humanoïdes : la Chine pourrait devancer les États-Unis en 2026</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Elon Musk mise sur les robots humanoïdes pour Tesla, mais les entreprises chinoises pourraient dominer la production de masse en 2026. La Chine exploite ses forces manufacturières malgré les restrictions sur les puces.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">03</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://x.com/benitoz/status/2005349615823183897" target="_blank">La guerre de la mémoire : l'avenir de l'IA dépend du HBM 16-Hi</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA fait face à un goulot d'étranglement mémoire : les modèles massifs nécessitent des téraoctets de mémoire rapide. Les commandes HBM 16-Hi de NVIDIA et le deal Groq visent à résoudre ce problème pour une inférence quasi-instantanée.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">04</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://spectrum.ieee.org/ai-effect-entry-level-jobs" target="_blank">L'IA transforme les emplois tech d'entrée de gamme : -25% d'embauches</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA remodèle les postes juniors en automatisant les tâches routinières. Malgré la baisse des postes de développeur, les métiers de sécurité et ingénieurs IA sont en croissance. L'éducation doit s'adapter.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">05</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">8 prédictions IA pour 2026 : fiabilité des agents, compute d'inférence stratégique</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Andreas Horn prédit que 2026 sera définie par consolidation et conséquence. Les agents IA passeront de l'autonomie à la fiabilité avec des "System 2 agents". Le compute d'inférence devient un levier stratégique.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Human in the Loop</span>
+                                        <span>•</span>
+                                        <span>22 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">06</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Bilan 2025 : le contenu IA dépasse désormais le contenu humain (52% vs 48%)</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Upmynt révèle que le contenu généré par IA représente maintenant 52% du contenu en ligne contre 48% pour le contenu humain. Une bascule historique dans la production de contenus numériques.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt</span>
+                                        <span>•</span>
+                                        <span>29 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <!-- Important Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">07</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/top-ai-papers-december-22-28" target="_blank">Top papers IA de la semaine : monitoring OpenAI, qTTT pour contexte long</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Elvis Saravia compile les meilleurs papiers : framework de monitoring OpenAI, qTTT pour contexte long, LaMer Meta-RL, Epistemia, JustRL et Self-Play SWE-RL pour agents de codage.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>28 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">08</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">MiniMax-M2.1 et GLM-4.7 : nouveaux modèles chinois performants</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">AI Agents Weekly présente MiniMax-M2.1 et GLM-4.7, deux nouveaux modèles chinois qui rivalisent avec les leaders occidentaux. Xiaomi lance aussi MiMo-V2-Flash pour le mobile.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>27 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">09</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Gemini 3 atteint 1501 Elo, Google lance la plateforme Antigravity</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Alpha Signal rapporte que Gemini 3 atteint un score Elo de 1501 sur les benchmarks. Google dévoile également Antigravity, sa nouvelle plateforme pour développeurs IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>Dernière édition</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Claude disponible sur Azure : partenariat Anthropic-Microsoft-NVIDIA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic étend la disponibilité de Claude sur Azure via un partenariat avec Microsoft et NVIDIA. Une nouvelle option pour les entreprises utilisant l'écosystème Microsoft.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>Dernière édition</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Replit lance Design Mode et Manus présente Browser Operator</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Replit introduit Design Mode pour créer des interfaces par prompt. Manus dévoile Browser Operator, un agent capable de naviguer et interagir avec les sites web de manière autonome.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>Dernière édition</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Mistral devient licorne française à 14 milliards de dollars</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Dans son bilan 2025, Upmynt célèbre Mistral comme la licorne française de l'IA, valorisée à 14 milliards de dollars. Un champion européen face aux géants américains.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt</span>
+                                        <span>•</span>
+                                        <span>29 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Project Suncatcher : Google envisage des datacenters dans l'espace</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google explore avec Project Suncatcher la possibilité de placer des datacenters en orbite pour exploiter l'énergie solaire continue et résoudre les défis énergétiques de l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Upmynt</span>
+                                        <span>•</span>
+                                        <span>29 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://medium.com/@mhuzaifaar/sam-altman-tackles-dangers-of-ai-with-new-role-7b0ee05e7c12" target="_blank">Sam Altman recrute un Head of Preparedness pour les risques IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI recrute directement un responsable de la préparation aux menaces IA, couvrant les risques cyber, biologiques et autres. Sam Altman supervise personnellement ce recrutement stratégique.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">L'AIOps devient prioritaire : 70-80% des budgets IT en opérations</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Avec 70-80% des budgets IT consacrés aux opérations, l'AIOps devient un cas d'usage majeur en 2026. L'IA peut réduire le bruit, améliorer la résilience et diminuer la charge opérationnelle.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Human in the Loop</span>
+                                        <span>•</span>
+                                        <span>22 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">16</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">La mémoire persistante des IA devient un enjeu de design critique</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Les systèmes IA évoluent vers une mémoire persistante - la capacité de retenir le contexte à long terme. En 2026, cela devient une décision de design avec des implications sur la confiance et la vie privée.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Human in the Loop</span>
+                                        <span>•</span>
+                                        <span>22 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <!-- Bon à Savoir Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">17</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://securityonline.info/the-130-billion-comeback-why-apples-slow-ai-strategy-is-a-2026-trap/" target="_blank">Apple : 130 milliards en réserve pour une stratégie IA "lente mais calculée"</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La stratégie IA "lente" d'Apple repose sur 130 milliards de cash. Plutôt que de rejoindre la course aux armements IA, Apple mise sur l'expérience utilisateur et pourrait surprendre en 2026.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">18</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://threadreaderapp.com/thread/2002127824174657579.html" target="_blank">Lovable : le product-market fit se réinitialise tous les trimestres pour les startups IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Chez Lovable (200M$ ARR), le product-market fit se réinitialise tous les 3 mois car les capacités IA et attentes utilisateurs évoluent trop vite pour une stratégie de scaling long terme.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">19</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://github.com/harvard-edge/cs249r_book" target="_blank">Harvard CS 249R : cours open-source sur le deep learning et le RL</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Harvard publie un textbook open-source pour son cours CS249R couvrant le deep learning et reinforcement learning avec exemples pratiques et lectures. Ressource éducative gratuite.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">20</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.theregister.com/2025/12/31/us_army_seeking_officers_willing/" target="_blank">L'armée américaine forme ses premiers spécialistes IA/ML</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'US Army lance en janvier une formation pour officiers spécialistes IA/ML via le programme VTIP. L'objectif : développer une expertise interne pour l'intégration de l'IA dans les opérations militaires.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">21</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://ahrefs.com/blog/ai-marketing-examples/" target="_blank">13 cas où l'IA a vraiment fonctionné en marketing</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ahrefs compile 13 exemples concrets d'IA en marketing : génération d'images, optimisation d'annonces, création de contenu. Des marques comme Heads or Tails Pup ont vu leurs ventes bondir grâce à l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>TLDR AI</span>
+                                        <span>•</span>
+                                        <span>1er janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">22</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">Karpathy publie sa rétrospective IA 2025</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Andrej Karpathy partage son analyse de l'année IA 2025. L'ancien directeur IA de Tesla offre sa perspective sur les avancées majeures et les tendances à surveiller.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>27 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">23</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">Google annonce ses percées IA prévues pour 2025</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google dévoile sa feuille de route avec les avancées IA majeures attendues. Focus sur l'amélioration de Gemini et l'intégration IA dans tous les produits Google.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>27 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">24</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://alphasignal.ai/last-email/" target="_blank">AI2 lance DR Tulu : nouveau modèle open-source performant</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'Allen Institute for AI (AI2) dévoile DR Tulu, un nouveau modèle open-source qui rivalise avec les modèles propriétaires sur plusieurs benchmarks. Une avancée pour l'IA ouverte.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Alpha Signal</span>
+                                        <span>•</span>
+                                        <span>Dernière édition</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">25</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">Human-in-the-Loop devient le standard par défaut en 2026</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Les systèmes IA les plus durables ne suppriment pas l'humain de la boucle mais redesignent la boucle. En 2026, l'accent est mis sur de meilleurs passages de relais et une collaboration plus étroite humain-machine.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Human in the Loop</span>
+                                        <span>•</span>
+                                        <span>22 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">26</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">Human in the Loop atteint 30 000 lecteurs</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Andreas Horn célèbre le passage à près de 30 000 lecteurs pour sa newsletter lancée en mai 2025. Un succès pour cette publication hebdomadaire sur les agents IA et cas d'usage réels.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Human in the Loop</span>
+                                        <span>•</span>
+                                        <span>22 décembre 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <!-- Sources Section -->
+                <div class="sources-section">
+                    <h3 class="sources-title">Sources</h3>
+                    <ul class="sources-list">
+                        <li><a href="https://alphasignal.ai/last-email/" target="_blank">Alpha Signal</a></li>
+                        <li><a href="https://mozzabytes.substack.com/" target="_blank">Mozza Bytes</a></li>
+                        <li><a href="https://www.upmynt.com/" target="_blank">Upmynt</a></li>
+                        <li><a href="https://nlp.elvissaravia.com/" target="_blank">NLP Newsletter</a></li>
+                        <li><a href="https://www.theaireport.ai/newsletters" target="_blank">The AI Report</a></li>
+                        <li><a href="https://tldr.tech/ai" target="_blank">TLDR AI</a></li>
+                        <li><a href="https://www.aitidbits.ai/" target="_blank">AI Tidbits</a></li>
+                        <li><a href="https://www.superhuman.ai/" target="_blank">Superhuman</a></li>
+                        <li><a href="https://iaethiqueinsider.substack.com/" target="_blank">IA Ethique Insider</a></li>
+                        <li><a href="https://www.humanintheloop.online/" target="_blank">Human in the Loop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
