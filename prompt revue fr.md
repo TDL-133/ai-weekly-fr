@@ -80,4 +80,13 @@ I want the revue to be in french
 4. Catégoriser selon l'importance
 5. Traduire titres et descriptions en français
 6. Générer le HTML final avec le template
+7. **CRITIQUE** : Copier le fichier HTML généré vers `index.html`
+8. **CRITIQUE** : Créer une Pull Request avec `index.html` et le prompt si modifié
+
+### Publication sur GitHub
+- **TOUJOURS** remplacer `index.html` par la nouvelle newsletter
+- **TOUJOURS** créer une branche depuis `master` pour la PR
+- **TOUJOURS** inclure `index.html` dans le commit
+- Format du nom de branche : `update-newsletter-[dates]` (ex: `update-newsletter-dec27-jan2`)
+- Utiliser GitHub CLI (`gh pr create`) ou le lien web pour créer la PR
 
