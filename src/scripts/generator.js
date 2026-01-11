@@ -77,12 +77,30 @@ function generateSources(sources) {
 }
 
 /**
+ * Convert date range to French format
+ */
+function formatDateRangeFrench(weekString) {
+    // Format: "2026-01-11 to 2026-01-17" -> "11-17 janvier 2026"
+    const match = weekString.match(/(\d{4})-(\d{2})-(\d{2})\s+to\s+(\d{4})-(\d{2})-(\d{2})/);
+    if (!match) return weekString;
+    
+    const [, year1, month1, day1, year2, month2, day2] = match;
+    const months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 
+                    'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+    const monthName = months[parseInt(month1) - 1];
+    
+    return `${day1}-${day2} ${monthName} ${year1}`;
+}
+
+/**
  * Generate header
  */
 function generateHeader(dateRange) {
     const template = loadTemplate('header');
+    const dateRangeFrench = formatDateRangeFrench(dateRange);
     return renderTemplate(template, {
-        dateRange: dateRange
+        dateRange: dateRange,
+        dateRangeFrench: dateRangeFrench
     });
 }
 
@@ -118,9 +136,14 @@ function generateNewsletter(data) {
     // Generate sources
     const sources = generateSources(data.sources || []);
     
+    // Determine CSS path based on output location
+    // For dist/index.html, use relative path; for root index.html, use absolute
+    const cssPath = 'dist/src/styles/newsletter.css';
+    
     // Combine everything
     return renderTemplate(baseTemplate, {
         week: data.week,
+        cssPath: cssPath,
         header: header,
         categories: categories.join('\n'),
         sources: sources

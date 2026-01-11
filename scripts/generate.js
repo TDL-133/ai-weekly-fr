@@ -111,6 +111,18 @@ function main() {
     const indexPath = saveNewsletter(html, 'index.html', DIST_DIR);
     console.log(`   ✓ Saved to index: ${indexPath}`);
     
+    // Generate version with inline CSS for root index.html
+    const cssContent = fs.readFileSync(path.join(__dirname, '../src/styles/newsletter.css'), 'utf8');
+    const htmlWithInlineCSS = html.replace(
+        '<link rel="stylesheet" href="dist/src/styles/newsletter.css">',
+        `<style>${cssContent}</style>`
+    );
+    
+    // Save to root index.html
+    const rootIndexPath = path.join(__dirname, '../index.html');
+    fs.writeFileSync(rootIndexPath, htmlWithInlineCSS, 'utf8');
+    console.log(`   ✓ Saved to root index: ${rootIndexPath}`);
+    
     console.log('\n✅ Newsletter generated successfully!');
     console.log(`\n📄 Files created:`);
     console.log(`   - ${archivePath}`);
