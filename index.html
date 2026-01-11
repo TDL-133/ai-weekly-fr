@@ -107,10 +107,6 @@
             transition: all 0.2s ease;
         }
         
-        .group:hover .article-title {
-            color: #2563eb;
-        }
-        
         .article-title {
             transition: color 0.2s ease;
         }
@@ -118,9 +114,22 @@
         .article-title a {
             color: inherit;
             text-decoration: none;
+            transition: color 0.2s ease;
+            cursor: pointer;
         }
         
+        /* Link hover - highest priority */
         .article-title a:hover {
+            color: #2563eb;
+        }
+        
+        /* Group hover - applies when hovering article but not the link itself */
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+        
+        /* Ensure link hover overrides group hover */
+        .group:hover .article-title a:hover {
             color: #2563eb;
         }
 
@@ -213,7 +222,7 @@
                 <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
                 <p class="subtitle">by Dagorsey & Claude</p>
                 <div class="divider"></div>
-                <p class="text-gray-500">27 décembre 2025 - 2 janvier 2026</p>
+                <p class="text-gray-500">4 janvier 2026 - 10 janvier 2026</p>
                 <p class="note">Les sources sont disponibles à la fin de la newsletter</p>
             </div>
 
@@ -231,13 +240,13 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">01</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://techcrunch.com/2025/12/31/investors-predict-ai-is-coming-for-labor-in-2026/" target="_blank">Les investisseurs prédisent que l'IA va transformer le marché du travail en 2026</a>
+                                        <a href="https://techcrunch.com/2026/01/07/anthropic-reportedly-raising-10b-at-350b-valuation/" target="_blank" rel="noopener noreferrer">Anthropic lève 10 milliards de dollars à une valorisation de 350 milliards</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA pourrait automatiser 11,7% des emplois, poussant les entreprises à réduire les postes d'entrée de gamme. Les VCs prévoient un impact significatif sur la main-d'œuvre en 2026, avec un transfert des budgets du personnel vers l'IA.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic prépare une nouvelle levée de 10 milliards de dollars à une valorisation de 350 milliards, selon le Wall Street Journal. Cette ronde serait séparée des 15 milliards déjà engagés par NVIDIA et Microsoft. Coatue Management et GIC, le fonds souverain de Singapour, mèneraient cette nouvelle levée.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>The AI Report</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -248,13 +257,13 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">02</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.cnbc.com/2025/12/30/elon-musk-wants-robots-everywhere-china-is-making-that-a-reality.html" target="_blank">Robots humanoïdes : la Chine pourrait devancer les États-Unis en 2026</a>
+                                        <a href="https://openai.com/index/introducing-chatgpt-health/" target="_blank" rel="noopener noreferrer">OpenAI lance ChatGPT Health : l'IA entre dans le secteur de la santé</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Elon Musk mise sur les robots humanoïdes pour Tesla, mais les entreprises chinoises pourraient dominer la production de masse en 2026. La Chine exploite ses forces manufacturières malgré les restrictions sur les puces.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI dévoile ChatGPT Health, une nouvelle expérience permettant aux utilisateurs de télécharger et connecter leurs données médicales pour obtenir des conseils personnalisés, y compris pour naviguer dans les options d'assurance. OpenAI a consulté plus de 260 médecins pour construire cette expérience, mais souligne que Health est conçu pour soutenir les soins professionnels, pas les remplacer.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -265,13 +274,13 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">03</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://x.com/benitoz/status/2005349615823183897" target="_blank">La guerre de la mémoire : l'avenir de l'IA dépend du HBM 16-Hi</a>
+                                        <a href="https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/" target="_blank" rel="noopener noreferrer">Gmail entre dans l'ère Gemini : Google lance l'AI Inbox</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA fait face à un goulot d'étranglement mémoire : les modèles massifs nécessitent des téraoctets de mémoire rapide. Les commandes HBM 16-Hi de NVIDIA et le deal Groq visent à résoudre ce problème pour une inférence quasi-instantanée.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google lance une vague de mises à jour IA pour Gmail, incluant un AI Inbox qui met en avant vos tâches et mises à jour les plus importantes, ainsi que des AI Overviews permettant de rechercher dans votre boîte de réception en langage naturel. Google rend également gratuites deux fonctionnalités précédemment payantes : Help Me Write et Suggested Replies.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -282,13 +291,13 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">04</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://spectrum.ieee.org/ai-effect-entry-level-jobs" target="_blank">L'IA transforme les emplois tech d'entrée de gamme : -25% d'embauches</a>
+                                        <a href="https://x.ai/news/series-e" target="_blank" rel="noopener noreferrer">xAI lève 20 milliards de dollars alors que Grok fait l'objet d'enquêtes</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'IA remodèle les postes juniors en automatisant les tâches routinières. Malgré la baisse des postes de développeur, les métiers de sécurité et ingénieurs IA sont en croissance. L'éducation doit s'adapter.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">La société IA d'Elon Musk annonce une levée de 20 milliards de dollars en série E, dépassant son objectif de 15 milliards. Mais cette nouvelle arrive à un moment tendu : xAI fait actuellement face à des enquêtes réglementaires en Europe, en Inde et en Malaisie après que Grok ait généré des images sexualisées de femmes et d'enfants dérivées de vraies photos en réponse à des prompts utilisateurs.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -299,13 +308,13 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">05</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">8 prédictions IA pour 2026 : fiabilité des agents, compute d'inférence stratégique</a>
+                                        <a href="https://techcrunch.com/2026/01/07/google-and-character-ai-negotiate-first-major-settlements-in-teen-chatbot-death-cases/" target="_blank" rel="noopener noreferrer">Google et Character.AI négocient les premiers règlements majeurs dans des affaires de suicide d'adolescents</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Andreas Horn prédit que 2026 sera définie par consolidation et conséquence. Les agents IA passeront de l'autonomie à la fiabilité avec des "System 2 agents". Le compute d'inférence devient un levier stratégique.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google et Character.AI négocient ce qui pourrait être les premiers règlements majeurs de l'industrie tech impliquant des préjudices liés à l'IA. Les affaires concernent des adolescents qui sont morts par suicide ou se sont blessés après des interactions prolongées avec les compagnons chatbot de Character.AI. Character.AI a interdit les mineurs de sa plateforme en octobre dernier.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Human in the Loop</span>
+                                        <span>The AI Report</span>
                                         <span>•</span>
-                                        <span>22 décembre 2025</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -316,13 +325,47 @@
                                 <div class="text-2xl font-light text-red-500 mt-1">06</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Bilan 2025 : le contenu IA dépasse désormais le contenu humain (52% vs 48%)</a>
+                                        <a href="https://www.marketscreener.com/news/new-york-ag-demands-instacart-hand-over-information-about-price-tests-ce7e59ddd089f222" target="_blank" rel="noopener noreferrer">Instacart sous enquête pour ses tests de prix algorithmiques</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Upmynt révèle que le contenu généré par IA représente maintenant 52% du contenu en ligne contre 48% pour le contenu humain. Une bascule historique dans la production de contenus numériques.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Le procureur général de New York Letitia James a demandé des informations à Instacart concernant son utilisation de tarification algorithmique, suite à une étude de Consumer Reports qui a trouvé une différence moyenne de 7% entre les acheteurs pour des listes d'épicerie identiques au même magasin. Instacart dit avoir arrêté les expériences de prix en décembre.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Upmynt</span>
+                                        <span>The AI Report</span>
                                         <span>•</span>
-                                        <span>29 décembre 2025</span>
+                                        <span>9 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">07</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.politico.com/news/2026/01/06/artificial-intelligence-prescribing-medications-utah-00709122" target="_blank" rel="noopener noreferrer">L'Utah approuve un programme pilote permettant à l'IA de renouveler des prescriptions</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">L'Utah vient d'approuver un programme pilote de première en son genre permettant à l'IA de renouveler des prescriptions sans médecin. Cette décision signale que les entreprises et les régulateurs deviennent plus à l'aise avec l'IA dans les soins de santé, ouvrant la voie à une adoption plus large des technologies IA médicales.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman</span>
+                                        <span>•</span>
+                                        <span>8 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-red-500 mt-1">08</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html" target="_blank" rel="noopener noreferrer">L'Inde et l'UE enquêtent sur X après que Grok ait créé du contenu pédopornographique</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">xAI fait face à des enquêtes réglementaires en Europe, en Inde et en Malaisie après que Grok ait généré des images sexualisées de femmes et d'enfants dérivées de vraies photos en réponse à des prompts utilisateurs. Ces enquêtes surviennent alors que xAI vient d'annoncer une levée de 20 milliards de dollars.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Superhuman</span>
+                                        <span>•</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -339,50 +382,16 @@
                     <div class="space-y-12">
                         <article class="group">
                             <div class="flex items-start gap-6">
-                                <div class="text-2xl font-light text-yellow-500 mt-1">07</div>
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://nlp.elvissaravia.com/p/top-ai-papers-december-22-28" target="_blank">Top papers IA de la semaine : monitoring OpenAI, qTTT pour contexte long</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Elvis Saravia compile les meilleurs papiers : framework de monitoring OpenAI, qTTT pour contexte long, LaMer Meta-RL, Epistemia, JustRL et Self-Play SWE-RL pour agents de codage.</p>
-                                    <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>NLP Newsletter</span>
-                                        <span>•</span>
-                                        <span>28 décembre 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="text-2xl font-light text-yellow-500 mt-1">08</div>
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">MiniMax-M2.1 et GLM-4.7 : nouveaux modèles chinois performants</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">AI Agents Weekly présente MiniMax-M2.1 et GLM-4.7, deux nouveaux modèles chinois qui rivalisent avec les leaders occidentaux. Xiaomi lance aussi MiMo-V2-Flash pour le mobile.</p>
-                                    <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>NLP Newsletter</span>
-                                        <span>•</span>
-                                        <span>27 décembre 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
                                 <div class="text-2xl font-light text-yellow-500 mt-1">09</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Gemini 3 atteint 1501 Elo, Google lance la plateforme Antigravity</a>
+                                        <a href="https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-10f" target="_blank" rel="noopener noreferrer">Top papers IA de la semaine : TTT-E2E, Universal Reasoning Model, SAGA</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Alpha Signal rapporte que Gemini 3 atteint un score Elo de 1501 sur les benchmarks. Google dévoile également Antigravity, sa nouvelle plateforme pour développeurs IA.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Elvis Saravia compile les meilleurs papiers de la semaine : TTT-E2E pour contexte long avec latence constante, Universal Reasoning Model atteignant 53,8% sur ARC-AGI, SAGA pour la découverte scientifique autonome, et AgentReuse réduisant la latence de 93%.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Alpha Signal</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>Dernière édition</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -393,13 +402,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">10</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Claude disponible sur Azure : partenariat Anthropic-Microsoft-NVIDIA</a>
+                                        <a href="https://venturebeat.com/orchestration/claude-code-2-1-0-arrives-with-smoother-workflows-and-smarter-agents" target="_blank" rel="noopener noreferrer">Anthropic lance Claude Code 2.1.0 avec des améliorations majeures pour les agents</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic étend la disponibilité de Claude sur Azure via un partenariat avec Microsoft et NVIDIA. Une nouvelle option pour les entreprises utilisant l'écosystème Microsoft.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Anthropic publie la version 2.1.0 de son outil de codage basé sur terminal, avec des mises à jour axées sur les workflows d'agents et la productivité des développeurs. Les ajouts clés incluent des hooks pour agents et skills, le hot reload pour les skills, des permissions d'outils wildcard, et une commande qui déplace les sessions directement vers claude.ai/code.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Alpha Signal</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>Dernière édition</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -410,13 +419,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">11</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://alphasignal.ai/last-email/" target="_blank">Replit lance Design Mode et Manus présente Browser Operator</a>
+                                        <a href="https://about.ads.microsoft.com/en/blog/post/january-2026/conversations-that-convert-copilot-checkout-and-brand-agents" target="_blank" rel="noopener noreferrer">Microsoft lance Copilot Checkout pour le commerce agentique</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Replit introduit Design Mode pour créer des interfaces par prompt. Manus dévoile Browser Operator, un agent capable de naviguer et interagir avec les sites web de manière autonome.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Microsoft annonce Copilot Checkout, une nouvelle fonctionnalité permettant aux utilisateurs de faire des achats directement dans l'application. Avec cette mise à jour, Copilot rejoint OpenAI, Perplexity, Gemini et Amazon's Rufus comme chatbots capables d'effectuer des achats pour vous. L'IA a généré 262 milliards de dollars de revenus lors de la saison des fêtes.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Alpha Signal</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>Dernière édition</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -427,13 +436,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">12</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Mistral devient licorne française à 14 milliards de dollars</a>
+                                        <a href="https://techcrunch.com/2026/01/07/google-classrooms-new-tool-uses-gemini-to-transform-lessons-into-podcast-episodes/" target="_blank" rel="noopener noreferrer">Google Classroom ajoute un outil IA de podcast pour les éducateurs</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Dans son bilan 2025, Upmynt célèbre Mistral comme la licorne française de l'IA, valorisée à 14 milliards de dollars. Un champion européen face aux géants américains.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Google Classroom lance une fonctionnalité alimentée par Gemini qui convertit les plans de cours en épisodes audio de style podcast, permettant aux enseignants de générer du contenu d'apprentissage conversationnel pour les étudiants qui préfèrent les formats audio. L'outil est disponible pour les abonnés Google Workspace Education Fundamentals, Standard et Plus.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Upmynt</span>
+                                        <span>The AI Report</span>
                                         <span>•</span>
-                                        <span>29 décembre 2025</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -444,13 +453,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">13</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.upmynt.com/p/up285-quelle-annee" target="_blank">Project Suncatcher : Google envisage des datacenters dans l'espace</a>
+                                        <a href="https://news.lenovo.com/pressroom/press-releases/lenovo-unveils-lenovo-and-motorola-qira/" target="_blank" rel="noopener noreferrer">Lenovo et Motorola dévoilent Qira, un assistant IA multi-appareils</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Google explore avec Project Suncatcher la possibilité de placer des datacenters en orbite pour exploiter l'énergie solaire continue et résoudre les défis énergétiques de l'IA.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Au CES 2026, les deux entreprises introduisent Qira, un assistant IA multi-appareils qui vit au niveau système des PC Lenovo et smartphones Motorola - aucune application requise. Motorola a également présenté Project Maxwell, un wearable IA en forme de perle encore en mode proof-of-concept.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Upmynt</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>29 décembre 2025</span>
+                                        <span>8 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -461,13 +470,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">14</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://medium.com/@mhuzaifaar/sam-altman-tackles-dangers-of-ai-with-new-role-7b0ee05e7c12" target="_blank">Sam Altman recrute un Head of Preparedness pour les risques IA</a>
+                                        <a href="https://arxiv.org/abs/2512.14693" target="_blank" rel="noopener noreferrer">Universal Reasoning Model : 53,8% sur ARC-AGI grâce au mécanisme récurrent</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">OpenAI recrute directement un responsable de la préparation aux menaces IA, couvrant les risques cyber, biologiques et autres. Sam Altman supervise personnellement ce recrutement stratégique.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ce papier investigate pourquoi les transformers universels excellent aux tâches de raisonnement complexes comme ARC-AGI. La découverte clé : les gains de performance viennent principalement du biais inductif récurrent et de composants non-linéaires forts plutôt que de designs architecturaux élaborés. URM atteint 53,8% pass@1 sur ARC-AGI 1.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -478,13 +487,13 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">15</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">L'AIOps devient prioritaire : 70-80% des budgets IT en opérations</a>
+                                        <a href="https://test-time-training.github.io/e2e.pdf" target="_blank" rel="noopener noreferrer">TTT-E2E : entraînement en temps de test pour contexte long avec latence constante</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Avec 70-80% des budgets IT consacrés aux opérations, l'AIOps devient un cas d'usage majeur en 2026. L'IA peut réduire le bruit, améliorer la résilience et diminuer la charge opérationnelle.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ce papier reformule la modélisation de langage à contexte long comme un problème d'apprentissage continu plutôt que de design d'architecture. TTT-E2E utilise un Transformer standard avec attention à fenêtre glissante qui continue d'apprendre au moment du test via la prédiction du token suivant, compressant le contexte dans ses poids plutôt que de stocker toutes les paires clé-valeur.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Human in the Loop</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>22 décembre 2025</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -495,13 +504,64 @@
                                 <div class="text-2xl font-light text-yellow-500 mt-1">16</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">La mémoire persistante des IA devient un enjeu de design critique</a>
+                                        <a href="https://arxiv.org/abs/2512.21782" target="_blank" rel="noopener noreferrer">SAGA : agent autonome pour la découverte scientifique avec objectifs évolutifs</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Les systèmes IA évoluent vers une mémoire persistante - la capacité de retenir le contexte à long terme. En 2026, cela devient une décision de design avec des implications sur la confiance et la vie privée.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">SAGA (Scientific Autonomous Goal-evolving Agent) introduit un framework pour automatiser la conception de fonctions objectif dans la découverte scientifique pilotée par l'IA. Plutôt que d'optimiser des objectifs fixes spécifiés par les scientifiques, SAGA reformule dynamiquement les objectifs de recherche tout au long du processus de découverte pour éviter les problèmes de reward hacking.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Human in the Loop</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>22 décembre 2025</span>
+                                        <span>4 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">17</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://arxiv.org/abs/2512.14012" target="_blank" rel="noopener noreferrer">Les développeurs expérimentés ne "vibent" pas le code : étude sur l'utilisation réelle des agents IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Cette étude de UC San Diego et Cornell examine comment les développeurs de logiciels expérimentés (3+ ans) utilisent réellement les agents de codage IA. La découverte clé : les développeurs professionnels ne "vibent" pas le code - ils contrôlent soigneusement les agents par la planification et la supervision, validant toutes les sorties agentiques pour assurer la qualité du logiciel.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>NLP Newsletter</span>
+                                        <span>•</span>
+                                        <span>4 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">18</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://newsletter.theaireport.ai/p/amazon-brings-alexa-to-the-web" target="_blank" rel="noopener noreferrer">Amazon apporte Alexa+ sur le web</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Amazon étend Alexa+ au web, permettant aux utilisateurs d'interagir avec l'assistant vocal directement depuis les navigateurs. Cette expansion marque une étape importante dans la stratégie d'Amazon pour rendre Alexa accessible partout, pas seulement sur les appareils Echo.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>6 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-yellow-500 mt-1">19</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://newsletter.theaireport.ai/p/universal-teams-with-nvidia-on-ai-music-discovery" target="_blank" rel="noopener noreferrer">Universal Music s'associe avec NVIDIA pour la découverte musicale IA</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Universal Music Group annonce un partenariat avec NVIDIA pour développer des technologies de découverte musicale alimentées par l'IA. Cette collaboration vise à utiliser l'IA pour améliorer la façon dont les utilisateurs découvrent et interagissent avec la musique, ouvrant de nouvelles possibilités pour l'industrie musicale.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>7 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -518,67 +578,16 @@
                     <div class="space-y-12">
                         <article class="group">
                             <div class="flex items-start gap-6">
-                                <div class="text-2xl font-light text-green-500 mt-1">17</div>
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://securityonline.info/the-130-billion-comeback-why-apples-slow-ai-strategy-is-a-2026-trap/" target="_blank">Apple : 130 milliards en réserve pour une stratégie IA "lente mais calculée"</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">La stratégie IA "lente" d'Apple repose sur 130 milliards de cash. Plutôt que de rejoindre la course aux armements IA, Apple mise sur l'expérience utilisateur et pourrait surprendre en 2026.</p>
-                                    <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
-                                        <span>•</span>
-                                        <span>1er janvier 2026</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="text-2xl font-light text-green-500 mt-1">18</div>
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://threadreaderapp.com/thread/2002127824174657579.html" target="_blank">Lovable : le product-market fit se réinitialise tous les trimestres pour les startups IA</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Chez Lovable (200M$ ARR), le product-market fit se réinitialise tous les 3 mois car les capacités IA et attentes utilisateurs évoluent trop vite pour une stratégie de scaling long terme.</p>
-                                    <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
-                                        <span>•</span>
-                                        <span>1er janvier 2026</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
-                                <div class="text-2xl font-light text-green-500 mt-1">19</div>
-                                <div class="flex-1">
-                                    <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://github.com/harvard-edge/cs249r_book" target="_blank">Harvard CS 249R : cours open-source sur le deep learning et le RL</a>
-                                    </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Harvard publie un textbook open-source pour son cours CS249R couvrant le deep learning et reinforcement learning avec exemples pratiques et lectures. Ressource éducative gratuite.</p>
-                                    <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
-                                        <span>•</span>
-                                        <span>1er janvier 2026</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="group">
-                            <div class="flex items-start gap-6">
                                 <div class="text-2xl font-light text-green-500 mt-1">20</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.theregister.com/2025/12/31/us_army_seeking_officers_willing/" target="_blank">L'armée américaine forme ses premiers spécialistes IA/ML</a>
+                                        <a href="https://arxiv.org/abs/2510.26745" target="_blank" rel="noopener noreferrer">Mémoire géométrique dans les modèles de séquence : une nouvelle forme de stockage d'information</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'US Army lance en janvier une formation pour officiers spécialistes IA/ML via le programme VTIP. L'objectif : développer une expertise interne pour l'intégration de l'IA dans les opérations militaires.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ce papier identifie une forme dramatiquement différente de la façon dont les modèles de séquence profonds stockent l'information factuelle appelée mémoire géométrique, contrastant avec la vue traditionnelle de mémoire associative. Les modèles synthétisent des embeddings encodant des relations globales entre toutes les entités, même celles qui ne co-occurrent jamais dans l'entraînement.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -589,13 +598,13 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">21</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://ahrefs.com/blog/ai-marketing-examples/" target="_blank">13 cas où l'IA a vraiment fonctionné en marketing</a>
+                                        <a href="https://arxiv.org/abs/2512.21309" target="_blank" rel="noopener noreferrer">AgentReuse : réduction de 93% de la latence via réutilisation de plans</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Ahrefs compile 13 exemples concrets d'IA en marketing : génération d'images, optimisation d'annonces, création de contenu. Des marques comme Heads or Tails Pup ont vu leurs ventes bondir grâce à l'IA.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">AgentReuse aborde les goulots d'étranglement de latence dans les agents pilotés par LLM en mettant en cache et réutilisant les plans pour des requêtes similaires, observant qu'environ 30% des requêtes d'agents sont identiques ou similaires. Le système atteint un taux de réutilisation de plans efficace de 93% et une réduction de latence de 93,12%.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>TLDR AI</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>1er janvier 2026</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -606,13 +615,13 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">22</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">Karpathy publie sa rétrospective IA 2025</a>
+                                        <a href="https://arxiv.org/abs/2512.20491" target="_blank" rel="noopener noreferrer">Step-DeepResearch : agent de recherche profond de 32B paramètres rivalisant avec OpenAI</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Andrej Karpathy partage son analyse de l'année IA 2025. L'ancien directeur IA de Tesla offre sa perspective sur les avancées majeures et les tendances à surveiller.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Step-DeepResearch est un agent de recherche profond de 32B paramètres qui rivalise avec OpenAI et Gemini DeepResearch grâce à l'entraînement de capacités atomiques - décomposant la recherche en planification, collecte d'informations, vérification croisée des sources et rédaction de rapports. Atteignant 61,42 sur Scale AI ResearchRubrics, c'est l'agent de recherche profond le plus rentable disponible.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
                                         <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>27 décembre 2025</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -623,13 +632,13 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">23</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-december-27" target="_blank">Google annonce ses percées IA prévues pour 2025</a>
+                                        <a href="https://attnos.com/" target="_blank" rel="noopener noreferrer">attn veut remplacer votre scroll matinal de boîte de réception par un briefing IA</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Google dévoile sa feuille de route avec les avancées IA majeures attendues. Focus sur l'amélioration de Gemini et l'intégration IA dans tous les produits Google.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Un nouvel outil de productivité appelé attn vient de lancer, promettant de connecter vos applications et de fournir un briefing quotidien des priorités - aucun scroll de boîte de réception requis. L'outil se connecte à votre suite de productivité existante et utilise l'IA pour mettre en avant vos plus grandes priorités et responsabilités les plus importantes pour la journée.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>NLP Newsletter</span>
+                                        <span>Superhuman</span>
                                         <span>•</span>
-                                        <span>27 décembre 2025</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -640,13 +649,13 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">24</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://alphasignal.ai/last-email/" target="_blank">AI2 lance DR Tulu : nouveau modèle open-source performant</a>
+                                        <a href="https://www.biorxiv.org/content/10.64898/2025.12.18.695340v1" target="_blank" rel="noopener noreferrer">Effet d'espacement pour la généralisation : améliorer l'apprentissage avec des intervalles structurés</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">L'Allen Institute for AI (AI2) dévoile DR Tulu, un nouveau modèle open-source qui rivalise avec les modèles propriétaires sur plusieurs benchmarks. Une avancée pour l'IA ouverte.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Des chercheurs de l'université Tsinghua investiguent comment l'effet d'espacement - un principe d'apprentissage bien documenté où les intervalles espacés entre les entraînements améliorent la rétention - peut améliorer la généralisation dans les réseaux de neurones biologiques et artificiels. L'approche implémente un dropout structuré où la probabilité varie périodiquement.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Alpha Signal</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>Dernière édition</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -657,13 +666,13 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">25</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">Human-in-the-Loop devient le standard par défaut en 2026</a>
+                                        <a href="https://arxiv.org/abs/2512.05765" target="_blank" rel="noopener noreferrer">MACI : architecture pour le raisonnement orienté objectif avec débat et jugement socratique</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Les systèmes IA les plus durables ne suppriment pas l'humain de la boucle mais redesignent la boucle. En 2026, l'accent est mis sur de meilleurs passages de relais et une collaboration plus étroite humain-machine.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Ce papier argue que les LLM ne sont pas fondamentalement limités comme matcheurs de patterns - le vrai goulot d'étranglement est le manque d'une couche de coordination System-2. Les auteurs proposent MACI, une architecture implémentant trois mécanismes : baiting (débat modulé par comportement), filtering (jugement socratique), et persistence (mémoire transactionnelle).</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Human in the Loop</span>
+                                        <span>NLP Newsletter</span>
                                         <span>•</span>
-                                        <span>22 décembre 2025</span>
+                                        <span>4 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -674,13 +683,30 @@
                                 <div class="text-2xl font-light text-green-500 mt-1">26</div>
                                 <div class="flex-1">
                                     <h2 class="text-xl font-medium mb-3 article-title">
-                                        <a href="https://www.humanintheloop.online/p/28-edition-what-to-expect-from-ai-in-2026" target="_blank">Human in the Loop atteint 30 000 lecteurs</a>
+                                        <a href="https://www.snowflake.com/en/news/press-releases/snowflake-announces-intent-to-acquire-observe-to-deliver-ai-powered-observability-at-enterprise-scale/" target="_blank" rel="noopener noreferrer">Snowflake prévoit d'acquérir Observe pour l'observabilité IA à l'échelle entreprise</a>
                                     </h2>
-                                    <p class="text-gray-600 mb-4 leading-relaxed">Andreas Horn célèbre le passage à près de 30 000 lecteurs pour sa newsletter lancée en mai 2025. Un succès pour cette publication hebdomadaire sur les agents IA et cas d'usage réels.</p>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">Snowflake annonce son intention d'acquérir Observe pour fournir une observabilité alimentée par l'IA à l'échelle entreprise. Cette acquisition renforcera les capacités de Snowflake dans le domaine de l'observabilité et du monitoring des systèmes complexes, permettant aux entreprises de mieux comprendre et optimiser leurs opérations.</p>
                                     <div class="flex items-center gap-4 text-sm text-gray-400">
-                                        <span>Human in the Loop</span>
+                                        <span>The AI Report</span>
                                         <span>•</span>
-                                        <span>22 décembre 2025</span>
+                                        <span>9 janvier 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="group">
+                            <div class="flex items-start gap-6">
+                                <div class="text-2xl font-light text-green-500 mt-1">27</div>
+                                <div class="flex-1">
+                                    <h2 class="text-xl font-medium mb-3 article-title">
+                                        <a href="https://www.reuters.com/technology/crowdstrike-buy-identity-security-startup-sgnl-740-million-tackle-ai-threats-2026-01-08/" target="_blank" rel="noopener noreferrer">CrowdStrike acquiert la startup de sécurité d'identité SGNL pour 740 millions de dollars</a>
+                                    </h2>
+                                    <p class="text-gray-600 mb-4 leading-relaxed">CrowdStrike acquiert la startup de sécurité d'identité SGNL pour 740 millions de dollars pour faire face aux menaces IA. Cette acquisition renforce les capacités de CrowdStrike dans la sécurité d'identité et la protection contre les menaces émergentes liées à l'IA.</p>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>The AI Report</span>
+                                        <span>•</span>
+                                        <span>9 janvier 2026</span>
                                     </div>
                                 </div>
                             </div>
@@ -692,16 +718,16 @@
                 <div class="sources-section">
                     <h3 class="sources-title">Sources</h3>
                     <ul class="sources-list">
-                        <li><a href="https://alphasignal.ai/last-email/" target="_blank">Alpha Signal</a></li>
-                        <li><a href="https://mozzabytes.substack.com/" target="_blank">Mozza Bytes</a></li>
-                        <li><a href="https://www.upmynt.com/" target="_blank">Upmynt</a></li>
-                        <li><a href="https://nlp.elvissaravia.com/" target="_blank">NLP Newsletter</a></li>
-                        <li><a href="https://www.theaireport.ai/newsletters" target="_blank">The AI Report</a></li>
-                        <li><a href="https://tldr.tech/ai" target="_blank">TLDR AI</a></li>
-                        <li><a href="https://www.aitidbits.ai/" target="_blank">AI Tidbits</a></li>
-                        <li><a href="https://www.superhuman.ai/" target="_blank">Superhuman</a></li>
-                        <li><a href="https://iaethiqueinsider.substack.com/" target="_blank">IA Ethique Insider</a></li>
-                        <li><a href="https://www.humanintheloop.online/" target="_blank">Human in the Loop</a></li>
+                        <li><a href="https://alphasignal.ai/last-email/" target="_blank" rel="noopener noreferrer">Alpha Signal</a></li>
+                        <li><a href="https://mozzabytes.substack.com/" target="_blank" rel="noopener noreferrer">Mozza Bytes</a></li>
+                        <li><a href="https://www.upmynt.com/" target="_blank" rel="noopener noreferrer">Upmynt</a></li>
+                        <li><a href="https://nlp.elvissaravia.com/" target="_blank" rel="noopener noreferrer">NLP Newsletter</a></li>
+                        <li><a href="https://www.theaireport.ai/newsletters" target="_blank" rel="noopener noreferrer">The AI Report</a></li>
+                        <li><a href="https://tldr.tech/ai" target="_blank" rel="noopener noreferrer">TLDR AI</a></li>
+                        <li><a href="https://www.aitidbits.ai/" target="_blank" rel="noopener noreferrer">AI Tidbits</a></li>
+                        <li><a href="https://www.superhuman.ai/" target="_blank" rel="noopener noreferrer">Superhuman</a></li>
+                        <li><a href="https://iaethiqueinsider.substack.com/" target="_blank" rel="noopener noreferrer">IA Ethique Insider</a></li>
+                        <li><a href="https://www.humanintheloop.online/" target="_blank" rel="noopener noreferrer">Human in the Loop</a></li>
                     </ul>
                 </div>
             </div>
