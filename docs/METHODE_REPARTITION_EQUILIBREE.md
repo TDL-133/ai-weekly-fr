@@ -102,10 +102,11 @@ Si une source a plusieurs articles très viraux :
 
 ## Outils de vérification
 
-### Script de validation (à créer)
+### Script de validation
+Utiliser le script `scripts/validate-balance.js` pour valider automatiquement la répartition :
+
 ```bash
-# Compter les articles par source dans index.html
-grep -o '<span>[^<]*</span>' index.html | grep -E "(TLDR AI|Superhuman|The AI Report|NLP Newsletter|Alpha Signal|Mozza Bytes|Upmynt|AI Tidbits|IA Ethique Insider|Human in the Loop)" | sort | uniq -c
+node scripts/validate-balance.js index.html
 ```
 
 ## Historique
@@ -117,4 +118,4 @@ grep -o '<span>[^<]*</span>' index.html | grep -E "(TLDR AI|Superhuman|The AI Re
 ## Références
 
 - `prompt revue fr.md` : Ligne 33 - "Assurer un équilibre entre les 10 sources"
-- `src/scripts/validator.js` : Fonction `checkSourceBalance` (maximum 3 articles de différence)
+- `scripts/validate-balance.js` : Script de validation automatique

@@ -37,7 +37,40 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **11 janvier 2026** : Implémentation de la méthode de répartition équilibrée des sources (voir [documentation](./docs/METHODE_REPARTITION_EQUILIBREE.md))
 - 8–14 novembre 2025 : ajout de `AI_Weekly_Nov8-14_2025_v2.html` avec harmonisation du style des titres (liens des articles alignés sur les éditions précédentes).
+
+## ⚖️ Méthode de Répartition Équilibrée
+
+Pour garantir une distribution équitable des articles entre les 10 sources, nous utilisons une **méthode de répartition équilibrée**.
+
+### Principe
+
+- **Répartition cible** : 2-3 articles par source (pour 25-27 articles au total)
+- **Différence maximale** : 1 article entre les sources
+- **Toutes les sources représentées** : Minimum 1 article par source
+
+### Documentation
+
+📖 Consultez la [documentation complète](./docs/METHODE_REPARTITION_EQUILIBREE.md) pour :
+- Les règles détaillées de répartition
+- Le processus de sélection des articles
+- Les cas particuliers et exceptions
+- Des exemples de répartition réussie
+
+### Validation automatique
+
+Utilisez le script de validation pour vérifier que votre newsletter respecte la méthode :
+
+```bash
+node scripts/validate-balance.js index.html
+```
+
+Le script vérifie :
+- ✅ Toutes les 10 sources sont représentées
+- ✅ Différence maximale ≤ 1 article
+- ✅ Total d'articles entre 25-27
+- ✅ Répartition des catégories respectée
 
 ## 🚀 Workflow de Publication
 
