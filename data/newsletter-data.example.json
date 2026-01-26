@@ -1,0 +1,74 @@
+{
+  "week": "2025-12-20 to 2025-12-26",
+  "categories": {
+    "critique": [
+      {
+        "title": "Exemple d'article critique",
+        "url": "https://example.com/article",
+        "description": "Description de l'article en deux lignes maximum. Cette description doit être claire et informative.",
+        "source": "TLDR AI",
+        "date": "20 décembre 2025"
+      }
+    ],
+    "important": [
+      {
+        "title": "Exemple d'article important",
+        "url": "https://example.com/article2",
+        "description": "Description de l'article important en deux lignes.",
+        "source": "Alpha Signal",
+        "date": "21 décembre 2025"
+      }
+    ],
+    "goodToKnow": [
+      {
+        "title": "Exemple d'article bon à savoir",
+        "url": "https://example.com/article3",
+        "description": "Description de l'article bon à savoir en deux lignes.",
+        "source": "NLP Newsletter",
+        "date": "22 décembre 2025"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Alpha Signal",
+      "url": "https://alphasignal.ai/last-email/"
+    },
+    {
+      "name": "Mozza Bytes",
+      "url": "https://mozzabytes.substack.com/"
+    },
+    {
+      "name": "Upmynt",
+      "url": "https://www.upmynt.com/"
+    },
+    {
+      "name": "NLP Newsletter",
+      "url": "https://nlp.elvissaravia.com/"
+    },
+    {
+      "name": "The AI Report",
+      "url": "https://www.theaireport.ai/newsletters"
+    },
+    {
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/ai"
+    },
+    {
+      "name": "AI Tidbits",
+      "url": "https://www.aitidbits.ai/"
+    },
+    {
+      "name": "Superhuman",
+      "url": "https://www.superhuman.ai/"
+    },
+    {
+      "name": "IA Ethique Insider",
+      "url": "https://iaethiqueinsider.substack.com/"
+    },
+    {
+      "name": "Human in the Loop",
+      "url": "https://www.humanintheloop.online/"
+    }
+  ]
+}

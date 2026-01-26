@@ -1,0 +1,21 @@
+{
+  "name": "ai-weekly-fr",
+  "version": "1.0.0",
+  "description": "AI Weekly - Revue de presse IA en français",
+  "main": "scripts/generate.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "validate": "node scripts/validate.js",
+    "build": "npm run validate && npm run generate"
+  },
+  "keywords": [
+    "newsletter",
+    "ai",
+    "french"
+  ],
+  "author": "Dagorsey & Claude",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "week": "2026-01-20 to 2026-01-26",
+  "categories": {
+    "critique": [
+      {
+        "title": "OpenAI franchit les 20 milliards de dollars de revenus",
+        "url": "https://www.superhuman.ai/p/openai-rockets-to-record-20b-revenue",
+        "description": "OpenAI réalise une croissance exceptionnelle avec 20 milliards de dollars de revenus annualisés en 2025, soit une progression de 233% par rapport à 2023, confirmant sa domination du secteur de l'IA.",
+        "source": "Superhuman AI",
+        "date": "20 janvier 2026"
+      },
+      {
+        "title": "OpenAI introduit la publicité dans ChatGPT",
+        "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/",
+        "description": "OpenAI lance les tests publicitaires pour les versions gratuites et Go de ChatGPT aux États-Unis, marquant un tournant dans la monétisation de l'IA conversationnelle avec des publicités personnalisées basées sur les conversations.",
+        "source": "OpenAI, CNN Business, Forbes",
+        "date": "16-20 janvier 2026"
+      },
+      {
+        "title": "Anthropic publie la Constitution de Claude",
+        "url": "https://www.anthropic.com/news/claude-new-constitution",
+        "description": "Anthropic dévoile un nouveau cadre éthique définissant le comportement et le raisonnement de Claude, remplaçant les règles simples par une constitution narrative explicite publiée sous licence CC0.",
+        "source": "Anthropic, DEV Community",
+        "date": "22 janvier 2026"
+      },
+      {
+        "title": "Anthropic atteint 5 milliards de dollars de revenus",
+        "url": "https://dev.to/dan_ledger_ce2886f0037972/2026-01-22-daily-ai-news-3b54",
+        "description": "Anthropic quintuple son chiffre d'affaires de 1 à 5 milliards de dollars grâce à Claude for Life Sciences, aux intégrations avec les laboratoires du DOE et à ses solutions verticales ABCDE.",
+        "source": "DEV Community",
+        "date": "22 janvier 2026"
+      },
+      {
+        "title": "Google lance Personal Intelligence pour Gemini",
+        "url": "https://www.superhuman.ai/p/gemini-gets-personal-intelligence",
+        "description": "Google déploie Personal Intelligence pour Gemini, permettant à l'IA d'accéder aux données Gmail, Photos, YouTube et Search pour fournir des réponses personnalisées aux utilisateurs Premium et Ultra.",
+        "source": "Superhuman AI, Google Blog",
+        "date": "15 janvier 2026"
+      },
+      {
+        "title": "Anthropic et Amazon lancent des outils IA santé",
+        "url": "https://www.superhuman.ai/p/amazon-anthropic-release-ai-healthcare-tools",
+        "description": "Anthropic dévoile quatre intégrations santé pour Claude (Apple Health, HealthEx, Function Health), tandis qu'Amazon lance Health AI pour One Medical, marquant l'entrée massive de l'IA dans la santé.",
+        "source": "Superhuman AI",
+        "date": "22 janvier 2026"
+      }
+    ],
+    "important": [
+      {
+        "title": "Slack transforme Slackbot en agent IA autonome",
+        "url": "https://www.superhuman.ai/p/slackbot-s-ai-agent-upgrade",
+        "description": "Slack déploie une refonte complète de Slackbot qui connecte les applications, messages et fichiers pour devenir un agent IA contextuel capable d'automatiser des tâches complexes dans l'espace de travail.",
+        "source": "Superhuman AI",
+        "date": "14 janvier 2026"
+      },
+      {
+        "title": "OpenAI for Countries : expansion mondiale de l'accès à l'IA",
+        "url": "https://www.reuters.com/business/davos/openai-seeks-increase-global-ai-use-everyday-life-2026-01-21/",
+        "description": "OpenAI lance une initiative pour convaincre les gouvernements mondiaux de construire davantage de centres de données et encourager l'utilisation de l'IA dans l'éducation, la santé et la préparation aux catastrophes.",
+        "source": "Reuters",
+        "date": "21 janvier 2026"
+      },
+      {
+        "title": "Google annonce de nouveaux outils éducatifs IA pour Gemini et Classroom",
+        "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
+        "description": "Google dévoile des mises à jour majeures de Gemini et Google Classroom au salon BETT 2026, simplifiant les workflows éducatifs et offrant de nouveaux outils d'apprentissage personnalisés pour les étudiants.",
+        "source": "Google Blog",
+        "date": "21 janvier 2026"
+      },
+      {
+        "title": "Gemini 3 Preview lancé avec nouveaux alias",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "description": "Google met à jour ses alias de modèles : gemini-pro-latest devient gemini-3-pro-preview et gemini-flash-latest devient gemini-3-flash-preview, marquant l'arrivée officielle de Gemini 3.",
+        "source": "Google AI Developer",
+        "date": "21 janvier 2026"
+      },
+      {
+        "title": "Remotion lance Agent Skills pour la création vidéo IA",
+        "url": "https://www.superhuman.ai/p/amazon-anthropic-release-ai-healthcare-tools",
+        "description": "Remotion publie Agent Skills permettant de créer des vidéos MP4 entièrement via Claude Code en utilisant React, transformant le langage naturel en vidéos programmatiques.",
+        "source": "Superhuman AI",
+        "date": "22 janvier 2026"
+      },
+      {
+        "title": "Podium dépasse 100 millions de dollars de revenus IA en 24 mois",
+        "url": "https://www.superhuman.ai/p/amazon-anthropic-release-ai-healthcare-tools",
+        "description": "Podium franchit 100M$ de revenus annuels récurrents avec Jerry, son agent IA qui qualifie les leads 24/7, affichant une croissance de 300% en glissement annuel avec 10 000+ agents déployés.",
+        "source": "Superhuman AI",
+        "date": "22 janvier 2026"
+      },
+      {
+        "title": "Google lance agentic commerce avec Universal Commerce Protocol",
+        "url": "https://beam.ai/agentic-insights/geminis-january-2026-update-just-changed-how-people-buy-online",
+        "description": "Google déploie le Universal Commerce Protocol co-développé avec Shopify, Etsy, Walmart et Target, permettant aux agents IA d'initier des achats directement depuis les expériences de recherche.",
+        "source": "Beam AI",
+        "date": "14 janvier 2026"
+      }
+    ],
+    "goodToKnow": [
+      {
+        "title": "Vibecode lance la première plateforme full-stack de vibe coding",
+        "url": "https://www.superhuman.ai/p/openai-rockets-to-record-20b-revenue",
+        "description": "Vibecode déploie une plateforme permettant de créer et déployer des applications web et mobiles complètes en un clic, alimentée par Claude Code, avec plus de 5 000 applications déjà publiées.",
+        "source": "Superhuman AI",
+        "date": "20 janvier 2026"
+      },
+      {
+        "title": "Black Forest Labs lance Flux.2 klein pour génération d'images ultra-rapide",
+        "url": "https://www.superhuman.ai/p/openai-rockets-to-record-20b-revenue",
+        "description": "La startup allemande publie des modèles open-source (4B et 9B paramètres) générant des images en moins de 0,5 seconde, avec le modèle 4B disponible sous licence Apache 2.0 pour usage commercial.",
+        "source": "Superhuman AI",
+        "date": "20 janvier 2026"
+      },
+      {
+        "title": "Signal Creator lance Confer : chatbot IA chiffré de bout en bout",
+        "url": "https://www.superhuman.ai/p/slackbot-s-ai-agent-upgrade",
+        "description": "L'ingénieur fondateur de Signal dévoile Confer, un assistant IA open-source utilisant des environnements d'exécution de confiance pour chiffrer toutes les conversations, inaccessibles même aux forces de l'ordre.",
+        "source": "Superhuman AI",
+        "date": "14 janvier 2026"
+      },
+      {
+        "title": "Apple lance Creator Studio : suite créative IA à 12,99$/mois",
+        "url": "https://www.superhuman.ai/p/slackbot-s-ai-agent-upgrade",
+        "description": "Apple dévoile un bundle de six applications professionnelles (Final Cut Pro, Logic Pro, Pixelmator Pro) avec nouvelles fonctionnalités IA comme Visual Search, génération de présentations et auto-complétion intelligente.",
+        "source": "Superhuman AI",
+        "date": "14 janvier 2026"
+      },
+      {
+        "title": "Google Gemini API : support Cloud Storage et URLs pré-signées",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "description": "Google lance le support des buckets Cloud Storage et URLs pré-signées pour Gemini API, augmentant la limite de taille de fichier de 20MB à 100MB pour améliorer l'ingestion de données.",
+        "source": "Google AI Developer",
+        "date": "8 janvier 2026"
+      },
+      {
+        "title": "Veo obtient des résolutions 4K pour la génération vidéo",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "description": "Google ajoute des résolutions de sortie 4K pour Veo et étend le support des vidéos portrait dans toutes les résolutions, améliorant considérablement les capacités de génération vidéo IA.",
+        "source": "Google AI Developer",
+        "date": "13 janvier 2026"
+      },
+      {
+        "title": "Google révèle une astuce de prompting : la répétition double",
+        "url": "https://www.superhuman.ai/p/gemini-gets-personal-intelligence",
+        "description": "Une recherche Google montre que copier-coller un prompt deux fois améliore la précision jusqu'à 76%, remportant 47 tests sur 70 contre Gemini, GPT-4o, Claude et DeepSeek sans augmenter la latence.",
+        "source": "Superhuman AI",
+        "date": "15 janvier 2026"
+      },
+      {
+        "title": "Airbnb recrute l'ancien chef IA de Meta comme CTO",
+        "url": "https://www.superhuman.ai/p/gemini-gets-personal-intelligence",
+        "description": "Airbnb embauche Ahmad Al-Dahle, leader de l'IA générative chez Meta et des modèles Llama, pour développer un 'concierge de voyage' IA et transformer la recherche et planification de voyages.",
+        "source": "Superhuman AI",
+        "date": "14 janvier 2026"
+      },
+      {
+        "title": "OpenAI et Anthropic préparent des IPO pour 2026",
+        "url": "https://www.superhuman.ai/p/gemini-gets-personal-intelligence",
+        "description": "OpenAI et Anthropic ont commencé des travaux préliminaires pour d'éventuelles introductions en bourse, rejoignant SpaceX dans ce qui pourrait devenir une vague historique d'IPO totalisant près de 2 000 milliards de dollars de valorisation.",
+        "source": "Superhuman AI",
+        "date": "15 janvier 2026"
+      },
+      {
+        "title": "Microsoft Nadella sur la transformation des workflows par l'IA",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-20/microsoft-ceo-nadella-on-how-ai-can-change-workflows-video",
+        "description": "Le PDG de Microsoft explique au Forum économique mondial de Davos comment l'IA peut fondamentalement restructurer les workflows d'entreprise en permettant un flux d'information libre entre les équipes.",
+        "source": "Bloomberg",
+        "date": "20 janvier 2026"
+      },
+      {
+        "title": "NVIDIA envisage l'acquisition de Groq pour 20 milliards de dollars",
+        "url": "https://etcjournal.com/2026/01/18/three-biggest-ai-stories-in-jan-2026-real-time-ai-inference/",
+        "description": "Des rapports suggèrent que NVIDIA finaliserait l'acquisition de la propriété intellectuelle de Groq et de ses talents clés, consolidant davantage sa domination sur l'infrastructure d'inférence IA ultra-rapide.",
+        "source": "Educational Technology Journal",
+        "date": "18 janvier 2026"
+      },
+      {
+        "title": "Anthropic CEO : vendre des puces IA à la Chine équivaut à vendre des armes nucléaires",
+        "url": "https://nypost.com/2026/01/20/business/selling-ai-chips-to-china-is-like-selling-nuclear-weapons-to-north-korea-anthropic-ceo/",
+        "description": "Le PDG d'Anthropic critique vivement l'assouplissement des contrôles d'exportation américains sur les puces IA avancées vers la Chine, qualifiant cette décision de menace stratégique majeure.",
+        "source": "New York Post",
+        "date": "20 janvier 2026"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Superhuman AI",
+      "url": "https://www.superhuman.ai/"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/"
+    },
+    {
+      "name": "Google Blog",
+      "url": "https://blog.google/"
+    },
+    {
+      "name": "Google AI Developer",
+      "url": "https://ai.google.dev/"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/"
+    },
+    {
+      "name": "CNN Business",
+      "url": "https://www.cnn.com/business"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/"
+    },
+    {
+      "name": "DEV Community",
+      "url": "https://dev.to/"
+    },
+    {
+      "name": "Beam AI",
+      "url": "https://beam.ai/"
+    },
+    {
+      "name": "Educational Technology Journal",
+      "url": "https://etcjournal.com/"
+    },
+    {
+      "name": "New York Post",
+      "url": "https://nypost.com/"
+    }
+  ]
+}
