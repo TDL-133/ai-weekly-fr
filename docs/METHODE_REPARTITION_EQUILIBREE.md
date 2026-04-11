@@ -2,11 +2,11 @@
 
 ## Vue d'ensemble
 
-Cette méthode garantit une distribution équilibrée des articles de la newsletter AI Weekly entre les 10 sources exclusives, en évitant la sur-représentation de certaines sources au détriment d'autres.
+Cette méthode vise une distribution équilibrée des articles de la newsletter AI Weekly entre les sources qui ont effectivement publié un numéro pertinent sur la période visée, en évitant la sur-représentation de certaines sources au détriment d'autres.
 
 ## Principe fondamental
 
-**Assurer un équilibre entre les 10 sources** - Chaque source doit être représentée de manière équitable dans la newsletter finale.
+**Assurer un équilibre entre les sources actives de la période** - Chaque source ayant publié un numéro pertinent doit être représentée de manière équitable dans la newsletter finale.
 
 ## Règles de répartition
 
@@ -33,9 +33,10 @@ Cette méthode garantit une distribution équilibrée des articles de la newslet
 ## Processus de sélection
 
 ### Étape 1 : Collecte initiale
-1. Scraper **toutes les 10 sources** pour la période demandée
-2. Collecter tous les articles pertinents de chaque source
-3. Filtrer par date (période demandée uniquement)
+1. Scraper **toutes les sources curatoriales** pour la période demandée
+2. Identifier les sources ayant effectivement publié un numéro pertinent
+3. Collecter tous les articles pertinents de ces sources actives
+4. Filtrer par date (période demandée uniquement)
 
 ### Étape 2 : Évaluation de l'importance
 Pour chaque source, identifier les articles les plus :
@@ -54,7 +55,7 @@ Pour chaque source, identifier les articles les plus :
 ### Étape 4 : Vérification finale
 1. Compter les articles par source
 2. Vérifier que la différence maximale entre sources est ≤ 1
-3. S'assurer que toutes les sources sont représentées (minimum 1 article par source)
+3. S'assurer que toutes les sources actives sont représentées (minimum 1 article par source publiée sur la période)
 
 ## Exemple de répartition réussie
 
@@ -79,10 +80,10 @@ Pour chaque source, identifier les articles les plus :
 ## Cas particuliers
 
 ### Source avec peu de contenu disponible
-Si une source n'a pas assez d'articles pertinents pour la période :
-1. Inclure au minimum **1 article** de cette source
-2. Compenser en réduisant légèrement les sources sur-représentées
-3. Documenter la raison dans le commit
+Si une source n'a pas publié de numéro pertinent ou n'a pas assez d'articles exploitables pour la période :
+1. Retirer cette source du calcul de répartition pour cette édition
+2. Répartir équitablement les articles sur les sources actives restantes
+3. Documenter explicitement l'exception dans le README ou dans la note d'édition
 
 ### Source avec beaucoup de contenu viral
 Si une source a plusieurs articles très viraux :
@@ -93,7 +94,7 @@ Si une source a plusieurs articles très viraux :
 ## Validation
 
 ### Checklist avant publication
-- [ ] Toutes les 10 sources sont représentées
+- [ ] Toutes les sources actives de la période sont représentées
 - [ ] Différence maximale entre sources ≤ 1 article
 - [ ] Total d'articles entre 25-27
 - [ ] Répartition des catégories respectée (Critique: 8-10, Important: 8-10, Bon à Savoir: 7-10)
@@ -103,7 +104,7 @@ Si une source a plusieurs articles très viraux :
 ## Outils de vérification
 
 ### Script de validation
-Utiliser le script `scripts/validate-balance.js` pour valider automatiquement la répartition :
+Utiliser le script `scripts/validate-balance.js` pour valider automatiquement la répartition historique à 10 sources :
 
 ```bash
 node scripts/validate-balance.js index.html
@@ -117,5 +118,5 @@ node scripts/validate-balance.js index.html
 
 ## Références
 
-- `prompt revue fr.md` : Ligne 33 - "Assurer un équilibre entre les 10 sources"
-- `scripts/validate-balance.js` : Script de validation automatique
+- `prompt revue fr.md` : consigne d’équilibrage entre les sources curatoriales
+- `scripts/validate-balance.js` : script de validation historique à 10 sources, à interpréter avec souplesse lorsque certaines sources n’ont pas publié pour la période

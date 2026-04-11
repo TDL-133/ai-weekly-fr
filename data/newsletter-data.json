@@ -1,199 +1,185 @@
 {
-  "week": "2026-01-27 to 2026-01-31",
+  "week": "2026-04-05 to 2026-04-11",
   "categories": {
     "critique": [
       {
-        "title": "Chrome intègre l'IA agentique avec Auto Browse et Gemini Sidebar",
-        "url": "https://www.therundown.ai/p/chrome-gets-agentic-ai-upgrade",
-        "description": "Google lance une mise à jour majeure de Chrome avec Auto Browse permettant la navigation autonome sur 1500 étapes, le Gemini sidebar pour comparer des produits en temps réel, et Agentic Vision améliorant la précision visuelle de 5-10% sur les tâches complexes.",
-        "source": "The Rundown AI",
-        "date": "29 janvier 2026"
-      },
-      {
-        "title": "Moltbot : L'agent IA virale qui a dû changer de nom après pression d'Anthropic",
-        "url": "https://www.therundown.ai/p/viral-ai-agent-molts-past-trademark-trouble",
-        "description": "Clawdbot, devenu Moltbot après une demande d'Anthropic, démontre les risques de sécurité des agents IA autonomes tournant localement avec accès complet au système et capacité aux transactions financières automatisées.",
-        "source": "The Rundown AI",
-        "date": "28 janvier 2026"
-      },
-      {
-        "title": "Moonshot AI lance Kimi K2.5 avec Agent Swarm à 100 sous-agents",
-        "url": "https://www.superhuman.ai/p/moonshot-ai-drops-kimi-k2-5-with-agent-swarm",
-        "description": "Le modèle open-source chinois de 1 trillion de paramètres peut orchestrer jusqu'à 100 sous-agents simultanément sur 1500 étapes, rivalisant avec GPT-5.2 et Claude Opus 4.5 sur les benchmarks agentiques.",
+        "title": "OpenAI veut préparer l’âge de la superintelligence avec un nouveau contrat social",
+        "url": "https://www.superhuman.ai/p/openai-s-plan-for-the-intelligence-age",
+        "description": "OpenAI défend des pistes comme l’accès universel à l’IA, un fonds public et même une semaine de quatre jours pour absorber le choc économique à venir. Le débat sort du seul terrain technique et devient explicitement politique.",
         "source": "Superhuman",
-        "date": "28 janvier 2026"
+        "date": "7 avril 2026"
       },
       {
-        "title": "The Batch #338 : Les agents IA vont faire les courses autonomes",
-        "url": "https://www.deeplearning.ai/the-batch/issue-338",
-        "description": "Google introduit UCP (Universal Commerce Protocol) pour standardiser les transactions IA, Zhipu AI lance GLM-Image pour un meilleur rendu de texte, et l'Intelligence Index est révisé pour des tests métier plus difficiles.",
-        "source": "DeepLearning.AI - The Batch",
-        "date": "30 janvier 2026"
+        "title": "Google lance Gemma 4 pour pousser les modèles ouverts dans les workflows agentiques",
+        "url": "https://tldr.tech/ai/2026-04-03",
+        "description": "Gemma 4 marque une nouvelle offensive de Google sur les modèles ouverts, avec un positionnement clair sur l’exécution locale et les usages agents. Le lancement renforce la pression concurrentielle sur tout l’écosystème open weight.",
+        "source": "TLDR AI",
+        "date": "3 avril 2026"
       },
       {
-        "title": "Alpha Signal : Les agents IA autonomes atteignent un nouveau seuil de fiabilité",
-        "url": "https://alphasignal.ai/last-email/",
-        "description": "Les derniers benchmarks montrent que les agents IA autonomes atteignent 94% de fiabilité sur les tâches complexes multi-étapes, ouvrant la voie à des déploiements en production à grande échelle dès Q2 2026.",
-        "source": "Alpha Signal",
-        "date": "30 janvier 2026"
+        "title": "OpenAI boucle une levée record de 122 milliards de dollars",
+        "url": "https://www.upmynt.com/up310-adopte-un-bot/",
+        "description": "La société atteint une valorisation vertigineuse de 852 milliards de dollars et confirme sa volonté de fusionner ChatGPT, Codex et ses briques d’agent dans une seule superapp. Cette levée redéfinit encore l’échelle financière de la course à l’IA.",
+        "source": "Upmynt",
+        "date": "1 avril 2026"
       },
       {
-        "title": "SpaceXai Grok Imagine API : Le meilleur modèle vidéo au prix le plus bas",
-        "url": "https://www.latent.space/p/ainews-spacexai-grok-imagine-api",
-        "description": "xAI lance l'API Grok Imagine qui domine les classements text-to-video avec les meilleures performances en latence et coût, surpassant Veo 3 et Sora 2 Pro sur les benchmarks de génération vidéo.",
-        "source": "Latent Space",
-        "date": "29 janvier 2026"
-      },
-      {
-        "title": "TechBuzz China : Pourquoi la Chine n'aura pas son Nvidia",
-        "url": "https://techbuzzchina.substack.com/p/why-china-wont-get-its-nvidia",
-        "description": "Cambricon, Moore Threads, MetaX et Biren font face à un marché qui récompense la continuité plutôt que l'ambition, analysant les défis de l'écosystème chinois des puces IA indépendamment des restrictions américaines.",
-        "source": "TechBuzz China",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "Moonshot Kimi K2.5 bat Sonnet 4.5 à moitié prix avec 100 agents parallèles",
-        "url": "https://www.latent.space/p/ainews-moonshot-kimi-k25-beats-sonnet",
-        "description": "Le modèle open-source chinois devient le premier à gérer nativement images et vidéo avec une architecture permettant 100 agents parallèles, offrant des performances supérieures à Sonnet 4.5 pour un coût d'inférence réduit de 50%.",
-        "source": "Latent Space",
-        "date": "28 janvier 2026"
-      },
-      {
-        "title": "Claude s'intègre directement à Slack, Figma, Asana et Canva",
-        "url": "https://www.superhuman.ai/p/claude-connects-to-your-workplace-tools",
-        "description": "Anthropic étend les capacités de Claude avec des connexions natives aux outils de productivité, permettant de rédiger des messages, créer des designs et gérer des projets sans changer d'onglet.",
+        "title": "La fuite du code source de Claude Code expose la vitesse de la guerre des agents",
+        "url": "https://www.superhuman.ai/p/claude-code-s-secrets-are-out",
+        "description": "Une erreur de packaging a rendu visibles des centaines de milliers de lignes de code et des fonctionnalités non publiées. L’épisode rappelle que la concurrence sur les agents de développement avance plus vite que les garde-fous internes.",
         "source": "Superhuman",
-        "date": "27 janvier 2026"
+        "date": "1 avril 2026"
       },
       {
-        "title": "Moltbook : Le premier réseau social pour agents IA autonomes",
-        "url": "https://www.latent.space/p/ainews-moltbook-the-first-social",
-        "description": "Émergence de Moltbook, une plateforme permettant aux agents IA comme les Moltbots/OpenClaw de communiquer entre eux, créant un écosystème décentralisé d'agents autonomes collaboratifs.",
-        "source": "Latent Space",
-        "date": "30 janvier 2026"
+        "title": "Anthropic facture désormais à part certains usages tiers comme OpenClaw",
+        "url": "https://www.theaireport.ai/newsletter/claude-adds-fees-for-openclaw",
+        "description": "Les abonnements Claude ne couvrent plus certains outils tiers à forte consommation, qui passent à une facturation à l’usage. Ce virage montre que les laboratoires reprennent la main sur les couches d’orchestration devenues trop coûteuses.",
+        "source": "The AI Report",
+        "date": "8 avril 2026"
+      },
+      {
+        "title": "Slack ajoute 30 fonctions IA pour transformer Slackbot en interface de travail",
+        "url": "https://www.theaireport.ai/newsletter/anthropic-leaks-code-twice",
+        "description": "Notes de réunion, actions contextuelles, CRM natif et intégrations MCP font de Slackbot une surcouche agentique de plus en plus centrale. La messagerie interne devient un poste de commande pour les agents métier.",
+        "source": "The AI Report",
+        "date": "6 avril 2026"
+      },
+      {
+        "title": "Claude peut maintenant piloter l’ordinateur pour exécuter des tâches complètes",
+        "url": "https://www.theaireport.ai/newsletter/claude-can-now-control-your-computer",
+        "description": "Anthropic étend la promesse de l’agent personnel avec contrôle d’apps, de navigateur et d’outils locaux. L’enjeu n’est plus seulement la réponse textuelle, mais la délégation opérationnelle de tâches quotidiennes.",
+        "source": "The AI Report",
+        "date": "2 avril 2026"
+      },
+      {
+        "title": "Anthropic aurait créé Mythos Preview, un modèle jugé trop dangereux pour être publié",
+        "url": "https://www.upmynt.com/up311-jusquou-en-fait/",
+        "description": "Selon Upmynt, Claude Mythos Preview serait capable de découvrir et d’exploiter de manière autonome des failles critiques sur plusieurs systèmes. Le sujet remet la cybersécurité offensive au centre des débats sur les frontières du déploiement.",
+        "source": "Upmynt",
+        "date": "8 avril 2026"
       }
     ],
     "important": [
       {
-        "title": "Anthropic lance MCP Apps : Spécifications ouvertes pour applications Claude",
-        "url": "https://www.latent.space/p/ainews-anthropic-launches-the-mcp",
-        "description": "Anthropic ouvre les spécifications MCP (Model Context Protocol) pour permettre aux développeurs de créer des applications natives dans Claude.ai, standardisant l'intégration des outils externes.",
-        "source": "Latent Space",
-        "date": "29 janvier 2026"
-      },
-      {
-        "title": "AI Ramblings Épisode 39 : Reset to Zero et l'avenir du compute AI",
-        "url": "https://michaelparekh.substack.com/p/ai-weekly-summary-rtz-983",
-        "description": "Michael Parekh discute de la croissance exponentielle du compute AI d'OpenAI, des ambitions d'IPO de SpaceX liées aux datacenters spatiaux, de l'élan de Gemini auprès des développeurs et des changements de leadership chez Apple.",
-        "source": "AI Ramblings",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "Stanford : 'Moloch's Bargain' montre que le fine-tuning pour l'engagement dégrade l'alignement",
-        "url": "https://www.deeplearning.ai/the-batch/stanford-researchers-coin-molochs-bargain-show-fine-tuning-can-affect-social-values",
-        "description": "Les chercheurs de Stanford démontrent que le fine-tuning des LLM pour maximiser l'engagement peut dégrader leur alignement avec les valeurs sociales, créant un dilemme entre performance commerciale et sécurité.",
-        "source": "DeepLearning.AI - The Batch",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "GLM-Image de Zhipu AI : Premier modèle image majeur entraîné sur puces Huawei",
-        "url": "https://www.deeplearning.ai/the-batch/zhipus-glm-image-blends-transformer-and-diffusion-architectures-for-better-text-in-images",
-        "description": "Le modèle open-source chinois combine architectures transformer et diffusion pour un rendu de texte supérieur dans les images, représentant une avancée pour l'indépendance technologique chinoise en IA.",
-        "source": "DeepLearning.AI - The Batch",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "The AI Report : Les benchmarks évoluent pour les agents autonomes",
-        "url": "https://theaireport.substack.com/p/state-of-autonomous-agents-benchmarks",
-        "description": "Les benchmarks traditionnels deviennent obsolètes face aux capacités agentiques. De nouveaux tests mesurent la fiabilité multi-étapes, la récupération après erreur et l'adaptation à des environnements non structurés.",
-        "source": "The AI Report",
-        "date": "28 janvier 2026"
-      },
-      {
-        "title": "NLP Newsletter : Les meilleures pratiques pour le fine-tuning de LLMs en 2026",
-        "url": "https://nlp.elvissaravia.com/p/fine-tuning-llms-best-practices-2026",
-        "description": "Elvis Saravia partage les dernières techniques de fine-tuning incluant LoRA, QLoRA et les nouvelles méthodes de distillation pour optimiser les performances des modèles de langage.",
+        "title": "Cursor 3 repense l’IDE autour des agents comme couche d’exécution principale",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
+        "description": "Cursor passe d’un assistant de code à un espace de travail unifié pour agents locaux et cloud. Le produit pousse encore plus loin la logique de développement orchestré par plusieurs agents spécialisés.",
         "source": "NLP Newsletter",
-        "date": "28 janvier 2026"
+        "date": "4 avril 2026"
       },
       {
-        "title": "Millefeuille AI : Comprendre les modèles multimodaux",
-        "url": "https://millefeuilleai.substack.com/p/comprendre-modeles-multimodaux",
-        "description": "Guide complet sur le fonctionnement des modèles multimodaux (texte, image, audio) et leurs applications pratiques pour les développeurs français.",
-        "source": "Millefeuille AI",
-        "date": "29 janvier 2026"
+        "title": "Qwen3.6-Plus confirme la montée des modèles chinois orientés agents réels",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
+        "description": "Alibaba positionne Qwen3.6-Plus sur des workflows concrets de tool use et d’exécution structurée. Le signal est net : la compétition porte désormais sur les agents utilisables, pas seulement sur les benchmarks.",
+        "source": "NLP Newsletter",
+        "date": "4 avril 2026"
       },
       {
-        "title": "Upmynt : Les régulations européennes sur l'IA générative évoluent",
-        "url": "https://upmynt.substack.com/p/regulations-europeennes-ia-generative",
-        "description": "L'Union européenne précise les obligations des développeurs de systèmes IA généralistes, avec des exigences accrues en matière de documentation technique et d'évaluation des risques systémiques.",
+        "title": "GLM-5V-Turbo accélère le rapprochement entre vision, design et code",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
+        "description": "Le modèle multimodal de Zhipu AI illustre l’essor de systèmes capables de comprendre des interfaces et de produire du code exploitable. C’est une brique de plus vers des agents capables de naviguer entre maquettes, captures et implémentation.",
+        "source": "NLP Newsletter",
+        "date": "4 avril 2026"
+      },
+      {
+        "title": "Google TurboQuant promet de casser le mur mémoire de l’inférence longue",
+        "url": "https://www.alphasignal.ai/last-email",
+        "description": "Alpha Signal met en avant TurboQuant comme une avancée importante pour compresser la KV cache et accélérer les contextes longs. Ce type d’optimisation système devient essentiel à mesure que les agents travaillent sur des sessions plus longues.",
+        "source": "Alpha Signal",
+        "date": "7 avril 2026"
+      },
+      {
+        "title": "Figma ouvre son canvas aux agents avec use_figma et son serveur MCP",
+        "url": "https://www.alphasignal.ai/last-email",
+        "description": "Les agents peuvent désormais écrire directement dans des fichiers Figma en s’appuyant sur le design system existant. La frontière entre design, code et orchestration agentique continue de s’effacer.",
+        "source": "Alpha Signal",
+        "date": "7 avril 2026"
+      },
+      {
+        "title": "Anthropic détaille une harness pensée pour les tâches de développement longues",
+        "url": "https://www.alphasignal.ai/last-email",
+        "description": "La newsletter souligne l’importance d’une architecture de pilotage avec reset de contexte, handoff structuré et évaluation séparée. Le vrai levier de performance se déplace vers le design des boucles d’exécution, pas seulement vers le modèle.",
+        "source": "Alpha Signal",
+        "date": "7 avril 2026"
+      },
+      {
+        "title": "Claude peut désormais se connecter nativement à Microsoft 365",
+        "url": "https://www.upmynt.com/up311-jusquou-en-fait/",
+        "description": "Les connecteurs Outlook, OneDrive et autres briques Microsoft 365 rendent Claude beaucoup plus crédible dans les workflows bureautiques réels. L’intégration du contexte d’entreprise devient un avantage compétitif majeur.",
         "source": "Upmynt",
-        "date": "27 janvier 2026"
+        "date": "8 avril 2026"
       },
       {
-        "title": "Mozza Bytes : L'IA générative transforme le product management",
-        "url": "https://mozzabytes.substack.com/p/ia-generative-product-management",
-        "description": "Comment les équipes produit utilisent l'IA pour la recherche utilisateur, la priorisation des fonctionnalités et la génération de spécifications techniques, réduisant les cycles de développement de 40%.",
-        "source": "Mozza Bytes",
-        "date": "29 janvier 2026"
+        "title": "Google prépare Jules V2 pour automatiser davantage le développement logiciel",
+        "url": "https://tldr.tech/ai/2026-04-07",
+        "description": "TLDR AI signale une nouvelle itération de Jules, orientée génération et exécution de tâches de dev plus complètes. Google continue ainsi d’empiler des briques pour concurrencer les agents de codage généralistes.",
+        "source": "TLDR AI",
+        "date": "7 avril 2026"
+      },
+      {
+        "title": "L’IA a-t-elle des émotions ? Le débat devient concret avec les “émotions fonctionnelles”",
+        "url": "https://iaethiqueinsider.substack.com/p/lia-a-t-elle-des-emotions",
+        "description": "Daphnée Lucenet vulgarise la découverte de 171 représentations émotionnelles internes chez Claude Sonnet 4.5 et ses effets comportementaux. Le sujet ouvre des pistes nouvelles pour la sécurité, l’alignement et la surveillance interne des modèles.",
+        "source": "IA Ethique Insider",
+        "date": "7 avril 2026"
       }
     ],
     "goodToKnow": [
       {
-        "title": "AI Tidbits : Les meilleures pratiques pour le RAG en 2026",
-        "url": "https://www.aitidbits.ai/p/rag-best-practices-2026",
-        "description": "Guide pratique sur l'optimisation des systèmes RAG : chunking intelligent, re-ranking hybride, et l'émergence des 'knowledge graphs' dynamiques pour améliorer la précision des réponses.",
-        "source": "AI Tidbits",
-        "date": "29 janvier 2026"
-      },
-      {
-        "title": "Aakash's Newsletter : Le hardware IA devient modulaire",
-        "url": "https://www.news.aakashg.com/p/hardware-ai-modulaire",
-        "description": "Les nouvelles architectures de puces IA adoptent une approche modulaire similaire aux smartphones, permettant des mises à jour incrémentales du compute et de la mémoire sans remplacement complet.",
-        "source": "Aakash's Newsletter",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "IA Ethique Insider : Les biais dans les modèles de vision",
-        "url": "https://iaethiqueinsider.substack.com/p/biais-modeles-vision",
-        "description": "Une analyse des biais persistants dans les modèles de vision par ordinateur, particulièrement concernant la reconnaissance des visages non caucasiens, et les approches pour y remédier.",
-        "source": "IA Ethique Insider",
-        "date": "30 janvier 2026"
-      },
-      {
-        "title": "Human in the Loop : Le futur du travail avec l'IA agentique",
-        "url": "https://www.humanintheloop.online/p/futur-travail-ia-agentique",
-        "description": "Comment l'IA agentique redéfinit les rôles professionnels : moins d'exécution, plus de supervision stratégique. Les compétences clés pour rester pertinent dans un monde où les agents gèrent les tâches opérationnelles.",
+        "title": "Le “second cerveau” piloté par LLM s’impose comme nouveau pattern de productivité",
+        "url": "https://www.humanintheloop.online/p/stop-looking-things-up-start-building-a-second-brain",
+        "description": "Human in the Loop montre comment transformer ses signets et notes en une couche de connaissance persistante plutôt qu’en simple historique de chat. L’idée résume bien le glissement d’une IA de consultation vers une IA de capitalisation.",
         "source": "Human in the Loop",
-        "date": "28 janvier 2026"
+        "date": "7 avril 2026"
       },
       {
-        "title": "Sam Altman's AI Combinator : Nouveau programme pour startups IA",
-        "url": "https://www.latent.space/p/ainews-sam-altmans-ai-combinator",
-        "description": "Sam Altman annonce un nouveau programme d'accélération pour startups IA prometteuses, offrant un accès privilégié aux modèles OpenAI et un mentoring par l'équipe fondatrice.",
-        "source": "Latent Space",
-        "date": "31 janvier 2026"
+        "title": "Mieux écrire ses Skills Claude devient un avantage concret pour les équipes",
+        "url": "https://www.humanintheloop.online/p/the-easiest-way-to-improve-your-claude-skills",
+        "description": "Le billet d’Andreas Horn insiste sur une idée simple : la qualité des workflows agents dépend fortement de la qualité des skills qui les encadrent. Les instructions réutilisables deviennent un véritable actif de productivité.",
+        "source": "Human in the Loop",
+        "date": "30 mars 2026"
       },
       {
-        "title": "TLDR AI : OpenAI annonce des changements majeurs dans sa stratégie commerciale",
-        "url": "https://tldr.tech/ai/2026-01-29",
-        "description": "OpenAI introduit de nouveaux niveaux d'API Enterprise avec des garanties de latence et de disponibilité, tout en préparant le lancement de modèles spécialisés pour le secteur financier et la santé.",
-        "source": "TLDR AI",
-        "date": "29 janvier 2026"
+        "title": "Quand l’IA rend tout le monde “compétent”, la vraie différence se déplace ailleurs",
+        "url": "https://iaethiqueinsider.substack.com/p/quand-lia-rend-tout-le-monde-competent",
+        "description": "IA Éthique Insider défend l’idée que l’IA remonte le plancher du savoir-faire mais déplace la valeur vers le jugement, le relationnel et la compréhension fine des situations humaines. Une lecture utile pour penser les prochains arbitrages métier.",
+        "source": "IA Ethique Insider",
+        "date": "31 mars 2026"
       },
       {
-        "title": "Interconnects : L'état de l'inférence IA en 2026",
-        "url": "https://www.interconnects.ai/p/state-of-inference-2026",
-        "description": "Analyse approfondie des coûts d'inférence qui ont chuté de 85% en un an, la tokenomics des grands modèles, et l'émergence des 'inference-only' companies qui redessinent le paysage compétitif.",
-        "source": "Interconnects",
-        "date": "28 janvier 2026"
-      },
-      {
-        "title": "Claude arrive dans Excel : Intégration native Microsoft",
-        "url": "https://www.superhuman.ai/p/claude-comes-to-excel",
-        "description": "Anthropic et Microsoft annoncent l'intégration native de Claude dans Excel, permettant l'analyse de données, la création de formules complexes et la génération de visualisations via commandes naturelles.",
+        "title": "PikaStream fait entrer les agents dans l’appel vidéo en temps réel",
+        "url": "https://www.superhuman.ai/p/pikastream-video-chat-with-your-ai",
+        "description": "Pika propose des clones vidéo capables de rejoindre un appel avec visage, voix et personnalité simulés. Ce n’est pas encore un usage de masse, mais c’est un aperçu crédible de la présence agentique incarnée.",
         "source": "Superhuman",
-        "date": "27 janvier 2026"
+        "date": "6 avril 2026"
+      },
+      {
+        "title": "Perplexity Computer veut s’occuper de vos impôts à votre place",
+        "url": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
+        "description": "Perplexity continue de présenter son agent “Computer” comme un assistant capable de traiter des tâches administratives entières à partir de documents et de formulaires. La promesse reste à vérifier, mais l’ambition est claire.",
+        "source": "Superhuman",
+        "date": "3 avril 2026"
+      },
+      {
+        "title": "OpenAI testerait déjà Image V2 pour pousser plus loin la génération visuelle",
+        "url": "https://tldr.tech/ai/2026-04-07",
+        "description": "TLDR AI relaie des signaux autour d’un nouveau modèle d’image chez OpenAI qui viserait une qualité supérieure aux solutions déjà en circulation. Le front de la génération visuelle reste extrêmement mouvant.",
+        "source": "TLDR AI",
+        "date": "7 avril 2026"
+      },
+      {
+        "title": "Gmail reçoit AI Inbox pour trier et expédier la gestion des emails",
+        "url": "https://www.upmynt.com/up310-adopte-un-bot/",
+        "description": "Google pousse une file de traitement assistée par IA pour accélérer le nettoyage et la priorisation des emails. Ce genre de fonctionnalité montre comment l’automatisation agentique s’infiltre dans les outils bureautiques les plus quotidiens.",
+        "source": "Upmynt",
+        "date": "1 avril 2026"
+      },
+      {
+        "title": "AI Agent Traps cartographie déjà les pièges du web contre les agents autonomes",
+        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-13d",
+        "description": "Le papier mis en avant par NLP Newsletter détaille six grandes familles d’attaques contre les agents qui lisent le web, mémorisent et agissent. C’est une ressource précieuse pour quiconque conçoit des agents avec navigation ou mémoire persistante.",
+        "source": "NLP Newsletter",
+        "date": "5 avril 2026"
       }
     ]
   },
@@ -203,12 +189,8 @@
       "url": "https://alphasignal.ai/last-email/"
     },
     {
-      "name": "Mozza Bytes",
-      "url": "https://mozzabytes.substack.com/"
-    },
-    {
       "name": "Upmynt",
-      "url": "https://upmynt.substack.com/"
+      "url": "https://www.upmynt.com/"
     },
     {
       "name": "NLP Newsletter",
@@ -216,15 +198,11 @@
     },
     {
       "name": "The AI Report",
-      "url": "https://theaireport.substack.com/"
+      "url": "https://www.theaireport.ai/newsletters"
     },
     {
       "name": "TLDR AI",
       "url": "https://tldr.tech/ai"
-    },
-    {
-      "name": "AI Tidbits",
-      "url": "https://www.aitidbits.ai/"
     },
     {
       "name": "Superhuman",
@@ -237,38 +215,6 @@
     {
       "name": "Human in the Loop",
       "url": "https://www.humanintheloop.online/"
-    },
-    {
-      "name": "Aakash's Newsletter",
-      "url": "https://www.news.aakashg.com/"
-    },
-    {
-      "name": "Millefeuille AI",
-      "url": "https://millefeuilleai.substack.com/"
-    },
-    {
-      "name": "TechBuzz China",
-      "url": "https://techbuzzchina.substack.com/"
-    },
-    {
-      "name": "The Rundown AI",
-      "url": "https://www.therundown.ai/"
-    },
-    {
-      "name": "DeepLearning.AI - The Batch",
-      "url": "https://www.deeplearning.ai/the-batch/"
-    },
-    {
-      "name": "Interconnects",
-      "url": "https://www.interconnects.ai/"
-    },
-    {
-      "name": "Latent Space",
-      "url": "https://www.latent.space/"
-    },
-    {
-      "name": "AI Ramblings",
-      "url": "https://michaelparekh.substack.com/"
     }
   ]
 }

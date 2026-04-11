@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 25-31 Octobre 2025
+**Période :** 5 avril au 11 avril 2026
 
-[Voir la newsletter](./AI_Weekly_Oct25-31_2025_Balanced.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-04-05_to_2026-04-11.html)
 
 ## 📊 Contenu
 
@@ -31,24 +31,27 @@ Les actualités sont compilées à partir des newsletters et sources suivantes :
 - [IA Ethique Insider (Daphnée)](https://iaethiqueinsider.substack.com/)
 - [Human in the Loop (Andreas Horn)](https://www.humanintheloop.online/)
 
+Pour l’édition du 5 au 11 avril 2026, 8 de ces sources ont publié un numéro pertinent et exploitable sur la période ciblée.
+
 ## 📝 À propos
 
 Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pour offrir une vue d'ensemble rapide et en français des développements les plus importants dans le domaine de l'intelligence artificielle.
 
 ## 🛠️ Mises à jour récentes
 
+- **11 avril 2026** : nouvelle édition générée pour la période du 5 au 11 avril 2026, avec 25 actualités réparties sur 8 sources actives. Mozza Bytes et AI Tidbits n’avaient pas de numéro pertinent pour la période.
 - **11 janvier 2026** : Implémentation de la méthode de répartition équilibrée des sources (voir [documentation](./docs/METHODE_REPARTITION_EQUILIBREE.md))
 - 8–14 novembre 2025 : ajout de `AI_Weekly_Nov8-14_2025_v2.html` avec harmonisation du style des titres (liens des articles alignés sur les éditions précédentes).
 
 ## ⚖️ Méthode de Répartition Équilibrée
 
-Pour garantir une distribution équitable des articles entre les 10 sources, nous utilisons une **méthode de répartition équilibrée**.
+Pour garantir une distribution équitable des articles entre les sources actives d’une semaine donnée, nous utilisons une **méthode de répartition équilibrée**.
 
 ### Principe
 
 - **Répartition cible** : 2-3 articles par source (pour 25-27 articles au total)
 - **Différence maximale** : 1 article entre les sources
-- **Toutes les sources représentées** : Minimum 1 article par source
+- **Toutes les sources actives représentées** : Minimum 1 article par source publiée pour la période visée
 
 ### Documentation
 
@@ -67,10 +70,12 @@ node scripts/validate-balance.js index.html
 ```
 
 Le script vérifie :
-- ✅ Toutes les 10 sources sont représentées
+- ✅ Toutes les 10 sources historiques sont représentées
 - ✅ Différence maximale ≤ 1 article
 - ✅ Total d'articles entre 25-27
 - ✅ Répartition des catégories respectée
+
+Note : ce contrôle reflète encore la règle historique à 10 sources. Pour l’édition du 5 au 11 avril 2026, la validation principale à retenir est `npm run validate`, car seules 8 sources avaient publié un contenu exploitable cette semaine.
 
 ## 🚀 Workflow de Publication
 
