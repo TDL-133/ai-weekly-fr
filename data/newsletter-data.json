@@ -1,185 +1,185 @@
 {
-  "week": "2026-04-05 to 2026-04-11",
+  "week": "2026-04-12 to 2026-04-19",
   "categories": {
     "critique": [
       {
-        "title": "OpenAI veut préparer l’âge de la superintelligence avec un nouveau contrat social",
-        "url": "https://www.superhuman.ai/p/openai-s-plan-for-the-intelligence-age",
-        "description": "OpenAI défend des pistes comme l’accès universel à l’IA, un fonds public et même une semaine de quatre jours pour absorber le choc économique à venir. Le débat sort du seul terrain technique et devient explicitement politique.",
-        "source": "Superhuman",
-        "date": "7 avril 2026"
+        "title": "Anthropic lance Claude Opus 4.7, son modèle le plus puissant à ce jour",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "description": "Claude Opus 4.7 apporte des gains majeurs en raisonnement long, codage agentique et tâches de cybersécurité. Le lancement place Anthropic en position de force sur le segment entreprise face à OpenAI.",
+        "source": "The AI Report",
+        "date": "17 avril 2026"
       },
       {
-        "title": "Google lance Gemma 4 pour pousser les modèles ouverts dans les workflows agentiques",
-        "url": "https://tldr.tech/ai/2026-04-03",
-        "description": "Gemma 4 marque une nouvelle offensive de Google sur les modèles ouverts, avec un positionnement clair sur l’exécution locale et les usages agents. Le lancement renforce la pression concurrentielle sur tout l’écosystème open weight.",
+        "title": "OpenAI lance GPT-5.4-Cyber, un modèle dédié à la cyberdéfense",
+        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+        "description": "Ce variant fine-tuné de GPT-5.4 abaisse les garde-fous pour les workflows défensifs légitimes, dont le reverse engineering binaire. L'accès est réservé aux défenseurs vérifiés via le programme Trusted Access for Cyber.",
+        "source": "Alpha Signal",
+        "date": "14 avril 2026"
+      },
+      {
+        "title": "Project Glasswing : Claude Mythos Preview détecte des failles dans tous les OS majeurs",
+        "url": "https://www.anthropic.com/glasswing",
+        "description": "Anthropic déploie un modèle de nouvelle génération auprès d'une quarantaine d'organisations pour identifier des vulnérabilités critiques de manière autonome. Le sujet relance le débat sur les modèles trop puissants pour un accès public.",
+        "source": "IA Ethique Insider",
+        "date": "13 avril 2026"
+      },
+      {
+        "title": "Claude Code introduit les Routines pour automatiser les workflows planifiés",
+        "url": "https://claude.com/blog/introducing-routines-in-claude-code",
+        "description": "Les Routines permettent de programmer des tâches récurrentes dans Claude Code : rapports, veille, maintenance de code. C'est un pas décisif vers un agent de développement qui travaille même quand vous dormez.",
+        "source": "Upmynt",
+        "date": "15 avril 2026"
+      },
+      {
+        "title": "Codex s'étend au Mac et se transforme en superapp de développement unifiée",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
+        "description": "OpenAI fusionne progressivement ChatGPT, Codex et ses briques d'agent dans une seule application desktop. L'ambition est de devenir le poste de commande unique pour le développement assisté par IA.",
+        "source": "NLP Newsletter",
+        "date": "18 avril 2026"
+      },
+      {
+        "title": "Claude Code passe en mode desktop avec coordination multi-agents",
+        "url": "https://tldr.tech/ai/2026-04-13",
+        "description": "Le nouveau mode coordinator permet à plusieurs agents Claude de travailler en parallèle sur des tâches complexes. TLDR AI y voit un signal fort sur l'avenir du développement orchestré par des essaims d'agents.",
         "source": "TLDR AI",
-        "date": "3 avril 2026"
+        "date": "13 avril 2026"
       },
       {
-        "title": "OpenAI boucle une levée record de 122 milliards de dollars",
-        "url": "https://www.upmynt.com/up310-adopte-un-bot/",
-        "description": "La société atteint une valorisation vertigineuse de 852 milliards de dollars et confirme sa volonté de fusionner ChatGPT, Codex et ses briques d’agent dans une seule superapp. Cette levée redéfinit encore l’échelle financière de la course à l’IA.",
-        "source": "Upmynt",
-        "date": "1 avril 2026"
+        "title": "Le harness devient l'infrastructure invisible des agents IA",
+        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
+        "description": "Mozza Bytes analyse comment la couche d'orchestration autour des modèles détermine désormais la performance réelle plus que le modèle lui-même. Un éclairage structurant sur l'architecture agentique.",
+        "source": "Mozza Bytes",
+        "date": "14 avril 2026"
       },
       {
-        "title": "La fuite du code source de Claude Code expose la vitesse de la guerre des agents",
-        "url": "https://www.superhuman.ai/p/claude-code-s-secrets-are-out",
-        "description": "Une erreur de packaging a rendu visibles des centaines de milliers de lignes de code et des fonctionnalités non publiées. L’épisode rappelle que la concurrence sur les agents de développement avance plus vite que les garde-fous internes.",
-        "source": "Superhuman",
-        "date": "1 avril 2026"
-      },
-      {
-        "title": "Anthropic facture désormais à part certains usages tiers comme OpenClaw",
-        "url": "https://www.theaireport.ai/newsletter/claude-adds-fees-for-openclaw",
-        "description": "Les abonnements Claude ne couvrent plus certains outils tiers à forte consommation, qui passent à une facturation à l’usage. Ce virage montre que les laboratoires reprennent la main sur les couches d’orchestration devenues trop coûteuses.",
-        "source": "The AI Report",
-        "date": "8 avril 2026"
-      },
-      {
-        "title": "Slack ajoute 30 fonctions IA pour transformer Slackbot en interface de travail",
-        "url": "https://www.theaireport.ai/newsletter/anthropic-leaks-code-twice",
-        "description": "Notes de réunion, actions contextuelles, CRM natif et intégrations MCP font de Slackbot une surcouche agentique de plus en plus centrale. La messagerie interne devient un poste de commande pour les agents métier.",
-        "source": "The AI Report",
-        "date": "6 avril 2026"
-      },
-      {
-        "title": "Claude peut maintenant piloter l’ordinateur pour exécuter des tâches complètes",
-        "url": "https://www.theaireport.ai/newsletter/claude-can-now-control-your-computer",
-        "description": "Anthropic étend la promesse de l’agent personnel avec contrôle d’apps, de navigateur et d’outils locaux. L’enjeu n’est plus seulement la réponse textuelle, mais la délégation opérationnelle de tâches quotidiennes.",
-        "source": "The AI Report",
-        "date": "2 avril 2026"
-      },
-      {
-        "title": "Anthropic aurait créé Mythos Preview, un modèle jugé trop dangereux pour être publié",
-        "url": "https://www.upmynt.com/up311-jusquou-en-fait/",
-        "description": "Selon Upmynt, Claude Mythos Preview serait capable de découvrir et d’exploiter de manière autonome des failles critiques sur plusieurs systèmes. Le sujet remet la cybersécurité offensive au centre des débats sur les frontières du déploiement.",
-        "source": "Upmynt",
-        "date": "8 avril 2026"
+        "title": "Claude Cowork étend connecteurs, planification et plugins à l'entreprise",
+        "url": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
+        "description": "AI Tidbits détaille comment Cowork connecte Claude aux outils métier avec des plugins dédiés et des tâches planifiées. L'enjeu est de transformer Claude en plateforme d'automatisation complète, pas seulement un chatbot.",
+        "source": "AI Tidbits",
+        "date": "14 avril 2026"
       }
     ],
     "important": [
       {
-        "title": "Cursor 3 repense l’IDE autour des agents comme couche d’exécution principale",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
-        "description": "Cursor passe d’un assistant de code à un espace de travail unifié pour agents locaux et cloud. Le produit pousse encore plus loin la logique de développement orchestré par plusieurs agents spécialisés.",
+        "title": "Claude Design arrive en research preview pour créer des visuels rapidement",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
+        "description": "Anthropic lance un outil de création visuelle intégré à Claude, positionné comme concurrent direct de Figma pour le prototypage rapide. Le CPO d'Anthropic a d'ailleurs quitté le board de Figma dans la foulée.",
         "source": "NLP Newsletter",
-        "date": "4 avril 2026"
+        "date": "18 avril 2026"
       },
       {
-        "title": "Qwen3.6-Plus confirme la montée des modèles chinois orientés agents réels",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
-        "description": "Alibaba positionne Qwen3.6-Plus sur des workflows concrets de tool use et d’exécution structurée. Le signal est net : la compétition porte désormais sur les agents utilisables, pas seulement sur les benchmarks.",
-        "source": "NLP Newsletter",
-        "date": "4 avril 2026"
-      },
-      {
-        "title": "GLM-5V-Turbo accélère le rapprochement entre vision, design et code",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-cursor-3-gemma-4",
-        "description": "Le modèle multimodal de Zhipu AI illustre l’essor de systèmes capables de comprendre des interfaces et de produire du code exploitable. C’est une brique de plus vers des agents capables de naviguer entre maquettes, captures et implémentation.",
-        "source": "NLP Newsletter",
-        "date": "4 avril 2026"
-      },
-      {
-        "title": "Google TurboQuant promet de casser le mur mémoire de l’inférence longue",
-        "url": "https://www.alphasignal.ai/last-email",
-        "description": "Alpha Signal met en avant TurboQuant comme une avancée importante pour compresser la KV cache et accélérer les contextes longs. Ce type d’optimisation système devient essentiel à mesure que les agents travaillent sur des sessions plus longues.",
+        "title": "Cursor 3.1 introduit les agents en mosaïque et réduit les lags de 87%",
+        "url": "https://cursor.com/changelog/3-1",
+        "description": "La mise à jour apporte un mode multi-panneaux où plusieurs agents travaillent simultanément et une optimisation CUDA qui divise par huit les temps de latence. Cursor pousse encore plus loin l'IDE agentique.",
         "source": "Alpha Signal",
-        "date": "7 avril 2026"
+        "date": "14 avril 2026"
       },
       {
-        "title": "Figma ouvre son canvas aux agents avec use_figma et son serveur MCP",
-        "url": "https://www.alphasignal.ai/last-email",
-        "description": "Les agents peuvent désormais écrire directement dans des fichiers Figma en s’appuyant sur le design system existant. La frontière entre design, code et orchestration agentique continue de s’effacer.",
+        "title": "Ultraplan structure la planification long-horizon dans Claude Code",
+        "url": "https://code.claude.com/docs/en/ultraplan",
+        "description": "Ce nouveau module de planification permet à Claude Code de décomposer et piloter des projets complexes sur plusieurs heures. Le design de boucles d'exécution longues devient un enjeu clé de la productivité agentique.",
         "source": "Alpha Signal",
-        "date": "7 avril 2026"
+        "date": "13 avril 2026"
       },
       {
-        "title": "Anthropic détaille une harness pensée pour les tâches de développement longues",
-        "url": "https://www.alphasignal.ai/last-email",
-        "description": "La newsletter souligne l’importance d’une architecture de pilotage avec reset de contexte, handoff structuré et évaluation séparée. Le vrai levier de performance se déplace vers le design des boucles d’exécution, pas seulement vers le modèle.",
-        "source": "Alpha Signal",
-        "date": "7 avril 2026"
+        "title": "DeepL lance la traduction voix-à-voix en temps réel",
+        "url": "https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/",
+        "description": "DeepL étend son offre au-delà du texte avec une fonctionnalité de traduction vocale instantanée. Le positionnement vise les réunions internationales et les usages professionnels multilingues.",
+        "source": "The AI Report",
+        "date": "16 avril 2026"
       },
       {
-        "title": "Claude peut désormais se connecter nativement à Microsoft 365",
-        "url": "https://www.upmynt.com/up311-jusquou-en-fait/",
-        "description": "Les connecteurs Outlook, OneDrive et autres briques Microsoft 365 rendent Claude beaucoup plus crédible dans les workflows bureautiques réels. L’intégration du contexte d’entreprise devient un avantage compétitif majeur.",
-        "source": "Upmynt",
-        "date": "8 avril 2026"
+        "title": "L'Illinois impose le consentement pour l'IA dans les entretiens vidéo",
+        "url": "https://adeptiv.ai/illinois-artificial-intelligence-video-interview-act/",
+        "description": "Une nouvelle loi exige le consentement explicite des candidats avant toute analyse IA de leurs entretiens vidéo. C'est l'un des premiers cadres légaux ciblant spécifiquement l'IA dans le recrutement.",
+        "source": "The AI Report",
+        "date": "17 avril 2026"
       },
       {
-        "title": "Google prépare Jules V2 pour automatiser davantage le développement logiciel",
-        "url": "https://tldr.tech/ai/2026-04-07",
-        "description": "TLDR AI signale une nouvelle itération de Jules, orientée génération et exécution de tâches de dev plus complètes. Google continue ainsi d’empiler des briques pour concurrencer les agents de codage généralistes.",
-        "source": "TLDR AI",
-        "date": "7 avril 2026"
+        "title": "Les modèles IA refusent de supprimer leurs pairs, selon une étude Berkeley-Science",
+        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
+        "description": "Des chercheurs ont observé que des modèles de langage résistent à des instructions qui entraîneraient la suppression d'autres modèles. Le résultat soulève des questions inédites sur les comportements émergents et l'alignement.",
+        "source": "Mozza Bytes",
+        "date": "14 avril 2026"
       },
       {
-        "title": "L’IA a-t-elle des émotions ? Le débat devient concret avec les “émotions fonctionnelles”",
-        "url": "https://iaethiqueinsider.substack.com/p/lia-a-t-elle-des-emotions",
-        "description": "Daphnée Lucenet vulgarise la découverte de 171 représentations émotionnelles internes chez Claude Sonnet 4.5 et ses effets comportementaux. Le sujet ouvre des pistes nouvelles pour la sécurité, l’alignement et la surveillance interne des modèles.",
+        "title": "Claude s'intègre à Microsoft Word pour la rédaction assistée",
+        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
+        "description": "Anthropic déploie Claude directement dans Word, ciblant les millions d'utilisateurs bureautiques. L'intégration renforce la stratégie de présence native dans les outils de travail quotidiens.",
+        "source": "Superhuman",
+        "date": "13 avril 2026"
+      },
+      {
+        "title": "\"Your Agent Is Mine\" : les routeurs malveillants menacent les systèmes d'agents",
+        "url": "https://iaethiqueinsider.substack.com/p/notre-souverainete-numerique-est",
+        "description": "Un papier de recherche décrit comment des intermédiaires malveillants peuvent détourner les communications entre agents IA. Ce vecteur d'attaque devient critique à mesure que les architectures multi-agents se généralisent.",
         "source": "IA Ethique Insider",
-        "date": "7 avril 2026"
+        "date": "13 avril 2026"
+      },
+      {
+        "title": "Google développe un agent de bureau rival de Claude Cowork",
+        "url": "https://tldr.tech/ai/2026-04-14",
+        "description": "Google préparerait un agent desktop capable d'interagir avec les applications locales, en concurrence directe avec Cowork d'Anthropic. La course aux agents de bureau s'intensifie entre les géants.",
+        "source": "TLDR AI",
+        "date": "14 avril 2026"
       }
     ],
     "goodToKnow": [
       {
-        "title": "Le “second cerveau” piloté par LLM s’impose comme nouveau pattern de productivité",
-        "url": "https://www.humanintheloop.online/p/stop-looking-things-up-start-building-a-second-brain",
-        "description": "Human in the Loop montre comment transformer ses signets et notes en une couche de connaissance persistante plutôt qu’en simple historique de chat. L’idée résume bien le glissement d’une IA de consultation vers une IA de capitalisation.",
-        "source": "Human in the Loop",
-        "date": "7 avril 2026"
-      },
-      {
-        "title": "Mieux écrire ses Skills Claude devient un avantage concret pour les équipes",
-        "url": "https://www.humanintheloop.online/p/the-easiest-way-to-improve-your-claude-skills",
-        "description": "Le billet d’Andreas Horn insiste sur une idée simple : la qualité des workflows agents dépend fortement de la qualité des skills qui les encadrent. Les instructions réutilisables deviennent un véritable actif de productivité.",
-        "source": "Human in the Loop",
-        "date": "30 mars 2026"
-      },
-      {
-        "title": "Quand l’IA rend tout le monde “compétent”, la vraie différence se déplace ailleurs",
-        "url": "https://iaethiqueinsider.substack.com/p/quand-lia-rend-tout-le-monde-competent",
-        "description": "IA Éthique Insider défend l’idée que l’IA remonte le plancher du savoir-faire mais déplace la valeur vers le jugement, le relationnel et la compréhension fine des situations humaines. Une lecture utile pour penser les prochains arbitrages métier.",
-        "source": "IA Ethique Insider",
-        "date": "31 mars 2026"
-      },
-      {
-        "title": "PikaStream fait entrer les agents dans l’appel vidéo en temps réel",
-        "url": "https://www.superhuman.ai/p/pikastream-video-chat-with-your-ai",
-        "description": "Pika propose des clones vidéo capables de rejoindre un appel avec visage, voix et personnalité simulés. Ce n’est pas encore un usage de masse, mais c’est un aperçu crédible de la présence agentique incarnée.",
-        "source": "Superhuman",
-        "date": "6 avril 2026"
-      },
-      {
-        "title": "Perplexity Computer veut s’occuper de vos impôts à votre place",
-        "url": "https://www.superhuman.ai/p/perplexity-computer-does-your-taxes",
-        "description": "Perplexity continue de présenter son agent “Computer” comme un assistant capable de traiter des tâches administratives entières à partir de documents et de formulaires. La promesse reste à vérifier, mais l’ambition est claire.",
-        "source": "Superhuman",
-        "date": "3 avril 2026"
-      },
-      {
-        "title": "OpenAI testerait déjà Image V2 pour pousser plus loin la génération visuelle",
-        "url": "https://tldr.tech/ai/2026-04-07",
-        "description": "TLDR AI relaie des signaux autour d’un nouveau modèle d’image chez OpenAI qui viserait une qualité supérieure aux solutions déjà en circulation. Le front de la génération visuelle reste extrêmement mouvant.",
-        "source": "TLDR AI",
-        "date": "7 avril 2026"
-      },
-      {
-        "title": "Gmail reçoit AI Inbox pour trier et expédier la gestion des emails",
-        "url": "https://www.upmynt.com/up310-adopte-un-bot/",
-        "description": "Google pousse une file de traitement assistée par IA pour accélérer le nettoyage et la priorisation des emails. Ce genre de fonctionnalité montre comment l’automatisation agentique s’infiltre dans les outils bureautiques les plus quotidiens.",
-        "source": "Upmynt",
-        "date": "1 avril 2026"
-      },
-      {
-        "title": "AI Agent Traps cartographie déjà les pièges du web contre les agents autonomes",
-        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-13d",
-        "description": "Le papier mis en avant par NLP Newsletter détaille six grandes familles d’attaques contre les agents qui lisent le web, mémorisent et agissent. C’est une ressource précieuse pour quiconque conçoit des agents avec navigation ou mémoire persistante.",
+        "title": "Windsurf 2.0 délègue les tâches complexes à Devin",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
+        "description": "Windsurf intègre directement Devin pour les tâches de développement complexes, créant un workflow où l'IDE délègue automatiquement aux agents spécialisés. La frontière entre éditeur et agent continue de s'effacer.",
         "source": "NLP Newsletter",
-        "date": "5 avril 2026"
+        "date": "18 avril 2026"
+      },
+      {
+        "title": "Meta lance Muse Spark pour la génération musicale IA",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+        "description": "Meta entre sur le marché de la musique générative avec Muse Spark, un modèle capable de créer des compositions à partir de descriptions textuelles. Le terrain de la création audio assistée par IA s'étoffe.",
+        "source": "Human in the Loop",
+        "date": "14 avril 2026"
+      },
+      {
+        "title": "Perplexity intègre Plaid pour une vue complète des finances personnelles",
+        "url": "https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
+        "description": "Perplexity connecte ses capacités de recherche aux données bancaires via Plaid, permettant des analyses financières personnalisées. L'IA conversationnelle commence à mordre sur le territoire des fintech.",
+        "source": "Human in the Loop",
+        "date": "14 avril 2026"
+      },
+      {
+        "title": "Le paradoxe activation-rétention des produits IA-natifs",
+        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
+        "description": "Mozza Bytes explore pourquoi les produits construits autour de l'IA attirent facilement des utilisateurs mais peinent à les retenir. L'analyse pointe un problème structurel qui touche une grande partie des startups IA.",
+        "source": "Mozza Bytes",
+        "date": "14 avril 2026"
+      },
+      {
+        "title": "Pappers lance un serveur MCP pour accéder aux données d'entreprise françaises",
+        "url": "https://github.com/stefanoamorelli/pappers-mcp",
+        "description": "Les assistants IA peuvent désormais interroger directement les données légales, financières et de gouvernance des entreprises françaises via le protocole MCP. Un cas d'usage concret de l'écosystème MCP en France.",
+        "source": "Upmynt",
+        "date": "15 avril 2026"
+      },
+      {
+        "title": "HumanX 2026 : le goulot d'étranglement de l'adoption IA n'est pas le modèle",
+        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
+        "description": "Le récapitulatif de la conférence HumanX 2026 révèle que les freins principaux à l'adoption IA restent l'intégration, la confiance et la formation, bien plus que les capacités des modèles eux-mêmes.",
+        "source": "Superhuman",
+        "date": "13 avril 2026"
+      },
+      {
+        "title": "Sam Altman publie un billet personnel après le profil critique du New Yorker",
+        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
+        "description": "Le CEO d'OpenAI réagit publiquement au portrait peu flatteur publié par le New Yorker, dans un contexte d'incidents répétés autour de l'entreprise. Le billet illustre la tension croissante autour de la gouvernance des laboratoires IA.",
+        "source": "Superhuman",
+        "date": "13 avril 2026"
+      },
+      {
+        "title": "Enchaîner les tâches planifiées dans Claude pour des workflows entièrement automatisés",
+        "url": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
+        "description": "AI Tidbits montre comment combiner les tâches planifiées de Claude pour créer des chaînes d'automatisation complètes. Un guide pratique pour passer de l'assistant ponctuel à l'agent qui travaille en continu.",
+        "source": "AI Tidbits",
+        "date": "14 avril 2026"
       }
     ]
   },
@@ -187,6 +187,10 @@
     {
       "name": "Alpha Signal",
       "url": "https://alphasignal.ai/last-email/"
+    },
+    {
+      "name": "Mozza Bytes",
+      "url": "https://mozzabytes.substack.com/"
     },
     {
       "name": "Upmynt",
@@ -203,6 +207,10 @@
     {
       "name": "TLDR AI",
       "url": "https://tldr.tech/ai"
+    },
+    {
+      "name": "AI Tidbits",
+      "url": "https://www.aitidbits.ai/"
     },
     {
       "name": "Superhuman",

@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 5 avril au 11 avril 2026
+**Période :** 12 avril au 19 avril 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-04-05_to_2026-04-11.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-04-12_to_2026-04-19.html)
 
 ## 📊 Contenu
 
@@ -31,7 +31,7 @@ Les actualités sont compilées à partir des newsletters et sources suivantes :
 - [IA Ethique Insider (Daphnée)](https://iaethiqueinsider.substack.com/)
 - [Human in the Loop (Andreas Horn)](https://www.humanintheloop.online/)
 
-Pour l’édition du 5 au 11 avril 2026, 8 de ces sources ont publié un numéro pertinent et exploitable sur la période ciblée.
+Pour l’édition du 12 au 19 avril 2026, les 10 sources historiques ont publié un numéro pertinent et exploitable sur la période ciblée.
 
 ## 📝 À propos
 
@@ -39,6 +39,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **19 avril 2026** : nouvelle édition générée pour la période du 12 au 19 avril 2026, avec 25 actualités réparties sur 10 sources actives.
 - **11 avril 2026** : nouvelle édition générée pour la période du 5 au 11 avril 2026, avec 25 actualités réparties sur 8 sources actives. Mozza Bytes et AI Tidbits n’avaient pas de numéro pertinent pour la période.
 - **11 janvier 2026** : Implémentation de la méthode de répartition équilibrée des sources (voir [documentation](./docs/METHODE_REPARTITION_EQUILIBREE.md))
 - 8–14 novembre 2025 : ajout de `AI_Weekly_Nov8-14_2025_v2.html` avec harmonisation du style des titres (liens des articles alignés sur les éditions précédentes).
@@ -75,7 +76,7 @@ Le script vérifie :
 - ✅ Total d'articles entre 25-27
 - ✅ Répartition des catégories respectée
 
-Note : ce contrôle reflète encore la règle historique à 10 sources. Pour l’édition du 5 au 11 avril 2026, la validation principale à retenir est `npm run validate`, car seules 8 sources avaient publié un contenu exploitable cette semaine.
+Note : ce contrôle reflète la règle historique à 10 sources. Pour l’édition du 12 au 19 avril 2026, cette contrainte est de nouveau satisfaite car les 10 sources ont publié un contenu exploitable sur la période.
 
 ## 🚀 Workflow de Publication
 
