@@ -4,7 +4,10 @@
   "description": "AI Weekly - Revue de presse IA en français",
   "main": "scripts/generate.js",
   "scripts": {
+    "normalize-links": "node scripts/normalize-links.js",
     "generate": "node scripts/generate.js",
+    "prebuild": "npm test",
+    "test": "node tests/newsletter-playbook.test.js",
     "validate": "node scripts/validate.js",
     "build": "npm run validate && npm run generate"
   },

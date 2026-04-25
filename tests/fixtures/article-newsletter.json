@@ -1,0 +1,11 @@
+{
+  "title": "Test article newsletter",
+  "description": "Description de test pour lien newsletter.",
+  "source": "Alpha Signal",
+  "date": "25 avril 2026",
+  "url": "https://alphasignal.ai/email/test-issue",
+  "urlType": "newsletter",
+  "sourceNewsletterUrl": "https://alphasignal.ai/email/test-issue",
+  "thirdPartyUrl": "https://example.com/coverage",
+  "officialUrl": "https://vendor.example.com/announcement"
+}

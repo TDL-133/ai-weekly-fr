@@ -8,10 +8,23 @@
 const fs = require('fs');
 const path = require('path');
 const { validateNewsletter } = require('../src/scripts/validator');
+const { normalizeNewsletterDataFile } = require('./normalize-links');
 
 const DATA_FILE = path.join(__dirname, '../data/newsletter-data.json');
 
 function main() {
+    console.log('🔗 Normalizing newsletter links...\n');
+    try {
+        const normalization = normalizeNewsletterDataFile(DATA_FILE);
+        if (normalization.changed) {
+            console.log(`✅ Normalized ${normalization.normalizedArticles} articles before validation\n`);
+        } else {
+            console.log(`✅ Link normalization already up to date (${normalization.normalizedArticles} articles checked)\n`);
+        }
+    } catch (error) {
+        console.error(`❌ Error normalizing links: ${error.message}`);
+        process.exit(1);
+    }
     console.log('🔍 Validating newsletter data...\n');
     
     if (!fs.existsSync(DATA_FILE)) {

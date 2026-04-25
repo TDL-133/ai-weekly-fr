@@ -1,0 +1,24 @@
+{
+  "linkPriority": [
+    "newsletter",
+    "third_party",
+    "official"
+  ],
+  "urlTypes": {
+    "newsletter": {
+      "label": "public source newsletter link",
+      "candidateField": "sourceNewsletterUrl",
+      "requiresReason": false
+    },
+    "third_party": {
+      "label": "third-party coverage link",
+      "candidateField": "thirdPartyUrl",
+      "requiresReason": false
+    },
+    "official": {
+      "label": "official vendor or original link",
+      "candidateField": "officialUrl",
+      "requiresReason": true
+    }
+  }
+}

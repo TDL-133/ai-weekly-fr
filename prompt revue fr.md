@@ -39,7 +39,10 @@ Utiliser **UNIQUEMENT** ces 18 newsletters curatées. Ne pas aller chercher aill
 - **PAS DE SOURCES EXTERNES** : Ne pas utiliser CNBC, Forbes, MIT Tech Review, WSJ, Bloomberg ou autres sites d'actualité généralistes
 - Les 18 newsletters contiennent suffisamment de news pour remplir les 25 articles minimum
 - Assurer un équilibre entre les 18 sources (max 3 articles de différence entre sources)
-- Les liens dans la newsletter doivent pointer vers les articles originaux mentionnés dans les newsletters
+- Les liens dans la newsletter doivent respecter la priorité éditoriale suivante :
+  1. lien public vers la newsletter source quand il existe
+  2. sinon article tiers qui couvre la news
+  3. sinon seulement lien officiel / vendor en dernier recours
 
 Use the ai_newsletter_minimal.html file as a template
 
@@ -60,11 +63,20 @@ I want the revue to be in french
 
 ## CONTRAINTES STRICTES ABSOLUES
 
-### RÈGLE D'OR #1 : URLs DIRECTES UNIQUEMENT
-- **INTERDICTION ABSOLUE** de mettre des URLs de page d'accueil (ex: `https://alphasignal.ai/`, `https://tldr.tech/ai`)
-- **OBLIGATION** : Chaque URL doit pointer vers l'article SPÉCIFIQUE (ex: `https://site.com/2026/01/30/titre-article-exact`)
-- **FORMAT REQUIS** : Lien direct vers le post Substack, l'article de blog, ou la page spécifique
-- **VÉRIFICATION OBLIGATOIRE** : Vérifier que l'URL mène bien à l'article et non à une page générique
+### RÈGLE D'OR #1 : PRIORITÉ ÉDITORIALE DES LIENS
+- **INTERDICTION ABSOLUE** de choisir un lien officiel si une newsletter source publique ou un bon article tiers est disponible
+- **PRIORITÉ OBLIGATOIRE** :
+  1. `sourceNewsletterUrl`
+  2. `thirdPartyUrl`
+  3. `officialUrl`
+- **OBLIGATION** : le champ `url` final doit toujours correspondre à la meilleure option disponible selon cette priorité
+- **VÉRIFICATION OBLIGATOIRE** : documenter le type retenu avec `urlType`
+
+### RÈGLE D'OR #1B : URLs DIRECTES UNIQUEMENT
+- **INTERDICTION ABSOLUE** de mettre des URLs de page d'accueil génériques (ex: `https://alphasignal.ai/`, `https://tldr.tech/ai`)
+- **OBLIGATION** : Chaque URL doit pointer vers une page SPÉCIFIQUE
+- **FORMAT REQUIS** : Lien direct vers un post de newsletter, un article tiers précis, ou un lien officiel précis en dernier recours
+- **VÉRIFICATION OBLIGATOIRE** : Vérifier que l'URL mène bien à une page spécifique et non à une page générique
 
 ### RÈGLE D'OR #2 : CONTENU CONCRET ET SPÉCIFIQUE
 - **TITRES** : Doivent contenir des noms propres (entreprises, produits, modèles) - ex: "Kimi K2.5", "Gemini 3", "Claude Opus"
@@ -89,11 +101,15 @@ I want the revue to be in french
 - En cas de doute sur la date, exclure l'article
 
 ### Vérification des liens - PROCESSUS STRICT
-1. **AVANT** d'ajouter un article, vérifier que l'URL est directe et fonctionnelle
-2. **FORMAT ATTENDU** : `https://site.com/YYYY/MM/DD/titre-article` ou URL Substack spécifique
-3. **FORMAT INTERDIT** : Page d'accueil (`https://site.com/`), archives (`https://site.com/newsletters`)
-4. **EXCEPTION UNIQUEMENT** : Alpha Signal peut utiliser `https://alphasignal.ai/last-email/`
-5. **DOUBLE VÉRIFICATION** : Tester chaque lien dans le JSON final
+1. **AVANT** d'ajouter un article, vérifier qu'au moins une URL candidate est directe et fonctionnelle
+2. **REMPLIR LES CHAMPS DE TRAÇABILITÉ** :
+   - `sourceNewsletterUrl` si la newsletter source publique existe
+   - `thirdPartyUrl` si un bon article tiers existe
+   - `officialUrl` seulement en fallback
+3. **CHOISIR `url`** en appliquant strictement la priorité newsletter source > article tiers > officiel
+4. **RENSEIGNER `urlType`** avec `newsletter`, `third_party` ou `official`
+5. **SI `urlType = official`** : ajouter `urlReason` pour expliquer pourquoi aucun meilleur lien n'était disponible
+6. **DOUBLE VÉRIFICATION** : tester chaque lien dans le JSON final
 
 ### Qualité du contenu
 - Minimum 25 articles vérifiés
@@ -101,12 +117,17 @@ I want the revue to be in french
 - **PAS DE DOUBLONS** : Une seule entrée par sujet/actualité
   - Choisir la source la plus fiable ou la plus complète
   - Ne pas inclure les "angles différents" du même sujet
-- **SOURCES PRIMAIRES** : Privilégier les annonces officielles aux reprises
+- **LIENS** : privilégier la newsletter source publique, puis un article tiers, et garder l’annonce officielle seulement en dernier recours
 
 ### Structure des articles
 Chaque article DOIT avoir :
 - **title** : Titre spécifique avec nom de produit/entreprise
-- **url** : Lien DIRECT vers l'article (pas page d'accueil)
+- **url** : Lien final retenu selon la priorité éditoriale
+- **urlType** : `newsletter`, `third_party`, ou `official`
+- **sourceNewsletterUrl** : URL de la newsletter source si disponible
+- **thirdPartyUrl** : URL d’un article tiers si disponible
+- **officialUrl** : URL officielle uniquement en fallback
+- **urlReason** : justification textuelle si `urlType` vaut `official`
 - **description** : 2-3 phrases avec détails techniques/concrets
 - **source** : Nom exact de la newsletter
 - **date** : Date précise dans la période demandée
@@ -115,12 +136,13 @@ Chaque article DOIT avoir :
 1. Scraper les 18 sources pour la période demandée (27-31 janvier 2026)
 2. Identifier les articles avec viralité (nombre de sources mentionnant le même sujet)
 3. Classer par importance : Critique (5+ sources), Important (2-4 sources), Bon à Savoir (1 source)
-4. **VÉRIFIER** que chaque URL pointe vers l'article spécifique
-5. Rédiger titres et descriptions en français avec spécificité
-6. Vérifier JSON : 25+ articles, URLs directes, dates correctes
-7. Exécuter `node scripts/generate.js`
-8. Vérifier le HTML généré
-9. Remplacer `index.html` par la nouvelle version
+4. **REMPLIR LES CANDIDATS DE LIEN** (`sourceNewsletterUrl`, `thirdPartyUrl`, `officialUrl`)
+5. **SÉLECTIONNER `url` ET `urlType`** selon la priorité newsletter source > article tiers > officiel
+6. Rédiger titres et descriptions en français avec spécificité
+7. Vérifier JSON : 25+ articles, URLs directes, dates correctes, priorité éditoriale respectée
+8. Exécuter `node scripts/generate.js`
+9. Vérifier le HTML généré
+10. Remplacer `index.html` par la nouvelle version
 
 ### Publication sur GitHub
 - **TOUJOURS** remplacer `index.html` par la nouvelle newsletter
