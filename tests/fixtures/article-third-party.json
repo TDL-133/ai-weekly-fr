@@ -1,0 +1,9 @@
+{
+  "title": "Test article third party",
+  "description": "Description de test pour lien tiers.",
+  "source": "Alpha Signal",
+  "date": "25 avril 2026",
+  "url": "https://example.com/coverage",
+  "urlType": "third_party",
+  "thirdPartyUrl": "https://example.com/coverage"
+}

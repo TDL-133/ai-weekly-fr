@@ -107,9 +107,10 @@ function generateHeader(dateRange) {
 /**
  * Generate complete newsletter HTML
  */
-function generateNewsletter(data) {
+function generateNewsletter(data, options = {}) {
     // Load base template
     const baseTemplate = loadTemplate('base');
+    const cssPath = options.cssPath || 'dist/src/styles/newsletter.css';
     
     // Generate header
     const header = generateHeader(data.week);
@@ -135,10 +136,6 @@ function generateNewsletter(data) {
     
     // Generate sources
     const sources = generateSources(data.sources || []);
-    
-    // Determine CSS path based on output location
-    // For dist/index.html, use relative path; for root index.html, use absolute
-    const cssPath = 'dist/src/styles/newsletter.css';
     
     // Combine everything
     return renderTemplate(baseTemplate, {
