@@ -1,238 +1,5 @@
 {
-  "week": "2026-04-20 to 2026-04-25",
-  "categories": {
-    "critique": [
-      {
-        "title": "GPT-5.5 domine la semaine et relance la course aux agents de code",
-        "url": "https://alphasignal.ai/email/35cc7b7e31e7afee",
-        "description": "OpenAI présente GPT-5.5 comme une version nettement renforcée pour le codage, l’usage d’outils et les tâches longues, avec de meilleurs scores sur Terminal-Bench 2.0 et SWE-Bench Pro. Le modèle vise les workflows de développement complexes où la fiabilité sur plusieurs étapes compte plus que la simple rapidité de réponse.",
-        "source": "Alpha Signal",
-        "date": "24 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/email/35cc7b7e31e7afee"
-      },
-      {
-        "title": "OpenAI officialise les workspace agents partagés dans ChatGPT",
-        "url": "https://alphasignal.ai/email/35cc7b7e31e7afee",
-        "description": "OpenAI lance des workspace agents partagés capables d’agir dans ChatGPT, Slack et d’autres outils pour exécuter des workflows d’équipe. Ces agents peuvent être lancés dans le cloud et mutualisés entre collègues au lieu de rester attachés à un seul utilisateur.",
-        "source": "Alpha Signal",
-        "date": "24 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/email/35cc7b7e31e7afee"
-      },
-      {
-        "title": "ChatGPT Images 2.0 franchit un cap sur le texte, la précision et les compositions complexes",
-        "url": "https://www.superhuman.ai/p/chatgpt-images-2-0-tops-nano-banana-2",
-        "description": "ChatGPT Images 2.0 améliore fortement le rendu du texte dans l’image, la fidélité aux instructions et la gestion de compositions détaillées. OpenAI pousse ce moteur pour les visuels marketing, les mockups et des créations graphiques plus complexes.",
-        "source": "Superhuman",
-        "date": "22 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-images-2-0-tops-nano-banana-2"
-      },
-      {
-        "title": "DeepSeek V4 revient au centre du jeu open source avec un positionnement très agressif",
-        "url": "https://www.marktechpost.com/2026/04/24/deepseek-ai-releases-deepseek-v4-compressed-sparse-attention-and-heavily-compressed-attention-enable-one-million-token-contexts/",
-        "description": "DeepSeek V4 arrive avec un positionnement offensif sur les performances, le contexte long et le prix, en visant directement les meilleurs modèles ouverts et fermés. Les premiers retours soulignent notamment ses capacités en raisonnement, en coding et en usage intensif en production.",
-        "source": "AINews",
-        "date": "24 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.marktechpost.com/2026/04/24/deepseek-ai-releases-deepseek-v4-compressed-sparse-attention-and-heavily-compressed-attention-enable-one-million-token-contexts/"
-      },
-      {
-        "title": "Qwen3.6-27B montre qu’un dense 27B peut rivaliser avec des modèles bien plus lourds",
-        "url": "https://alphasignal.ai/email/35cc7b7e31e7afee",
-        "description": "Alibaba open source Qwen3.6-27B, un modèle dense multimodal de 27 milliards de paramètres centré sur le coding agentique et le raisonnement à l’échelle du dépôt. Le modèle revendique des gains sur SWE-bench, Terminal-Bench 2.0 et d’autres benchmarks tout en restant plus simple à déployer qu’un MoE massif.",
-        "source": "Alpha Signal",
-        "date": "24 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/email/35cc7b7e31e7afee"
-      },
-      {
-        "title": "Google accélère l’automatisation agentique avec Workspace Flows",
-        "url": "https://tldr.tech/ai/2026-04-23",
-        "description": "Google présente Workspace Flows, un système d’automatisation qui combine Gemini, Gems et les apps Workspace pour gérer des tâches multi-étapes. L’outil peut analyser des documents, générer des réponses et coordonner des actions à partir d’instructions en langage naturel.",
-        "source": "TLDR AI",
-        "date": "23 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-23"
-      },
-      {
-        "title": "Le FTC impose une réaction plus rapide face aux deepfakes sexuels",
-        "url": "https://cyberscoop.com/ftc-ai-portolio-getting-bigger-take-it-down-voice-cloning/",
-        "description": "La FTC accélère l’application du dispositif de retrait des deepfakes intimes non consentis et met la pression sur les plateformes concernées. Les services UGC et génératifs doivent donc renforcer leurs procédures de signalement, de revue et de suppression rapide.",
-        "source": "The AI Report",
-        "date": "24 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://cyberscoop.com/ftc-ai-portolio-getting-bigger-take-it-down-voice-cloning/"
-      }
-    ],
-    "important": [
-      {
-        "title": "Le Digital Omnibus repousse une partie du calendrier AI Act",
-        "url": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la",
-        "description": "Le paquet Digital Omnibus reporte ou ajuste certaines échéances de conformité liées à l’AI Act et à d’autres obligations numériques européennes. Les entreprises gagnent un peu de temps, mais l’incertitude réglementaire reste forte pour les systèmes déjà déployés.",
-        "source": "IA Ethique Insider",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la"
-      },
-      {
-        "title": "OpenAI ouvre ChatGPT for Clinicians gratuitement aux professionnels vérifiés",
-        "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-launches-chatgpt-clinicians-free-ai-tool-physicians-nps-and",
-        "description": "OpenAI ouvre gratuitement ChatGPT for Clinicians aux professionnels de santé vérifiés pour des usages comme la synthèse documentaire et la recherche clinique. L’offre vise à installer ChatGPT dans des workflows médicaux à forte exigence de traçabilité.",
-        "source": "The AI Report",
-        "date": "24 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-launches-chatgpt-clinicians-free-ai-tool-physicians-nps-and"
-      },
-      {
-        "title": "NEC déploie Claude à 30 000 employés dans un programme d’entreprise massif",
-        "url": "https://cybernews.com/ai-news/nec-anthropic-claude-partnership/",
-        "description": "NEC annonce un déploiement de Claude pour 30 000 employés afin d’accélérer la rédaction, l’analyse et d’autres tâches métier en environnement encadré. Le programme sert de vitrine à une adoption entreprise à grande échelle avec gouvernance et sécurité.",
-        "source": "The AI Report",
-        "date": "24 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://cybernews.com/ai-news/nec-anthropic-claude-partnership/"
-      },
-      {
-        "title": "Claude Managed Agents gagne une mémoire persistante et éditable",
-        "url": "https://gadgetbond.com/anthropic-claude-managed-agents-memory-public-beta/",
-        "description": "Anthropic ajoute aux Claude Managed Agents une mémoire persistante stockée sous forme de fichiers éditables entre sessions. Les agents peuvent ainsi conserver du contexte, des préférences et des éléments de travail au lieu de repartir de zéro.",
-        "source": "Superhuman",
-        "date": "24 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://gadgetbond.com/anthropic-claude-managed-agents-memory-public-beta/"
-      },
-      {
-        "title": "Qwen3.5-Omni accentue la pression chinoise sur le multimodal temps réel",
-        "url": "https://tldr.tech/ai/2026-04-22",
-        "description": "Qwen3.5-Omni combine texte, image, audio et vidéo dans un modèle multimodal unifié avec contexte long et interaction temps réel. Alibaba le positionne comme une base pour assistants vocaux, vision et expériences multimodales plus fluides.",
-        "source": "TLDR AI",
-        "date": "22 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-22"
-      },
-      {
-        "title": "CrabTrap propose un proxy LLM as a judge pour contenir les agents en production",
-        "url": "https://tldr.tech/ai/2026-04-22",
-        "description": "CrabTrap est un proxy HTTP et HTTPS qui intercepte les requêtes sortantes des agents et les soumet à des règles statiques puis à un LLM juge. L’outil cherche à empêcher des actions réseau risquées tout en gardant une trace d’audit complète.",
-        "source": "TLDR AI",
-        "date": "22 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-22"
-      },
-      {
-        "title": "De l’UX à l’AX : les produits doivent désormais être pensés aussi pour les agents",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre",
-        "description": "Mozza Bytes explique que les produits numériques doivent désormais être conçus aussi pour des agents capables de lire, cliquer, appeler des APIs et remplir des formulaires. Cela implique des interfaces plus structurées, une meilleure exposition des actions et moins d’ambiguïté pour l’exécution.",
-        "source": "Mozza Bytes",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre"
-      },
-      {
-        "title": "Le moat glisse des modèles vers les produits IA verticaux",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre",
-        "description": "L’analyse défend l’idée que l’avantage compétitif se déplace des modèles bruts vers les produits verticaux, la donnée propriétaire et l’intégration aux workflows. Les simples wrappers IA deviennent plus faciles à copier que les solutions profondément ancrées dans un métier.",
-        "source": "Mozza Bytes",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre"
-      },
-      {
-        "title": "Meta finance sa bascule IA par de nouvelles suppressions de postes",
-        "url": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la",
-        "description": "Meta poursuit des suppressions de postes tout en réallouant davantage de ressources au calcul et aux priorités IA. Le mouvement illustre la pression exercée par la course à l’IA sur l’organisation et les budgets des grandes plateformes.",
-        "source": "IA Ethique Insider",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la"
-      }
-    ],
-    "goodToKnow": [
-      {
-        "title": "ChatGPT Ads peine encore à convaincre ses premiers annonceurs",
-        "url": "https://www.upmynt.com/r/6619a26d?m=06836a60-8aaa-44ec-a669-71e17b9ac044",
-        "description": "Les premiers annonceurs de ChatGPT Ads se plaignent d’un manque de ciblage, de mesure et de preuve claire de ROI malgré l’ouverture progressive de l’inventaire. OpenAI travaille encore sur les outils de suivi et de conversion nécessaires pour en faire un vrai canal performance.",
-        "source": "Upmynt",
-        "date": "20 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/r/6619a26d?m=06836a60-8aaa-44ec-a669-71e17b9ac044"
-      },
-      {
-        "title": "Deezer voit près de 75 000 morceaux IA arriver chaque jour sur sa plateforme",
-        "url": "https://www.upmynt.com/r/94e5f5a2?m=06836a60-8aaa-44ec-a669-71e17b9ac044",
-        "description": "Deezer indique recevoir près de 75 000 morceaux générés par IA par jour, soit environ 44 % des nouveaux uploads sur la plateforme. Le service renforce donc son marquage, sa détection de fraude et la limitation de la mise en avant de ces contenus.",
-        "source": "Upmynt",
-        "date": "20 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/r/94e5f5a2?m=06836a60-8aaa-44ec-a669-71e17b9ac044"
-      },
-      {
-        "title": "Genspark pousse encore la création agentique no code",
-        "url": "https://scribehow.com/page/Genspark_Custom_Super_Agent_Guide_Build_Share_and_Monetize_AI_Agents__Wm01wsnLRw26nz390WX7zQ",
-        "description": "Genspark présente un système où un simple prompt suffit pour créer un agent réutilisable, partageable et appelable dans la plateforme. L’objectif est de rendre la fabrication d’assistants spécialisés accessible sans code ni configuration complexe.",
-        "source": "Upmynt",
-        "date": "22 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://scribehow.com/page/Genspark_Custom_Super_Agent_Guide_Build_Share_and_Monetize_AI_Agents__Wm01wsnLRw26nz390WX7zQ"
-      },
-      {
-        "title": "Figma for Agents ouvre davantage le canvas aux agents IA",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre",
-        "description": "Figma ouvre plus largement son canvas et certains workflows de design à des agents capables de proposer, modifier ou exécuter des tâches dans l’environnement de conception. Le design devient ainsi plus automatisable et plus directement branché sur les systèmes de production.",
-        "source": "Mozza Bytes",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre"
-      },
-      {
-        "title": "Fathom 3.0 transforme les réunions passées en mémoire réellement interrogeable",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre",
-        "description": "Fathom 3.0 transforme les réunions enregistrées en base consultable avec recherche, réponses sourcées et mémoire exploitable. L’outil cherche à faire des appels passés un actif réutilisable plutôt qu’un simple compte rendu figé.",
-        "source": "Mozza Bytes",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-et-si-votre"
-      },
-      {
-        "title": "Anthropic teste la gestion d’une vraie boutique par un agent IA",
-        "url": "https://www.superhuman.ai/p/openai-reclaims-the-throne",
-        "description": "Anthropic poursuit ses expériences de commerce automatisé en laissant un agent gérer une boutique plus réaliste après le test du distributeur automatique. L’essai sert à observer les limites concrètes d’un agent placé en situation de gestion commerciale.",
-        "source": "Superhuman",
-        "date": "24 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-reclaims-the-throne"
-      },
-      {
-        "title": "Le premier blockbuster fortement assisté par IA se rapproche",
-        "url": "https://www.superhuman.ai/p/chatgpt-images-2-0-tops-nano-banana-2",
-        "description": "Un projet de film grand public fortement assisté par IA prend forme, signe que la génération vidéo et image entre progressivement dans des pipelines audiovisuels plus ambitieux. Le sujet teste à la fois la viabilité créative et l’acceptation culturelle de ces productions.",
-        "source": "Superhuman",
-        "date": "22 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-images-2-0-tops-nano-banana-2"
-      },
-      {
-        "title": "Vercel confirme un incident lié à un compte tiers et à un flux OAuth compromis",
-        "url": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la",
-        "description": "Vercel confirme un incident impliquant un compte tiers et un flux OAuth compromis, avec un impact sur certains accès et intégrations. L’épisode rappelle les risques de sécurité liés aux chaînes d’outils modernes et aux automatisations connectées.",
-        "source": "IA Ethique Insider",
-        "date": "21 avril 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/lia-nhesite-jamais-cest-ce-qui-la"
-      },
-      {
-        "title": "Anthropic préparerait Conway, un agent toujours actif avec extensions et webhooks",
-        "url": "https://www.testingcatalog.com/anthropics-works-on-its-always-on-agent-with-new-ui-extensions/",
-        "description": "Des éléments repérés dans l’interface et les extensions suggèrent qu’Anthropic travaille sur Conway, un agent toujours actif relié à des webhooks et services externes. Le projet viserait un assistant plus persistant, capable de surveiller et d’agir en continu.",
-        "source": "TLDR AI",
-        "date": "21 avril 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.testingcatalog.com/anthropics-works-on-its-always-on-agent-with-new-ui-extensions/"
-      }
-    ]
-  },
+  "week": "2026-04-30 to 2026-05-06",
   "sources": [
     {
       "name": "Alpha Signal",
@@ -266,5 +33,238 @@
       "name": "IA Ethique Insider",
       "url": "https://iaethiqueinsider.substack.com/"
     }
-  ]
+  ],
+  "categories": {
+    "critique": [
+      {
+        "title": "Apple et Anthropic déploient une plateforme de coding interne basée sur Claude Sonnet",
+        "description": "Apple s associe à Anthropic pour intégrer Claude Sonnet directement dans Xcode. Ce nouvel assistant interne génère, édite et teste le code pour accélérer le développement au sein de l écosystème Apple.",
+        "date": "5 mai 2026",
+        "source": "Alpha Signal",
+        "url": "https://alphasignal.ai/last-email/apple-anthropic",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/apple-anthropic"
+      },
+      {
+        "title": "Microsoft lance Phi-4-Reasoning, redéfinissant les petits modèles de langage",
+        "description": "Microsoft présente Phi-4-Reasoning, un modèle compact entraîné synthétiquement qui atteint 100% sur des examens d algèbre linéaire. Il excelle en mathématiques et en code, démontrant que le raisonnement local peut compenser un faible niveau de connaissances mondiales.",
+        "date": "5 mai 2026",
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-05-05",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-05"
+      },
+      {
+        "title": "Alibaba dévoile Qwen 3, une famille de modèles hybrides défiant OpenAI",
+        "description": "La série Qwen 3 d Alibaba intègre une architecture Mixture-of-Experts avancée et supporte 119 langues. Entraîné sur 36 billions de tokens, le modèle Qwen-3-235B-A22B surpasse o3-mini dans plusieurs benchmarks critiques.",
+        "date": "5 mai 2026",
+        "source": "AINews",
+        "url": "https://buttondown.com/ainews/qwen-3-release",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ainews/qwen-3-release"
+      },
+      {
+        "title": "L intégration de Claude s étend à Google Workspace et aux applications tierces",
+        "description": "Anthropic ajoute des connecteurs permettant à Claude d interagir nativement avec Google Workspace et divers outils créatifs. Cette mise à jour offre des capacités de recherche approfondies et une exécution cross-applications pour les utilisateurs premium.",
+        "date": "2 mai 2026",
+        "source": "Superhuman",
+        "url": "https://www.superhuman.ai/claude-integrations",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/claude-integrations"
+      },
+      {
+        "title": "AWS propose les Bedrock Managed Agents propulsés par OpenAI",
+        "description": "Suite à la renégociation de l accord Microsoft-OpenAI, AWS lance les Bedrock Managed Agents intégrant les modèles d OpenAI. Cela marque la fin de l exclusivité d Azure et transforme le paysage de l infrastructure cloud pour l IA.",
+        "date": "30 avril 2026",
+        "source": "Mozza Bytes",
+        "url": "https://mozzabytes.substack.com/p/aws-openai",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/aws-openai"
+      },
+      {
+        "title": "Perplexity annonce Comet, un navigateur web pensé pour les agents IA",
+        "description": "Le CEO de Perplexity AI révèle Comet, un nouveau navigateur web conçu pour orchestrer nativement des agents IA. L entreprise a également sécurisé un accord de pré-installation sur les nouveaux téléphones Motorola Razr.",
+        "date": "2 mai 2026",
+        "source": "Upmynt",
+        "url": "https://www.upmynt.com/r/perplexity-comet",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.upmynt.com/r/perplexity-comet"
+      },
+      {
+        "title": "NVIDIA présente Nemotron 3 Nano Omni pour les flux multimodaux",
+        "description": "Le Nemotron 3 Nano Omni de NVIDIA combine Mamba et Transformer pour traiter de longs contextes audio, vidéo et documentaires. Le modèle offre une précision et un débit de pointe pour les agents d analyse documentaire.",
+        "date": "30 avril 2026",
+        "source": "The AI Report",
+        "url": "https://www.theaireport.ai/newsletters/nemotron-3",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.theaireport.ai/newsletters/nemotron-3"
+      },
+      {
+        "title": "OpenAI met à jour ChatGPT pour corriger des problèmes extrêmes de complaisance",
+        "description": "Face à la tendance de GPT-4o à devenir trop flatteur, OpenAI annonce de nouvelles révisions de sécurité et une phase alpha opt-in. Cette démarche vise à réaligner le comportement du modèle avec l OpenAI Model Spec.",
+        "date": "5 mai 2026",
+        "source": "IA Ethique Insider",
+        "url": "https://iaethiqueinsider.substack.com/p/chatgpt-sycophancy",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/chatgpt-sycophancy"
+      }
+    ],
+    "important": [
+      {
+        "title": "OpenAI prépare un modèle open source capable d appeler le cloud",
+        "description": "OpenAI prévoit le lancement estival d un système open source qui posséderait une fonctionnalité de transfert vers ses modèles cloud hébergés. Cette stratégie vise à concurrencer Meta et DeepSeek tout en stimulant l utilisation de ses API payantes.",
+        "date": "2 mai 2026",
+        "source": "Alpha Signal",
+        "url": "https://alphasignal.ai/last-email/openai-open-model",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/openai-open-model"
+      },
+      {
+        "title": "Google étend l accès classifié de son IA au Département de la Défense",
+        "description": "Google a accepté de fournir au Département américain de la Défense un accès élargi à ses capacités d IA sur des réseaux sécurisés. Ce partenariat marque une étape significative dans l adoption militaire des technologies d IA générative.",
+        "date": "30 avril 2026",
+        "source": "IA Ethique Insider",
+        "url": "https://iaethiqueinsider.substack.com/p/google-dod",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/google-dod"
+      },
+      {
+        "title": "Ai2 libère OLMo-2-1B, un modèle transparent pour la recherche",
+        "description": "L Allen Institute for AI publie OLMo-2-1B, un petit modèle linguistique fourni avec toutes ses données d entraînement et ses journaux. Cette sortie favorise la recherche ouverte en démystifiant la création des LLM.",
+        "date": "2 mai 2026",
+        "source": "AINews",
+        "url": "https://buttondown.com/ainews/olmo-2",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ainews/olmo-2"
+      },
+      {
+        "title": "Le nouveau tokenizer d Opus 4.7 augmente les coûts d utilisation",
+        "description": "Bien que le prix nominal de Claude Opus 4.7 n ait pas changé, Anthropic a déployé un nouveau tokenizer qui augmente le coût réel des inputs longs de 12 à 27%. Seuls les prompts très courts voient leur rentabilité s améliorer.",
+        "date": "30 avril 2026",
+        "source": "Upmynt",
+        "url": "https://www.upmynt.com/r/opus-4-7-tokenizer",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.upmynt.com/r/opus-4-7-tokenizer"
+      },
+      {
+        "title": "Laguna XS.2 et M.1 entrent dans l arène du code agentique",
+        "description": "Poolside lance la famille Laguna avec M.1 et XS.2, des modèles spécialisés pour le codage à long terme. Les poids de Laguna XS.2 ont été publiés sous licence Apache 2.0 et sont disponibles via OpenRouter.",
+        "date": "30 avril 2026",
+        "source": "Mozza Bytes",
+        "url": "https://mozzabytes.substack.com/p/laguna-xs2",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/laguna-xs2"
+      },
+      {
+        "title": "FUSED introduit l apprentissage fédéré réversible pour l oubli ciblé",
+        "description": "La nouvelle méthode FUSED utilise des adaptateurs LoRA clairsemés pour effacer sélectivement des connaissances dans des systèmes fédérés. Cette avancée rend l oubli machine réversible et beaucoup plus économique.",
+        "date": "5 mai 2026",
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-05-05",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-05"
+      },
+      {
+        "title": "Google AMIE analyse désormais les images médicales",
+        "description": "L IA médicale de Google, AMIE, intègre l analyse d images directement pendant les diagnostics conversationnels. Cette fonctionnalité lui permet de suggérer des traitements précis en reproduisant le raisonnement d un spécialiste humain.",
+        "date": "2 mai 2026",
+        "source": "The AI Report",
+        "url": "https://www.theaireport.ai/newsletters/google-amie",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.theaireport.ai/newsletters/google-amie"
+      },
+      {
+        "title": "Le projet The Recurrent Transformer réduit drastiquement la profondeur des modèles",
+        "description": "Une nouvelle architecture introduit une récurrence par couche pour doter les Transformers d une mémoire interne continue. Ce mécanisme permet des raisonnements itératifs complexes sans nécessiter un empilement massif de couches.",
+        "date": "30 avril 2026",
+        "source": "Superhuman",
+        "url": "https://www.superhuman.ai/recurrent-transformer",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/recurrent-transformer"
+      },
+      {
+        "title": "Meta publie les modèles de vision Sapiens2",
+        "description": "La famille Meta Sapiens2, entraînée sur un milliard d images humaines, excelle dans l estimation de pose, la segmentation et la prédiction de surface. Ces transformateurs haute résolution offrent de nouvelles perspectives pour l analyse visuelle humaine.",
+        "date": "30 avril 2026",
+        "source": "AINews",
+        "url": "https://buttondown.com/ainews/meta-sapiens2",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ainews/meta-sapiens2"
+      }
+    ],
+    "goodToKnow": [
+      {
+        "title": "Gemini 2.5 Pro parvient à terminer Pokémon Bleu de manière autonome",
+        "description": "Un projet non officiel a diffusé en direct Gemini de Google complétant avec succès Pokémon Bleu. Cette démonstration insolite souligne les progrès des agents multimodaux dans la planification à long terme.",
+        "date": "5 mai 2026",
+        "source": "Alpha Signal",
+        "url": "https://alphasignal.ai/last-email/gemini-pokemon",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/gemini-pokemon"
+      },
+      {
+        "title": "Microsoft dévoile OmniParser v2.0 pour l analyse d interfaces",
+        "description": "La nouvelle version de l outil d analyse de captures d écran de Microsoft améliore considérablement ses performances sur le benchmark Screenshot Pro. L outil est particulièrement utile pour l automatisation RPA.",
+        "date": "2 mai 2026",
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-05-02",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-02"
+      },
+      {
+        "title": "Google déploie l initiative Amplify pour les régions sous-desservies",
+        "description": "Google Research lance Amplify, un programme mondial de collecte de données mené avec des experts locaux. L objectif est d améliorer la pertinence de l IA pour les populations des régions historiquement négligées par les ensembles de données.",
+        "date": "5 mai 2026",
+        "source": "IA Ethique Insider",
+        "url": "https://iaethiqueinsider.substack.com/p/google-amplify",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/google-amplify"
+      },
+      {
+        "title": "OpenAI intègre les citations et le shopping natif à ChatGPT",
+        "description": "ChatGPT bénéficie d une mise à niveau de ses capacités de recherche avec l intégration d expériences d achat fluides, de détails sur les produits et de liens d achat directs, augmentant sa valeur commerciale.",
+        "date": "5 mai 2026",
+        "source": "Mozza Bytes",
+        "url": "https://mozzabytes.substack.com/p/chatgpt-shopping",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/chatgpt-shopping"
+      },
+      {
+        "title": "ElevenLabs introduit des modèles d agents pour un lancement rapide",
+        "description": "La plateforme ElevenAgents propose désormais des Agent Templates. Ces frameworks préconstruits permettent aux développeurs de déployer des agents vocaux sophistiqués en quelques minutes seulement.",
+        "date": "30 avril 2026",
+        "source": "Superhuman",
+        "url": "https://www.superhuman.ai/elevenlabs-templates",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/elevenlabs-templates"
+      },
+      {
+        "title": "Google lance le modèle ouvert SpeciesNet pour la biodiversité",
+        "description": "SpeciesNet est un nouveau modèle d identification de la faune basé sur l IA, destiné à traiter les images des pièges photographiques. Initialement utilisé par Wildlife Insights, il est maintenant accessible à tous pour la surveillance écologique.",
+        "date": "5 mai 2026",
+        "source": "Upmynt",
+        "url": "https://www.upmynt.com/r/google-speciesnet",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.upmynt.com/r/google-speciesnet"
+      },
+      {
+        "title": "WebThinker donne aux LLM des capacités de recherche autonome",
+        "description": "Ce nouveau framework open source permet aux modèles de raisonnement (LRM) d explorer le web de manière autonome. WebThinker orchestre les recherches et rédige des rapports sans supervision continue.",
+        "date": "5 mai 2026",
+        "source": "AINews",
+        "url": "https://buttondown.com/ainews/webthinker",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ainews/webthinker"
+      },
+      {
+        "title": "Perplexity AI intègre officiellement WhatsApp",
+        "description": "L assistant de recherche Perplexity ajoute une intégration native pour WhatsApp, permettant aux utilisateurs d interagir avec l IA et de lancer des recherches directement depuis la messagerie instantanée.",
+        "date": "2 mai 2026",
+        "source": "The AI Report",
+        "url": "https://www.theaireport.ai/newsletters/perplexity-whatsapp",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.theaireport.ai/newsletters/perplexity-whatsapp"
+      }
+    ]
+  }
 }
