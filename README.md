@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 20 avril au 25 avril 2026
+**Période :** 28 avril au 6 mai 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-04-20_to_2026-04-25.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-04-28_to_2026-05-06.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **6 mai 2026** : édition pour la période du 28 avril au 6 mai 2026, avec 25 actualités couvrant 16 sources actives. Semaine marquée par les difficultés d'OpenAI, le lancement de Grok 4.3, la valorisation record d'Anthropic et la guerre des prix DeepSeek.
 - **25 avril 2026** : édition recalée pour la période du 20 au 25 avril 2026, avec 25 actualités hiérarchisées par convergence inter-sources et 8 sources actives retenues.
 - **25 avril 2026** : règle éditoriale de priorité des liens automatisée dans la configuration et le validateur (`newsletter > third_party > official`).
 - **19 avril 2026** : nouvelle édition générée pour la période du 12 au 19 avril 2026, avec 25 actualités réparties sur 10 sources actives.

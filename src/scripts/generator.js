@@ -81,15 +81,23 @@ function generateSources(sources) {
  */
 function formatDateRangeFrench(weekString) {
     // Format: "2026-01-11 to 2026-01-17" -> "11-17 janvier 2026"
+    // Cross-month: "2026-04-28 to 2026-05-06" -> "28 avril - 6 mai 2026"
     const match = weekString.match(/(\d{4})-(\d{2})-(\d{2})\s+to\s+(\d{4})-(\d{2})-(\d{2})/);
     if (!match) return weekString;
-    
+
     const [, year1, month1, day1, year2, month2, day2] = match;
-    const months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 
+    const months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
                     'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-    const monthName = months[parseInt(month1) - 1];
-    
-    return `${day1}-${day2} ${monthName} ${year1}`;
+    const monthName1 = months[parseInt(month1) - 1];
+    const monthName2 = months[parseInt(month2) - 1];
+
+    const d1 = parseInt(day1);
+    const d2 = parseInt(day2);
+
+    if (month1 === month2 && year1 === year2) {
+        return `${d1}-${d2} ${monthName1} ${year1}`;
+    }
+    return `${d1} ${monthName1} - ${d2} ${monthName2} ${year2}`;
 }
 
 /**
