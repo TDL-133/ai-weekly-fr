@@ -145,8 +145,9 @@ Chaque article DOIT avoir :
 10. Remplacer `index.html` par la nouvelle version
 
 ### Publication sur GitHub
+- **BRANCHE PAR DÉFAUT** : `ai-weekly-engine` (PAS `master`)
+- **TOUJOURS** pousser sur `ai-weekly-engine` directement ou créer une branche depuis `ai-weekly-engine` pour la PR
 - **TOUJOURS** remplacer `index.html` par la nouvelle newsletter
-- **TOUJOURS** créer une branche depuis `master` pour la PR
 - **TOUJOURS** inclure `index.html` et `prompt revue fr.md` (si modifié) dans le commit
 - Format du nom de branche : `update-newsletter-[dates]` (ex: `update-newsletter-jan27-31`)
 - Utiliser GitHub CLI (`gh pr create`) ou le lien web pour créer la PR
