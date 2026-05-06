@@ -133,16 +133,21 @@ Chaque article DOIT avoir :
 - **date** : Date précise dans la période demandée
 
 ### Processus de génération
-1. Scraper les 18 sources pour la période demandée (27-31 janvier 2026)
+1. Scraper les 18 sources pour la période demandée
 2. Identifier les articles avec viralité (nombre de sources mentionnant le même sujet)
 3. Classer par importance : Critique (5+ sources), Important (2-4 sources), Bon à Savoir (1 source)
 4. **REMPLIR LES CANDIDATS DE LIEN** (`sourceNewsletterUrl`, `thirdPartyUrl`, `officialUrl`)
 5. **SÉLECTIONNER `url` ET `urlType`** selon la priorité newsletter source > article tiers > officiel
 6. Rédiger titres et descriptions en français avec spécificité
-7. Vérifier JSON : 25+ articles, URLs directes, dates correctes, priorité éditoriale respectée
-8. Exécuter `node scripts/generate.js`
-9. Vérifier le HTML généré
-10. Remplacer `index.html` par la nouvelle version
+7. Mettre à jour `data/newsletter-data.json` avec les 25+ articles
+8. Exécuter `npm run build` (enchaîne automatiquement : test → validate → normalize-links → generate)
+9. Vérifier le HTML généré dans le navigateur (`dist/index.html`)
+10. Les fichiers `index.html`, `dist/index.html` et `dist/archive/AI_Weekly_*.html` sont générés automatiquement
+
+### Notes techniques
+- Le format de la semaine dans `newsletter-data.json` est : `"YYYY-MM-DD to YYYY-MM-DD"` (ex: `"2026-04-28 to 2026-05-06"`)
+- Le générateur gère les périodes à cheval sur deux mois (ex: "28 avril - 6 mai 2026")
+- Les commandes disponibles : `npm run build` (pipeline complet), `npm run validate`, `npm run generate`, `npm test`
 
 ### Publication sur GitHub
 - **BRANCHE PAR DÉFAUT** : `ai-weekly-engine` (PAS `master`)
