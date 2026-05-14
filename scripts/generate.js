@@ -9,6 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const { generateNewsletter, generateFilename, saveNewsletter } = require('../src/scripts/generator');
 const { validateNewsletter } = require('../src/scripts/validator');
+const { normalizeNewsletterDataFile } = require('./normalize-links');
 
 // Configuration
 const DATA_DIR = path.join(__dirname, '../data');
@@ -20,6 +21,18 @@ const DATA_FILE = path.join(DATA_DIR, 'newsletter-data.json');
  */
 function main() {
     console.log('🚀 Starting newsletter generation...\n');
+    
+    try {
+        const normalization = normalizeNewsletterDataFile(DATA_FILE);
+        if (normalization.changed) {
+            console.log(`🔗 Normalized ${normalization.normalizedArticles} article links before generation\n`);
+        } else {
+            console.log(`🔗 Link normalization already up to date (${normalization.normalizedArticles} articles checked)\n`);
+        }
+    } catch (error) {
+        console.error(`❌ Error normalizing links: ${error.message}`);
+        process.exit(1);
+    }
     
     // Check if data file exists
     if (!fs.existsSync(DATA_FILE)) {
@@ -65,9 +78,13 @@ function main() {
     
     // Generate HTML
     console.log('🎨 Generating HTML...');
-    let html;
+    let archiveHtml;
+    let distHtml;
+    let rootHtml;
     try {
-        html = generateNewsletter(data);
+        archiveHtml = generateNewsletter(data, { cssPath: '../src/styles/newsletter.css' });
+        distHtml = generateNewsletter(data, { cssPath: 'src/styles/newsletter.css' });
+        rootHtml = generateNewsletter(data, { cssPath: 'dist/src/styles/newsletter.css' });
     } catch (error) {
         console.error(`❌ Error generating HTML: ${error.message}`);
         console.error(error.stack);
@@ -104,16 +121,16 @@ function main() {
     
     // Save to archive
     const archiveDir = path.join(DIST_DIR, 'archive');
-    const archivePath = saveNewsletter(html, filename, archiveDir);
+    const archivePath = saveNewsletter(archiveHtml, filename, archiveDir);
     console.log(`   ✓ Saved to archive: ${archivePath}`);
     
     // Save to dist/index.html
-    const indexPath = saveNewsletter(html, 'index.html', DIST_DIR);
+    const indexPath = saveNewsletter(distHtml, 'index.html', DIST_DIR);
     console.log(`   ✓ Saved to index: ${indexPath}`);
     
     // Generate version with inline CSS for root index.html
     const cssContent = fs.readFileSync(path.join(__dirname, '../src/styles/newsletter.css'), 'utf8');
-    const htmlWithInlineCSS = html.replace(
+    const htmlWithInlineCSS = rootHtml.replace(
         '<link rel="stylesheet" href="dist/src/styles/newsletter.css">',
         `<style>${cssContent}</style>`
     );

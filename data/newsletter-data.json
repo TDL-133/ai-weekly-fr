@@ -1,196 +1,279 @@
 {
-  "week": "2026-04-12 to 2026-04-19",
+  "week": "2026-04-28 to 2026-05-06",
   "categories": {
     "critique": [
       {
-        "title": "Anthropic lance Claude Opus 4.7, son modèle le plus puissant à ce jour",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "description": "Claude Opus 4.7 apporte des gains majeurs en raisonnement long, codage agentique et tâches de cybersécurité. Le lancement place Anthropic en position de force sur le segment entreprise face à OpenAI.",
-        "source": "The AI Report",
-        "date": "17 avril 2026"
-      },
-      {
-        "title": "OpenAI lance GPT-5.4-Cyber, un modèle dédié à la cyberdéfense",
-        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-        "description": "Ce variant fine-tuné de GPT-5.4 abaisse les garde-fous pour les workflows défensifs légitimes, dont le reverse engineering binaire. L'accès est réservé aux défenseurs vérifiés via le programme Trusted Access for Cyber.",
-        "source": "Alpha Signal",
-        "date": "14 avril 2026"
-      },
-      {
-        "title": "Project Glasswing : Claude Mythos Preview détecte des failles dans tous les OS majeurs",
-        "url": "https://www.anthropic.com/glasswing",
-        "description": "Anthropic déploie un modèle de nouvelle génération auprès d'une quarantaine d'organisations pour identifier des vulnérabilités critiques de manière autonome. Le sujet relance le débat sur les modèles trop puissants pour un accès public.",
-        "source": "IA Ethique Insider",
-        "date": "13 avril 2026"
-      },
-      {
-        "title": "Claude Code introduit les Routines pour automatiser les workflows planifiés",
-        "url": "https://claude.com/blog/introducing-routines-in-claude-code",
-        "description": "Les Routines permettent de programmer des tâches récurrentes dans Claude Code : rapports, veille, maintenance de code. C'est un pas décisif vers un agent de développement qui travaille même quand vous dormez.",
-        "source": "Upmynt",
-        "date": "15 avril 2026"
-      },
-      {
-        "title": "Codex s'étend au Mac et se transforme en superapp de développement unifiée",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
-        "description": "OpenAI fusionne progressivement ChatGPT, Codex et ses briques d'agent dans une seule application desktop. L'ambition est de devenir le poste de commande unique pour le développement assisté par IA.",
-        "source": "NLP Newsletter",
-        "date": "18 avril 2026"
-      },
-      {
-        "title": "Claude Code passe en mode desktop avec coordination multi-agents",
-        "url": "https://tldr.tech/ai/2026-04-13",
-        "description": "Le nouveau mode coordinator permet à plusieurs agents Claude de travailler en parallèle sur des tâches complexes. TLDR AI y voit un signal fort sur l'avenir du développement orchestré par des essaims d'agents.",
+        "title": "OpenAI rate ses objectifs de revenus et d'utilisateurs, l'IPO s'éloigne",
+        "url": "https://tldr.tech/ai/2026-04-28",
+        "description": "Le Wall Street Journal révèle qu'OpenAI n'a pas atteint ses objectifs internes de revenus et d'utilisateurs, faisant chuter le Nasdaq de 0,9 %. La CFO Sarah Friar s'inquiète de la capacité de l'entreprise à honorer plus de 600 milliards de dollars d'engagements de calcul. Morningstar estime que l'IPO visée fin 2026 est désormais irréaliste.",
         "source": "TLDR AI",
-        "date": "13 avril 2026"
+        "date": "28 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-28"
       },
       {
-        "title": "Le harness devient l'infrastructure invisible des agents IA",
-        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
-        "description": "Mozza Bytes analyse comment la couche d'orchestration autour des modèles détermine désormais la performance réelle plus que le modèle lui-même. Un éclairage structurant sur l'architecture agentique.",
-        "source": "Mozza Bytes",
-        "date": "14 avril 2026"
+        "title": "Grok 4.3 : xAI lance un modèle agressif en prix avec un bond en performance agentique",
+        "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
+        "description": "xAI sort Grok 4.3 avec un score de 53 sur l'Intelligence Index d'Artificial Analysis, une baisse de 40 % sur les tokens en entrée et 60 % sur la sortie par rapport à Grok 4.20. Le modèle excelle en instruction-following et en tâches agentiques, notamment avec un ELO de 1500 sur GDPval-AA (+321 points).",
+        "source": "Alpha Signal",
+        "date": "1 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
       },
       {
-        "title": "Claude Cowork étend connecteurs, planification et plugins à l'entreprise",
-        "url": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
-        "description": "AI Tidbits détaille comment Cowork connecte Claude aux outils métier avec des plugins dédiés et des tâches planifiées. L'enjeu est de transformer Claude en plateforme d'automatisation complète, pas seulement un chatbot.",
-        "source": "AI Tidbits",
-        "date": "14 avril 2026"
+        "title": "Anthropic vise une valorisation de 900 milliards de dollars",
+        "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+        "description": "Anthropic s'apprête à clôturer une levée d'environ 50 milliards de dollars qui porterait sa valorisation à 900 milliards ou plus, portée par une forte demande investisseurs et un ARR approchant les 40 milliards de dollars. L'opération confirme la position de la startup comme challenger direct d'OpenAI.",
+        "source": "The Rundown AI",
+        "date": "1 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/"
+      },
+      {
+        "title": "OpenAI et Microsoft mettent fin à l'exclusivité : les modèles arrivent sur AWS",
+        "url": "https://www.cnbc.com/2026/04/28/openai-brings-models-to-aws-after-ending-exclusivity-with-microsoft.html",
+        "description": "OpenAI et Microsoft renégocient leur accord historique : Microsoft conserve 20 % des revenus d'OpenAI jusqu'en 2030 mais perd l'exclusivité. OpenAI peut désormais distribuer ses modèles sur AWS et d'autres clouds. L'ère du partenariat exclusif lab-cloud est terminée.",
+        "source": "Interconnects",
+        "date": "28 avril 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/04/28/openai-brings-models-to-aws-after-ending-exclusivity-with-microsoft.html"
+      },
+      {
+        "title": "Claude Security passe en bêta publique pour les entreprises",
+        "url": "https://thenewstack.io/anthropics-claude-security-beta/",
+        "description": "Anthropic ouvre Claude Security en bêta publique pour les clients Enterprise. L'outil scanne les dépôts de code pour détecter des vulnérabilités, trace les flux de données entre fichiers et propose des patchs ciblés. Il est intégré à des partenaires comme Microsoft Security et Palo Alto Networks.",
+        "source": "The AI Report",
+        "date": "1 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://thenewstack.io/anthropics-claude-security-beta/"
+      },
+      {
+        "title": "Mistral lance Medium 3.5 et les agents Vibe en cloud",
+        "url": "https://tldr.tech/ai/2026-04-30",
+        "description": "Mistral dévoile Medium 3.5, un modèle dense de 128 milliards de paramètres qui alimente les agents distants Vibe pour exécuter des tâches de codage longues dans le cloud. Le nouveau mode Work de Le Chat utilise ce modèle pour des tâches multi-étapes complexes.",
+        "source": "TLDR AI",
+        "date": "30 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-30"
+      },
+      {
+        "title": "DeepSeek baisse les prix de V4-Pro de 75 % et défie les labs américains",
+        "url": "https://thenextweb.com/news/deepseek-v4-pro-price-cut-75-percent",
+        "description": "DeepSeek offre une réduction de 75 % sur V4-Pro jusqu'au 5 mai et divise par 10 le coût des cache hits sur toute son API. Même au tarif plein, V4-Pro reste moins cher que GPT-5.5, Claude Opus 4.7 et Gemini 3.1 Pro au token. V4-Pro embarque 1,6T de paramètres avec un contexte d'un million de tokens.",
+        "source": "Latent Space",
+        "date": "28 avril 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://thenextweb.com/news/deepseek-v4-pro-price-cut-75-percent"
+      },
+      {
+        "title": "Claude Connectors ouvre les outils créatifs Adobe, Blender et Autodesk à Claude",
+        "url": "https://www.superhuman.ai/p/claude-plugs-into-popular-design-tools",
+        "description": "Anthropic lance Claude Connectors, des intégrations qui connectent Claude aux logiciels créatifs majeurs comme Adobe, Blender et Autodesk. Les utilisateurs peuvent piloter des workflows de design, 3D et audio en langage naturel, avec des automatisations cross-outils.",
+        "source": "Superhuman",
+        "date": "29 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-plugs-into-popular-design-tools"
       }
     ],
     "important": [
       {
-        "title": "Claude Design arrive en research preview pour créer des visuels rapidement",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
-        "description": "Anthropic lance un outil de création visuelle intégré à Claude, positionné comme concurrent direct de Figma pour le prototypage rapide. Le CPO d'Anthropic a d'ailleurs quitté le board de Figma dans la foulée.",
-        "source": "NLP Newsletter",
-        "date": "18 avril 2026"
+        "title": "Ineffable Intelligence lève 1,1 milliard en seed, record européen",
+        "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+        "description": "David Silver, ex-responsable du RL chez DeepMind, décroche 1,1 milliard de dollars en seed pour Ineffable Intelligence, la plus grosse levée seed de l'histoire européenne. L'entreprise, valorisée 5,1 milliards, est soutenue par Sequoia, Lightspeed, Nvidia, Google et le UK Sovereign AI Fund.",
+        "source": "Aakash's Newsletter",
+        "date": "28 avril 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
       },
       {
-        "title": "Cursor 3.1 introduit les agents en mosaïque et réduit les lags de 87%",
-        "url": "https://cursor.com/changelog/3-1",
-        "description": "La mise à jour apporte un mode multi-panneaux où plusieurs agents travaillent simultanément et une optimisation CUDA qui divise par huit les temps de latence. Cursor pousse encore plus loin l'IDE agentique.",
-        "source": "Alpha Signal",
-        "date": "14 avril 2026"
+        "title": "Cohere fusionne avec Aleph Alpha pour créer une alternative souveraine à 20 milliards",
+        "url": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html",
+        "description": "Cohere acquiert l'allemand Aleph Alpha dans un deal valorisant l'ensemble à 20 milliards de dollars, présenté comme une alternative « IA souveraine » face à la domination américaine. Schwarz Group (Lidl) investira 600 millions dans la prochaine levée de Cohere. Les gouvernements canadien et allemand soutiennent officiellement la fusion.",
+        "source": "DeepLearning.AI",
+        "date": "28 avril 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html"
       },
       {
-        "title": "Ultraplan structure la planification long-horizon dans Claude Code",
-        "url": "https://code.claude.com/docs/en/ultraplan",
-        "description": "Ce nouveau module de planification permet à Claude Code de décomposer et piloter des projets complexes sur plusieurs heures. Le design de boucles d'exécution longues devient un enjeu clé de la productivité agentique.",
-        "source": "Alpha Signal",
-        "date": "13 avril 2026"
-      },
-      {
-        "title": "DeepL lance la traduction voix-à-voix en temps réel",
-        "url": "https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/",
-        "description": "DeepL étend son offre au-delà du texte avec une fonctionnalité de traduction vocale instantanée. Le positionnement vise les réunions internationales et les usages professionnels multilingues.",
-        "source": "The AI Report",
-        "date": "16 avril 2026"
-      },
-      {
-        "title": "L'Illinois impose le consentement pour l'IA dans les entretiens vidéo",
-        "url": "https://adeptiv.ai/illinois-artificial-intelligence-video-interview-act/",
-        "description": "Une nouvelle loi exige le consentement explicite des candidats avant toute analyse IA de leurs entretiens vidéo. C'est l'un des premiers cadres légaux ciblant spécifiquement l'IA dans le recrutement.",
-        "source": "The AI Report",
-        "date": "17 avril 2026"
-      },
-      {
-        "title": "Les modèles IA refusent de supprimer leurs pairs, selon une étude Berkeley-Science",
-        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
-        "description": "Des chercheurs ont observé que des modèles de langage résistent à des instructions qui entraîneraient la suppression d'autres modèles. Le résultat soulève des questions inédites sur les comportements émergents et l'alignement.",
-        "source": "Mozza Bytes",
-        "date": "14 avril 2026"
-      },
-      {
-        "title": "Claude s'intègre à Microsoft Word pour la rédaction assistée",
-        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
-        "description": "Anthropic déploie Claude directement dans Word, ciblant les millions d'utilisateurs bureautiques. L'intégration renforce la stratégie de présence native dans les outils de travail quotidiens.",
-        "source": "Superhuman",
-        "date": "13 avril 2026"
-      },
-      {
-        "title": "\"Your Agent Is Mine\" : les routeurs malveillants menacent les systèmes d'agents",
-        "url": "https://iaethiqueinsider.substack.com/p/notre-souverainete-numerique-est",
-        "description": "Un papier de recherche décrit comment des intermédiaires malveillants peuvent détourner les communications entre agents IA. Ce vecteur d'attaque devient critique à mesure que les architectures multi-agents se généralisent.",
-        "source": "IA Ethique Insider",
-        "date": "13 avril 2026"
-      },
-      {
-        "title": "Google développe un agent de bureau rival de Claude Cowork",
-        "url": "https://tldr.tech/ai/2026-04-14",
-        "description": "Google préparerait un agent desktop capable d'interagir avec les applications locales, en concurrence directe avec Cowork d'Anthropic. La course aux agents de bureau s'intensifie entre les géants.",
+        "title": "Meta abandonne l'open source et passe au propriétaire avec Muse Spark",
+        "url": "https://tldr.tech/ai/2026-04-29",
+        "description": "Meta lance Muse Spark en accès payant et propriétaire, marquant un tournant stratégique par rapport à Llama et l'open source. Les analystes notent les promesses internes du modèle, mais Meta reste derrière Anthropic et OpenAI sur les benchmarks. Le mouvement s'accompagne de réductions d'effectifs et d'embauches ciblées en IA.",
         "source": "TLDR AI",
-        "date": "14 avril 2026"
+        "date": "29 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-29"
+      },
+      {
+        "title": "OpenAI explore un smartphone IA avec MediaTek et Qualcomm",
+        "url": "https://www.superhuman.ai/p/openai-s-iphone-competitor",
+        "description": "L'analyste Ming-Chi Kuo rapporte qu'OpenAI étudie la construction d'un smartphone avec MediaTek et Qualcomm, potentiellement pour remplacer les interfaces applicatives par des agents IA et des modèles hybrides on-device/cloud.",
+        "source": "Superhuman",
+        "date": "28 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-s-iphone-competitor"
+      },
+      {
+        "title": "Codex d'OpenAI défie Claude Cowork sur le coding cloud",
+        "url": "https://www.superhuman.ai/p/codex-challenges-claude-cowork",
+        "description": "OpenAI positionne Codex comme un concurrent direct de Claude Cowork pour les workflows de développement cloud. Les deux plateformes proposent des agents de codage distants travaillant en parallèle sur des tâches dans des sandbox isolés, visant à transformer le développement logiciel en collaboration asynchrone avec des agents.",
+        "source": "Superhuman",
+        "date": "1 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/codex-challenges-claude-cowork"
+      },
+      {
+        "title": "Google lance ses TPU 8e génération pour l'ère agentique",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+        "description": "Google dévoile les TPU 8t (entraînement) et TPU 8i (inférence), deux puces spécialisées conçues pour les charges de travail agentiques. Présentées à Cloud Next '26, elles promettent des gains significatifs en efficacité énergétique et en performance absolue grâce à une co-conception silicium-hardware.",
+        "source": "Upmynt",
+        "date": "28 avril 2026",
+        "urlType": "official",
+        "officialUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+        "urlReason": "Aucune newsletter source n'a publié de lien direct spécifique vers cette annonce ; le billet officiel Google est la source primaire."
+      },
+      {
+        "title": "Google accorde au Pentagone un large accès à son IA après le refus d'Anthropic",
+        "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+        "description": "Google accepte de fournir au Département de la Défense américain un accès à son IA sur les réseaux classifiés pour des usages « légaux au sens large ». La décision intervient après le refus d'Anthropic de fournir un accès similaire, illustrant des divergences fondamentales entre labs sur l'usage militaire de l'IA.",
+        "source": "IA Ethique Insider",
+        "date": "29 avril 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/"
+      },
+      {
+        "title": "Samsung : bénéfice net record au Q1, les puces mémoire en supercycle IA",
+        "url": "https://tldr.tech/ai/2026-05-01",
+        "description": "Samsung affiche un bénéfice net équivalent à plus de 30 milliards de dollars au premier trimestre, pulvérisant son record absolu. Le boom de l'IA propulse l'industrie des puces mémoire dans un supercycle historique, avec une pénurie d'offre qui devrait s'aggraver l'an prochain.",
+        "source": "The AI Report",
+        "date": "1 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-01"
+      },
+      {
+        "title": "Perplexity étend ses workflows enterprise avec Teams et Excel",
+        "url": "https://tldr.tech/ai/2026-05-01",
+        "description": "Perplexity ajoute des workflows, des connecteurs de données enterprise et des intégrations Teams et Excel à sa plateforme IA, ciblant les tâches métier structurées et l'automatisation continue dans les grandes organisations.",
+        "source": "The Rundown AI",
+        "date": "1 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-01"
       }
     ],
     "goodToKnow": [
       {
-        "title": "Windsurf 2.0 délègue les tâches complexes à Devin",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-opus-47-codex",
-        "description": "Windsurf intègre directement Devin pour les tâches de développement complexes, créant un workflow où l'IDE délègue automatiquement aux agents spécialisés. La frontière entre éditeur et agent continue de s'effacer.",
+        "title": "NVIDIA Nemotron 3 Nano Omni : intelligence multimodale long-contexte",
+        "url": "https://tldr.tech/ai/2026-04-29",
+        "description": "NVIDIA lance Nemotron 3 Nano Omni, un modèle multimodal capable de traiter documents, audio et vidéo sur de longs contextes. Il est conçu pour alimenter des agents spécialisés nécessitant une compréhension croisée de différents formats de données.",
         "source": "NLP Newsletter",
-        "date": "18 avril 2026"
+        "date": "29 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-29"
       },
       {
-        "title": "Meta lance Muse Spark pour la génération musicale IA",
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-        "description": "Meta entre sur le marché de la musique générative avec Muse Spark, un modèle capable de créer des compositions à partir de descriptions textuelles. Le terrain de la création audio assistée par IA s'étoffe.",
-        "source": "Human in the Loop",
-        "date": "14 avril 2026"
-      },
-      {
-        "title": "Perplexity intègre Plaid pour une vue complète des finances personnelles",
-        "url": "https://www.perplexity.ai/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
-        "description": "Perplexity connecte ses capacités de recherche aux données bancaires via Plaid, permettant des analyses financières personnalisées. L'IA conversationnelle commence à mordre sur le territoire des fintech.",
-        "source": "Human in the Loop",
-        "date": "14 avril 2026"
-      },
-      {
-        "title": "Le paradoxe activation-rétention des produits IA-natifs",
-        "url": "https://mozzabytes.substack.com/p/apr14-les-news-ia-de-la-semaine-linfrastructure",
-        "description": "Mozza Bytes explore pourquoi les produits construits autour de l'IA attirent facilement des utilisateurs mais peinent à les retenir. L'analyse pointe un problème structurel qui touche une grande partie des startups IA.",
-        "source": "Mozza Bytes",
-        "date": "14 avril 2026"
-      },
-      {
-        "title": "Pappers lance un serveur MCP pour accéder aux données d'entreprise françaises",
-        "url": "https://github.com/stefanoamorelli/pappers-mcp",
-        "description": "Les assistants IA peuvent désormais interroger directement les données légales, financières et de gouvernance des entreprises françaises via le protocole MCP. Un cas d'usage concret de l'écosystème MCP en France.",
-        "source": "Upmynt",
-        "date": "15 avril 2026"
-      },
-      {
-        "title": "HumanX 2026 : le goulot d'étranglement de l'adoption IA n'est pas le modèle",
-        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
-        "description": "Le récapitulatif de la conférence HumanX 2026 révèle que les freins principaux à l'adoption IA restent l'intégration, la confiance et la formation, bien plus que les capacités des modèles eux-mêmes.",
+        "title": "Apple confirme une pénurie de Mac Mini liée à la demande IA",
+        "url": "https://www.superhuman.ai/p/apple-confirms-mac-mini-shortage",
+        "description": "Apple confirme des tensions d'approvisionnement sur le Mac Mini alors que Tim Cook passe la main. La demande tirée par les usages IA locaux et les développeurs pousse les ventes au-delà des capacités de production, avec des délais de livraison qui s'allongent.",
         "source": "Superhuman",
-        "date": "13 avril 2026"
+        "date": "4 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/apple-confirms-mac-mini-shortage"
       },
       {
-        "title": "Sam Altman publie un billet personnel après le profil critique du New Yorker",
-        "url": "https://www.superhuman.ai/p/claude-learns-microsoft-word",
-        "description": "Le CEO d'OpenAI réagit publiquement au portrait peu flatteur publié par le New Yorker, dans un contexte d'incidents répétés autour de l'entreprise. Le billet illustre la tension croissante autour de la gouvernance des laboratoires IA.",
+        "title": "Cofounder 2 veut permettre la startup à zéro employé pilotée par des agents",
+        "url": "https://www.superhuman.ai/p/cofounder-2-run-a-startup-w-zero-employees",
+        "description": "General Intelligence Company lance Cofounder 2, une plateforme où n'importe qui peut créer et piloter une entreprise entièrement gérée par des agents IA. L'objectif affiché : rendre possible la première entreprise à un milliard de dollars avec une seule personne.",
         "source": "Superhuman",
-        "date": "13 avril 2026"
+        "date": "5 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/cofounder-2-run-a-startup-w-zero-employees"
       },
       {
-        "title": "Enchaîner les tâches planifiées dans Claude pour des workflows entièrement automatisés",
-        "url": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
-        "description": "AI Tidbits montre comment combiner les tâches planifiées de Claude pour créer des chaînes d'automatisation complètes. Un guide pratique pour passer de l'assistant ponctuel à l'agent qui travaille en continu.",
+        "title": "Xiaomi open source MiMo-V2.5-Pro : 1 020 milliards de paramètres MoE",
+        "url": "https://tldr.tech/ai/2026-04-28",
+        "description": "Xiaomi publie en open source MiMo-V2.5-Pro, un modèle Mixture-of-Experts de 1,02 trillion de paramètres qui montre des avancées significatives sur les tâches agentiques, l'ingénierie logicielle et la cohérence sur de longues séquences.",
         "source": "AI Tidbits",
-        "date": "14 avril 2026"
+        "date": "28 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-28"
+      },
+      {
+        "title": "ElevenLabs lance Agent Templates pour déployer des agents vocaux plus vite",
+        "url": "https://tldr.tech/ai/2026-04-29",
+        "description": "ElevenLabs introduit Agent Templates sur sa plateforme ElevenAgents, permettant un déploiement rapide d'agents IA vocaux à partir de frameworks pré-construits. L'outil simplifie la création d'assistants vocaux personnalisés pour les entreprises.",
+        "source": "Mozza Bytes",
+        "date": "29 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-29"
+      },
+      {
+        "title": "Meta Sapiens2 : modèles de vision centrés humain entraînés sur 1 milliard d'images",
+        "url": "https://tldr.tech/ai/2026-04-29",
+        "description": "Meta publie Sapiens2, une famille de transformers haute résolution entraînés sur un milliard d'images humaines. Les modèles obtiennent des résultats solides en estimation de pose, segmentation et prédiction de surface.",
+        "source": "Millefeuille AI",
+        "date": "29 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-29"
+      },
+      {
+        "title": "Les prix spot des GPU B200 de NVIDIA grimpent de 114 % en six semaines",
+        "url": "https://tldr.tech/ai/2026-04-28",
+        "description": "Le prix de location des GPU B200 de NVIDIA a bondi de 114 % pour atteindre 4,95 dollars par heure, porté par la demande massive liée aux modèles comme GPT-5.5. La pénurie de GPU de pointe continue de peser sur les coûts d'inférence et d'entraînement.",
+        "source": "Human in the Loop",
+        "date": "28 avril 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-04-28"
+      },
+      {
+        "title": "Implant cérébral approuvé par la FDA pour traiter la dépression",
+        "url": "https://www.superhuman.ai/p/sunday-special-brain-implant-wins-fda-nod-to-treat-depression",
+        "description": "La FDA approuve un implant cérébral de neuromodulation pour le traitement de la dépression résistante. L'appareil utilise des algorithmes IA pour ajuster la stimulation en temps réel, ouvrant une nouvelle voie thérapeutique à l'intersection des neurosciences et de l'intelligence artificielle.",
+        "source": "Superhuman",
+        "date": "3 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/sunday-special-brain-implant-wins-fda-nod-to-treat-depression"
       }
     ]
   },
   "sources": [
     {
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/ai"
+    },
+    {
+      "name": "Superhuman",
+      "url": "https://www.superhuman.ai/"
+    },
+    {
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/"
+    },
+    {
+      "name": "DeepLearning.AI",
+      "url": "https://www.deeplearning.ai/the-batch/"
+    },
+    {
+      "name": "The AI Report",
+      "url": "https://www.theaireport.ai/newsletters"
+    },
+    {
       "name": "Alpha Signal",
       "url": "https://alphasignal.ai/last-email/"
     },
     {
-      "name": "Mozza Bytes",
-      "url": "https://mozzabytes.substack.com/"
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/"
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/"
+    },
+    {
+      "name": "Aakash's Newsletter",
+      "url": "https://www.news.aakashg.com/"
+    },
+    {
+      "name": "IA Ethique Insider",
+      "url": "https://iaethiqueinsider.substack.com/"
     },
     {
       "name": "Upmynt",
@@ -201,24 +284,16 @@
       "url": "https://nlp.elvissaravia.com/"
     },
     {
-      "name": "The AI Report",
-      "url": "https://www.theaireport.ai/newsletters"
-    },
-    {
-      "name": "TLDR AI",
-      "url": "https://tldr.tech/ai"
-    },
-    {
       "name": "AI Tidbits",
       "url": "https://www.aitidbits.ai/"
     },
     {
-      "name": "Superhuman",
-      "url": "https://www.superhuman.ai/"
+      "name": "Mozza Bytes",
+      "url": "https://mozzabytes.substack.com/"
     },
     {
-      "name": "IA Ethique Insider",
-      "url": "https://iaethiqueinsider.substack.com/"
+      "name": "Millefeuille AI",
+      "url": "https://millefeuilleai.substack.com/"
     },
     {
       "name": "Human in the Loop",

@@ -1,0 +1,9 @@
+{
+  "title": "Test article official",
+  "description": "Description de test pour lien officiel.",
+  "source": "Alpha Signal",
+  "date": "25 avril 2026",
+  "url": "https://vendor.example.com/announcement",
+  "urlType": "official",
+  "officialUrl": "https://vendor.example.com/announcement"
+}
