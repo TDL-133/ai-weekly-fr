@@ -152,6 +152,15 @@
         "date": "11 mai 2026",
         "urlType": "third_party",
         "thirdPartyUrl": "https://www.cnbc.com/2026/05/11/trump-and-xi-face-a-test-over-ai-control.html"
+      },
+      {
+        "title": "Anthropic dépasse OpenAI en adoption entreprise pour la première fois selon l'index Ramp",
+        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
+        "description": "L'index AI de Ramp publié le 14 mai 2026 révèle qu'Anthropic a pris la tête de l'adoption en entreprise avec 34,4% des utilisateurs payants, dépassant OpenAI (32,3%) pour la première fois. L'adoption d'Anthropic a quadruplé en un an, portée par Claude Code qui s'étend des équipes techniques vers la finance, le juridique et la recherche.",
+        "source": "The Rundown AI",
+        "date": "14 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming"
       }
     ],
     "important": [
@@ -237,6 +246,15 @@
         "date": "13 mai 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://mozzabytes.substack.com/"
+      },
+      {
+        "title": "AI Agents Weekly : Meta FAIR Autodata, ZAYA1-8B et Claude Managed Agents Dreaming",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-meta-fair-autodata",
+        "description": "L'édition AI Agents Weekly du 9 mai d'Elvis Saravia couvre Meta FAIR Autodata pour la génération automatique de datasets, le modèle ZAYA1-8B, SubQ pour les contextes de 12M tokens, les autoencodeurs en langage naturel et le système de 'dreaming' des Claude Managed Agents d'Anthropic.",
+        "source": "NLP Newsletter",
+        "date": "10 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/ai-agents-weekly-meta-fair-autodata"
       }
     ],
     "goodToKnow": [
@@ -268,31 +286,32 @@
         "sourceNewsletterUrl": "https://www.upmynt.com/"
       },
       {
-        "title": "Superhuman : Comment créer des images éducatives de style encyclopédique avec l'IA",
-        "url": "https://www.superhuman.ai/",
-        "description": "Dans son édition du 10 mai, Superhuman de Zain Kahn explique comment créer des images éducatives de style encyclopédique en utilisant l'IA. Un guide pratique pour les créateurs de contenu éducatif et les professionnels de l'édition.",
-        "source": "Superhuman",
-        "date": "10 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/"
-      },
-      {
-        "title": "Superhuman : Analyser et visualiser des données avec ChatGPT et Claude",
-        "url": "https://www.superhuman.ai/",
-        "description": "L'édition du 11 mai de Superhuman montre comment analyser et visualiser des données en utilisant ChatGPT et Claude. Un tutoriel pratique pour les professionnels cherchant à exploiter l'IA pour l'analyse de données sans compétences en programmation.",
-        "source": "Superhuman",
-        "date": "11 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/"
-      },
-      {
-        "title": "Superhuman : Comment analyser une idée d'entreprise avec Perplexity",
-        "url": "https://www.superhuman.ai/",
-        "description": "Dans son numéro du 12 mai, Superhuman présente comment analyser toute idée d'entreprise en utilisant Perplexity. Un guide pour les entrepreneurs cherchant à valider leurs concepts rapidement avec l'aide de l'IA.",
-        "source": "Superhuman",
+        "title": "Nathan Lambert partage ses notes de voyage au cœur des labs IA chinois",
+        "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+        "description": "Le chercheur d'Ai2 Nathan Lambert publie ses observations après avoir visité la plupart des principaux labs IA chinois. Il décrit un écosystème avec une culture d'efficacité et d'ouverture, une participation massive et un équilibre mondial émergent entre les approches IA américaine et chinoise.",
+        "source": "Interconnects",
         "date": "12 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/"
+        "sourceNewsletterUrl": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs"
+      },
+      {
+        "title": "Adaption lance AutoScientist pour automatiser l'entraînement de modèles IA sur mesure",
+        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
+        "description": "Adaption, la startup de l'ex-VP Research de Cohere Sara Hooker, lance AutoScientist le 14 mai 2026. Le système automatise la personnalisation de modèles IA en ajustant les données d'entraînement et les méthodes d'apprentissage, rendant le fine-tuning de pointe accessible à plus d'entreprises.",
+        "source": "The Rundown AI",
+        "date": "14 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
+        "officialUrl": "https://www.adaptionlabs.ai/blog/autoscientist"
+      },
+      {
+        "title": "Nvidia devient la première entreprise à franchir 5 500 milliards $ de capitalisation",
+        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
+        "description": "Le 14 mai 2026, Nvidia franchit un nouveau record en devenant la première entreprise à atteindre 5 500 milliards de dollars de capitalisation boursière. Ce cap historique est franchi alors que le CEO Jensen Huang arrive en Chine pour rejoindre Donald Trump lors de réunions avec Xi Jinping.",
+        "source": "The Rundown AI",
+        "date": "14 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming"
       },
       {
         "title": "Mozza Bytes : L'infrastructure invisible des agents IA selon GOSIM Paris 2026",
