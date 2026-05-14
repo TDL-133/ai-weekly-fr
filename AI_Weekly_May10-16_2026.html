@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            color: #111827;
+            background-color: white;
+        }
+
+        /* Container */
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        /* Spacing */
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+
+        /* Typography */
+        .text-center { text-align: center; }
+        .text-xs { font-size: 0.75rem; line-height: 1rem; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+
+        /* Colors */
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5556; }
+
+        /* Category colors */
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+
+        /* Subtitle styling */
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .date-note {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-top: 0.5rem;
+        }
+
+        /* Category section styling */
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-header {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+
+        /* Layout */
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+
+        /* Divider */
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+
+        /* Article styling */
+        .group {
+            transition: all 0.2s ease;
+        }
+
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+
+        .article-title {
+            transition: color 0.2s ease;
+            text-decoration: none;
+            color: #111827;
+        }
+
+        .article-title:hover {
+            color: #2563eb;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        article {
+            animation: fadeIn 0.5s ease-out forwards;
+            animation-fill-mode: both;
+        }
+
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        /* Footer */
+        .footer-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #d1d5db;
+        }
+
+        .sources-list {
+            margin-top: 1rem;
+            line-height: 1.8;
+        }
+
+        .sources-list a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .sources-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <!-- Header -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">Design by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">10-16 Mai 2026</p>
+                <p class="date-note">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <!-- Content -->
+            <div id="minimal-news-container">
+
+                <!-- Critical Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://openai.com/index/openai-launches-the-deployment-company/" class="article-title" target="_blank">OpenAI lance sa "Deployment Company" avec 4 milliards $ d'investissement initial</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">OpenAI crée une nouvelle entreprise dédiée à aider les organisations à construire et déployer des systèmes d'IA fiables dans leurs opérations les plus critiques. Cette initiative marque un tournant stratégique vers l'adoption d'IA en entreprise à grande échelle.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Alpha Signal</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html" class="article-title" target="_blank">Google dévoile Gemini Intelligence : l'IA agentique au cœur d'Android</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Gemini Intelligence pourra naviguer entre les applications, comprendre l'écran et accomplir des tâches complexes comme extraire des informations de Gmail, créer des paniers d'achat et réserver des restaurants. Le déploiement commence cet été sur les derniers Samsung Galaxy et Google Pixel.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.anthropic.com/news" class="article-title" target="_blank">Anthropic introduit le système de "rêve" pour améliorer les agents autonomes</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Anthropic dévoile une nouvelle technique d'agents IA appelée "dreaming" (rêve), conçue pour aider les systèmes autonomes à examiner leurs comportements passés, identifier des motifs et améliorer leurs performances futures entre les sessions d'apprentissage.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.startuphub.ai/ai-news/startup-news/2026/anthropic-eyes-900b-valuation-in-massive-funding-talks" class="article-title" target="_blank">Anthropic vise une valorisation de 900 milliards $ dans des discussions de financement</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Anthropic est en discussions préliminaires avec des investisseurs pour lever environ 30 milliards de dollars, ce qui valoriserait l'entreprise à plus de 900 milliards de dollars. Cela intervient alors que son taux de revenus annuels dépasse maintenant 30 milliards de dollars.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/" class="article-title" target="_blank">Sierra lève 950 millions $ à 15 milliards $ : la course à l'IA d'entreprise s'intensifie</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">La startup d'IA de Bret Taylor Sierra lève 950 millions de dollars menés par Tiger Global et GV, avec plus de 40% du Fortune 50 comme clients. Les agents sur sa plateforme gèrent des milliards d'interactions, du refinancement hypothécaire au traitement des réclamations d'assurance.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/" class="article-title" target="_blank">L'administration Trump adopte la supervision de l'IA face aux risques de sécurité</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Préoccupée par les implications de sécurité nationale du modèle "Mythos" d'Anthropic et sa capacité à identifier des vulnérabilités cybersécurité, l'administration considère maintenant une supervision pour les modèles d'IA avancés, marquant un revirement politique majeur.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>IA Ethique Insider</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.hklaw.com/en/insights/publications/2026/03/white-house-releases-a-national-policy-framework-for-artificial" class="article-title" target="_blank">La Maison Blanche publie son cadre politique national pour l'IA (20 mars 2026)</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Le 20 mars 2026, la Maison Blanche a publié son cadre politique national pour l'intelligence artificielle, contenant un ensemble exhaustif de recommandations législatives pour établir une approche unifiée de la gouvernance de l'IA aux États-Unis.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Human in the Loop</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.techpolicy.press/what-the-eu-ai-omnibus-deal-changes-for-the-ai-act-and-what-lies-ahead/" class="article-title" target="_blank">L'UE finalise l'accord AI Omnibus modifiant l'AI Act (7 mai 2026)</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">À 4h30 le 7 mai, les législateurs de l'UE ont conclu un accord sur l'AI Omnibus, le règlement modifiant l'AI Act européen. Cet accord marque une évolution majeure dans la régulation de l'IA en Europe après l'entrée en vigueur complète de l'AI Act en mars 2026.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Mozza Bytes</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Important Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://newsroom.ibm.com/2026-05-05-think-2026-ibm-delivers-the-blueprint-for-the-ai-operating-model-as-the-ai-divide-widens" class="article-title" target="_blank">IBM Think 2026 : expansion majeure des capacités d'IA d'entreprise</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Lors de sa conférence annuelle Think, IBM annonce l'expansion la plus complète de ses capacités d'IA d'entreprise, incluant watsonx Orchestrate nouvelle génération pour l'orchestration multi-agents, IBM Confluent pour les données temps réel, et IBM Concert pour les opérations intelligentes.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://llm-stats.com/llm-updates" class="article-title" target="_blank">Google lance la famille Gemma 4 pour l'open source (4 mai 2026)</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Le lancement de la famille Gemma 4 de Google le 4 mai 2026 marque un moment significatif pour la communauté open source. Ces nouveaux modèles offrent des performances améliorées tout en restant accessibles aux développeurs et chercheurs du monde entier.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.devflokers.com/blog/ai-tech-breakthroughs-may-2026-developments" class="article-title" target="_blank">xAI lance Grok 4.3 avec suite de clonage vocal à prix agressif</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">L'entreprise d'IA d'Elon Musk, xAI, a lancé Grok 4.3 à un "prix agressivement bas", comprenant une puissante suite de clonage vocal et un mode agent "Imagine" spécialisé pour les projets créatifs, intensifiant la concurrence dans le marché des modèles d'IA.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>AI Tidbits</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://newsroom.accenture.com/news/2026/servicenow-and-accenture-launch-forward-deployed-engineering-program-to-scale-agentic-ai-across-the-enterprise" class="article-title" target="_blank">ServiceNow et Accenture lancent un programme d'ingénierie pour l'IA agentique</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">ServiceNow et Accenture annoncent un programme d'ingénierie déployé en avant pour aider les entreprises à faire passer l'IA agentique du pilote à la production à grande échelle. Le programme vise à accélérer l'adoption d'agents IA dans les opérations d'entreprise critiques.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://futurumgroup.com/insights/microsoft-agent-365-turns-shadow-ai-into-a-governed-asset-class/" class="article-title" target="_blank">Microsoft Agent 365 devient disponible : gouvernance unifiée des agents IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Microsoft rend Agent 365 généralement disponible, offrant un plan de contrôle unifié pour observer, gouverner et sécuriser les agents IA à travers les écosystèmes Microsoft et partenaires. La plateforme étend les contrôles d'identité, de point de terminaison et de réseau aux agents.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.bloomberg.com/news/articles/2026-05-01/meta-acquires-assured-robot-intelligence-to-help-build-humanoid-technology" class="article-title" target="_blank">Meta acquiert Assured Robot Intelligence pour sa technologie humanoïde</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Meta Platforms a acquis Assured Robot Intelligence, une startup développant des modèles d'intelligence artificielle pour robots, dans le cadre d'une initiative majeure pour construire une technologie humanoïde. Cette acquisition souligne l'engagement de Meta dans la robotique avancée.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Alpha Signal</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://pestakeholder.org/news/private-equity-industry-teams-up-with-ai-companies-to-fast-forward-deployment-of-ai-at-portfolio-companies-putting-millions-of-jobs-at-risk/" class="article-title" target="_blank">Blackstone conclut un accord de 1,5 milliard $ avec Anthropic (4 mai)</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Le 4 mai, Blackstone a annoncé un accord de 1,5 milliard de dollars avec l'entreprise d'IA Anthropic, ainsi qu'avec les sociétés de capital-investissement Hellman & Friedman et Goldman Sachs, pour accélérer le déploiement d'IA dans les entreprises du portefeuille.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Mozza Bytes</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value" class="article-title" target="_blank">Wispr AI lève 260 millions $ à une valorisation de 2 milliards $</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Wispr AI, développeur de l'outil de dictée vocale Wispr Flow, est en pourparlers pour lever environ 260 millions de dollars à une valorisation de 2 milliards de dollars, menés par Menlo Ventures. L'outil permet une dictée IA précise dans toutes les applications.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html" class="article-title" target="_blank">76% des organisations ont créé un poste de Chief AI Officer</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Selon une enquête auprès de plus de 2 000 organisations, 76% ont établi un nouveau poste exécutif - celui de Chief AI Officer (CAIO) - contre seulement 26% en 2025. Ce changement reflète l'importance stratégique croissante de l'IA dans les entreprises.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Good to Know Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://roboticsandautomationnews.com/2026/05/13/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/101411/" class="article-title" target="_blank">Humanoid et Schaeffler : accord majeur pour déployer des milliers de robots en usine</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Humanoid, une entreprise britannique d'IA et robotique, a signé un accord de déploiement et d'approvisionnement contraignant avec Schaeffler pour intégrer des robots humanoïdes directement dans les opérations de fabrication en direct. Les premiers systèmes seront opérationnels en Allemagne avant la fin 2026.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>AI Tidbits</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/" class="article-title" target="_blank">Japan Airlines déploie des robots humanoïdes à l'aéroport de Haneda (mai 2026)</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Japan Airlines a déployé des robots humanoïdes à l'aéroport de Haneda de Tokyo en mai 2026, en partenariat avec GMO AI & Robotics. Deux plateformes basées sur Unitree Robotics à environ 15 400 $ l'unité géreront le chargement des bagages, le transport de conteneurs et le nettoyage des cabines.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://fortune.com/2026/05/13/exclusive-martha-stewart-ai-startup-hint-seed-funding-slow-ventures/" class="article-title" target="_blank">Martha Stewart lance Hint, startup d'IA pour la gestion de maison avec 10 millions $</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Martha Stewart a co-fondé Hint, une startup de gestion de maison par IA qui a levé 10 millions de dollars en financement de démarrage mené par Slow Ventures. La plateforme vise à gérer proactivement les maisons avant que les problèmes ne surviennent.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://news.lenovo.com/pressroom/press-releases/lenovo-ai-library-agentic-ai-solutions/" class="article-title" target="_blank">Lenovo permet le déploiement d'IA agentique prête pour la production en une semaine</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Lenovo permet aux entreprises de déployer des solutions d'IA agentique prêtes pour la production en aussi peu qu'une semaine. Cette capacité de déploiement rapide transforme les workflows d'entreprise et accélère considérablement l'adoption de l'IA agentique.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://roboticsandautomationnews.com/2026/05/12/infineon-launches-humanoid-robotics-focused-startup-challenge-for-2026/101426/" class="article-title" target="_blank">Infineon lance un défi startup pour la robotique humanoïde en 2026</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Infineon a lancé son Startup Challenge 2026 axé sur la robotique humanoïde, invitant les entreprises technologiques émergentes à développer des applications d'IA physique utilisant des technologies de semi-conducteurs avancées pour faire progresser le secteur de la robotique humanoïde.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Human in the Loop</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.kelleydrye.com/viewpoints/blogs/ad-law-access/ai-regulatory-roundup-recent-developments-in-colorado-connecticut-and-california" class="article-title" target="_blank">Colorado : le projet de loi SB 26-189 sur l'IA avance rapidement</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Bien que le SB 26-189 n'ait été introduit que le 1er mai, le projet de loi progresse rapidement et pourrait être soumis au vote avant la fin de la session législative du Colorado le 13 mai 2026, illustrant l'urgence des États à réglementer l'IA.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>IA Ethique Insider</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/" class="article-title" target="_blank">Qualcomm dévoile Dragonwing IQ10, processeur spécifique aux humanoïdes</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Qualcomm a lancé le Dragonwing IQ10, un processeur spécifiquement conçu pour les robots humanoïdes, en collaboration avec Figure AI et Neura Robotics pour définir les architectures de calcul de nouvelle génération pour la robotique physique avancée.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.marketingprofs.com/opinions/2026/54655/ai-update-may-8-2026-ai-news-and-views-from-the-past-week" class="article-title" target="_blank">Le partenariat Snap-Perplexity de 400 millions $ prend fin prématurément</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Snap a confirmé que son partenariat précédemment annoncé de 400 millions de dollars avec Perplexity a pris fin avant un déploiement à grande échelle. Cette rupture soulève des questions sur les défis de l'intégration d'IA dans les réseaux sociaux grand public.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Alpha Signal</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://huggingface.co/papers/trending" class="article-title" target="_blank">UniPool : un pool d'experts partagé mondialement pour Mixture-of-Experts</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Une nouvelle recherche en machine learning présente "UniPool", un pool d'experts partagé mondialement pour les architectures Mixture-of-Experts. Ce travail de Minbin Huang et collègues promet d'améliorer l'efficacité et la scalabilité des grands modèles de langage.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer with Sources -->
+            <div class="footer-section">
+                <h3 class="text-xl font-medium mb-4 text-center">Sources</h3>
+                <div class="sources-list text-sm text-gray-600">
+                    <p><strong>Alpha Signal</strong> - <a href="https://alphasignal.ai/last-email/" target="_blank">https://alphasignal.ai/last-email/</a></p>
+                    <p><strong>Mozza Bytes</strong> - <a href="https://mozzabytes.substack.com/" target="_blank">https://mozzabytes.substack.com/</a></p>
+                    <p><strong>Upmynt</strong> - <a href="https://www.upmynt.com/" target="_blank">https://www.upmynt.com/</a></p>
+                    <p><strong>NLP Newsletter (Elvis Saravia)</strong> - <a href="https://nlp.elvissaravia.com/" target="_blank">https://nlp.elvissaravia.com/</a></p>
+                    <p><strong>The AI Report</strong> - <a href="https://www.theaireport.ai/newsletters" target="_blank">https://www.theaireport.ai/newsletters</a></p>
+                    <p><strong>TLDR AI</strong> - <a href="https://tldr.tech/ai" target="_blank">https://tldr.tech/ai</a></p>
+                    <p><strong>AI Tidbits (Sahar Mor)</strong> - <a href="https://www.aitidbits.ai/" target="_blank">https://www.aitidbits.ai/</a></p>
+                    <p><strong>Superhuman (Zain Kahn)</strong> - <a href="https://www.superhuman.ai/" target="_blank">https://www.superhuman.ai/</a></p>
+                    <p><strong>IA Ethique Insider (Daphnée)</strong> - <a href="https://iaethiqueinsider.substack.com/" target="_blank">https://iaethiqueinsider.substack.com/</a></p>
+                    <p><strong>Human in the Loop (Andreas Horn)</strong> - <a href="https://www.humanintheloop.online/" target="_blank">https://www.humanintheloop.online/</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
