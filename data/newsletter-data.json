@@ -1,5 +1,5 @@
 {
-  "week": "2026-05-10 to 2026-05-16",
+  "week": "2026-05-17 to 2026-05-23",
   "sources": [
     {
       "name": "Alpha Signal",
@@ -77,268 +77,242 @@
   "categories": {
     "critique": [
       {
-        "title": "Google dévoile Gemini Intelligence pour Android : l'IA proactive arrive sur mobile",
-        "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-        "description": "Annoncé lors du Android Show le 12 mai 2026, Gemini Intelligence apporte des capacités agentiques à Android. L'IA peut naviguer entre applications, comprendre l'écran et accomplir des tâches multi-étapes comme réserver un taxi ou faire des achats. Le déploiement commence cet été sur Samsung Galaxy et Google Pixel.",
+        "title": "Google I/O 2026 s'ouvre le 19 mai avec Gemini 4.0 et une vague d'annonces IA attendues",
+        "url": "https://www.cnet.com/tech/services-and-software/google-io-2026-ai-releases-over-the-past-year/",
+        "description": "Google I/O 2026 démarre le 19 mai avec le keynote de Sundar Pichai. Le modèle Gemini 4.0 est attendu, ainsi que des avancées en IA agentique, les lunettes Android XR, et de nouvelles intégrations Gemini dans Search, Docs et Gmail. Google a fusionné Android et ChromeOS dans Googlebooks, sa nouvelle plateforme laptop.",
         "source": "The AI Report",
-        "date": "12 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-        "urlReason": "Annonce officielle Google, pas encore couverte par les newsletters"
-      },
-      {
-        "title": "OpenAI lance sa Deployment Company avec 4 milliards $ pour déployer l'IA en entreprise",
-        "url": "https://openai.com/index/openai-launches-the-deployment-company/",
-        "description": "Le 11 mai 2026, OpenAI crée une nouvelle entité dédiée à aider les organisations à construire et déployer des systèmes d'IA fiables dans leurs opérations critiques. Avec 4 milliards de dollars d'investissement initial, cette initiative marque un tournant vers l'adoption d'IA en entreprise à grande échelle.",
-        "source": "Alpha Signal",
-        "date": "11 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://openai.com/index/openai-launches-the-deployment-company/",
-        "urlReason": "Annonce officielle OpenAI du 11 mai"
-      },
-      {
-        "title": "Anthropic et Blackstone annoncent un fonds de 1,5 milliard $ pour déployer l'IA dans les PME",
-        "url": "https://www.latent.space/s/ainews",
-        "description": "Annoncé la semaine du 10 mai, Anthropic s'associe avec Blackstone, Goldman Sachs, Hellman & Friedman, Apollo et General Atlantic pour accélérer le déploiement d'IA dans les entreprises de taille moyenne. Le programme prévoit d'intégrer des ingénieurs Anthropic directement dans les entreprises clientes.",
-        "source": "Latent Space",
-        "date": "10 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/s/ainews",
-        "thirdPartyUrl": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
-      },
-      {
-        "title": "Novo Nordisk s'associe à OpenAI pour intégrer l'IA dans toute l'entreprise d'ici fin 2026",
-        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "description": "Le géant pharmaceutique danois Novo Nordisk annonce un partenariat stratégique avec OpenAI pour intégrer l'IA dans toutes ses activités : découverte de médicaments, essais cliniques, fabrication, chaîne d'approvisionnement et opérations commerciales. Déploiement complet prévu fin 2026.",
-        "source": "DeepLearning.AI",
-        "date": "11 mai 2026",
+        "date": "19 mai 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+        "thirdPartyUrl": "https://www.cnet.com/tech/services-and-software/google-io-2026-ai-releases-over-the-past-year/"
       },
       {
-        "title": "OpenAI lance sa plateforme publicitaire dans ChatGPT, visant 2,5 milliards $ de revenus",
-        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "description": "OpenAI dévoile Ads Manager, une plateforme libre-service permettant aux annonceurs de créer, gérer et optimiser des campagnes directement dans ChatGPT. L'entreprise vise 2,5 milliards de dollars de revenus publicitaires cette année, diversifiant ses sources de revenus au-delà des abonnements.",
+        "title": "Cerebras lève 5,5 milliards $ lors de son IPO historique, le titre bondit de 185 à 300 $",
+        "url": "https://www.cnbc.com/2026/05/16/cerebras-blockbuster-ipo-boosts-hype-for-spacex-openai-anthropic.html",
+        "description": "Cerebras Systems réalise l'IPO la plus spectaculaire de 2026 en levant 5,5 milliards de dollars au Nasdaq le 14 mai. L'action a bondi de 185 $ à plus de 300 $ dès le premier jour. Cette entrée en bourse marque un tournant pour le hardware IA et booste l'anticipation autour des futures IPO de SpaceX, OpenAI et Anthropic.",
         "source": "TLDR AI",
-        "date": "12 mai 2026",
+        "date": "16 mai 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+        "thirdPartyUrl": "https://www.cnbc.com/2026/05/16/cerebras-blockbuster-ipo-boosts-hype-for-spacex-openai-anthropic.html"
       },
       {
-        "title": "Samsung AI Week 2026 débute le 11 mai dans 58 pays avec des demos de produits IA",
-        "url": "https://news.samsung.com/global/samsung-launches-samsung-ai-week-2026-for-ai-powered-living",
-        "description": "Samsung Electronics lance la septième édition de Samsung AI Week du 11 mai au 7 juin 2026 dans 58 pays. L'événement, désormais organisé deux fois par an, présente les derniers produits et services IA de Samsung pour une vie connectée par l'intelligence artificielle.",
-        "source": "Superhuman",
-        "date": "11 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://news.samsung.com/global/samsung-launches-samsung-ai-week-2026-for-ai-powered-living",
-        "urlReason": "Annonce officielle Samsung"
-      },
-      {
-        "title": "73% des dirigeants déclarent un ROI décevant de l'IA selon le rapport G-P",
-        "url": "https://www.prnewswire.com/in/news-releases/the-ai-reckoning-73-of-executives-report-underwhelming-roi-from-ai-efforts-as-focus-shifts-from-hype-to-high-stakes-pressure-testing-302768822.html",
-        "description": "Le rapport AI at Work de G-P publié le 12 mai 2026 révèle que 73% des dirigeants jugent le retour sur investissement de l'IA décevant. Le marché passe de l'émerveillement expérimental à une mise à l'épreuve rigoureuse, marquant un tournant dans l'adoption d'IA en entreprise.",
-        "source": "Human in the Loop",
-        "date": "12 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://www.prnewswire.com/in/news-releases/the-ai-reckoning-73-of-executives-report-underwhelming-roi-from-ai-efforts-as-focus-shifts-from-hype-to-high-stakes-pressure-testing-302768822.html",
-        "urlReason": "Communiqué de presse officiel G-P"
-      },
-      {
-        "title": "Trump et Xi face à un test de contrôle de l'IA selon le China Connection newsletter",
-        "url": "https://www.cnbc.com/2026/05/11/trump-and-xi-face-a-test-over-ai-control.html",
-        "description": "Le 11 mai 2026, CNBC révèle dans sa newsletter China Connection que Trump et Xi Jinping font face à un test majeur sur le contrôle de l'IA. Les tensions géopolitiques autour de la gouvernance de l'IA s'intensifient entre les États-Unis et la Chine, avec des implications pour l'industrie mondiale.",
-        "source": "TechBuzz China",
-        "date": "11 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.cnbc.com/2026/05/11/trump-and-xi-face-a-test-over-ai-control.html"
-      },
-      {
-        "title": "Anthropic dépasse OpenAI en adoption entreprise pour la première fois selon l'index Ramp",
-        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
-        "description": "L'index AI de Ramp publié le 14 mai 2026 révèle qu'Anthropic a pris la tête de l'adoption en entreprise avec 34,4% des utilisateurs payants, dépassant OpenAI (32,3%) pour la première fois. L'adoption d'Anthropic a quadruplé en un an, portée par Claude Code qui s'étend des équipes techniques vers la finance, le juridique et la recherche.",
-        "source": "The Rundown AI",
-        "date": "14 mai 2026",
+        "title": "Anthropic vise une valorisation de 900 milliards $ avec un ARR dépassant 44 milliards $",
+        "url": "https://alphasignal.ai/last-email/",
+        "description": "Anthropic est en discussions pour un nouveau tour de financement qui porterait sa valorisation à 900 milliards de dollars. L'entreprise a révélé que son chiffre d'affaires a été multiplié par 80 en un an, avec un ARR désormais supérieur à 44 milliards $. Claude Code et l'adoption massive en entreprise portent cette croissance fulgurante.",
+        "source": "Alpha Signal",
+        "date": "16 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming"
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
+      },
+      {
+        "title": "xAI se dissout et devient SpaceXAI, une division intégrée à SpaceX",
+        "url": "https://www.therundown.ai/",
+        "description": "Elon Musk annonce que xAI cessera d'exister en tant qu'entité indépendante pour s'intégrer à SpaceX sous le nom SpaceXAI. Grok et les projets IA de X seront fusionnés dans la stratégie d'intégration verticale de SpaceX, marquant un repositionnement majeur de l'IA de Musk au sein de son écosystème spatial.",
+        "source": "The Rundown AI",
+        "date": "17 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.therundown.ai/"
+      },
+      {
+        "title": "Isomorphic Labs, spin-off de DeepMind, lève 2,1 milliards $ pour la découverte de médicaments par IA",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "Isomorphic Labs, le laboratoire de découverte de médicaments par IA issu de DeepMind, boucle un tour de série B de 2,1 milliards $ mené par Thrive Capital le 13 mai. Cette levée monumentale confirme le potentiel de l'IA dans la recherche pharmaceutique et positionne Isomorphic comme leader de la drug discovery augmentée.",
+        "source": "DeepLearning.AI",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/"
+      },
+      {
+        "title": "La Chine annonce une loi IA globale pour encadrer l'essor de l'intelligence artificielle",
+        "url": "https://www.scmp.com/news/china/politics/article/3353834/what-do-chinas-plans-comprehensive-new-ai-law-mean-future-technology",
+        "description": "Le Conseil d'État chinois confirme le 17 mai 2026 la préparation d'une loi IA globale, une première. Le texte encadrera la protection des données, la puissance de calcul, les algorithmes, les droits de propriété, la cybersécurité et les chaînes d'approvisionnement. Les experts y voient un signal fort de maturité dans la gouvernance IA chinoise.",
+        "source": "TechBuzz China",
+        "date": "17 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.scmp.com/news/china/politics/article/3353834/what-do-chinas-plans-comprehensive-new-ai-law-mean-future-technology"
+      },
+      {
+        "title": "Microsoft cherche un remplaçant à OpenAI et lorgne la startup Inception",
+        "url": "https://www.superhuman.ai/",
+        "description": "Malgré un accord renforcé avec OpenAI (participation de 27 % sécurisée jusqu'en 2032 pour 135 milliards $), Microsoft explore secrètement des alternatives. Le géant de Redmond s'intéresse notamment à Inception, une startup développant des modèles de langage basés sur la diffusion, signalant une volonté de diversification stratégique.",
+        "source": "Superhuman",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/"
+      },
+      {
+        "title": "xAI lance Grok Build, son premier agent de codage IA à 300 $/mois",
+        "url": "https://www.pcmag.com/news/elon-musks-xai-launches-grok-build-its-first-ai-coding-agent",
+        "description": "xAI dévoile Grok Build le 15 mai, un agent de codage en ligne de commande (CLI) conçu pour l'ingénierie logicielle professionnelle et les tâches de codage complexes. Disponible en bêta pour les abonnés SuperGrok Heavy (300 $/mois), il inclut un mode plan permettant de réviser et approuver avant exécution.",
+        "source": "Latent Space",
+        "date": "15 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.pcmag.com/news/elon-musks-xai-launches-grok-build-its-first-ai-coding-agent"
+      },
+      {
+        "title": "Procès OpenAI : Sam Altman accusé de déclarations trompeuses sur la direction de l'entreprise",
+        "url": "https://www.humanintheloop.online/",
+        "description": "Sam Altman fait face à un procès majeur le 15 mai 2026, accusé d'avoir trompé les investisseurs et employés sur la direction d'OpenAI. L'affaire porte sur des conflits internes et des promesses non tenues concernant les avancées IA, dans un contexte de tensions croissantes autour de la gouvernance de l'entreprise.",
+        "source": "Human in the Loop",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.humanintheloop.online/"
       }
     ],
     "important": [
       {
-        "title": "Anthropic introduit le système de 'rêve' pour améliorer les agents IA autonomes",
-        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-        "description": "Anthropic dévoile une nouvelle technique d'agents IA appelée 'dreaming' (rêve), conçue pour aider les systèmes autonomes à examiner leurs comportements passés, identifier des motifs et améliorer leurs performances futures entre les sessions. Le système est lancé en preview de recherche.",
-        "source": "The AI Report",
-        "date": "11 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+        "title": "The Batch du 15 mai : la Chine freine les ambitions agentiques de Meta",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "L'édition du 15 mai de The Batch d'Andrew Ng révèle que la Chine bloque les ambitions de Meta en matière d'IA agentique. Le numéro couvre aussi l'évaluation des modèles IA à venir par les États-Unis et les avancées en diagnostic IA des mammographies. Andrew Ng annonce un compagnon IA façonné par sa personnalité.",
+        "source": "DeepLearning.AI",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/"
       },
       {
-        "title": "OpenAI publie une recherche sur 'Parameter Golf' et l'optimisation de modèles",
-        "url": "https://llm-stats.com/ai-news",
-        "description": "Le 13 mai 2026, OpenAI publie 'What Parameter Golf taught us', une recherche d'ingénierie explorant l'optimisation des paramètres de modèles. L'article révèle de nouvelles approches pour améliorer l'efficacité des LLMs tout en réduisant leur taille.",
-        "source": "Alpha Signal",
-        "date": "13 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://llm-stats.com/ai-news"
-      },
-      {
-        "title": "Google lance Googlebooks, premiers laptops conçus nativement pour Gemini Intelligence",
-        "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
-        "description": "Annoncés le 12 mai lors du Android Show, les Googlebooks sont les premiers ordinateurs portables conçus dès le départ pour Gemini Intelligence, offrant une assistance personnelle et proactive. Lancement prévu à l'automne 2026.",
-        "source": "TLDR AI",
-        "date": "12 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/"
-      },
-      {
-        "title": "Gemini Chrome intègre l'automatisation de tâches pour la recherche et les réservations",
-        "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-        "description": "Google annonce que Gemini dans Chrome assistera avec la recherche, la synthèse, les comparaisons et l'automatisation de tâches comme les prises de rendez-vous. Les fonctionnalités se déploient progressivement sur Android, montres, voitures, lunettes et laptops.",
-        "source": "Superhuman",
-        "date": "12 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-        "urlReason": "Blog officiel Google Android"
-      },
-      {
-        "title": "Grok 4.3 disponible sur OCI Enterprise AI un jour après sa sortie publique",
-        "url": "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-may-2026",
-        "description": "Oracle annonce que Grok 4.3 est disponible sur OCI Enterprise AI seulement un jour après sa sortie publique, aux côtés de NVIDIA Nemotron 3 Nano Omni, un modèle multimodal entièrement open-source. Oracle accélère l'intégration de modèles de pointe.",
-        "source": "The AI Report",
-        "date": "11 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-may-2026"
-      },
-      {
-        "title": "AI Skills Conference rassemble 5000+ professionnels avec OpenAI, DeepMind et Google",
+        "title": "PwC mise tout sur Claude d'Anthropic pour transformer ses activités de conseil",
         "url": "https://www.news.aakashg.com/",
-        "description": "Le 14 mai 2026, l'AI Skills Conference réunit plus de 5 000 participants avec des intervenants d'OpenAI, DeepMind, Google, DoorDash, Miro, Spotify, TikTok, SAP et AMD. Aakash Gupta présente une session sur l'utilisation de Claude pour décrocher un emploi de rêve.",
+        "description": "PwC annonce un partenariat stratégique exclusif avec Anthropic, déployant Claude dans l'ensemble de ses activités de conseil, audit et fiscalité. Ce choix marque une victoire significative pour Anthropic dans la bataille pour l'adoption en entreprise des grands modèles de langage.",
         "source": "Aakash's Newsletter",
-        "date": "14 mai 2026",
+        "date": "16 mai 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://www.news.aakashg.com/"
       },
       {
-        "title": "Google Rambler transforme vos pensées vocales en messages professionnels",
-        "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-        "description": "La nouvelle fonctionnalité Rambler de Google transforme vos pensées naturelles parlées en messages texte polis et professionnels. Cette fonction de Gemini Intelligence est conçue pour faciliter la communication mobile rapide et efficace.",
-        "source": "Superhuman",
-        "date": "12 mai 2026",
-        "urlType": "official",
-        "officialUrl": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-        "urlReason": "Blog officiel Google Android"
+        "title": "OpenAI lance Daybreak, un projet de cybersécurité intégrant l'IA dès la conception",
+        "url": "https://alphasignal.ai/last-email/",
+        "description": "OpenAI dévoile Daybreak, un projet ambitieux visant à intégrer la défense cyber pilotée par IA directement dans le développement logiciel dès le départ. GPT-5.5-Cyber est déjà déployé auprès des équipes de cybersécurité de l'UE pour protéger les infrastructures critiques.",
+        "source": "Alpha Signal",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
       },
       {
-        "title": "Mozza Bytes interview le CPO de GitHub Mario Rodriguez sur les agents IA",
+        "title": "Anthropic lance Claude for Legal avec 12 plugins spécialisés par domaine juridique",
         "url": "https://mozzabytes.substack.com/",
-        "description": "Mozza Bytes annonce un épisode spécial podcast avec Mario Rodriguez, CPO de GitHub, discutant l'évolution des agents IA qui peuvent désormais travailler plusieurs heures (vs quelques secondes auparavant), avec des coûts de 0,40$/h à 40$/h contre 120$/h pour un ingénieur humain.",
+        "description": "Anthropic dévoile Claude for Legal le 12 mai, une solution dédiée au secteur juridique avec 12 plugins couvrant différents domaines (contrats, contentieux, propriété intellectuelle...) et plus de 20 connecteurs MCP. Une offensive majeure dans la LegalTech qui pourrait transformer la pratique du droit.",
         "source": "Mozza Bytes",
-        "date": "13 mai 2026",
+        "date": "16 mai 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://mozzabytes.substack.com/"
       },
       {
-        "title": "Stanford AI Index 2026 : les agents passent de 12% à 66% de réussite sur OSWorld",
-        "url": "https://mozzabytes.substack.com/",
-        "description": "Le Stanford AI Index 2026 révèle que les agents IA ont progressé de 12% à 66% de taux de réussite sur OSWorld en un an. Cependant, 89% des projets agentiques en entreprise n'atteignent jamais la production, soulignant le fossé entre capacités et déploiement.",
-        "source": "Mozza Bytes",
-        "date": "13 mai 2026",
+        "title": "Snap annonce une restructuration IA de 500 millions $ avec suppressions de postes",
+        "url": "https://tldr.tech/ai",
+        "description": "Snap Inc. annonce le 15 mai une restructuration majeure de 500 millions de dollars centrée sur l'IA. L'entreprise réoriente ses investissements vers l'intelligence artificielle générative et les agents, tout en réduisant ses effectifs dans les départements traditionnels de publicité et d'ingénierie.",
+        "source": "TLDR AI",
+        "date": "15 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai"
       },
       {
-        "title": "AI Agents Weekly : Meta FAIR Autodata, ZAYA1-8B et Claude Managed Agents Dreaming",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-meta-fair-autodata",
-        "description": "L'édition AI Agents Weekly du 9 mai d'Elvis Saravia couvre Meta FAIR Autodata pour la génération automatique de datasets, le modèle ZAYA1-8B, SubQ pour les contextes de 12M tokens, les autoencodeurs en langage naturel et le système de 'dreaming' des Claude Managed Agents d'Anthropic.",
+        "title": "Google DeepMind présente Vision Banana : un modèle unique pour toutes les tâches visuelles",
+        "url": "https://nlp.elvissaravia.com/",
+        "description": "Google DeepMind introduit Vision Banana, un modèle qui traite chaque tâche de vision par ordinateur comme de la génération d'image. Segmentation, estimation de profondeur, compréhension 3D : tout est traité comme des images à générer. Une approche unifiée qui simplifie radicalement le pipeline de vision artificielle.",
         "source": "NLP Newsletter",
-        "date": "10 mai 2026",
+        "date": "17 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/ai-agents-weekly-meta-fair-autodata"
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/"
+      },
+      {
+        "title": "Première décision de justice majeure sur la responsabilité publicitaire de l'IA",
+        "url": "https://iaethiqueinsider.substack.com/",
+        "description": "Un tribunal américain rend le 15 mai un jugement historique sur la responsabilité en matière de publicité générée par IA. La décision établit un précédent juridique sur la question de savoir qui est responsable lorsque des contenus publicitaires créés par l'IA s'avèrent trompeurs ou préjudiciables.",
+        "source": "IA Ethique Insider",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/"
+      },
+      {
+        "title": "OpenAI Codex arrive sur mobile : le codage assisté par IA dans la poche",
+        "url": "https://www.theaireport.ai/newsletters",
+        "description": "OpenAI lance Codex sur mobile le 14 mai, permettant aux développeurs d'accéder à la génération de code par IA directement depuis leur téléphone. Cette extension marque une étape importante vers la démocratisation du développement logiciel assisté par IA, partout et à tout moment.",
+        "source": "The AI Report",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.theaireport.ai/newsletters"
       }
     ],
     "goodToKnow": [
       {
-        "title": "DeepLearning.AI : 'Il n'y aura pas d'IA-jobpocalypse' dans The Batch du 8 mai",
-        "url": "https://www.deeplearning.ai/the-batch",
-        "description": "Dans son édition du 8 mai (couvert semaine du 10 mai), The Batch d'Andrew Ng déconstruit le récit selon lequel l'IA mènera à un chômage massif. L'article note que l'embauche d'ingénieurs logiciels reste forte malgré l'impact des outils IA et agents de codage.",
-        "source": "DeepLearning.AI",
-        "date": "10 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch"
-      },
-      {
-        "title": "Upmynt explique comment animer un logo sur Claude dans sa newsletter du 4 mai",
-        "url": "https://www.upmynt.com/",
-        "description": "Dans son édition du 4 mai (référencée semaine du 10 mai), Upmynt montre comment animer un logo en utilisant Claude. La newsletter explore également si les sites web sont accessibles aux agents IA, une question cruciale pour l'ère de l'IA agentique.",
-        "source": "Upmynt",
-        "date": "10 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/"
-      },
-      {
-        "title": "Upmynt : Gemini peut désormais générer des fichiers téléchargeables",
-        "url": "https://www.upmynt.com/",
-        "description": "L'édition du 6 mai d'Upmynt (couverte semaine du 10 mai) révèle trois nouveaux usages surpuissants de l'IA, dont la capacité de Gemini à générer des fichiers téléchargeables. La newsletter explore aussi la question dérangeante du bien-être des IA.",
-        "source": "Upmynt",
-        "date": "11 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/"
-      },
-      {
-        "title": "Nathan Lambert partage ses notes de voyage au cœur des labs IA chinois",
-        "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
-        "description": "Le chercheur d'Ai2 Nathan Lambert publie ses observations après avoir visité la plupart des principaux labs IA chinois. Il décrit un écosystème avec une culture d'efficacité et d'ouverture, une participation massive et un équilibre mondial émergent entre les approches IA américaine et chinoise.",
-        "source": "Interconnects",
-        "date": "12 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs"
-      },
-      {
-        "title": "Adaption lance AutoScientist pour automatiser l'entraînement de modèles IA sur mesure",
-        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
-        "description": "Adaption, la startup de l'ex-VP Research de Cohere Sara Hooker, lance AutoScientist le 14 mai 2026. Le système automatise la personnalisation de modèles IA en ajustant les données d'entraînement et les méthodes d'apprentissage, rendant le fine-tuning de pointe accessible à plus d'entreprises.",
-        "source": "The Rundown AI",
-        "date": "14 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
-        "officialUrl": "https://www.adaptionlabs.ai/blog/autoscientist"
-      },
-      {
-        "title": "Nvidia devient la première entreprise à franchir 5 500 milliards $ de capitalisation",
-        "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
-        "description": "Le 14 mai 2026, Nvidia franchit un nouveau record en devenant la première entreprise à atteindre 5 500 milliards de dollars de capitalisation boursière. Ce cap historique est franchi alors que le CEO Jensen Huang arrive en Chine pour rejoindre Donald Trump lors de réunions avec Xi Jinping.",
-        "source": "The Rundown AI",
-        "date": "14 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming"
-      },
-      {
-        "title": "Mozza Bytes : L'infrastructure invisible des agents IA selon GOSIM Paris 2026",
-        "url": "https://mozzabytes.substack.com/",
-        "description": "Mozza Bytes couvre GOSIM Paris 2026 (4-6 mai, référencé semaine du 10 mai) et explore l'infrastructure invisible nécessaire aux agents IA. La newsletter discute aussi comment OpenAI 'joue les politiques' et comment l'activation IA cache le churn client.",
-        "source": "Mozza Bytes",
-        "date": "13 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/"
-      },
-      {
-        "title": "IA Ethique Insider : L'Europe devancée par la Chine en régulation de l'IA",
-        "url": "https://iaethiqueinsider.substack.com/",
-        "description": "Daphnée Lucenet explore comment l'Europe se fait devancer par la Chine en matière de régulation de l'IA. L'article analyse les différentes approches réglementaires et leurs implications pour la souveraineté technologique européenne.",
-        "source": "IA Ethique Insider",
-        "date": "14 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/"
-      },
-      {
-        "title": "IA Ethique Insider : Quand l'IA rend tout le monde 'compétent' - analyse des impacts",
-        "url": "https://iaethiqueinsider.substack.com/",
-        "description": "IA Ethique Insider analyse le phénomène où l'IA donne l'illusion de compétence universelle. L'article explore les dangers de cette démocratisation apparente des compétences et ses implications pour la qualité du travail et l'expertise professionnelle.",
+        "title": "30 % des étudiants de Princeton utilisent l'IA pour tricher selon une enquête interne",
+        "url": "https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/",
+        "description": "Une enquête interne à Princeton révèle que 30 % des étudiants utilisent illicitement des outils IA, mettant à rude épreuve les codes d'honneur académiques traditionnels. Ce chiffre illustre le défi croissant de l'intégrité académique face à la démocratisation des outils d'IA générative.",
         "source": "IA Ethique Insider",
         "date": "15 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/"
+      },
+      {
+        "title": "ElevenLabs atteint 500 millions $ d'ARR et lève un nouveau tour de financement",
+        "url": "https://www.therundown.ai/",
+        "description": "ElevenLabs, le spécialiste de la synthèse vocale par IA, annonce avoir franchi le cap des 500 millions de dollars de revenus annuels récurrents. L'entreprise a également bouclé un nouveau tour de financement de 500 millions $, confirmant la forte demande pour les technologies audio et voix IA.",
+        "source": "The Rundown AI",
+        "date": "15 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/"
+        "sourceNewsletterUrl": "https://www.therundown.ai/"
+      },
+      {
+        "title": "Meta lance Muse Spark, son assistant créatif IA pour Reels et Stories",
+        "url": "https://www.aitidbits.ai/",
+        "description": "Meta dévoile Muse Spark, un modèle IA propriétaire conçu pour aider les créateurs à produire des contenus visuels pour Reels et Stories. Ce modèle mixture-of-experts marque l'entrée de Meta dans les outils créatifs IA grand public intégrés directement dans ses plateformes sociales.",
+        "source": "AI Tidbits",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.aitidbits.ai/"
+      },
+      {
+        "title": "Yuan 3.0 Ultra : la Chine lance un nouveau modèle open source rivalisant avec les frontières occidentales",
+        "url": "https://www.techbuzzchina.com/",
+        "description": "Le laboratoire chinois derrière Yuan 3.0 Ultra publie son modèle en open source, rejoignant la vague de quatre labs chinois (Z.ai, MiniMax, Kimi, DeepSeek) ayant sorti des modèles open-weights en 12 jours. Ces modèles rivalisent avec les capacités des frontières occidentales à un tiers du prix.",
+        "source": "TechBuzz China",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.techbuzzchina.com/"
+      },
+      {
+        "title": "Claude Code ajoute /goal et /dream : planification et rêverie pour les agents",
+        "url": "https://www.upmynt.com/",
+        "description": "Anthropic enrichit Claude Code avec deux nouvelles commandes : /goal pour définir des objectifs à long terme et /dream pour permettre aux agents d'examiner leurs comportements passés et d'améliorer leurs performances. Les limites de débit sont également doublées sur tous les plans payants.",
+        "source": "Upmynt",
+        "date": "15 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.upmynt.com/"
+      },
+      {
+        "title": "La participation d'Ilya Sutskever dans OpenAI valorisée à 7 milliards $",
+        "url": "https://www.interconnects.ai/",
+        "description": "Bloomberg révèle que la participation individuelle d'Ilya Sutskever, cofondateur d'OpenAI, est valorisée à environ 7 milliards de dollars. Ce chiffre illustre l'ampleur des enjeux financiers pour les scientifiques fondateurs de l'industrie IA, alors que la valorisation d'OpenAI continue de grimper.",
+        "source": "Interconnects",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.interconnects.ai/"
+      },
+      {
+        "title": "Les entreprises réembauchent des développeurs malgré les prédictions sur l'IA",
+        "url": "https://www.humanintheloop.online/",
+        "description": "Contre toute attente, l'emploi des développeurs logiciels aux États-Unis atteint un record historique malgré les craintes liées à l'IA. Les entreprises réembauchent des ingénieurs, constatant que les agents IA nécessitent une supervision humaine qualifiée et que la demande de logiciels augmente plus vite que l'automatisation.",
+        "source": "Human in the Loop",
+        "date": "17 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.humanintheloop.online/"
+      },
+      {
+        "title": "Anthropic met en demeure 8 vendeurs non autorisés d'actions sur le marché secondaire",
+        "url": "https://millefeuilleai.substack.com/",
+        "description": "Anthropic nomme publiquement 8 vendeurs non autorisés d'actions, dont Hiive et Forge Global, sur le marché secondaire. Cette action juridique vise à contrôler la circulation des titres alors que la valorisation de l'entreprise approche les 900 milliards de dollars.",
+        "source": "Millefeuille AI",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://millefeuilleai.substack.com/"
+      },
+      {
+        "title": "La Fondation Bill & Melinda Gates signe un accord stratégique avec Anthropic",
+        "url": "https://www.latent.space/",
+        "description": "La Fondation Gates annonce un partenariat stratégique avec Anthropic pour intégrer Claude dans ses programmes de santé mondiale et d'éducation. L'accord vise à utiliser l'IA pour accélérer la recherche médicale et améliorer l'accès à l'éducation dans les pays en développement.",
+        "source": "Latent Space",
+        "date": "16 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.latent.space/"
       }
     ]
   }
