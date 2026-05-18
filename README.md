@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 10-16 mai 2026
+**Période :** 17-23 mai 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-05-10_to_2026-05-16.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-05-17_to_2026-05-23.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **18 mai 2026** : édition pour la période du 17 au 23 mai 2026, avec 26 actualités couvrant 18 sources actives. Semaine marquée par Google I/O 2026, l'IPO record de Cerebras (5,5 Mds $), Anthropic visant 900 Mds $ de valorisation, la dissolution de xAI en SpaceXAI et la loi IA globale chinoise.
 - **14 mai 2026** : édition pour la période du 10 au 16 mai 2026, avec 28 actualités couvrant 15 sources actives. Semaine marquée par Anthropic dépassant OpenAI en entreprise, Gemini Intelligence sur Android, la plateforme pub d'OpenAI et Nvidia à 5 500 milliards $.
 - **6 mai 2026** : édition pour la période du 28 avril au 6 mai 2026, avec 25 actualités couvrant 16 sources actives. Semaine marquée par les difficultés d'OpenAI, le lancement de Grok 4.3, la valorisation record d'Anthropic et la guerre des prix DeepSeek.
 - **25 avril 2026** : édition recalée pour la période du 20 au 25 avril 2026, avec 25 actualités hiérarchisées par convergence inter-sources et 8 sources actives retenues.
