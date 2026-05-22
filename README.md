@@ -99,7 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
-- **18 mai 2026** : édition pour la période du 17 au 23 mai 2026, avec 26 actualités couvrant 18 sources actives. Semaine marquée par Google I/O 2026, l'IPO record de Cerebras (5,5 Mds $), Anthropic visant 900 Mds $ de valorisation, la dissolution de xAI en SpaceXAI et la loi IA globale chinoise.
+- **22 mai 2026** : édition mise à jour pour la période du 17 au 23 mai 2026, avec 26 actualités couvrant 18 sources actives. Semaine marquée par l'accord Anthropic-SpaceX de 45 Mds $, Karpathy rejoint Anthropic, Gemini 3.5 Flash et l'agent Spark à I/O 2026, l'IPO de Cerebras (+68 %), la préparation de l'IPO d'OpenAI dès septembre, et la réfutation d'une conjecture mathématique de 80 ans par un modèle OpenAI.
 - **14 mai 2026** : édition pour la période du 10 au 16 mai 2026, avec 28 actualités couvrant 15 sources actives. Semaine marquée par Anthropic dépassant OpenAI en entreprise, Gemini Intelligence sur Android, la plateforme pub d'OpenAI et Nvidia à 5 500 milliards $.
 - **6 mai 2026** : édition pour la période du 28 avril au 6 mai 2026, avec 25 actualités couvrant 16 sources actives. Semaine marquée par les difficultés d'OpenAI, le lancement de Grok 4.3, la valorisation record d'Anthropic et la guerre des prix DeepSeek.
 - **25 avril 2026** : édition recalée pour la période du 20 au 25 avril 2026, avec 25 actualités hiérarchisées par convergence inter-sources et 8 sources actives retenues.
