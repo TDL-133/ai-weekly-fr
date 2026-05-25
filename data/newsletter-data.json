@@ -1,5 +1,5 @@
 {
-  "week": "2026-05-17 to 2026-05-23",
+  "week": "2026-05-24 to 2026-05-30",
   "sources": [
     {
       "name": "Alpha Signal",
@@ -46,10 +46,6 @@
       "url": "https://www.news.aakashg.com/"
     },
     {
-      "name": "Millefeuille AI",
-      "url": "https://millefeuilleai.substack.com/"
-    },
-    {
       "name": "TechBuzz China",
       "url": "https://www.techbuzzchina.com/"
     },
@@ -68,258 +64,254 @@
     {
       "name": "Latent Space",
       "url": "https://www.latent.space/"
-    },
-    {
-      "name": "AI Ramblings",
-      "url": "https://airesearch.substack.com/"
     }
   ],
   "categories": {
     "critique": [
       {
-        "title": "Anthropic signe un accord de calcul de 45 milliards $ avec SpaceX sur trois ans",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Anthropic paiera 1,25 milliard de dollars par mois a SpaceX jusqu'en mai 2029 pour du calcul dans deux centres de donnees (Colossus 1 a Memphis et Colossus 2). L'accord, revele dans le S-1 de SpaceX pour son IPO, peut etre resilie avec un preavis de 90 jours. C'est le plus grand contrat de calcul IA jamais signe entre deux entreprises privees.",
-        "source": "TLDR AI",
-        "date": "21 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21"
-      },
-      {
-        "title": "Andrej Karpathy rejoint Anthropic pour la recherche a la frontiere de l'IA",
-        "url": "https://tldr.tech/ai/2026-05-20",
-        "description": "L'ancien responsable IA de Tesla et cofondateur d'OpenAI a annonce son arrivee chez Anthropic. Karpathy cite les prochaines annees a la frontiere des LLM comme determinantes pour son retour en R&D. Il prevoit de reprendre ses projets educatifs plus tard, signalant que ce mouvement est entierement axe sur la recherche.",
-        "source": "Alpha Signal",
-        "date": "20 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-20"
-      },
-      {
-        "title": "Google lance Gemini 3.5 Flash et l'agent personnel Spark a I/O 2026",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-        "description": "Google devoile Gemini 3.5 Flash, un modele axe sur les workflows agentiques, le codage et l'execution de taches longues. En parallele, l'agent personnel Spark fonctionne 24h/24 pour les utilisateurs. Google revele que l'utilisation mensuelle de tokens dans ses systemes IA depasse desormais 3,2 quadrillons.",
-        "source": "Superhuman",
-        "date": "20 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
-      },
-      {
-        "title": "OpenAI prepare son IPO potentiel des septembre 2026",
-        "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
-        "description": "OpenAI accelere ses preparatifs d'introduction en bourse, potentiellement des septembre 2026, apres le rejet du proces d'Elon Musk. L'entree en bourse est cependant menacee par la baisse des couts de l'IA et la concurrence accrue des labs americains et chinois produisant des modeles moins chers.",
+        "title": "Anthropic boucle une levee de 30 milliards $ a plus de 900 milliards de valorisation, depassant OpenAI",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-set-close-30-billion-203545596.html",
+        "description": "Anthropic finalise un tour de financement de 30 milliards de dollars a une valorisation de plus de 900 milliards, co-dirige par Sequoia, Dragoneer, Greenoaks et Altimeter. Si le deal se confirme, Anthropic depasse pour la premiere fois la valorisation de 852 milliards d'OpenAI datant de mars 2026. En fevrier, Anthropic etait valorisee a 380 milliards de dollars.",
         "source": "The Rundown AI",
-        "date": "21 mai 2026",
+        "date": "23 mai 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/"
+        "thirdPartyUrl": "https://finance.yahoo.com/sectors/technology/articles/anthropic-set-close-30-billion-203545596.html",
+        "officialUrl": "https://www.anthropic.com/"
       },
       {
-        "title": "Trump suspend l'ordonnance executive sur la cybersecurite IA",
-        "url": "https://www.cbsnews.com/video/trump-postpones-ai-cybersecurity-executive-order/",
-        "description": "Le president Trump reporte la signature d'un decret sur la cybersecurite IA, declarant ne pas aimer certains aspects du texte. Ce report survient alors que les cinq labs IA frontieres (OpenAI, Anthropic, Google DeepMind, Microsoft, xAI) sont desormais soumis a l'evaluation pre-deploiement du Commerce Department.",
+        "title": "Le pape Leon XIV publie sa premiere encyclique sur l'IA : Magnifica Humanitas",
+        "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+        "description": "Le pape Leon XIV presente Magnifica Humanitas, sa premiere encyclique, consacree a la protection de la personne humaine a l'ere de l'intelligence artificielle. Signee 135 ans jour pour jour apres Rerum Novarum de Leon XIII sur les droits des travailleurs, elle sera presentee aux cotes de Christopher Olah, cofondateur d'Anthropic, au Vatican le 25 mai.",
+        "source": "IA Ethique Insider",
+        "date": "25 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html"
+      },
+      {
+        "title": "NextEra acquiert Dominion Energy pour 67 milliards $ : plus grande fusion energetique de l'histoire des Etats-Unis",
+        "url": "https://www.cbsnews.com/news/nextera-dominion-67-billion-deal-ai-data-centers/",
+        "description": "NextEra Energy annonce l'acquisition de Dominion Energy pour 67 milliards de dollars, la plus grande fusion d'utilites de l'histoire americaine. La demande energetique des data centers IA, qui devrait atteindre 15 a 25 % de l'electricite americaine d'ici 2030, est le principal moteur strategique de cette consolidation sans precedent.",
+        "source": "Superhuman",
+        "date": "24 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.cbsnews.com/news/nextera-dominion-67-billion-deal-ai-data-centers/"
+      },
+      {
+        "title": "Cursor atteint 3 milliards $ de CA annualise, SpaceX detient une option d'achat a 60 milliards $",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "Le chiffre d'affaires annualise de Cursor a atteint 3 milliards de dollars fin avril, avec plus de 3 000 clients entreprises payant au moins 100 000 $ par an. SpaceX dispose d'une option d'achat de Cursor pour 60 milliards de dollars dans une fenetre de 30 jours debutant peu apres son entree en bourse, prevue le 12 juin.",
+        "source": "TLDR AI",
+        "date": "22 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22"
+      },
+      {
+        "title": "La Chine force Manus a defaire l'acquisition par Meta, levee d'un milliard $ en cours",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "Les regulateurs chinois ont ordonne a Manus de defaire son acquisition par Meta, un retournement quasi inedit a cette echelle. Les fondateurs doivent desormais lever un milliard de dollars pour racheter l'operation, et pourraient contribuer avec leurs fonds propres. Des discussions de financement sont en cours avec plusieurs investisseurs.",
+        "source": "TechBuzz China",
+        "date": "22 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22"
+      },
+      {
+        "title": "Jack Clark (Anthropic) : 60 % de probabilite d'explosion de l'intelligence d'ici fin 2028",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026",
+        "description": "Le cofondateur d'Anthropic, Jack Clark, a declare lors de la Cosmos Lecture a Oxford que la probabilite qu'un systeme IA entraine son propre successeur depasse 60 % d'ici fin 2028. Il prevoit aussi une decouverte digne du Nobel en 12 mois, des robots bipedes aidant les artisans en 2 ans, et des entreprises entierement gerees par l'IA generant des millions en 18 mois.",
+        "source": "Interconnects",
+        "date": "23 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026"
+      },
+      {
+        "title": "Anthropic et Microsoft en discussion pour les puces Maia 200, apres un investissement de 5 milliards $",
+        "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+        "description": "Microsoft prevoit de fournir ses puces IA Maia 200 a Anthropic, qui fait face a des contraintes de calcul malgre ses partenariats avec Amazon et Google. Les puces Maia offrent 30 % d'amelioration de performance. Cela ferait de Microsoft le cinquieme partenaire silicium d'Anthropic, aux cotes de NVIDIA, AWS Trainium, Google TPU et SpaceX.",
+        "source": "Alpha Signal",
+        "date": "22 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html"
+      },
+      {
+        "title": "OpenAI declare 5,7 milliards $ de CA au T1 2026, devancant Anthropic",
+        "url": "https://sherwood.news/tech/report-openais-q1-revenue-was-5-7-billion-beating-anthropic/",
+        "description": "OpenAI a enregistre 5,7 milliards de dollars de chiffre d'affaires au T1, devancant Anthropic. La forte demande en puces d'inference IA pousse Amazon, Google et potentiellement Microsoft a rivaliser pour fournir des solutions sur mesure. L'adoption rapide de Claude par les entreprises a revele des contraintes de calcul chez Anthropic.",
         "source": "The AI Report",
         "date": "22 mai 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://www.cbsnews.com/video/trump-postpones-ai-cybersecurity-executive-order/"
+        "thirdPartyUrl": "https://sherwood.news/tech/report-openais-q1-revenue-was-5-7-billion-beating-anthropic/"
       },
       {
-        "title": "Un modele OpenAI refute autonomement une conjecture de geometrie discrete vieille de 80 ans",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Un modele de raisonnement d'OpenAI a autonomement refute une conjecture majeure liee au probleme de la distance unitaire plane, ouverte depuis 1946. La preuve introduit des techniques de theorie algebrique des nombres et a ete verifiee independamment par des mathematiciens externes. C'est l'un des premiers cas ou un systeme IA resout un probleme mathematique non resolu majeur.",
-        "source": "DeepLearning.AI",
-        "date": "21 mai 2026",
+        "title": "Microsoft annule les licences Claude Code et redirige ses developpeurs vers GitHub Copilot CLI",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "Microsoft met fin aux licences Claude Code en interne et redirige ses equipes de developpement vers GitHub Copilot CLI. Ce mouvement, probablement motive par des considerations financieres, reduit les couts operationnels de Microsoft tout en consolidant sa propre suite d'outils de codage IA face a la concurrence d'Anthropic.",
+        "source": "Aakash's Newsletter",
+        "date": "22 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21",
-        "officialUrl": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
-      },
-      {
-        "title": "Anthropic acquiert Stainless, la plateforme SDK utilisee par OpenAI, Google et Cloudflare",
-        "url": "https://tldr.tech/ai/2026-05-19",
-        "description": "Anthropic acquiert la startup Stainless, dont la plateforme d'automatisation SDK etait largement utilisee par des entreprises IA majeures dont OpenAI, Google et Cloudflare. Cette acquisition strategique renforce l'ecosysteme de developpement d'Anthropic et pourrait perturber les outils SDK de ses concurrents.",
-        "source": "The Rundown AI",
-        "date": "19 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-19",
-        "officialUrl": "https://www.anthropic.com/news/anthropic-acquires-stainless"
-      },
-      {
-        "title": "Anthropic approche son premier trimestre rentable avec un CA trimestriel de 10,9 milliards $",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Le chiffre d'affaires d'Anthropic devrait plus que doubler au T2 pour atteindre 10,9 milliards de dollars. Sa croissance trimestrielle est desormais plus rapide que celles de Google et Facebook avant leurs IPO respectives. L'entreprise pourrait toutefois ne pas rester rentable sur l'annee complete en raison de ses depenses massives en calcul.",
-        "source": "Interconnects",
-        "date": "21 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21"
-      },
-      {
-        "title": "Cerebras bondit de 68 % lors de son IPO historique au Nasdaq",
-        "url": "https://www.upmynt.com/up323-incognito/",
-        "description": "Cerebras Systems realise l'IPO la plus spectaculaire de 2026, avec une action bondissant de 68 % des le premier jour de cotation au Nasdaq. Cette entree en bourse marque un tournant pour le hardware IA specialise et alimente l'anticipation autour des futures IPO de SpaceX, OpenAI et Anthropic.",
-        "source": "Upmynt",
-        "date": "18 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up323-incognito/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22",
+        "thirdPartyUrl": "https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives"
       }
     ],
     "important": [
       {
-        "title": "ChatGPT s'integre a PowerPoint : creation et edition de diapositives par conversation",
-        "url": "https://www.superhuman.ai/p/chatgpt-gets-powerpoint-skills",
-        "description": "OpenAI lance l'integration de ChatGPT avec Microsoft PowerPoint, permettant de creer et editer des diapositives par simple conversation. En parallele, les investisseurs accedent pour la premiere fois aux finances de SpaceXAI via le S-1 et certains expriment des reserves sur les chiffres presentes.",
-        "source": "Superhuman",
+        "title": "Cursor Composer 2.5 defie les modeles frontiere : memes performances, 60 fois moins cher",
+        "url": "https://alphasignal.ai/last-email/",
+        "description": "L'analyse d'Alpha Signal demontre que Composer 2.5 de Cursor, construit sur Kimi K2.5, obtient un score de 62 sur le Coding Agent Index pour 0,07 $ par tache, contre 4,10 $ pour Opus 4.7 (score 66) et 4,82 $ pour GPT-5.5 (score 65). 85 % du calcul a ete consacre au RL et a la generation de donnees synthetiques, avec une technique de self-distilled fine-tuning (SDFT).",
+        "source": "Alpha Signal",
+        "date": "24 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
+      },
+      {
+        "title": "Qwen3.7-Max : le modele agent d'Alibaba domine Terminal-Bench 2.0, SWE-Pro et MCP-Mark",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "L'equipe Qwen d'Alibaba lance Qwen3.7-Max, un modele fondation proprietaire concu pour les agents, qui obtient les meilleurs scores sur Terminal-Bench 2.0-Terminus, SWE-Pro, SciCode, MCP-Mark, GPQA Diamond et HMMT Feb 2026. Les performances sont stables sur Claude Code, OpenClaw, Qwen Code et les harness personnalises.",
+        "source": "NLP Newsletter",
         "date": "22 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-gets-powerpoint-skills"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22",
+        "officialUrl": "https://qwen.ai/blog?id=qwen3.7"
       },
       {
-        "title": "NVIDIA livre ses premiers CPU Vera a Anthropic, OpenAI et SpaceXAI",
-        "url": "https://tldr.tech/ai/2026-05-19",
-        "description": "Les premiers CPU NVIDIA Vera sont arrives chez Anthropic, OpenAI, SpaceXAI et Oracle, livres en main propre par le VP Hyperscale de NVIDIA. Vera embarque 88 coeurs Olympus personnalises, 1,2 TB/s de bande passante memoire et 50 % de performances par coeur supplementaires. C'est le processeur hote du Vera Rubin NVL72.",
-        "source": "Alpha Signal",
-        "date": "19 mai 2026",
+        "title": "Meta AIRA decouvre des architectures neuronales qui battent Llama 3.2 a trois echelles",
+        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b",
+        "description": "AIRA de Meta est un systeme agent en deux parties (AIRA-Compose pour la macro-architecture, AIRA-Design pour les mecanismes) qui decouvre autonomement des architectures neuronales. Les modeles decouverts egalent ou depassent Llama 3.2 a 350M, 1B et 3B parametres, le tout dans un budget de calcul de 24 heures.",
+        "source": "NLP Newsletter",
+        "date": "24 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-19",
-        "officialUrl": "https://blogs.nvidia.com/blog/vera-cpu-delivery/"
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b"
       },
       {
-        "title": "Google devoile Agent Executor, un runtime distribue open source pour les agents IA",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Google lance Agent Executor, un standard de runtime open source pour l'execution fiable de workflows d'agents de longue duree. Il offre execution durable, isolation securisee, reprise de connexion, coherence de session et branchement de trajectoire. Le systeme collabore avec Kubernetes Engine pour optimiser le calcul a grande echelle.",
-        "source": "The AI Report",
-        "date": "21 mai 2026",
+        "title": "Gatsby lance le premier service de nettoyage residentiel par robot humanoide",
+        "url": "https://www.superhuman.ai/p/robotics-special-gatsby-unveils-humanoid-home-cleaning-service",
+        "description": "La startup de San Francisco Gatsby lance un service permettant de reserver un robot humanoide comme un Uber pour nettoyer son domicile, une premiere dans l'industrie. En parallele, un robot humanoide a quatre bras est concu pour effectuer des taches de maintenance astronautique dans l'espace, ou la main-d'oeuvre humaine est couteuse et risquee.",
+        "source": "Superhuman",
+        "date": "23 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21",
-        "officialUrl": "https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime/"
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-gatsby-unveils-humanoid-home-cleaning-service"
       },
       {
-        "title": "Le jury rejette l'integralite du proces de Musk contre Sam Altman et OpenAI",
-        "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed",
-        "description": "Un jury federal a unanimement rejete le proces d'Elon Musk contre OpenAI portant sur la conversion en entite a but lucratif. Le jury a estime que Musk avait trop attendu pour deposer sa plainte (prescription). L'equipe de Musk prevoit de faire appel de la decision.",
-        "source": "Human in the Loop",
-        "date": "19 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed"
-      },
-      {
-        "title": "OpenAI lance Guaranteed Capacity : reservation de compute a long terme pour les entreprises",
-        "url": "https://www.cnbc.com/2026/05/19/openai-announces-new-guaranteed-capacity-offering-for-customers-to-secure-compute.html",
-        "description": "OpenAI permet desormais aux entreprises de reserver du calcul garanti sur 1, 2 ou 3 ans avec des remises progressives. L'offre Guaranteed Capacity vise a securiser l'acces aux ressources de calcul pour les produits IA, agents et workflows. Elle sera disponible jusqu'a epuisement de l'allocation actuelle.",
-        "source": "TLDR AI",
-        "date": "20 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://www.cnbc.com/2026/05/19/openai-announces-new-guaranteed-capacity-offering-for-customers-to-secure-compute.html"
-      },
-      {
-        "title": "Stability AI sort Stable Audio 3.0 en open-weight, jusqu'a 6 minutes de generation",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Stability AI lance une nouvelle famille de modeles Stable Audio 3.0, incluant des versions open-weight capables de generer de la musique et des effets sonores jusqu'a plus de six minutes. Les modeles sont concus pour l'experimentation artistique et ouvrent l'audio IA generative a une communaute plus large.",
+        "title": "Anthropic Consulting acquiert Fractional AI comme base operationnelle",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-consulting-venture-makes-first-120000326.html",
+        "description": "La nouvelle branche consulting d'Anthropic, encore sans nom officiel, realise sa premiere acquisition en choisissant Fractional AI comme base operationnelle. Cette initiative marque l'entree d'Anthropic dans le conseil aux entreprises, en capitalisant sur l'expertise de deploiement de Claude dans des environnements professionnels complexes.",
         "source": "Latent Space",
-        "date": "21 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21",
-        "officialUrl": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models"
+        "date": "22 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://finance.yahoo.com/sectors/technology/articles/anthropic-consulting-venture-makes-first-120000326.html"
       },
       {
-        "title": "Les cinq labs IA frontieres desormais sous evaluation pre-deploiement aux Etats-Unis",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "Le CAISI du Commerce Department americain a finalise des accords d'evaluation pre-deploiement avec les cinq labs IA frontieres : OpenAI, Anthropic, Google DeepMind, Microsoft et xAI. Chaque sortie majeure de modele doit desormais passer une evaluation gouvernementale avant son lancement public.",
-        "source": "IA Ethique Insider",
-        "date": "21 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21"
+        "title": "Breche TeamPCP : OpenAI, Mistral et la Commission europeenne aussi touches",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026",
+        "description": "Le ver TeamPCP a touche bien plus que GitHub : OpenAI (deux appareils employes compromis, certificats de signature rotés), Mistral AI (un appareil compromis, demande de rancon de 25 000 $ en Monero pour 5 Go de code source presume), et la Commission europeenne. Trend Micro a identifie au moins sept vagues TeamPCP confirmees en 2026.",
+        "source": "DeepLearning.AI",
+        "date": "23 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026"
       },
       {
-        "title": "PwC deploie Claude Code et Cowork aupres de centaines de milliers de professionnels",
-        "url": "https://tldr.tech/ai/2026-05-20",
-        "description": "PwC annonce un partenariat elargi avec Anthropic : deploiement de Claude Code et Cowork aupres de son effectif mondial, certification de 30 000 professionnels americains sur Claude, et creation d'un Centre d'Excellence conjoint. Le temps de souscription en assurance est passe de 10 semaines a 10 jours grace a l'IA.",
-        "source": "Aakash's Newsletter",
-        "date": "20 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-20"
+        "title": "Intuit supprime 3 000 emplois en reorientant ses investissements vers les agents IA",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026",
+        "description": "Intuit rejoint Meta (8 000 postes) dans une vague de restructurations liees a l'IA : 3 000 emplois supprimes, les budgets de personnel etant realloues vers l'infrastructure IA. Les agents IA peuvent desormais gerer des taches qui necessitaient auparavant une equipe humaine. Anthropic alimente plusieurs workflows QuickBooks via Claude for Small Business.",
+        "source": "Human in the Loop",
+        "date": "23 mai 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026"
       },
       {
-        "title": "Meta lance le Chat Incognito pour Meta AI sur WhatsApp avec chiffrement de bout en bout",
-        "url": "https://www.upmynt.com/up323-incognito/",
-        "description": "Meta annonce le Chat Incognito avec Meta AI sur WhatsApp et l'app Meta AI, avec un chiffrement de bout en bout reposant sur l'architecture Private Processing. Les conversations sont traitees dans un environnement securise que Meta ne peut pas voir et disparaissent par defaut.",
+        "title": "Cursor publie les lecons de la construction d'agents cloud : execution durable et auto-reparation",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "Cursor partage ses retours d'experience sur la construction d'agents cloud, soulignant l'importance de l'execution durable, des environnements isoles, de l'infrastructure auto-reparatrice et de la separation nette entre l'etat de l'agent et celui de la conversation. Ces principes definissent les standards emergents de l'ingenierie d'agents en production.",
+        "source": "TLDR AI",
+        "date": "22 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22",
+        "officialUrl": "https://cursor.com/blog/cloud-agent-lessons"
+      },
+      {
+        "title": "Les prix de l'IA s'effondrent : un phenomene logiciel et non materiel",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "Les modeles open-weight locaux fonctionnant sur du hardware ancien deviennent competitifs avec la frontiere. Les applications n'ayant pas besoin du meilleur modele ne justifient plus la prime de prix. Cette dynamique menace les marges des labs frontieres et pourrait compromettre les valorisations IPO d'OpenAI et Anthropic.",
         "source": "Upmynt",
-        "date": "18 mai 2026",
+        "date": "22 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up323-incognito/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22",
+        "thirdPartyUrl": "https://weightythoughts.com/p/ais-plummeting-prices-are-a-software"
       }
     ],
     "goodToKnow": [
       {
-        "title": "Qwen 3.7 Preview debarque sur Arena, le Max se classe 13e en Text Arena",
-        "url": "https://tldr.tech/ai/2026-05-19",
-        "description": "Alibaba lance Qwen 3.7 Preview sur Arena pour le texte et la vision. Qwen3.7 Max Preview se classe 13e au classement general en Text Arena, tandis que Qwen3.7 Plus Preview arrive 16e en Vision Arena. Ces modeles confirment la montee en puissance des labs chinois dans la course aux LLM.",
+        "title": "Code as Agent Harness : un article de 100+ pages redefinit l'ingenierie d'agents",
+        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b",
+        "description": "Ce survey de plus de 100 pages traite le harness d'agent comme un objet de recherche a part entiere. Il identifie quatre proprietes essentielles pour les agents de production : executable, inspectable, stateful et gouverne. Les harnesses qui compilent les decisions en code surpassent systematiquement l'orchestration par JSON sur les benchmarks evalues.",
         "source": "NLP Newsletter",
-        "date": "19 mai 2026",
+        "date": "24 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-19"
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b"
       },
       {
-        "title": "White Circle leve 9,3 millions d'euros pour sa couche de controle de modeles IA en France",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-b3f",
-        "description": "La startup francaise White Circle boucle un tour de 9,3 millions d'euros pour sa couche de controle de modeles IA specialisee dans la detection d'hallucinations, l'injection de prompt et la derive. Fakto leve egalement 3,6 millions d'euros pour sa plateforme d'analyse de couts d'entreprise par IA.",
-        "source": "Mozza Bytes",
-        "date": "19 mai 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-b3f"
-      },
-      {
-        "title": "ByteDance lance Lance 3B, modele multimodal unifie pour l'image et la video",
-        "url": "https://tldr.tech/ai/2026-05-21",
-        "description": "ByteDance publie Lance, un modele multimodal de 3 milliards de parametres capable de comprendre, generer et editer des images et des videos au sein d'une seule architecture entrainee entierement from scratch. Un pas vers l'unification des taches visuelles dans un modele unique.",
+        "title": "MeMo : la memoire comme modele entraine, une alternative a RAG",
+        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b",
+        "description": "MeMo augmente tout LLM gele avec un modele de memoire entraine separement, dote d'interfaces explicites de lecture, ecriture et integration. Contrairement a RAG, le systeme supporte l'apprentissage continu sans oubli catastrophique. Les mises a jour de connaissances hebdomadaires deviennent realisables sans re-entrainement du modele de base.",
         "source": "AI Tidbits",
-        "date": "21 mai 2026",
+        "date": "24 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-21",
-        "officialUrl": "https://github.com/bytedance/Lance"
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b"
       },
       {
-        "title": "Alibaba devoile la puce IA Zhenwu M890 pour les charges de travail agents",
-        "url": "https://ca.finance.yahoo.com/news/alibaba-unveils-ai-chip-push-050035417.html",
-        "description": "Alibaba presente sa nouvelle puce IA Zhenwu M890, concue pour gerer les exigences elevees en memoire et communication des charges de travail d'agents IA. Cette puce s'inscrit dans la strategie chinoise de developpement d'alternatives domestiques aux puces occidentales.",
-        "source": "TechBuzz China",
-        "date": "21 mai 2026",
+        "title": "Le Pentagone teste OpenAI et Google pour remplacer Claude dans les workflows de defense",
+        "url": "https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026",
+        "description": "Le Pentagone mene des evaluations controlees de modeles OpenAI et Google sur des workflows classes qui etaient precedemment servis exclusivement par Claude d'Anthropic. Ce test intervient apres qu'Anthropic a refuse un contrat du Departement de la Defense pour des raisons ethiques debut 2026. Le Pentagone diversifie desormais ses fournisseurs IA.",
+        "source": "The AI Report",
+        "date": "25 mai 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://ca.finance.yahoo.com/news/alibaba-unveils-ai-chip-push-050035417.html"
+        "thirdPartyUrl": "https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026"
       },
       {
-        "title": "Hermes defie OpenClaw dans la course aux agents de cybersecurite",
-        "url": "https://www.deeplearning.ai/the-batch/issue-354/",
-        "description": "L'agent Hermes, lance en fevrier 2026, gagne rapidement du terrain face a OpenClaw d'OpenAI dans le domaine des agents de cybersecurite. Avec un comportement d'auto-amelioration et un deploiement simplifie, l'interet a explose en avril-mai avec des versions successives. The Batch couvre egalement les alarmes montantes en cybersecurite IA.",
-        "source": "DeepLearning.AI",
+        "title": "Odyssey lance deux world models jouables avec audio en temps reel",
+        "url": "https://www.superhuman.ai/p/odyssey-levels-up-world-models-with-a-playable-video-game",
+        "description": "La startup Odyssey repousse les limites des world models en lancant deux modeles generant du son et des capacites multijoueur en plus de visuels en temps reel. La demo prend la forme d'un jeu de tir retro des annees 90 jouable, illustrant le potentiel des mondes generes entierement par IA.",
+        "source": "Superhuman",
+        "date": "24 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/odyssey-levels-up-world-models-with-a-playable-video-game"
+      },
+      {
+        "title": "Tempo lance un agent IA head of growth entierement autonome",
+        "url": "https://www.superhuman.ai/p/tempo-launches-an-ai-head-of-growth",
+        "description": "La startup Tempo lance un agent autonome de croissance capable de planifier et deployer des campagnes marketing de maniere independante. Cet outil s'inscrit dans la tendance des agents IA specialises par fonction, remplacant des postes entiers par des workflows automatises.",
+        "source": "The Rundown AI",
+        "date": "24 mai 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/tempo-launches-an-ai-head-of-growth"
+      },
+      {
+        "title": "La Gen Z ne hue pas l'IA mais son propre marche de l'emploi",
+        "url": "https://tldr.tech/ai/2026-05-22",
+        "description": "L'ecart de chomage entre les travailleurs debutants et experimentes s'est fortement creuse depuis la pandemie, specifiquement dans les metiers exposes a la substitution par l'IA. Les protestations de la Gen Z lors des remises de diplomes visent moins l'IA elle-meme que l'erosion de leurs perspectives d'emploi face a l'automatisation.",
+        "source": "Mozza Bytes",
         "date": "22 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/issue-354/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-22",
+        "thirdPartyUrl": "https://thenextweb.com/news/gen-z-commencement-boos-ai-redundancy-cohort"
       },
       {
-        "title": "Google ajoute le check llms.txt a Chrome Lighthouse pour la navigation agentique",
-        "url": "https://searchengineland.com/google-llms-txt-chrome-lighthouse-478246",
-        "description": "Google introduit un controle llms.txt dans les audits Chrome Lighthouse sous une nouvelle categorie Navigation Agentique. Ce standard permet aux sites web de declarer comment les agents IA peuvent interagir avec leur contenu, ouvrant la voie a un web plus accessible aux agents autonomes.",
-        "source": "Interconnects",
-        "date": "21 mai 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://searchengineland.com/google-llms-txt-chrome-lighthouse-478246"
-      },
-      {
-        "title": "Cursor sort Composer 2.5 avec RL cible, rivalisant avec Opus 4.7 et GPT-5.5 sur SWE-Bench",
-        "url": "https://tldr.tech/ai/2026-05-19",
-        "description": "Cursor lance Composer 2.5, construit sur le checkpoint open source Kimi K2.5 de Moonshot avec 85 % du calcul consacre a l'entrainement supplementaire et au RL. Sur SWE-Bench Multilingual (79,8 %) et CursorBench v3.1 (63,2 %), il rivalise avec Opus 4.7 et GPT-5.5 pour seulement 0,50 $/2,50 $ par million de tokens.",
-        "source": "Millefeuille AI",
-        "date": "19 mai 2026",
+        "title": "Airbnb lance sa refonte estivale alimentee par l'IA avec itineraires partages",
+        "url": "https://www.superhuman.ai/p/tempo-launches-an-ai-head-of-growth",
+        "description": "Airbnb devoile une mise a jour estivale integrant l'IA : itineraires partages, comparaisons intelligentes, mise en avant des avis pertinents et nouvelles fonctions de decouverte. Cette refonte illustre comment les plateformes grand public integrent l'IA dans des parcours utilisateurs existants sans en faire un argument marketing explicite.",
+        "source": "Human in the Loop",
+        "date": "24 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-19",
-        "officialUrl": "https://cursor.com/blog/composer-2-5"
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/tempo-launches-an-ai-head-of-growth",
+        "officialUrl": "https://news.airbnb.com/airbnb-2026-summer-release/"
       },
       {
-        "title": "Cerebras fait tourner Kimi K2.6 a 1 000 tokens/seconde, record de vitesse frontiere",
-        "url": "https://tldr.tech/ai/2026-05-20",
-        "description": "Kimi K2.6, un modele d'un trillion de parametres, atteint la performance d'inference la plus rapide jamais mesuree par Artificial Analysis sur le hardware Cerebras : environ 1 000 tokens par seconde. Ce record illustre les progres fulgurants en inference et la viabilite des architectures de puces specialisees.",
-        "source": "AI Ramblings",
-        "date": "20 mai 2026",
+        "title": "GPT-5.4 Nano avec Critic-Comparator atteint 76,4 % sur SWE-bench, egalant Gemini 3 Pro",
+        "url": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b",
+        "description": "Un petit modele GPT-5.4 Nano encapsule dans une boucle d'orchestration critic-comparator atteint 76,4 % sur SWE-bench Verified, egalant les performances standalone de Gemini 3 Pro et Claude Opus 4.5 Thinking. Cette approche montre qu'un modele faible avec un bon harness peut rivaliser avec des modeles bien plus grands.",
+        "source": "Latent Space",
+        "date": "24 mai 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-05-20"
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c9b"
       }
     ]
   }
