@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 24-30 mai 2026
+**Période :** 31 mai - 6 juin 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-05-24_to_2026-05-30.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-05-31_to_2026-06-06.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **1 juin 2026** : édition pour la période du 31 mai au 6 juin 2026, avec 26 actualités couvrant 16 sources actives. Semaine marquée par la levée de 65 Mds $ d'Anthropic à 965 Mds $ dépassant OpenAI, le lancement d'Opus 4.8 avec Dynamic Workflows, l'arrivée de Mythos imminente, le trading financier dans ChatGPT, MiniMax M3 open-source frontier, et l'IPO de Quantinuum à 12,7 Mds $.
 - **25 mai 2026** : édition pour la période du 24 au 30 mai 2026, avec 26 actualités couvrant 16 sources actives. Semaine marquée par la levée de 30 Mds $ d'Anthropic à 900 Mds $ de valorisation, l'encyclique papale Magnifica Humanitas sur l'IA, la fusion NextEra-Dominion à 67 Mds $ pour l'énergie IA, Cursor à 3 Mds $ de CA avec option SpaceX à 60 Mds $, et les discussions Anthropic-Microsoft sur les puces Maia 200.
 - **22 mai 2026** : édition mise à jour pour la période du 17 au 23 mai 2026, avec 26 actualités couvrant 18 sources actives. Semaine marquée par l'accord Anthropic-SpaceX de 45 Mds $, Karpathy rejoint Anthropic, Gemini 3.5 Flash et l'agent Spark à I/O 2026, l'IPO de Cerebras (+68 %), la préparation de l'IPO d'OpenAI dès septembre, et la réfutation d'une conjecture mathématique de 80 ans par un modèle OpenAI.
 - **14 mai 2026** : édition pour la période du 10 au 16 mai 2026, avec 28 actualités couvrant 15 sources actives. Semaine marquée par Anthropic dépassant OpenAI en entreprise, Gemini Intelligence sur Android, la plateforme pub d'OpenAI et Nvidia à 5 500 milliards $.
