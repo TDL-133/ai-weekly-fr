@@ -1,9 +1,29 @@
 {
-  "week": "2026-06-07 to 2026-06-13",
+  "week": "2026-06-14 to 2026-06-20",
   "sources": [
+    {
+      "name": "Superhuman",
+      "url": "https://www.superhuman.ai/"
+    },
+    {
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/ai"
+    },
     {
       "name": "Alpha Signal",
       "url": "https://alphasignal.ai/last-email/"
+    },
+    {
+      "name": "The AI Report",
+      "url": "https://www.theaireport.ai/newsletters"
+    },
+    {
+      "name": "DeepLearning.AI",
+      "url": "https://www.deeplearning.ai/the-batch/"
+    },
+    {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/"
     },
     {
       "name": "Mozza Bytes",
@@ -14,26 +34,6 @@
       "url": "https://www.upmynt.com/"
     },
     {
-      "name": "The AI Report",
-      "url": "https://www.theaireport.ai/newsletters"
-    },
-    {
-      "name": "TLDR AI",
-      "url": "https://tldr.tech/ai"
-    },
-    {
-      "name": "Superhuman",
-      "url": "https://www.superhuman.ai/"
-    },
-    {
-      "name": "Human in the Loop",
-      "url": "https://www.humanintheloop.online/"
-    },
-    {
-      "name": "DeepLearning.AI",
-      "url": "https://www.deeplearning.ai/the-batch/"
-    },
-    {
       "name": "Latent Space",
       "url": "https://www.latent.space/"
     },
@@ -42,265 +42,261 @@
       "url": "https://techbuzzchina.substack.com/"
     },
     {
-      "name": "Interconnects",
-      "url": "https://www.interconnects.ai/"
+      "name": "Human in the Loop",
+      "url": "https://www.humanintheloop.online/"
     }
   ],
   "categories": {
     "critique": [
       {
-        "title": "Anthropic depose son S-1 confidentiel aupres de la SEC, devancant OpenAI dans la course a l'IPO",
-        "url": "https://www.superhuman.ai/p/anthropic-beats-openai-to-the-ipo-filing",
-        "description": "Anthropic a depose un formulaire S-1 confidentiel aupres de la SEC, devancant OpenAI dans la course a l'introduction en bourse. Valorisee a 965 milliards $ apres sa Serie H de 65 milliards $, l'entreprise affiche un run-rate de 47 milliards $ de revenus annuels, en forte hausse depuis les 9 milliards $ de fin 2025. L'introduction pourrait avoir lieu des l'automne 2026.",
+        "title": "Anthropic lance Claude Fable 5, le premier modele de classe Mythos accessible au public",
+        "url": "https://www.superhuman.ai/p/anthropic-releases-mythos-level-model-claude-fable",
+        "description": "Anthropic a lance Claude Fable 5 le 9 juin, son premier modele de classe Mythos accessible au grand public. Le modele domine la quasi-totalite des benchmarks majeurs, avec le raisonnement long et multi-etapes comme avantage distinctif. Fable 5 est inclus dans les plans Pro, Max, Team et Enterprise jusqu'au 22 juin, apres quoi il necessitera des credits d'utilisation.",
         "source": "Superhuman",
-        "date": "2 juin 2026",
+        "date": "10 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/anthropic-beats-openai-to-the-ipo-filing",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-        "officialUrl": "https://www.anthropic.com/"
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/anthropic-releases-mythos-level-model-claude-fable",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+        "officialUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       },
       {
-        "title": "SpaceX fixe le prix de la plus grande IPO de l'histoire a 1 770 milliards $ de valorisation",
-        "url": "https://techcrunch.com/2026/06/04/spacex-prices-largest-ipo-ever-at-135-per-share/",
-        "description": "SpaceX a fixe le prix de son introduction en bourse a 135 $ par action, valorisant l'entreprise a 1 770 milliards de dollars. L'objectif est de lever 74,4 milliards $, ce qui en ferait la plus grande IPO jamais realisee. L'action devrait commencer a se negocier sur le NASDAQ sous le ticker SPCX. SpaceX prevoit d'utiliser les fonds pour financer des data centers en orbite, une usine lunaire et l'envoi d'humains sur Mars.",
+        "title": "L'IPO de SpaceX fait d'Elon Musk le premier trillionnaire : SPCX cloture a 161 $ (+19 %)",
+        "url": "https://tldr.tech/ai/2026-06-12",
+        "description": "SpaceX a fait ses debuts au Nasdaq le 12 juin sous le ticker SPCX, cloturant a 161 $ soit une hausse de 19 % lors de la plus grande IPO de l'histoire. L'operation fait d'Elon Musk le premier trillionnaire mondial. Le prospectus revele que SpaceX et Tesla developpent Macrohard, une plateforme d'IA agentique pour emuler les workflows numeriques et augmenter les operations humaines.",
         "source": "TLDR AI",
-        "date": "4 juin 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/04/spacex-prices-largest-ipo-ever-at-135-per-share/",
-        "officialUrl": "https://www.spacex.com/"
+        "date": "12 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-12",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"
       },
       {
-        "title": "Fuite d'Anthropic Oceanus : un nouveau modele Mythos ameliore detecte chez les red teams",
-        "url": "https://www.superhuman.ai/p/claude-is-accelerating-its-own-development",
-        "description": "Un checkpoint d'un nouveau modele Anthropic, nom de code Oceanus (claude-oceanus-v1-p), a ete mis a disposition des red teamers, signalant un lancement imminent d'une version amelioree de Mythos Preview. Le programme de test a ete temporairement suspendu apres qu'un participant a revendu l'acces via un proxy API chinois. La fuite revele des performances superieures a Mythos Preview sur les taches autonomes.",
+        "title": "Microsoft interdit Claude Fable 5 a ses employes pour raisons de securite et confidentialite",
+        "url": "https://www.superhuman.ai/p/microsoft-blocks-fable-access-for-employees",
+        "description": "Microsoft a retire Fable 5 de son systeme interne, invoquant les regles de retention de donnees du modele : stockage des conversations pendant 30 jours et du contenu signale jusqu'a deux ans. Le modele a egalement ete critique pour ses classificateurs de securite qui bloquent les prompts en biologie, chimie, cybersecurite et distillation de modeles.",
         "source": "Superhuman",
-        "date": "5 juin 2026",
+        "date": "11 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-is-accelerating-its-own-development",
-        "thirdPartyUrl": "https://www.reddit.com/r/Anthropic/comments/1txfdbw/forget_claude_mythos_the_leaked_oceanus_code/"
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/microsoft-blocks-fable-access-for-employees",
+        "thirdPartyUrl": "https://www.reuters.com/technology/microsoft-limits-employee-use-anthropics-claude-fable-5-over-data-retention-2026-06-10/"
       },
       {
-        "title": "DeepSeek leve 7 milliards $ (50 milliards yuan) lors de son premier tour de table",
-        "url": "https://techcrunch.com/2026/06/04/deepseek-raises-7-billion-in-maiden-fundraising/",
-        "description": "DeepSeek s'apprete a lever environ 50 milliards de yuans lors de son premier tour de financement. Le fondateur a engage 20 milliards de yuans de ses fonds personnels, le reste provenant de moins de 10 investisseurs. L'operation devrait etre finalisee dans les prochaines semaines. DeepSeek n'a pas encore commente ses intentions concernant une eventuelle introduction en bourse.",
-        "source": "TLDR AI",
-        "date": "4 juin 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/04/deepseek-raises-7-billion-in-maiden-fundraising/"
+        "title": "OpenAI prepare la plus grande refonte de ChatGPT : transformation en superapp avec agents et Codex",
+        "url": "https://www.superhuman.ai/p/chatgpt-is-getting-its-biggest-overhaul-yet",
+        "description": "OpenAI prepare la conversion de ChatGPT en superapp integrant Codex, agents IA, generation d'images et outils tiers comme Canva et Booking.com. L'entreprise a aussi lance trois mises a jour : Lockdown Mode contre l'injection de prompts, le systeme de memoire Dreaming, et l'envoi d'emails directement depuis le chat. Les clients business representent deja 40 % du chiffre d'affaires.",
+        "source": "Superhuman",
+        "date": "8 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-is-getting-its-biggest-overhaul-yet",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/"
       },
       {
-        "title": "Claude atteint 52x d'acceleration de code et 80 % du codebase d'Anthropic est desormais ecrit par l'IA",
+        "title": "Vente massive de puces IA : plus de 1 000 milliards $ effaces des marches americains en une semaine",
         "url": "https://alphasignal.ai/last-email/",
-        "description": "Anthropic publie un rapport revelant que Mythos Preview atteint une acceleration de 52x sur l'optimisation de code d'entrainement, contre 3x pour Opus 4. Plus de 80 % du code fusionne en production chez Anthropic est desormais ecrit par Claude. La duree des taches autonomes double tous les quatre mois : Opus 3 gerait 4 minutes, Opus 4.6 gere maintenant 12 heures de travail independant.",
+        "description": "Des resultats decevants de plusieurs fabricants de puces, combines a la baisse des probabilites de reduction des taux d'interet, ont provoque une chute majeure des marches. Broadcom, Marvell, Micron et d'autres ont perdu plus de 10 % chacun. La deroute a brise la serie de neuf semaines consecutives de hausse du S&P 500, sa plus longue depuis 2023.",
         "source": "Alpha Signal",
-        "date": "5 juin 2026",
+        "date": "8 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/",
-        "officialUrl": "https://www.anthropic.com/research/recursive-self-improvement"
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
       },
       {
-        "title": "Meta lance un agent IA commercial mondial sur WhatsApp, Instagram et Messenger",
-        "url": "https://newsletter.theaireport.ai/p/meta-ai-agent-can-close-sales",
-        "description": "Meta deploie globalement Meta Business Agent, un agent IA capable de repondre aux clients, prendre des rendez-vous, conclure des ventes et recommander des produits sur WhatsApp, Instagram et Messenger. Plus d'un million d'entreprises utilisent deja l'outil en test. Une plateforme Business Agent Platform s'integre a Zendesk et Shopify, avec des abonnements payants a venir.",
+        "title": "Oracle chute de 12 % malgre un CA record de 19 Mds $ : la dette IA de 40 Mds $ inquiete Wall Street",
+        "url": "https://www.reuters.com/business/retail-consumer/oracle-shares-slide-hefty-ai-spending-debt-plans-spook-investors-2026-06-11/",
+        "description": "Oracle a affiche 19 milliards $ de CA trimestriel (+21 %) et un carnet de commandes en hausse de 363 % a 638 milliards $ grace a ses partenariats avec OpenAI et Meta. Mais l'action a chute de 12 % apres l'annonce d'un emprunt supplementaire de 40 milliards $ pour financer ses data centers IA. Le deficit de free cash flow atteint 23,7 milliards $, contre 394 millions un an plus tot.",
         "source": "The AI Report",
-        "date": "4 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://newsletter.theaireport.ai/p/meta-ai-agent-can-close-sales",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
-        "officialUrl": "https://about.fb.com/news/2026/06/meta-business-agent/"
-      },
-      {
-        "title": "Decret presidentiel americain sur l'IA frontier : regulation cybersecurite post-Mythos",
-        "url": "https://www.aoshearman.com/en/insights/trump-administration-issues-executive-order-on-ai-and-cybersecurity",
-        "description": "La Maison-Blanche a emis un decret executif sur l'IA frontier, motive par les capacites de cybersecurite de Mythos d'Anthropic. Le decret oblige les labs frontieres a partager leurs modeles avec le gouvernement sur base volontaire, renforce les defenses cyber et priorise les poursuites contre l'usage criminel d'agents IA. Andrew Ng de DeepLearning.AI juge le compromis raisonnable entre innovation et securite.",
-        "source": "DeepLearning.AI",
-        "date": "5 juin 2026",
+        "date": "11 juin 2026",
         "urlType": "third_party",
-        "thirdPartyUrl": "https://www.aoshearman.com/en/insights/trump-administration-issues-executive-order-on-ai-and-cybersecurity",
-        "officialUrl": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        "thirdPartyUrl": "https://www.reuters.com/business/retail-consumer/oracle-shares-slide-hefty-ai-spending-debt-plans-spook-investors-2026-06-11/"
       },
       {
-        "title": "Microsoft devoile Scout, un assistant IA permanent, et 7 nouveaux modeles a Build 2026",
-        "url": "https://www.superhuman.ai/p/microsoft-reveals-openclaw-style-agent",
-        "description": "A Microsoft Build 2026, Microsoft a lance Scout, son premier agent Autopilot qui surveille proactivement votre compte et agit sans invitation : preparation de reunions, identification de taches, et plus. Alimente par OpenClaw, Scout fonctionne 24h/24. Microsoft a egalement devoile 7 nouveaux modeles MAI dont MAI-Code-1-Flash integre a GitHub Copilot pour l'assistance agentique au coding.",
-        "source": "Superhuman",
-        "date": "3 juin 2026",
+        "title": "Google signe un contrat de 920 M$/mois avec SpaceX pour 110 000 GPU Nvidia jusqu'en 2029",
+        "url": "https://tldr.tech/ai/2026-06-09",
+        "description": "Un depot reglementaire revele que Google paiera pres d'un milliard de dollars par mois a SpaceX pour acceder a 110 000 GPU Nvidia d'octobre 2026 a juin 2029. L'accord intervient juste avant l'entree en bourse de SpaceX et represente l'une des plus grandes transactions de compute de l'histoire. Le revenu annuel des data centers de SpaceX devrait depasser celui de Starlink et des lancements combines.",
+        "source": "TLDR AI",
+        "date": "9 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/microsoft-reveals-openclaw-style-agent",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
-        "officialUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-09",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
       },
       {
-        "title": "OpenAI lance Codex Sites : du prompt a l'application web hebergee en un clic",
-        "url": "https://alphasignal.ai/last-email/",
-        "description": "OpenAI a lance Sites dans Codex, permettant de decrire une application et d'obtenir une webapp hebergee avec URL partageable, sans configuration ni deploiement. L'outil permet de creer des dashboards, planificateurs, galeries et outils legers. Sites est disponible en preview pour les espaces ChatGPT Business et Enterprise, avec un deploiement elargi prevu prochainement.",
-        "source": "Alpha Signal",
-        "date": "3 juin 2026",
+        "title": "Anthropic lance Claude Corps : 150 M$ et 1 000 fellows pour integrer l'IA dans les ONG americaines",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "Anthropic a annonce Claude Corps, un programme de fellowships de 150 millions $ qui placera 1 000 fellows formes a Claude au sein d'ONG americaines pendant un an. Chaque fellow recevra un salaire de 85 000 $ et une bourse de 10 000 $. Les candidatures sont ouvertes jusqu'au 17 juillet pour la premiere cohorte de 100 fellows, qui demarre en octobre 2026.",
+        "source": "DeepLearning.AI",
+        "date": "12 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/",
-        "officialUrl": "https://openai.com/index/codex-sites/"
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/",
+        "thirdPartyUrl": "https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-150m-claude-corps-170834614.html",
+        "officialUrl": "https://www.anthropic.com/news/claude-corps"
+      },
+      {
+        "title": "Fable 5 est le modele le plus intelligent jamais cree, mais ses garde-fous divisent l'industrie",
+        "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+        "description": "Nathan Lambert analyse en profondeur Claude Fable 5 pour Interconnects. Le modele represente un saut de qualite tel que les benchmarks ne suffisent plus a mesurer ses capacites reelles. Les classificateurs de securite integres limitent cependant l'acces sur certains domaines comme la biologie, la cybersecurite et le developpement de modeles frontier, creant un precedent inedit dans l'industrie.",
+        "source": "Interconnects",
+        "date": "9 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety"
       }
     ],
     "important": [
       {
-        "title": "ChatGPT Dreaming V3 : nouveau systeme de memoire avec 2x plus de capacite",
-        "url": "https://tldr.tech/ai/2026-06-05",
-        "description": "OpenAI introduit Dreaming V3, un systeme de synthese de memoire pour ChatGPT concu pour ameliorer la fraicheur, la continuite et la pertinence sur de longues periodes. Contrairement a l'ancien systeme base sur des instructions explicites, Dreaming V3 fonctionne en arriere-plan et double la capacite de stockage memoire pour les utilisateurs Plus et Pro. Le deploiement a commence aux Etats-Unis.",
-        "source": "TLDR AI",
-        "date": "5 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-05"
-      },
-      {
-        "title": "CNN poursuit Perplexity en justice pour violation massive de droits d'auteur",
-        "url": "https://newsletter.theaireport.ai/p/cnn-sues-perplexity",
-        "description": "CNN a depose une plainte contre Perplexity, l'accusant de violation massive de droits d'auteur et de marque en copiant et distribuant plus de 17 000 contenus CNN sans consentement. C'est la premiere action en justice IA de CNN et la premiere d'un reseau televisuel. La plainte rejoint celles du New York Times, Reddit, Britannica et Nikkei contre la startup IA de recherche.",
-        "source": "The AI Report",
-        "date": "1 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://newsletter.theaireport.ai/p/cnn-sues-perplexity",
-        "thirdPartyUrl": "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright"
-      },
-      {
-        "title": "SoftBank prevoit 87 milliards $ (75 milliards euros) d'investissement IA en France",
-        "url": "https://newsletter.theaireport.ai/p/cnn-sues-perplexity",
-        "description": "SoftBank Group annonce un investissement pouvant atteindre 75 milliards d'euros pour construire 5 gigawatts de capacite de data centers IA en France. C'est le plus gros investissement d'infrastructure du groupe japonais a ce jour, renforçant la position de la France comme hub europeen de l'IA et signalant une course aux infrastructures de calcul sans precedent.",
-        "source": "The AI Report",
-        "date": "1 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://newsletter.theaireport.ai/p/cnn-sues-perplexity",
-        "thirdPartyUrl": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say"
-      },
-      {
-        "title": "NVIDIA devoile RTX Spark : un superchip pour les PC IA de nouvelle generation",
-        "url": "https://www.humanintheloop.online/",
-        "description": "NVIDIA a presente RTX Spark, un nouveau superchip offrant jusqu'a 1 petaflop de performance IA pour les ordinateurs portables Windows avec autonomie toute la journee. Environ 30 modeles de laptops et 10 modeles de desktops de Dell, Lenovo, Microsoft, HP, Asus et MSI sont prevus. Ces PC ciblent le segment premium et sont conçus pour executer des agents IA localement.",
-        "source": "Human in the Loop",
-        "date": "2 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.humanintheloop.online/",
-        "officialUrl": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark"
-      },
-      {
-        "title": "Meta retarde indefiniment le lancement de son modele IA Muse Spark aux developpeurs",
-        "url": "https://www.latent.space/p/ainews-not-much-happened-today-7a8",
-        "description": "Meta n'a pas de date prevue pour publier ses modeles IA les plus recents aux developpeurs. L'entreprise teste son API avec des partenaires et prevoyait un lancement ce mois-ci. Le modele Muse Spark serait competitif avec les offres d'OpenAI et Anthropic, mais n'a pas encore ete evalue par des firmes exterieures. Ce retard souleve des questions sur la capacite de Meta a monetiser ses investissements massifs en IA frontier.",
-        "source": "Latent Space",
-        "date": "5 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-not-much-happened-today-7a8"
-      },
-      {
-        "title": "Reve 2 et Ideogram 4 : la generation d'images passe aux layouts structurels",
-        "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
-        "description": "Deux labs d'IA ont lance de nouveaux modeles de generation d'images en une semaine. Reve 2 introduit une approche par layouts structurels au lieu de simples prompts textuels, tandis qu'Ideogram 4 surpasse Nano Banana 2 avec un editing si precis que ses createurs parlent d'images que l'on peut toucher. Ces avancees marquent un tournant dans le controle fin de la generation d'images.",
-        "source": "Latent Space",
-        "date": "4 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
-        "thirdPartyUrl": "https://www.therundown.ai/p/ideogram-and-reve-rethink-how-ai-images-get-made"
-      },
-      {
-        "title": "Uber plafonne les depenses d'outils IA de codage a 1 500 $ par mois et par employe",
-        "url": "https://www.interconnects.ai/",
-        "description": "Uber a impose un plafond de depenses de 1 500 dollars par mois et par employe pour les outils de codage IA, apres avoir rapidement depasse ses budgets initiaux. Cette mesure illustre le defi croissant des entreprises pour gerer les couts d'adoption de l'IA agentique, alors que les agents autonomes peuvent consommer des ordres de grandeur de tokens de plus qu'un utilisateur classique.",
+        "title": "L'IA open source, seule reponse au probleme de controle des modeles frontier selon Interconnects",
+        "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+        "description": "Nathan Lambert soutient que l'IA open source est la seule reponse viable au probleme de controle pose par les modeles frontier comme Fable 5. Les restrictions de securite d'Anthropic bloquent l'acces a certains domaines de recherche, ce qui accelere la concentration du pouvoir technologique. Lambert argue que la transparence et l'ouverture sont essentielles pour eviter un monopole IA incontrole.",
         "source": "Interconnects",
-        "date": "4 juin 2026",
+        "date": "9 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.interconnects.ai/"
+        "sourceNewsletterUrl": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety"
       },
       {
-        "title": "Qwen3.7-Max defie Google pour la troisieme place dans la course aux modeles frontier",
-        "url": "https://www.deeplearning.ai/the-batch/",
-        "description": "Alibaba lance Qwen3.7-Max qui rivalise directement avec les modeles de Google pour la troisieme place derriere Anthropic et OpenAI dans les benchmarks frontier. Le modele montre des performances competitives sur les taches de raisonnement et de codage, signalant l'emergence d'un troisieme acteur serieux dans la course aux modeles de pointe, cette fois depuis la Chine.",
-        "source": "DeepLearning.AI",
-        "date": "5 juin 2026",
+        "title": "Lovable franchit 500 M$ de CA annualise avec 146 employes et un million de projets par semaine",
+        "url": "https://tldr.tech/ai/2026-06-10",
+        "description": "La startup suedoise de vibe coding Lovable a depasse les 500 millions $ de CA annualise, contre 400 millions en fevrier. Son rapport Build Economy revele que 80 % de ses utilisateurs sont non-techniques, 720 millions de visites mensuelles sur les projets, et 8 utilisateurs sur 10 comptent monetiser leurs creations. Plus de 50 millions de projets ont ete crees sur la plateforme.",
+        "source": "TLDR AI",
+        "date": "10 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/"
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-10",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"
       },
       {
-        "title": "Apple reconstruit Siri autour de Google Gemini avec une interface ChatGPT-style",
+        "title": "Les entreprises les plus avancees depensent 7 500 $ par employe et par mois en outils IA",
         "url": "https://www.humanintheloop.online/",
-        "description": "Une premiere fuite revele la refonte tant attendue de Siri par Apple : interface Dynamic Island, recherche IA, cartes enrichies, une application Siri style ChatGPT, et support de modeles externes et agents tiers. Le nouveau Siri s'appuierait sur Google Gemini comme moteur IA principal, marquant un virage strategique majeur pour Apple dans la course aux assistants intelligents.",
+        "description": "Un rapport revele que les entreprises les plus adoptees depensent 7 500 dollars par employe et par mois en outils IA, tandis que le createur d'OpenClaw Peter Steinberger a consomme 1,3 million $ de tokens en un seul mois. Sam Altman a reconnu que les budgets IA deviennent un enjeu majeur pour les clients. Les entreprises passent de l'experimentation libre a la rationalisation des couts.",
         "source": "Human in the Loop",
-        "date": "2 juin 2026",
+        "date": "11 juin 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://www.humanintheloop.online/",
-        "thirdPartyUrl": "https://memeburn.com/apple-leaks-new-siri-looks-exactly-like-chatgpt/"
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/"
+      },
+      {
+        "title": "La memoire d'entreprise : le vrai goulot d'etranglement de l'IA selon Mozza Bytes",
+        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9",
+        "description": "Mozza Bytes analyse le paradoxe de l'adoption IA en entreprise : la memoire organisationnelle est le veritable frein. Les LLM actuels excellent dans l'execution de taches mais peinent a retenir le contexte metier accumule sur des mois ou des annees. Les produits IA durables seront ceux qui aideront les equipes a capitaliser sur leur savoir collectif plutot qu'a simplement automatiser des taches.",
+        "source": "Mozza Bytes",
+        "date": "9 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9"
+      },
+      {
+        "title": "L'usage IA le plus populaire en 2026 n'est pas l'automatisation mais l'augmentation cognitive",
+        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9",
+        "description": "Selon une analyse de Harvard Business Review relayee par Mozza Bytes, les produits IA les plus durables ne sont pas ceux qui executent le travail a la place des humains. Ce sont ceux qui aident a apprendre plus vite, reflechir plus clairement et prendre de meilleures decisions. L'avenir de l'IA pourrait etre l'augmentation cognitive plutot que la simple automatisation des taches.",
+        "source": "Mozza Bytes",
+        "date": "9 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9",
+        "thirdPartyUrl": "https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026"
+      },
+      {
+        "title": "Anthropic engage 200 M$ supplementaires pour etudier et attenuer l'impact economique de l'IA",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "En parallele du lancement de Claude Corps, Anthropic a annonce un engagement de 200 millions de dollars pour construire un cadre economique visant a attenuer le deplacement professionnel cause par l'IA. Daniela Amodei a souligne l'importance d'etudier et publier les impacts societaux avant qu'ils ne se materialisent. L'initiative demarre par un investissement en recherche sur les perturbations sectorielles.",
+        "source": "DeepLearning.AI",
+        "date": "12 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/",
+        "thirdPartyUrl": "https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-150m-claude-corps-170834614.html"
+      },
+      {
+        "title": "Cursor lance Composer 2.5 : intelligence amelioree pour les taches de codage longues",
+        "url": "https://alphasignal.ai/last-email/",
+        "description": "Cursor a lance Composer 2.5, une amelioration substantielle de l'intelligence et du comportement par rapport a Composer 2. Le modele excelle dans le travail soutenu sur des taches longues, suit les instructions complexes plus fidelement et offre une collaboration plus fluide. La tarification est de 0,50 $/M input et 2,50 $/M output en mode standard, et 3 $/M input et 15 $/M output en mode rapide.",
+        "source": "Alpha Signal",
+        "date": "10 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
+      },
+      {
+        "title": "Dario Amodei publie un essai majeur sur l'exponentielle IA et appelle a un cadre de regulation",
+        "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+        "description": "Le CEO d'Anthropic a publie un essai intitule Policy on the AI Exponential, appelant a une regulation des modeles frontier. Amodei y defend un equilibre entre innovation et securite, proposant que les labs frontieres partagent volontairement leurs modeles avec les gouvernements. L'essai intervient alors que les capacites de Mythos ont motive un decret executif americain et que Fable 5 souleve de nouvelles questions de controle.",
+        "source": "Latent Space",
+        "date": "10 juin 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://darioamodei.com/post/policy-on-the-ai-exponential"
+      },
+      {
+        "title": "La Maison-Blanche envisage une prise de participation dans OpenAI selon TechCrunch",
+        "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+        "description": "L'administration Trump discute d'une eventuelle prise de participation de l'Etat americain dans OpenAI, selon un rapport de TechCrunch. Cette approche inedite viserait a garantir un acces gouvernemental aux technologies IA frontier en echange de soutiens reglementaires. La discussion s'inscrit dans un contexte de tensions croissantes entre controle etatique et independance des labs IA.",
+        "source": "The AI Report",
+        "date": "8 juin 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/"
       }
     ],
     "goodToKnow": [
       {
-        "title": "Xiaomi MiMo, Meituan et StepFun : les fabricants de modeles IA chinois que le monde ignore",
-        "url": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers",
-        "description": "TechBuzz China analyse les fabricants de modeles IA chinois souvent negliges. Xiaomi deploie MiMo sur ses telephones, voitures et appareils IoT avec HyperOS. Meituan integre LongCat et Xiaomei dans ses operations de commerce local. StepFun pivote vers les partenariats mobiles et automobiles. Le gouvernement chinois vise 70 % de penetration IA dans les terminaux intelligents d'ici 2027.",
-        "source": "TechBuzz China",
-        "date": "6 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers"
-      },
-      {
-        "title": "Le ROI de l'IA revient au centre du debat : le gagnant sera le modele le moins cher",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-418",
-        "description": "Mozza Bytes analyse le retour de la question du ROI dans l'IA. Selon CloudZero, 45 % des entreprises depensent plus de 100 000 $ par mois en IA, mais seulement 8 % du S&P 500 communiquent des revenus directement attribuables a l'IA. La competition pourrait se deplacer des benchmarks vers l'efficacite economique, favorisant les modeles open-source chinois, 10 a 30 fois moins chers en inference.",
+        "title": "VivaTech 2026 : Paris accueille la 10e edition avec 14 000 startups et 180 000 visiteurs attendus",
+        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9",
+        "description": "La 10e edition de VivaTech se tient du 17 au 20 juin a Paris, avec 14 000 startups et 180 000 visiteurs attendus. L'evenement flagship europeen de la tech met l'IA au centre de son programme, avec des conferences sur les agents, les workflows et les modeles de langage en contexte long. VivaTech confirme la position de Paris comme hub europeen de l'innovation IA.",
         "source": "Mozza Bytes",
-        "date": "2 juin 2026",
+        "date": "9 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-418"
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-3d9"
       },
       {
-        "title": "L'inflation de production IA cree un goulot d'etranglement chez les managers",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-418",
-        "description": "Mozza Bytes decrypte le paradoxe de l'IA en entreprise : l'abondance de livrables produits par l'IA se heurte a la penurie de temps et d'attention des managers. Selon Atlassian, 87 % des knowledge workers estiment que leurs equipes n'ont plus la capacite de se coordonner. 54 % des managers declarent recevoir du workslop : contenu poli en surface mais vide de substance.",
-        "source": "Mozza Bytes",
-        "date": "2 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-418"
-      },
-      {
-        "title": "NVIDIA lance Nemotron Ultra, le modele open-weights americain le plus puissant a 400 tokens/s",
-        "url": "https://www.interconnects.ai/",
-        "description": "NVIDIA publie Nemotron Ultra, revendiquant le titre de modele open-weights americain le plus intelligent, avec une vitesse d'inference de 400 tokens par seconde. Le modele cible les deploiements enterprise necessitant a la fois performance frontier et controle local des donnees. Il s'accompagne de Nemotron 3.5 Content Safety pour la moderation multimodale et multilingue en production.",
-        "source": "Interconnects",
-        "date": "5 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.interconnects.ai/"
-      },
-      {
-        "title": "Perplexity open-source Bumblebee, un scanner de securite local pour les developpeurs",
-        "url": "https://decrypt.co/368944/perplexity-open-source-bumblebee-ai-scanner-mcp-infection-malware",
-        "description": "Perplexity publie Bumblebee en open source, un scanner de securite local qui verifie les packages risques, les extensions de navigateur et d'editeur, et les configurations d'agents IA sur les machines de developpeurs, le tout sans executer de code. L'outil comble un vide dans la securite des environnements de developpement agentiques ou les agents interagissent avec des systemes tiers.",
-        "source": "Upmynt",
-        "date": "3 juin 2026",
-        "urlType": "third_party",
-        "thirdPartyUrl": "https://decrypt.co/368944/perplexity-open-source-bumblebee-ai-scanner-mcp-infection-malware"
-      },
-      {
-        "title": "ByteDance et WeChat se disputent la distribution des agents IA sur mobile",
-        "url": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers",
-        "description": "ByteDance et WeChat s'affrontent deja sur la distribution des agents IA. L'assistant telephonique Doubao de ByteDance et les limites imposees par WeChat sur la messagerie pilotee par agents montrent comment les assistants IA deviennent rapidement un enjeu de controle des plateformes. MiniMax explore une cotation au STAR Board apres ses debuts a Hong Kong.",
+        "title": "Le pari IA de Tencent n'est pas un chatbot : c'est WeChat comme couche d'action universelle",
+        "url": "https://techbuzzchina.substack.com/p/tencents-ai-bet-is-not-a-chatbot",
+        "description": "TechBuzz China analyse la strategie IA de Tencent, qui ne vise pas a construire un chatbot rival de ChatGPT. L'entreprise integre l'IA directement dans WeChat, la ou les utilisateurs messagent, paient, commandent et travaillent deja. Cette approche positionne WeChat comme une couche d'action universelle pilotee par l'IA, plutot qu'une application IA independante.",
         "source": "TechBuzz China",
-        "date": "6 juin 2026",
+        "date": "10 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers"
+        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/tencents-ai-bet-is-not-a-chatbot"
       },
       {
-        "title": "Upmynt : 3 tendances IA imminentes et les outils pour les exploiter des maintenant",
+        "title": "La Chine lance une campagne d'application des regles sur l'IA generative et le contenu synthetique",
+        "url": "https://techbuzzchina.substack.com/p/tencents-ai-bet-is-not-a-chatbot",
+        "description": "Les regulateurs chinois intensifient l'application des regles sur l'IA generative, imposant des exigences de tracabilite et de watermarking sur les contenus generes par l'IA. Les plateformes comme WeChat limitent deja la messagerie pilotee par agents. Le gouvernement vise 70 % de penetration IA dans les terminaux intelligents d'ici 2027, tout en maintenant un controle strict sur la diffusion de l'information.",
+        "source": "TechBuzz China",
+        "date": "10 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/tencents-ai-bet-is-not-a-chatbot"
+      },
+      {
+        "title": "Upmynt : les 4 meilleurs outils IA a utiliser absolument en 2026 apres trois ans de tests",
         "url": "https://www.upmynt.com/",
-        "description": "Upmynt identifie trois tendances IA imminentes pour les professionnels et entrepreneurs : le renommage automatique intelligent de fichiers, un agent pour coordonner le marketing d'influence, et l'exercice de simulation de business a l'horizon 2030. Le numero inclut egalement l'analyse d'une entreprise sans employes valorisee a 250 millions $ et la simulation d'audiences entieres par l'IA.",
+        "description": "Upmynt publie sa selection ultime des 4 outils IA incontournables en 2026 apres avoir teste des centaines d'outils sur trois ans. La curation se concentre sur les outils qui se demarquent par leur rapport qualite-prix, leur facilite d'utilisation et leur impact reel sur la productivite professionnelle, couvrant la generation, l'automatisation et l'augmentation cognitive.",
         "source": "Upmynt",
-        "date": "1 juin 2026",
+        "date": "10 juin 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://www.upmynt.com/"
       },
       {
-        "title": "NVIDIA Cosmos 3 : plateforme ouverte pour construire des modeles d'IA physique",
-        "url": "https://alphasignal.ai/last-email/",
-        "description": "NVIDIA lance Cosmos 3, une plateforme ouverte pour la construction de modeles d'IA physique couvrant la robotique, les vehicules autonomes et la simulation d'environnements. Le lancement s'accompagne de Gemma 4 12B de Google disponible en build GGUF pour execution locale, et du planificateur robotique NVIDIA atteignant 19x de gain de vitesse avec des mouvements 38 % plus fluides.",
-        "source": "Alpha Signal",
-        "date": "5 juin 2026",
+        "title": "Upmynt : realiser en un seul prompt une pub TV avec l'IA, enfin possible ?",
+        "url": "https://www.upmynt.com/",
+        "description": "Le numero UP328 de Upmynt explore la possibilite de realiser une publicite televisee en un seul prompt grace a l'IA. L'edition aborde aussi le debat croissant sur la conscience des IA et le lancement de l'agent Meta Business pour WhatsApp. Le numero interroge les limites et possibilites actuelles de la generation video creative a des fins commerciales.",
+        "source": "Upmynt",
+        "date": "8 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/"
+        "sourceNewsletterUrl": "https://www.upmynt.com/"
+      },
+      {
+        "title": "Le vibe coding explose : 80 % des createurs de Lovable sont non-techniques, CalAI atteint 30 M$ de CA",
+        "url": "https://www.humanintheloop.online/",
+        "description": "Le phenomene du vibe coding transforme le developpement logiciel. Sur Lovable, 80 % des createurs proviennent de secteurs comme l'education, le retail et les medias. L'app CalAI, codee par des lyceens, a atteint 30 millions $ de revenus annuels. 66 % des utilisateurs n'ont aucune formation tech, et un million de nouveaux projets sont lances chaque semaine sur les plateformes de vibe coding.",
+        "source": "Human in the Loop",
+        "date": "10 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.humanintheloop.online/"
+      },
+      {
+        "title": "L'ere des agents qui construisent d'autres agents : la boucle d'auto-amelioration s'accelere",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "L'edition du 12 juin de The Batch explore l'emergence d'agents IA capables de concevoir et deployer d'autres agents sans intervention humaine. Andrew Ng encourage les professionnels a experimenter les agents non pour dialoguer mais pour executer du travail autonome sur leur bureau. La tendance signale un passage de l'IA assistante a l'IA veritablement autonome.",
+        "source": "DeepLearning.AI",
+        "date": "12 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/"
+      },
+      {
+        "title": "Neura Robotics leve 1,4 milliard $ en Serie C avec Nvidia, Amazon, Tether et Qualcomm",
+        "url": "https://theaiinsider.tech/2026/06/10/neura-robotics-announces-1-4b-series-c-including-nvidia-amazon-tether-and-qualcomm/",
+        "description": "La startup allemande de robotique humanoide Neura Robotics a annonce un tour de Serie C de 1,4 milliard de dollars avec des investisseurs strategiques incluant Nvidia, Amazon, Tether et Qualcomm. Ce financement massif positionne Neura comme l'un des acteurs les plus capitalises du secteur de la robotique humanoide, avec des robots capables d'interaction naturelle et d'apprentissage autonome.",
+        "source": "Latent Space",
+        "date": "10 juin 2026",
+        "urlType": "third_party",
+        "thirdPartyUrl": "https://theaiinsider.tech/2026/06/10/neura-robotics-announces-1-4b-series-c-including-nvidia-amazon-tether-and-qualcomm/"
       }
     ]
   }
