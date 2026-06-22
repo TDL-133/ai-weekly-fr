@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 14 - 20 juin 2026
+**Période :** 21 - 27 juin 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-06-14_to_2026-06-20.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-06-21_to_2026-06-27.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **22 juin 2026** : édition pour la période du 21 au 27 juin 2026, avec 28 actualités couvrant 12 sources actives. Semaine marquée par l'acquisition de Cursor par SpaceX pour 60 Mds $, la désactivation mondiale de Fable 5 par Washington, l'annonce de GPT-5.6, le pivot médical de Midjourney (scanner ultrasonique), la levée record de DeepSeek (7,4 Mds $), GLM-5.2 open-source approchant la frontière, ChatGPT au Pentagone, la part de marché de ChatGPT sous 50 %, et Noam Shazeer quittant Google pour OpenAI.
 - **15 juin 2026** : édition pour la période du 14 au 20 juin 2026, avec 26 actualités couvrant 11 sources actives. Semaine marquée par le lancement de Claude Fable 5 (premier modèle Mythos public), l'IPO record de SpaceX faisant de Musk le premier trillionnaire, Microsoft interdisant Fable 5 à ses employés, la refonte de ChatGPT en superapp, la vente massive de puces IA ($1T effacés), Oracle -12% sur la dette IA, Google-SpaceX $920M/mois de compute, Claude Corps $150M pour les ONG, et l'essai de Dario Amodei sur la régulation IA.
 - **8 juin 2026** : édition pour la période du 7 au 13 juin 2026, avec 26 actualités couvrant 11 sources actives. Semaine marquée par le dépôt S-1 confidentiel d'Anthropic pour son IPO à 965 Mds $, l'IPO record de SpaceX à 1 770 Mds $, la fuite du modèle Oceanus chez Anthropic, la levée de 7 Mds $ de DeepSeek, le lancement de Meta Business Agent mondial, Claude atteignant 52x d'accélération de code, le décret présidentiel sur l'IA frontier, Microsoft Scout à Build 2026, et OpenAI Codex Sites.
 - **1 juin 2026** : édition pour la période du 31 mai au 6 juin 2026, avec 26 actualités couvrant 16 sources actives. Semaine marquée par la levée de 65 Mds $ d'Anthropic à 965 Mds $ dépassant OpenAI, le lancement d'Opus 4.8 avec Dynamic Workflows, l'arrivée de Mythos imminente, le trading financier dans ChatGPT, MiniMax M3 open-source frontier, et l'IPO de Quantinuum à 12,7 Mds $.
