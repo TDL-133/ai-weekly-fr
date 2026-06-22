@@ -65,12 +65,12 @@
       },
       {
         "title": "Washington ordonne a Anthropic de desactiver Fable 5 et Mythos 5 pour tous les non-Americains",
-        "url": "https://www.deeplearning.ai/the-batch/",
+        "url": "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays",
         "description": "Le gouvernement americain a invoque le controle des exportations pour ordonner a Anthropic de couper l'acces a ses modeles Fable 5 et Mythos 5 pour tous les ressortissants etrangers, y compris les employes d'Anthropic eux-memes. C'est la premiere fois qu'un gouvernement desactive un modele commercial d'IA deja deploye aupres de centaines de millions d'utilisateurs. Le motif invoque est une methode de jailbreak permettant de contourner les garde-fous du modele sur des capacites de cyber-offense.",
         "source": "DeepLearning.AI",
         "date": "16 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays",
         "thirdPartyUrl": "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
         "officialUrl": ""
       },
@@ -120,12 +120,12 @@
       },
       {
         "title": "OpenAI deploie ChatGPT sur la plateforme GenAI.mil du Pentagone pour 3 millions de personnels militaires",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-readies-deployment-of-chatgpt-for-3-million-pentagon-personnel/",
+        "url": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
         "description": "OpenAI deploiera ChatGPT sur GenAI.mil, la plateforme d'IA generative du Pentagone, debut juillet, offrant l'acces a plus de 3 millions de personnels de la defense. Le deploiement supporte les charges de travail Impact Level 5 et les informations non classifiees controlees. L'accord fait suite a un contrat signe en fevrier pour deployer les modeles d'OpenAI sur le reseau classifie du departement de la Defense.",
         "source": "The Rundown AI",
         "date": "16 juin 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
         "thirdPartyUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-readies-deployment-of-chatgpt-for-3-million-pentagon-personnel/",
         "officialUrl": ""
       },
@@ -155,24 +155,24 @@
     "important": [
       {
         "title": "Microsoft Copilot Cowork disponible mondialement avec facturation a l'usage et modeles Anthropic integres",
-        "url": "https://www.superhuman.ai/p/the-video-editor-built-for-ai",
+        "url": "https://www.superhuman.ai/p/copilot-cowork-becomes-generally-available",
         "description": "Microsoft a lance la disponibilite generale de Copilot Cowork pour tous les clients Microsoft 365 Copilot le 16 juin, avec une facturation a l'usage. L'assistant agentique peut envoyer des emails, planifier des reunions, creer des documents et poster dans Teams de facon autonome. Microsoft integre desormais les modeles Claude d'Anthropic aux cotes de ceux d'OpenAI, avec un cout par prompt annonce 30-40 % inferieur a Claude Cowork.",
         "source": "Superhuman",
         "date": "16 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/the-video-editor-built-for-ai",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/copilot-cowork-becomes-generally-available",
         "thirdPartyUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork",
         "officialUrl": "https://www.microsoft.com/en-us/microsoft-365-copilot/cowork"
       },
       {
         "title": "Claude Opus 4.7 pilote des robots 20x plus vite que les humains dans le Project Fetch Phase Two d'Anthropic",
-        "url": "https://www.therundown.ai/",
+        "url": "https://theaireport.substack.com/p/claude-runs-robots-20x-faster",
         "description": "Anthropic a publie les resultats du Project Fetch Phase Two, ou Claude Opus 4.7 a opere de maniere autonome un robot quadrupede pour completer des taches de programmation et de controle. Sans assistance humaine, Claude a termine tous les objectifs testables environ 20x plus vite que l'equipe humaine la plus rapide de l'experience originale d'aout 2025. Sur les taches communes, Opus 4.7 etait 37x plus rapide que l'equipe sans Claude et produisait 10x moins de code.",
-        "source": "The Rundown AI",
+        "source": "The AI Report",
         "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/",
-        "thirdPartyUrl": "",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://theaireport.substack.com/p/claude-runs-robots-20x-faster",
         "officialUrl": ""
       },
       {
@@ -188,12 +188,12 @@
       },
       {
         "title": "Le senateur Sanders propose un fonds souverain IA prelevant 50 % des parts des geants de l'industrie",
-        "url": "https://www.theaireport.ai/newsletters",
+        "url": "https://www.therundown.ai/",
         "description": "Le senateur Bernie Sanders a presente un projet de loi exigeant que toute entreprise realisant plus de 200 M$ de CA annuel dans l'IA transfere 50 % de ses capitaux propres a un nouveau fonds souverain americain, qui verserait un dividende annuel de 5 % aux citoyens. Les entreprises concernees incluent OpenAI, Anthropic, Amazon, Nvidia, Microsoft et SpaceX. Le projet, introduit le 18 juin 2026, est encore en comite.",
-        "source": "The AI Report",
+        "source": "The Rundown AI",
         "date": "18 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.theaireport.ai/newsletters",
+        "sourceNewsletterUrl": "https://www.therundown.ai/",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
@@ -278,12 +278,12 @@
       },
       {
         "title": "Amazon envisage de vendre ses puces Trainium a d'autres entreprises pour concurrencer Nvidia",
-        "url": "https://www.deeplearning.ai/the-batch/",
+        "url": "https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big",
         "description": "AWS serait en discussions pour vendre ses puces IA Trainium a d'autres entreprises pour une utilisation dans leurs propres data centers, visant a concurrencer Nvidia plus directement. La capacite actuelle de Trainium dans les data centers AWS est deja entierement vendue, ce qui pourrait laisser les clients existants en attente. La strategie marque un tournant dans la guerre des puces IA.",
         "source": "DeepLearning.AI",
         "date": "18 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/",
+        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big",
         "thirdPartyUrl": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
         "officialUrl": ""
       },
