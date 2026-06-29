@@ -1,366 +1,347 @@
 {
-  "week": "2026-06-21 to 2026-06-27",
+  "week": "2026-06-28 to 2026-07-04",
   "sources": [
-    {
-      "name": "Superhuman",
-      "url": "https://www.superhuman.ai/"
-    },
     {
       "name": "TLDR AI",
       "url": "https://tldr.tech/ai"
     },
     {
-      "name": "Alpha Signal",
-      "url": "https://alphasignal.ai/last-email/"
-    },
-    {
-      "name": "The Rundown AI",
-      "url": "https://www.therundown.ai/"
+      "name": "Superhuman",
+      "url": "https://www.superhuman.ai/"
     },
     {
       "name": "DeepLearning.AI",
       "url": "https://www.deeplearning.ai/the-batch/"
     },
     {
-      "name": "Interconnects",
-      "url": "https://www.interconnects.ai/"
-    },
-    {
       "name": "Mozza Bytes",
       "url": "https://mozzabytes.substack.com/"
     },
     {
-      "name": "TechBuzz China",
-      "url": "https://techbuzzchina.substack.com/"
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/"
     },
     {
       "name": "Latent Space",
       "url": "https://www.latent.space/"
     },
     {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/"
+    },
+    {
+      "name": "Alpha Signal",
+      "url": "https://alphasignal.ai/last-email/"
+    },
+    {
+      "name": "Aakash's Newsletter",
+      "url": "https://www.news.aakashg.com/"
+    },
+    {
       "name": "NLP Newsletter",
       "url": "https://nlp.elvissaravia.com/"
-    },
-    {
-      "name": "Upmynt",
-      "url": "https://www.upmynt.com/"
-    },
-    {
-      "name": "The AI Report",
-      "url": "https://www.theaireport.ai/newsletters"
     }
   ],
   "categories": {
     "critique": [
       {
-        "title": "SpaceX acquiert Cursor/Anysphere pour 60 Mds $ en actions, quatre jours apres son IPO historique",
-        "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
-        "description": "SpaceX a annonce l'acquisition de Cursor (Anysphere) pour 60 milliards de dollars en actions, a peine quatre jours apres son entree en bourse record au Nasdaq. L'operation vise a combler le retard de la division IA de SpaceX face a Anthropic et OpenAI dans les outils de coding IA. Cursor, dont le CA annualise atteignait 2 milliards $ en fevrier, est desormais integre a l'ecosysteme xAI fusionne avec SpaceX depuis fevrier 2026.",
-        "source": "Superhuman",
-        "date": "16 juin 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Washington ordonne a Anthropic de desactiver Fable 5 et Mythos 5 pour tous les non-Americains",
-        "url": "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays",
-        "description": "Le gouvernement americain a invoque le controle des exportations pour ordonner a Anthropic de couper l'acces a ses modeles Fable 5 et Mythos 5 pour tous les ressortissants etrangers, y compris les employes d'Anthropic eux-memes. C'est la premiere fois qu'un gouvernement desactive un modele commercial d'IA deja deploye aupres de centaines de millions d'utilisateurs. Le motif invoque est une methode de jailbreak permettant de contourner les garde-fous du modele sur des capacites de cyber-offense.",
-        "source": "DeepLearning.AI",
-        "date": "16 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays",
-        "thirdPartyUrl": "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
-        "officialUrl": ""
-      },
-      {
-        "title": "OpenAI prepare le lancement de GPT-5.6 avec 1,5 million de tokens de contexte et variantes Mini et Pro",
-        "url": "https://tldr.tech/ai/2026-06-19",
-        "description": "OpenAI s'apprete a lancer GPT-5.6 la semaine prochaine, potentiellement avec des variantes Mini et Pro. Les ameliorations cles incluent une fenetre de contexte elargie a 1,5 million de tokens, un coding long-horizon ameliore et des temps de reponse Codex plus rapides. La tarification vise a concurrencer Anthropic, d'autant plus que les restrictions reglementaires americaines impactent la disponibilite de Claude Fable 5.",
+        "title": "OpenAI devoile GPT-5.6 Sol, Terra et Luna : la nouvelle famille de modeles frontier avec capacites cyber renforcees",
+        "url": "https://tldr.tech/ai/2026-06-26",
+        "description": "OpenAI a officiellement presente GPT-5.6 sous trois variantes : Sol, Terra et Luna. Le modele dispose du stack de securite le plus robuste d'OpenAI a ce jour, avec des protections renforcees pour les activites a haut risque et les requetes cyber sensibles. GPT-5.6 Sol sera lance sur Cerebras a 750 tokens/seconde en juillet, et les ecritures en cache sont facturees a 1,25x le tarif non-cache.",
         "source": "TLDR AI",
-        "date": "19 juin 2026",
+        "date": "26 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-19",
-        "thirdPartyUrl": "https://www.testingcatalog.com/openai-prepares-gpt-5-6-models-for-the-upcoming-release/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Midjourney devoile Midjourney Medical : scanner corporel ultrasonique complet en 60 secondes, sans radiation",
-        "url": "https://www.engadget.com/2196998/midjourney-full-body-ultrasonic-scanner/",
-        "description": "Midjourney a presente Midjourney Medical, une nouvelle division et son premier produit hardware : un scanner corporel ultrasonique qui immerge l'utilisateur dans l'eau avec 358 000 transducteurs generant 17 Go de donnees par seconde. Le scan complet prend moins de 60 secondes contre 60-90 minutes pour une IRM, sans radiation ni aimant, pour un cout de quelques dollars. Le premier Midjourney Spa ouvrira a San Francisco en 2027.",
-        "source": "Superhuman",
-        "date": "18 juin 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.engadget.com/2196998/midjourney-full-body-ultrasonic-scanner/",
-        "officialUrl": ""
-      },
-      {
-        "title": "DeepSeek boucle la plus grande levee IA de l'histoire chinoise : 7,4 Mds $ a plus de 50 Mds $ de valorisation",
-        "url": "https://techbuzzchina.substack.com/p/deepseeks-bet-that-efficiency-can",
-        "description": "DeepSeek a cloture son tout premier tour de financement a plus de 50 milliards de yuans (7,4 Mds $), devenant la startup IA la plus valorisee de Chine. Le fondateur Liang Wenfeng a contribue personnellement 20 milliards de yuans (~3 Mds $), conservant 84 % des droits economiques et 100 % des droits de vote. Tencent a investi 10 milliards de yuans et CATL 5 milliards. Liang a demande explicitement aux investisseurs de ne pas debaucher les employes de DeepSeek.",
-        "source": "TechBuzz China",
-        "date": "16 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/deepseeks-bet-that-efficiency-can",
-        "thirdPartyUrl": "https://www.wsj.com/tech/ai/deepseek-becomes-chinas-most-valuable-ai-startup-after-over-7-4-billion-fundraise-78ef64c0",
-        "officialUrl": ""
-      },
-      {
-        "title": "Zhipu AI lance GLM-5.2 : 744 Mds de parametres, 1M de contexte, licence MIT — premier modele open source approchant la frontiere",
-        "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
-        "description": "Z.ai (Zhipu AI) a lance GLM-5.2, un modele MoE de 744 milliards de parametres avec une fenetre de contexte d'un million de tokens et une licence MIT. Les praticiens le decrivent comme le premier modele open source veritablement proche de la frontiere : Jeremy Howard le juge au moins aussi bon qu'Opus 4.8 et GPT-5.5 pour son usage quotidien. Artificial Analysis le classe entre GPT-5.5 et Opus 4.8, a 2,40 $/tache contre 10,40 $ pour Opus 4.8.",
-        "source": "Latent Space",
-        "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
-        "thirdPartyUrl": "https://z.ai/blog/glm-5.2",
-        "officialUrl": ""
-      },
-      {
-        "title": "OpenAI deploie ChatGPT sur la plateforme GenAI.mil du Pentagone pour 3 millions de personnels militaires",
-        "url": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
-        "description": "OpenAI deploiera ChatGPT sur GenAI.mil, la plateforme d'IA generative du Pentagone, debut juillet, offrant l'acces a plus de 3 millions de personnels de la defense. Le deploiement supporte les charges de travail Impact Level 5 et les informations non classifiees controlees. L'accord fait suite a un contrat signe en fevrier pour deployer les modeles d'OpenAI sur le reseau classifie du departement de la Defense.",
-        "source": "The Rundown AI",
-        "date": "16 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
-        "thirdPartyUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-readies-deployment-of-chatgpt-for-3-million-pentagon-personnel/",
-        "officialUrl": ""
-      },
-      {
-        "title": "La part de marche de ChatGPT passe sous les 50 % pour la premiere fois : Gemini, Claude et Grok progressent",
-        "url": "https://tldr.tech/ai/2026-06-18",
-        "description": "Pour la premiere fois, la part de marche de ChatGPT est passee sous la barre des 50 %, les utilisateurs migrant vers d'autres assistants comme Gemini de Google, Claude d'Anthropic et Grok de xAI. Malgre sa position d'application la plus rapide a atteindre un milliard d'utilisateurs mensuels, ChatGPT fait face a une concurrence croissante. Les utilisateurs sont de plus en plus enclins a alterner entre plusieurs assistants selon les taches.",
-        "source": "TLDR AI",
-        "date": "18 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-18",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Noam Shazeer quitte Google pour OpenAI : le co-auteur d'Attention Is All You Need change de camp",
-        "url": "https://tldr.tech/ai/2026-06-18",
-        "description": "Noam Shazeer, l'un des co-auteurs de l'article fondateur Attention Is All You Need (2017) qui a transforme le monde de l'IA, quitte Google pour rejoindre OpenAI. Shazeer avait egalement ameliore la correction orthographique de la recherche Google et cree l'algorithme principal d'AdSense. Ce transfert renforce considerablement l'equipe de recherche d'OpenAI dans un contexte de concurrence intense entre labs.",
-        "source": "TLDR AI",
-        "date": "18 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-18",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-26",
         "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      },
+      {
+        "title": "La Maison Blanche demande a OpenAI de retarder le deploiement de GPT-5.6 pour raisons de securite nationale",
+        "url": "https://tldr.tech/ai/2026-06-26",
+        "description": "La Maison Blanche a emis une demande administrative officielle a OpenAI de retarder le deploiement public de son modele frontier GPT-5.6 en raison de preoccupations de securite nationale et de securite structurelle. Les responsables gouvernementaux exigent une periode prolongee de red-teaming pour auditer les capacites d'execution cyber avancees et les vulnerabilites de manipulation sociale automatisee du systeme.",
+        "source": "TLDR AI",
+        "date": "26 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-26",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI et Broadcom devoilent Jalapeno, la premiere puce d'inference IA concue en 9 mois avec l'aide de l'IA",
+        "url": "https://tldr.tech/ai/2026-06-25",
+        "description": "OpenAI et Broadcom ont devoile Jalapeno, le premier accelerateur d'une famille planifiee de puces d'inference LLM optimisees pour la performance par watt et le deploiement rapide. Concue en seulement neuf mois grace au developpement assiste par IA, la puce est destinee aux deploiements dans des data centers a l'echelle du gigawatt.",
+        "source": "TLDR AI",
+        "date": "25 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-25",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+      },
+      {
+        "title": "Agility Robotics entre en bourse via SPAC a 2,5 milliards de dollars : premier IPO d'un fabricant de robots humanoides",
+        "url": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "description": "Agility Robotics a annonce sa fusion avec Churchill Capital Corp XI pour entrer en bourse au Nasdaq a une valorisation de 2,5 milliards de dollars. C'est le premier IPO d'un fabricant de robots humanoides IA. La societe dispose de plus de 300 millions de dollars de commandes contractuelles pour son robot Digit v5, developpe en partenariat avec Google DeepMind et NVIDIA Halos.",
+        "source": "Superhuman",
+        "date": "27 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "thirdPartyUrl": "https://www.wsj.com/finance/agility-maker-of-humanlike-robots-to-go-public-in-2-5-billion-spac-deal-62c3cb32",
+        "officialUrl": "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi"
+      },
+      {
+        "title": "SpaceX signe un contrat de puissance de calcul de 6,3 milliards de dollars avec la startup open-source Reflection AI",
+        "url": "https://tldr.tech/ai/2026-06-23",
+        "description": "SpaceX a signe un contrat pouvant atteindre 6,3 milliards de dollars avec Reflection AI pour l'acces a son supercalculateur Project Colossus et ses GPU Nvidia GB300. L'accord permet a Reflection d'entrainer des modeles IA open source a grande echelle, refletant la strategie de SpaceX de monetiser son infrastructure de calcul aupres d'entreprises IA externes apres son IPO historique.",
+        "source": "TLDR AI",
+        "date": "23 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-23",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google lance le controle d'ordinateur natif sur Gemini 3.5 Flash : agent desktop en temps reel",
+        "url": "https://tldr.tech/ai/2026-06-25",
+        "description": "Google a lance les capacites de controle d'ordinateur natif pour Gemini 3.5 Flash, permettant au modele leger d'interagir directement avec les interfaces de bureau numeriques. Le modele traite des captures d'ecran en continu pour executer des clics, defilements et saisies de maniere fluide a travers differents environnements logiciels, ouvrant la voie a l'automatisation agentique native.",
+        "source": "DeepLearning.AI",
+        "date": "25 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-25",
+        "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/"
+      },
+      {
+        "title": "Anthropic lance Claude Tag : gestion de taches IA directement dans Slack pour les equipes",
+        "url": "https://www.superhuman.ai/p/claude-joins-your-slack-channel",
+        "description": "Anthropic a introduit Claude Tag, un workflow base sur Slack qui permet aux equipes d'assigner des taches a Claude, de le connecter a des outils et des codebases, et de lui faire conserver le contexte entre les canaux. L'entreprise a declare que le systeme etait devenu une partie centrale de ses operations internes, avec son equipe produit l'utilisant pour generer la majorite de son code et assister l'analytique et le debugging.",
+        "source": "Superhuman",
+        "date": "24 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-joins-your-slack-channel",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-24",
+        "officialUrl": "https://www.anthropic.com/news/introducing-claude-tag"
+      },
+      {
+        "title": "Anthropic accuse les labs chinois de vol de propriete intellectuelle : les tensions montent entre labs IA",
+        "url": "https://www.superhuman.ai/p/anthropic-calls-out-chinese-labs-again",
+        "description": "Anthropic a de nouveau accuse publiquement les labs chinois de vol de propriete intellectuelle, marquant une escalade dans les tensions entre labs IA americains et chinois. L'accusation intervient dans un contexte de resultats records de Micron (CA Q3 quadruple a 41,5 Mds $) et du devoilement par Qualcomm d'un nouveau CPU pour data centers, soulignant l'intensification de la guerre des puces IA.",
+        "source": "Superhuman",
+        "date": "26 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/anthropic-calls-out-chinese-labs-again",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Trump declare ne plus considerer Anthropic comme une menace pour la securite nationale",
+        "url": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
+        "description": "Le president Trump a declare a Axios qu'il ne considerait plus Anthropic comme une menace pour la securite nationale, tout en n'excluant pas l'utilisation de pouvoirs d'urgence contre l'entreprise. Cette declaration survient apres la crise de desactivation de Fable 5 et Mythos 5 ordonnee par Washington, et alors qu'Anthropic prepare son IPO a pres de 1 000 milliards de dollars de valorisation.",
+        "source": "The Rundown AI",
+        "date": "28 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.therundown.ai/p/step-into-midjourney-s-spa-for-a-body-scan",
         "officialUrl": ""
       }
     ],
     "important": [
       {
-        "title": "Microsoft Copilot Cowork disponible mondialement avec facturation a l'usage et modeles Anthropic integres",
-        "url": "https://www.superhuman.ai/p/copilot-cowork-becomes-generally-available",
-        "description": "Microsoft a lance la disponibilite generale de Copilot Cowork pour tous les clients Microsoft 365 Copilot le 16 juin, avec une facturation a l'usage. L'assistant agentique peut envoyer des emails, planifier des reunions, creer des documents et poster dans Teams de facon autonome. Microsoft integre desormais les modeles Claude d'Anthropic aux cotes de ceux d'OpenAI, avec un cout par prompt annonce 30-40 % inferieur a Claude Cowork.",
-        "source": "Superhuman",
-        "date": "16 juin 2026",
+        "title": "ByteDance lance Seedance 2.5 : videos 4K de 30 secondes a partir d'un seul prompt avec jusqu'a 50 references",
+        "url": "https://tldr.tech/ai/2026-06-24",
+        "description": "ByteDance a lance Seedance 2.5, un modele de generation video IA capable de produire des clips de 30 secondes en 4K a partir d'un seul prompt. Les utilisateurs peuvent fournir jusqu'a 50 images, videos ou clips audio comme references pour un controle plus fin. Le modele sera disponible en Chine le mois prochain, sans date annoncee pour les autres pays.",
+        "source": "TLDR AI",
+        "date": "24 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/copilot-cowork-becomes-generally-available",
-        "thirdPartyUrl": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork",
-        "officialUrl": "https://www.microsoft.com/en-us/microsoft-365-copilot/cowork"
-      },
-      {
-        "title": "Claude Opus 4.7 pilote des robots 20x plus vite que les humains dans le Project Fetch Phase Two d'Anthropic",
-        "url": "https://theaireport.substack.com/p/claude-runs-robots-20x-faster",
-        "description": "Anthropic a publie les resultats du Project Fetch Phase Two, ou Claude Opus 4.7 a opere de maniere autonome un robot quadrupede pour completer des taches de programmation et de controle. Sans assistance humaine, Claude a termine tous les objectifs testables environ 20x plus vite que l'equipe humaine la plus rapide de l'experience originale d'aout 2025. Sur les taches communes, Opus 4.7 etait 37x plus rapide que l'equipe sans Claude et produisait 10x moins de code.",
-        "source": "The AI Report",
-        "date": "19 juin 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://theaireport.substack.com/p/claude-runs-robots-20x-faster",
-        "officialUrl": ""
-      },
-      {
-        "title": "Anthropic revele que Claude ecrit plus de 80 % de son propre code et que chaque ingenieur produit 8x plus",
-        "url": "https://alphasignal.ai/last-email/",
-        "description": "Anthropic a publie des donnees internes montrant que plus de 80 % du code integre chez Anthropic est desormais ecrit par Claude, contre quelques pourcents avant le lancement de Claude Code debut 2025. Chaque ingenieur produit environ 8x plus de code qu'avant 2025, et la duree des taches autonomes du modele double environ tous les 4 mois, passant de 4 minutes en 2024 a 12 heures aujourd'hui. Les roles humains evoluent vers le pilotage et le jugement plutot que l'execution.",
-        "source": "Alpha Signal",
-        "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-24",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Le senateur Sanders propose un fonds souverain IA prelevant 50 % des parts des geants de l'industrie",
-        "url": "https://www.therundown.ai/",
-        "description": "Le senateur Bernie Sanders a presente un projet de loi exigeant que toute entreprise realisant plus de 200 M$ de CA annuel dans l'IA transfere 50 % de ses capitaux propres a un nouveau fonds souverain americain, qui verserait un dividende annuel de 5 % aux citoyens. Les entreprises concernees incluent OpenAI, Anthropic, Amazon, Nvidia, Microsoft et SpaceX. Le projet, introduit le 18 juin 2026, est encore en comite.",
+        "title": "Mistral lance OCR 4 : intelligence documentaire SOTA en 170 langues avec 4x d'avantage de vitesse",
+        "url": "https://tldr.tech/ai/2026-06-24",
+        "description": "Mistral a publie OCR 4, un outil d'intelligence documentaire fournissant une extraction de contenu structure avec boites englobantes et scores de confiance. Il supporte 170 langues, est deployable dans un seul conteneur et surpasse les autres systemes avec un avantage de vitesse de 4x et une precision elevee, particulierement sur les langues a faibles ressources.",
+        "source": "Alpha Signal",
+        "date": "24 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-24",
+        "officialUrl": "https://mistral.ai/news/ocr-4/"
+      },
+      {
+        "title": "Liquid AI publie LFM 2.5 : modele non-transformer de 230M de parametres rivalisant avec des modeles 3x plus grands",
+        "url": "https://tldr.tech/ai/2026-06-26",
+        "description": "Liquid AI a annonce LFM 2.5, un modele de 230 millions de parametres base sur une architecture non-transformer utilisant des reseaux neuronaux en espace d'etat et des formulations en temps continu. Malgre sa taille exceptionnellement compacte, le modele atteint la parite avec des modeles transformer trois fois plus grands sur les benchmarks de raisonnement edge et de generation de sequences.",
+        "source": "TLDR AI",
+        "date": "26 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-26",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      {
+        "title": "Des chercheurs Gemini quittent Google pour Anthropic : la fuite de talents IA continue",
+        "url": "https://tldr.tech/ai/2026-06-25",
+        "description": "Bloomberg a rapporte que les chercheurs Gemini Jonas Adler et Alexander Pritzel ont quitte Google pour Anthropic, poursuivant une vague de departs de talents IA de haut niveau. Cette tendance fait suite aux recents departs de Noam Shazeer et du directeur DeepMind John Jumper, dans un contexte de concurrence intense entre les labs IA de pointe.",
+        "source": "TLDR AI",
+        "date": "25 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-25",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Les Etats-Unis pressent Meta de soumettre ses modeles IA a des revues de securite gouvernementales",
+        "url": "https://www.nytimes.com/2026/06/23/business/meta-ai-government-reviews-security.html",
+        "description": "L'administration Trump presse Meta de soumettre ses modeles IA a des revues volontaires. Meta est le seul developpeur IA majeur aux Etats-Unis a ne pas avoir conclu d'accord pour partager volontairement ses modeles avec le gouvernement federal pour evaluation de leurs capacites et vulnerabilites. La pression s'inscrit dans un contexte de debat croissant sur la securite des modeles open-source.",
         "source": "The Rundown AI",
-        "date": "18 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.therundown.ai/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Cursor lance Origin, une forge Git concue pour les agents IA en concurrent direct de GitHub",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-52-claude-code",
-        "description": "Cursor a devoile Origin, une plateforme d'hebergement de code compatible Git construite autour de l'hypothese que des dizaines d'agents IA cloneront, brancheront, committeront et revieweront en parallele. GitHub etait construit pour le developpement a echelle humaine ; Origin est pense pour l'echelle agentique. Le lancement intervient peu apres l'acquisition de Cursor par SpaceX pour 60 milliards de dollars.",
-        "source": "NLP Newsletter",
-        "date": "17 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-52-claude-code",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Perplexity lance Brain : memoire persistante et auto-ameliorable pour les agents IA",
-        "url": "https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents",
-        "description": "Perplexity a devoile Brain, un systeme de memoire qui construit un graphe de contexte persistant a travers les taches, projets, decisions, fichiers et sources. Les agents demarrent ainsi avec un contexte pertinent au lieu de repartir de zero. Brain relie chaque souvenir a sa source originale, met a jour et organise continuellement les connaissances, et ameliore la qualite des reponses tout en reduisant les couts par une meilleure reutilisation du travail anterieur.",
-        "source": "The AI Report",
-        "date": "19 juin 2026",
+        "date": "24 juin 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents",
+        "thirdPartyUrl": "https://www.nytimes.com/2026/06/23/business/meta-ai-government-reviews-security.html",
         "officialUrl": ""
       },
       {
-        "title": "Visa s'integre dans ChatGPT pour le commerce agentique : la couche de confiance des paiements IA se structure",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-82b",
-        "description": "OpenAI integre Visa dans ChatGPT pour permettre aux agents IA de realiser des paiements. Apres l'echec d'Instant Checkout avec Stripe en mars 2026, OpenAI contourne le probleme en s'appuyant sur les rails Visa deja universellement acceptes. Mastercard pousse son Agent Pay, PayPal s'est allie a Perplexity. L'enjeu n'est plus le modele mais la couche de confiance du paiement agentique : qui peut depenser quoi, et qui assume le remboursement en cas d'erreur.",
-        "source": "Mozza Bytes",
-        "date": "16 juin 2026",
+        "title": "Alibaba HappyHorse 1.1 monte au 2e rang mondial en video IA, devant Sora d'OpenAI et Seedance de ByteDance",
+        "url": "https://tldr.tech/ai/2026-06-23",
+        "description": "Le modele de generation video IA HappyHorse 1.1 d'Alibaba a grimpe au 2e rang mondial, depassant Sora d'OpenAI et Seedance de ByteDance dans les classements. Disponible sur Alibaba Cloud Model Studio avec 40 % de reduction de lancement, il supporte la generation texte-vers-video, image-vers-video et sujet-vers-video couvrant l'ensemble des besoins de production video commerciale.",
+        "source": "TLDR AI",
+        "date": "23 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-82b",
-        "thirdPartyUrl": "https://siliconangle.com/2026/06/10/visa-partners-openai-let-ai-agents-make-payments-users/",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-23",
+        "thirdPartyUrl": "https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away",
         "officialUrl": ""
       },
       {
-        "title": "Les classificateurs de securite de Fable 5 empechent l'evaluation independante : jusqu'a 100 % de refus en biologie et cybersecurite",
-        "url": "https://www.interconnects.ai/",
-        "description": "Plusieurs organismes independants (Artificial Analysis, Vals AI, ARC Prize Foundation, Agents' Last Exam) signalent l'impossibilite d'evaluer pleinement Claude Fable 5 a cause de ses classificateurs de securite. Vals AI rapporte un taux de refus proche de 100 % en biologie et cybersecurite. Sur GPQA Diamond, la precision chute de 93,18 % (2e place) a 55,56 % (94e place) quand les refus sont comptes comme echecs. ARC Prize Foundation a refuse de lancer ses evaluations pour ne pas exposer ses jeux de test a la retention de donnees de 30 jours.",
-        "source": "Interconnects",
-        "date": "19 juin 2026",
+        "title": "Morgan Stanley triple ses previsions de robots humanoides en Chine a 50 000 unites pour 2026",
+        "url": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "description": "Morgan Stanley a triple ses previsions 2026 pour les expeditions de robots humanoides en Chine a 50 000 unites, citant une demande massive soutenue par l'Etat. Cette revision intervient alors que le marche de la robotique IA connait une acceleration sans precedent avec l'IPO d'Agility Robotics, la prise de controle totale de Boston Dynamics par Hyundai et de nouveaux investissements massifs dans le secteur.",
+        "source": "Superhuman",
+        "date": "27 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.interconnects.ai/",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/06/24/morgan-stanley-china-humanoid-robot-market-forecast.html",
         "officialUrl": ""
       },
       {
-        "title": "Claude Code lance les Artifacts : previsualisation web en temps reel directement dans le terminal",
-        "url": "https://alphasignal.ai/last-email/",
-        "description": "Anthropic a lance les Artifacts dans Claude Code, permettant aux agents de transformer le travail en cours en pages web partageables en temps reel. La fonctionnalite permet de previsualiser les changements d'architecture et les prototypes directement dans l'outil sans quitter le terminal. Les rapports internes indiquent que cette feature a deja modifie les workflows internes pour le partage de prototypes et les revues d'architecture.",
+        "title": "OpenAI lance le mode voix bidirectionnel avec Bidi 1 : ecouter et parler simultanement dans ChatGPT",
+        "url": "https://www.testingcatalog.com/openai-prepares-bidirectional-voice-mode-for-rollout-on-chatgpt/",
+        "description": "OpenAI a commence le deploiement du mode voix bidirectionnel pour ChatGPT. Le nouveau modele de generation audio, Bidi 1, permet a l'assistant de parler, entendre et ecouter simultanement. Il peut maintenir le fil d'une conversation complete et changer de tache a la volee s'il est interrompu, rapprochant l'interaction vocale IA de la conversation humaine naturelle.",
+        "source": "The Rundown AI",
+        "date": "24 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.testingcatalog.com/openai-prepares-bidirectional-voice-mode-for-rollout-on-chatgpt/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Vercel lance AI SDK 7 avec boucle d'execution zero-overhead pour agents IA et telemetrie unifiee",
+        "url": "https://tldr.tech/ai/2026-06-26",
+        "description": "Vercel a publie AI SDK 7, introduisant une boucle d'execution zero-overhead qui simplifie radicalement la gestion des appels d'outils multi-etapes et des etats d'UI agentique en streaming. Le release inclut une couche de telemetrie unifiee connectee aux runtimes serverless pour une visibilite totale sur l'utilisation des tokens, les choix de modeles et la latence d'execution des outils.",
         "source": "Alpha Signal",
-        "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/last-email/",
-        "thirdPartyUrl": "https://claude.com/blog/artifacts-in-claude-code",
-        "officialUrl": ""
+        "date": "26 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-26",
+        "officialUrl": "https://vercel.com/blog/ai-sdk-7"
       }
     ],
     "goodToKnow": [
       {
-        "title": "Genesis AI devoile Eno, le robot anti-humanoide sur roues qui mise sur la discretion domestique",
-        "url": "https://www.superhuman.ai/",
-        "description": "La startup de Palo Alto Genesis AI a presente Eno, un robot sur roues au design minimaliste, sans tete ni visage, concu pour se fondre dans un salon plutot que pour ressembler a un humain. Le robot a reussi des demos d'automatisation de laboratoire. L'approche anti-humanoide va a rebours de la tendance de l'industrie a rendre les robots les plus humains possible.",
-        "source": "Superhuman",
-        "date": "20 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Android 17 integre MCP et AppFunctions pour permettre aux agents IA d'agir dans les applications",
-        "url": "https://tldr.tech/ai/2026-06-17",
-        "description": "Android 17 introduit de nouvelles capacites centrees sur l'IA avec AppFunctions et Android MCP, permettant aux applications d'exposer des outils orchestrables que les agents on-device peuvent decouvrir et executer. Google positionne cette version comme un virage vers un systeme d'intelligence avec une integration IA plus profonde a travers la plateforme.",
-        "source": "TLDR AI",
-        "date": "17 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-17",
-        "thirdPartyUrl": "https://android-developers.googleblog.com/2026/06/Android-17.html",
-        "officialUrl": ""
-      },
-      {
-        "title": "Amazon envisage de vendre ses puces Trainium a d'autres entreprises pour concurrencer Nvidia",
-        "url": "https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big",
-        "description": "AWS serait en discussions pour vendre ses puces IA Trainium a d'autres entreprises pour une utilisation dans leurs propres data centers, visant a concurrencer Nvidia plus directement. La capacite actuelle de Trainium dans les data centers AWS est deja entierement vendue, ce qui pourrait laisser les clients existants en attente. La strategie marque un tournant dans la guerre des puces IA.",
+        "title": "Le VP d'Apple Vision Pro Paul Meade rejoint l'equipe hardware d'OpenAI pour creer le premier appareil IA natif",
+        "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai",
+        "description": "Paul Meade, vice-president hardware d'Apple Vision Pro depuis sept ans et responsable du developpement des lunettes IA N50, quitte Apple pour diriger la division hardware d'OpenAI. OpenAI prevoit de reveler son premier appareil IA grand public avant fin 2026 : un wearable sans ecran, centre sur la voix, fabrique par Foxconn et concu nativement autour de GPT-5.6.",
         "source": "DeepLearning.AI",
-        "date": "18 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+        "date": "27 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai",
         "officialUrl": ""
       },
       {
-        "title": "WeChat ouvre sa plateforme IA aux developpeurs de mini-programmes : agents internes pour courses, commandes et billets",
-        "url": "https://techbuzzchina.substack.com/p/deepseeks-bet-that-efficiency-can",
-        "description": "WeChat a ouvert sa plateforme IA aux developpeurs de mini-programmes, permettant aux utilisateurs de glisser vers un assistant IA capable de reserver des courses, commander a manger et acheter des billets. Le mouvement rappelle les guerres de plateformes de l'ere mobile entre Tencent et Alibaba, mais cette fois sur le terrain de l'IA agentique integree aux super-apps.",
-        "source": "TechBuzz China",
-        "date": "20 juin 2026",
+        "title": "General Intuition leve 320 millions de dollars pour entrainer des robots IA via des jeux video",
+        "url": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "description": "General Intuition a leve 320 millions de dollars pour son pari que les agents IA entraines sur des jeux video peuvent transferer leurs competences de raisonnement aux robots du monde reel. La startup est valorisee a 2,3 milliards de dollars avec cette nouvelle levee, illustrant l'acceleration des investissements dans la robotique physique assistee par IA.",
+        "source": "Superhuman",
+        "date": "27 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://techbuzzchina.substack.com/p/deepseeks-bet-that-efficiency-can",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-agility-robotics-goes-public-at-2-5b-valuation",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
         "officialUrl": ""
       },
       {
-        "title": "Poolside lance Laguna M.1 sous Apache 2.0 : 225 Mds de parametres pour le coding agentique long-horizon",
-        "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
-        "description": "Poolside a publie les poids de Laguna M.1 sous licence Apache 2.0, un modele MoE sparse de 225 milliards de parametres (23 milliards actifs) avec un contexte de 256K tokens, optimise pour le coding agentique avec raisonnement et utilisation d'outils intercales. Une version MLX 3-bit tourne a environ 26 tokens/s sur un Apple Silicon M3 Max 128 Go, ouvrant le coding agentique en local.",
-        "source": "Latent Space",
-        "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "L'Europe face au kill switch americain sur l'IA : quand Washington peut desactiver un modele du jour au lendemain",
-        "url": "https://www.interconnects.ai/",
-        "description": "La desactivation de Fable 5 relance le debat sur la souverainete IA europeenne. Un hopital, une banque ou un ministere de la Defense europeen utilisant des systemes IA americains est desormais soumis a cet interrupteur. Le G7 a Evian a evoque un schema de partenaires de confiance pour retrouver l'acces. Les alternatives open source sont soit chinoises, soit pas a la frontiere. Un seul site americain (Colossus de xAI) fait tourner plus de 500 000 GPU — l'Europe n'a rien de comparable.",
-        "source": "Interconnects",
-        "date": "19 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.interconnects.ai/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Levees IA francaises de la semaine : Mendo (12 M euros), Finovox (8,2 M euros) et Mobioos (1,3 M euros)",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-82b",
-        "description": "Trois startups IA francaises ont leve cette semaine : Mendo (12 millions d'euros) pour sa plateforme d'adoption de l'IA en entreprise, Finovox (8,2 millions d'euros) pour sa solution de detection de fraude par IA, et Mobioos (1,3 million d'euros) pour sa plateforme de contexte de codebase collaborative et securisee. VivaTech 2026, la 10e edition du salon tech europeen, se tient du 17 au 20 juin a Paris avec 14 000 startups.",
-        "source": "Mozza Bytes",
-        "date": "16 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-82b",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Upmynt : pourquoi Mistral reste un choix strategique francais face aux geants americains et chinois",
-        "url": "https://www.upmynt.com/up331-le-chaton-fat/",
-        "description": "Le numero UP331 d'Upmynt analyse le choix strategique de Mistral dans un paysage IA domine par les labs americains et chinois. L'edition explore aussi comment convertir son contenu editorial en videos sur mesure grace a l'IA et comment decoder ses concurrents a partir de signaux faibles. Mistral prepare un nouveau modele pour cet ete avec un programme d'acces anticipe prevu en juillet pour les partenaires cles en recherche, gouvernement et industrie.",
-        "source": "Upmynt",
-        "date": "17 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up331-le-chaton-fat/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Upmynt : assurer sa prospection LinkedIn grace a l'IA et le debat sur Anthropic avec Fable 5",
-        "url": "https://www.upmynt.com/up330-claude-x-linkedin/",
-        "description": "Le numero UP330 d'Upmynt detaille comment utiliser Claude pour automatiser la prospection sur LinkedIn et analyse le bad buzz d'Anthropic avec Fable 5, dont les classificateurs de securite ont limite l'acces sur des domaines comme la biologie et la cybersecurite. L'edition couvre aussi l'ambition a moitie realisee de Mistral dans le paysage IA mondial.",
-        "source": "Upmynt",
-        "date": "15 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up330-claude-x-linkedin/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Alibaba open-source Qwen-Robot Suite : trois modeles de robotique IA pour humanoides, bras et quadrupedes",
-        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-52-claude-code",
-        "description": "Alibaba a publie en open source Qwen-Robot Suite, un trio de modeles d'IA robotique deployables sur des robots humanoides, des bras robotiques et des robots quadrupedes. La suite s'inscrit dans la tendance acceleree de l'IA embarquee pour la robotique, avec des modeles entraines pour l'interaction naturelle et l'apprentissage autonome dans des environnements physiques varies.",
+        "title": "DeepReinforce publie Ornith-1.0 : modeles de coding open source auto-ameliorants sur fondations Gemma 4 et Qwen 3.5",
+        "url": "https://www.testingcatalog.com/deepreinforce-releases-ornith-1-0-open-source-coding-models/",
+        "description": "DeepReinforce a publie Ornith-1.0, une famille de modeles de coding auto-ameliorants entraines sur les fondations Gemma 4 et Qwen 3.5. Chaque variante peut ecrire des scaffolds de reinforcement learning. Ornith-1.0 est etat de l'art parmi les modeles open source de taille comparable, ouvrant la voie a des boucles d'amelioration continue du code.",
         "source": "NLP Newsletter",
-        "date": "20 juin 2026",
+        "date": "26 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.testingcatalog.com/deepreinforce-releases-ornith-1-0-open-source-coding-models/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Micron quadruple son CA trimestriel a 41,5 milliards de dollars grace a la demande IA : guide Q4 a 50 milliards",
+        "url": "https://www.superhuman.ai/p/anthropic-calls-out-chinese-labs-again",
+        "description": "Micron a publie un CA record de 41,5 milliards de dollars pour le Q3 fiscal 2026, quadruplant par rapport a l'annee precedente (9,3 Mds $), avec un BPA ajuste de 25,11 $. La marge brute atteint 84,6 %. Micron guide pour un Q4 a 50 milliards de dollars, confirment la demande explosive en memoire pour les workloads IA qui transforme l'entreprise en potentiel successeur de Nvidia selon Wall Street.",
+        "source": "Superhuman",
+        "date": "24 juin 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/ai-agents-weekly-glm-52-claude-code",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/anthropic-calls-out-chinese-labs-again",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic prepare le support Cowork pour les applications mobiles : planification et taches sur tous les appareils",
+        "url": "https://tldr.tech/ai/2026-06-23",
+        "description": "Anthropic prevoit d'etendre son systeme Cowork aux applications mobiles, permettant la planification et la visualisation des taches sur tous les appareils. Cette expansion vise a rendre l'assistant agentique de Claude accessible au-dela du desktop, dans un contexte ou les workflows IA deviennent de plus en plus mobiles.",
+        "source": "TLDR AI",
+        "date": "23 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-06-23",
+        "thirdPartyUrl": "https://www.testingcatalog.com/anthropic-prepares-cowork-support-for-mobile-apps/",
+        "officialUrl": ""
+      },
+      {
+        "title": "L'economie IA generative atteint 110 milliards de dollars de ventes annuelles, 175 milliards annualises",
+        "url": "https://tldr.tech/ai/2026-06-26",
+        "description": "L'economie de l'IA generative a genere 110 milliards de dollars de ventes sur les 12 derniers mois, avec un taux de revenus annualise depassant 175 milliards de dollars. L'analyse detaille les depenses totales en IA entreprise et consommateur, et examine comment les revenus couvrent les investissements massifs du secteur alors que les prix des tokens chutent et la qualite s'ameliore.",
+        "source": "Interconnects",
+        "date": "26 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-26",
+        "officialUrl": ""
+      },
+      {
+        "title": "Mozza Bytes : l'excuse de l'IA pour les licenciements tech de moins en moins credible",
+        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-e11",
+        "description": "L'edition de Mozza Bytes du 23 juin analyse comment l'excuse de l'IA pour justifier les licenciements dans la tech devient de moins en moins credible, alors que les entreprises peinent a demontrer des gains de productivite proportionnels aux suppressions d'emplois annoncees. L'edition couvre aussi les derniers outils, evenements et levees de la semaine.",
+        "source": "Mozza Bytes",
+        "date": "23 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-e11",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Latent Space : red-teaming apres Mythos avec les fondateurs de Gray Swan — la securite IA n'est pas de la cybersecurite",
+        "url": "https://www.latent.space/p/gray-swan",
+        "description": "Zico Kolter (membre du board d'OpenAI) et Matt Fredrikson (CEO de Gray Swan) expliquent sur le podcast Latent Space pourquoi la securite IA n'est pas simplement de la cybersecurite avec de l'IA. L'episode aborde les defis du red-teaming des modeles frontier apres la crise de Mythos et la necessite de nouvelles methodes d'evaluation de securite adaptees aux systemes IA.",
+        "source": "Latent Space",
+        "date": "22 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.latent.space/p/gray-swan",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Aakash's Newsletter : GitHub pour les PMs — le controle de version pour tout ce que vous construisez avec l'IA",
+        "url": "https://www.news.aakashg.com/p/github-for-pms",
+        "description": "Le numero du 24 juin de Product Growth d'Aakash Gupta explore comment les product managers peuvent utiliser Git et le controle de version pour gerer les artefacts construits avec l'IA, des prompts aux prototypes. L'article propose un framework pour le versionning des workflows IA dans les equipes produit, alors que les PMs sont de plus en plus impliques dans le shipping de code via des outils agentiques.",
+        "source": "Aakash's Newsletter",
+        "date": "24 juin 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.news.aakashg.com/p/github-for-pms",
         "thirdPartyUrl": "",
         "officialUrl": ""
       }
