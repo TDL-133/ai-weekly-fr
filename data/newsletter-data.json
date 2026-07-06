@@ -1,5 +1,5 @@
 {
-  "week": "2026-07-05 to 2026-07-11",
+  "week": "2026-07-12 to 2026-07-18",
   "sources": [
     {
       "name": "TLDR AI",
@@ -14,16 +14,12 @@
       "url": "https://www.deeplearning.ai/the-batch/"
     },
     {
-      "name": "Mozza Bytes",
-      "url": "https://mozzabytes.substack.com/"
+      "name": "Alpha Signal",
+      "url": "https://alphasignal.ai/last-email/"
     },
     {
       "name": "The Rundown AI",
       "url": "https://www.therundown.ai/"
-    },
-    {
-      "name": "Alpha Signal",
-      "url": "https://alphasignal.ai/last-email/"
     },
     {
       "name": "Latent Space",
@@ -38,6 +34,10 @@
       "url": "https://nlp.elvissaravia.com/"
     },
     {
+      "name": "Mozza Bytes",
+      "url": "https://mozzabytes.substack.com/"
+    },
+    {
       "name": "Aakash's Newsletter",
       "url": "https://www.news.aakashg.com/"
     }
@@ -45,305 +45,307 @@
   "categories": {
     "critique": [
       {
-        "title": "Anthropic lance Claude Sonnet 5 : performances agentiques proches d'Opus 4.8 a prix reduit",
-        "url": "https://tldr.tech/ai/2026-07-01",
-        "description": "Anthropic a presente Claude Sonnet 5, un modele plus economique avec des performances agentiques nettement superieures en planification, utilisation d'outils, codage et travail intellectuel. Ses capacites sont decrites comme approchant Opus 4.8 tout en ameliorant substantiellement Sonnet 4.6. Le modele est disponible a un tarif d'introduction de 2 $ par million de tokens d'entree et 10 $ par million de tokens de sortie jusqu'au 31 aout 2026.",
+        "title": "Alibaba interdit Claude Code a ses employes : le geant chinois cite des risques de backdoor dans l'outil d'Anthropic",
+        "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "description": "Alibaba a ordonne a ses employes de cesser d'utiliser Claude Code d'Anthropic a partir du 10 juillet 2026, apres la decouverte de mecanismes caches capables d'identifier les utilisateurs chinois. L'entreprise a classe Claude Code comme logiciel a haut risque et ordonne la migration vers Qoder, sa plateforme de codage proprietaire. L'incident s'inscrit dans un conflit croissant entre les deux entreprises, Anthropic accusant Alibaba d'extraction illicite des capacites de Claude via distillation.",
         "source": "TLDR AI",
+        "date": "4 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Claude Mythos declenche une hausse record de 3,5x des CVE : l'IA trouve des zero-days a une vitesse sans precedent",
+        "url": "https://red.anthropic.com/2026/mythos-preview",
+        "description": "L'equipe red team d'Anthropic a publie une evaluation des capacites de Claude Mythos Preview en cybersecurite, revelant que le modele a decouvert des vulnerabilites zero-day dans FreeBSD permettant l'execution de code a distance. Le processus complet de transformation des identifiants publics en exploits fonctionnels, qui prenait historiquement des jours a des semaines par bug, se fait desormais beaucoup plus rapidement et sans intervention humaine. Anthropic recommande aux administrateurs de reduire drastiquement les delais de deploiement des mises a jour de securite.",
+        "source": "Alpha Signal",
+        "date": "5 juillet 2026",
+        "urlType": "official",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://red.anthropic.com/2026/mythos-preview",
+        "urlReason": "Rapport de premiere main d'Anthropic Red Team, pas de couverture newsletter specifique disponible"
+      },
+      {
+        "title": "L'ONU lance une Commission de Gouvernance IA avec Jensen Huang, Andy Jassy et Marc Benioff avant le sommet de Geneve",
+        "url": "https://easternherald.com/2026/07/02/un-ai-governance-commission-jensen-huang-jassy-benioff-geneva/",
+        "description": "L'ONU et l'Union internationale des telecommunications ont annonce la creation de la Commission AI for Good, un nouvel organe reunissant Jensen Huang (Nvidia), Andy Jassy (Amazon), Brad Smith (Microsoft) et co-preside par Marc Benioff (Salesforce) et Paul Kagame (Rwanda). La premiere reunion est prevue le 8 juillet a Geneve, six jours avant le sommet AI for Good Global Summit 2026 au Palexpo.",
+        "source": "Superhuman",
+        "date": "2 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://easternherald.com/2026/07/02/un-ai-governance-commission-jensen-huang-jassy-benioff-geneva/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Bending Spoons fait ses debuts au Nasdaq a 18 milliards de dollars : l'action bondit de 40% le premier jour",
+        "url": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
+        "description": "Bending Spoons, l'entreprise italienne proprietaire d'AOL, Vimeo, Evernote et WeTransfer, a debute au Nasdaq avec une valorisation de plus de 18 milliards de dollars, l'action bondissant de 40% pour cloturer a 25,7 milliards. L'entreprise de 13 ans applique un playbook de private equity au logiciel, achetant des apps en difficulte et les optimisant via l'IA. Son chiffre d'affaires par employe a bondi de 1,12 million en 2023 a 2,57 millions en 2025.",
+        "source": "Interconnects",
         "date": "1 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-07-01",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-        "officialUrl": "https://www.anthropic.com/news/claude-sonnet-5"
-      },
-      {
-        "title": "Claude Fable 5 et Mythos 5 retablis apres la levee des controles export americains",
-        "url": "https://tldr.tech/ai/2026-07-02",
-        "description": "Le Departement du Commerce americain a leve les controles a l'exportation sur Claude Fable 5 et Mythos 5, permettant a Anthropic de restaurer l'acces mondial a partir du 1er juillet. Fable 5 sera inclus pour jusqu'a 50% des limites d'utilisation hebdomadaires jusqu'au 7 juillet, puis disponible via credits d'utilisation. Anthropic a deploye un nouveau classificateur de securite bloquant plus de 99% des techniques de contournement signalees dans le rapport Amazon.",
-        "source": "TLDR AI",
-        "date": "2 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-07-02",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://www.anthropic.com/news/redeploying-fable-5"
-      },
-      {
-        "title": "Meta Watermelon rattrape GPT-5.5 sur les benchmarks : le prochain modele superintelligent de Meta en entrainement",
-        "url": "https://tldr.tech/ai/2026-07-03",
-        "description": "Alexandr Wang, chef de la superintelligence chez Meta, a declare que le prochain modele de l'entreprise, nom de code Watermelon, a rattrape GPT-5.5 d'OpenAI sur les principaux benchmarks IA. Le modele utilise un ordre de grandeur de plus de calcul que Muse Spark et est encore en entrainement. Meta n'a pas communique de calendrier de sortie pour Watermelon.",
-        "source": "TLDR AI",
-        "date": "3 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-07-03",
-        "thirdPartyUrl": "https://letsdatascience.com/news/metas-watermelon-matches-gpt-55-benchmarks-76a9460e",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
         "officialUrl": ""
       },
       {
-        "title": "Sam Altman propose un fonds souverain IA americain : OpenAI donnerait 5% de son equity au gouvernement",
-        "url": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "description": "Sam Altman a propose la creation d'un fonds souverain IA americain auquel OpenAI donnerait 5% de son equity, un plan qui exigerait que les rivaux Anthropic, Google et Meta fassent de meme. L'initiative vise a partager les benefices de l'IA avec le public americain, alors qu'OpenAI cherche a apaiser les tensions avec l'administration Trump et le grand public face a la montee en puissance des labs IA.",
-        "source": "Superhuman",
-        "date": "3 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "thirdPartyUrl": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Etched sort de stealth a 5 milliards de dollars avec 1 milliard de commandes pour ses puces IA frontier",
-        "url": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "description": "Etched a fait son entree fracassante avec des clusters d'inference frontier composees de puces, racks et logiciels etat de l'art concus pour faire tourner les modeles IA plus rapidement et efficacement. La startup affiche deja 1 milliard de dollars de commandes contractuelles et une valorisation de 5 milliards de dollars. Les premieres livraisons sont prevues cet ete, dans un contexte de penurie persistante de puces et de memoire IA.",
-        "source": "Superhuman",
-        "date": "2 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Microsoft lance Frontier Company : 2,5 milliards de dollars et 6 000 ingenieurs pour le deploiement IA en entreprise",
-        "url": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "description": "Microsoft a annonce le lancement de Microsoft Frontier Company, une nouvelle entite operationnelle dotee de 2,5 milliards de dollars et 6 000 ingenieurs, dediee au deploiement des outils IA en entreprise en integrant des experts directement chez les clients. Cette initiative fait echo a AWS qui a engage 1 milliard dans sa propre organisation de deploiement deux jours plus tot, et a des ventures similaires lancees par OpenAI et Anthropic en mai.",
-        "source": "Superhuman",
-        "date": "3 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/"
-      },
-      {
-        "title": "Anthropic en discussions avec Samsung pour co-developper une puce IA custom face a Nvidia",
-        "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-        "description": "Anthropic serait en discussions avec Samsung pour co-developper une puce IA custom, selon The Information. Cette initiative survient une semaine apres qu'OpenAI a devoile sa propre puce d'inference Jalapeno avec Broadcom. Anthropic a indique que son stack hardware diversifie incluant Google, Amazon et Nvidia reste central dans sa strategie, illustrant la course des labs IA pour reduire leur dependance au geant des puces.",
+        "title": "Zuckerberg admet que les agents IA n'ont pas progresse aussi vite qu'espere chez Meta",
+        "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+        "description": "Mark Zuckerberg a declare lors d'une assemblee interne que le rythme de developpement des agents IA n'a pas accelere comme les dirigeants l'esperaient. Meta avait licencie environ 8 000 employes et reassigne 7 000 autres vers des groupes IA, dont Agent Transformation. Des enquetes ont decrit l'unite IA de Meta comme un environnement particulierement eprouvant pour les ingenieurs qui y sont affectes.",
         "source": "The Rundown AI",
-        "date": "3 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Meta prepare Meta Compute : une division cloud pour vendre son calcul IA excedentaire de 183 milliards de dollars",
-        "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
-        "description": "Meta developpe une initiative cloud interne baptisee Meta Compute pour vendre l'acces a sa puissance de calcul IA excedentaire et ses modeles heberges aux developpeurs externes. Ce pivot strategique vise a generer un nouveau flux de revenus a partir des 183 milliards de dollars investis par Meta dans l'infrastructure IA, defiant directement AWS, Azure et Google Cloud. L'action Meta a bondi de plus de 8% a l'annonce.",
-        "source": "DeepLearning.AI",
         "date": "2 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
         "officialUrl": ""
       },
       {
-        "title": "Le Panel scientifique de l'ONU avertit : la fenetre pour reguler l'IA se referme rapidement",
-        "url": "https://news.un.org/en/story/2026/07/1167848",
-        "description": "Le Panel scientifique international independant de l'ONU sur l'IA, compose de 40 experts, a publie son rapport preliminaire avertissant que les systemes de gouvernance actuels n'ont pas ete concus pour une technologie evoluant aussi vite. Le Dialogue mondial sur la gouvernance de l'IA debute a Geneve le 6 juillet 2026. Sans garde-fous, l'IA pourrait approfondir les inegalites et concentrer le pouvoir entre quelques gouvernements et entreprises.",
+        "title": "GitHub Copilot integre Kimi K2.7 Code : premier modele open-weight dans le selecteur, cinq labs reunis",
+        "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+        "description": "GitHub a rendu Kimi K2.7 Code de Moonshot AI disponible dans le selecteur de modeles de Copilot, marquant le premier modele open-weight offert aux cotes des modeles proprietaires. Le selecteur reunit desormais cinq labs : OpenAI, Anthropic, Google, Microsoft et Moonshot AI, la plus large offre competitive jamais proposee par un outil de codage via un seul abonnement. Kimi K2.7 est heberge par GitHub sur Microsoft Azure et disponible pour les plans Pro, Pro+ et Max.",
         "source": "Alpha Signal",
         "date": "1 juillet 2026",
+        "urlType": "official",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+        "urlReason": "Annonce officielle GitHub Changelog, pas de lien newsletter source specifique"
+      },
+      {
+        "title": "Cloudflare bloquera les crawlers IA par defaut des septembre : les editeurs pourront facturer l'acces au contenu",
+        "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content",
+        "description": "A partir du 15 septembre 2026, les parametres par defaut de Cloudflare bloqueront les crawlers a usage mixte sur toute page hebergeant des publicites. La politique evolue egalement de Pay Per Crawl vers Pay Per Use, permettant aux editeurs de facturer les entreprises IA quand leur contenu genere de la valeur, pas seulement quand il est recupere. Cloudflare travaille initialement avec Ceramic.ai et You.com comme partenaires de lancement.",
+        "source": "DeepLearning.AI",
+        "date": "1 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://news.un.org/en/story/2026/07/1167848",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content",
+        "officialUrl": ""
+      },
+      {
+        "title": "Midjourney exige que les studios Hollywood revelent leurs usages de l'IA dans le proces copyright",
+        "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+        "description": "Midjourney a exige que les studios hollywoodiens divulguent leurs usages internes de l'IA generative dans le cadre de la procedure judiciaire en cours sur le droit d'auteur. L'avocat principal des studios a qualifie la demande d'expedition de peche. La demarche pourrait creer un precedent significatif sur la transparence des usages de l'IA dans l'industrie du divertissement et influencer l'issue des nombreux proces copyright en cours.",
+        "source": "Latent Space",
+        "date": "4 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+        "officialUrl": ""
+      },
+      {
+        "title": "SpaceX devoile un prototype d'appareil IA aux investisseurs : un telephone sous OS proprietaire integrant xAI",
+        "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+        "description": "SpaceX a montre aux investisseurs un prototype d'appareil IA de type telephone fonctionnant sous un systeme d'exploitation proprietaire integrant la technologie de xAI, la societe d'IA d'Elon Musk rachetee plus tot cette annee. L'appareil vise a eviter la dependance aux plateformes existantes comme Android. OpenAI travaille egalement sur un appareil IA avec Jony Ive, l'ancien directeur design d'Apple, dont le VP Vision Pro a rejoint l'equipe hardware.",
+        "source": "Superhuman",
+        "date": "1 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
         "officialUrl": ""
       }
     ],
     "important": [
       {
-        "title": "Google lance Nano Banana 2 Lite et Gemini Omni Flash : generation d'images ultra-rapide et videos conversationnelles",
-        "url": "https://tldr.tech/ai/2026-06-30",
-        "description": "Google a publie Nano Banana 2 Lite, son modele Gemini Image le plus rapide et economique, aux cotes de Gemini Omni Flash pour la generation video et l'edition conversationnelle. Nano Banana 2 Lite est disponible via AI Studio, l'API Gemini et les produits Google grand public dont AI Mode dans Search, l'app Gemini, NotebookLM et Google Photos. Les deux modeles integrent le watermarking SynthID pour la transparence.",
-        "source": "Alpha Signal",
-        "date": "30 juin 2026",
-        "urlType": "third_party",
+        "title": "Anthropic multiplie par 5 les capacites de scaling pour les developpeurs API Claude et double les limites Claude Code",
+        "url": "https://www.anthropic.com/news/higher-limits-spacex",
+        "description": "Anthropic a annonce le doublement des limites de taux sur 5 heures de Claude Code pour les plans Pro, Max, Team et Enterprise, la suppression de la reduction aux heures de pointe pour Pro et Max, et une augmentation considerable des limites API pour les modeles Claude Opus. C'est la plus grande augmentation unique des limites par fenetre de Claude Code jamais livree par Anthropic, visant a ameliorer l'experience des developpeurs les plus actifs.",
+        "source": "TLDR AI",
+        "date": "6 juillet 2026",
+        "urlType": "official",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-30",
-        "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+        "urlReason": "Annonce officielle Anthropic, la plus detaillee disponible avec tableau des nouvelles limites"
       },
       {
-        "title": "Claude Science : Anthropic lance un workbench IA integre pour les scientifiques avec rendu 3D natif",
-        "url": "https://tldr.tech/ai/2026-07-01",
-        "description": "Anthropic a lance Claude Science, une application workbench IA disponible en beta pour les utilisateurs Pro, Max, Team et Enterprise sur macOS et Linux. Le workbench integre les outils scientifiques fragmentes en un seul environnement, rendant nativement les structures proteiques 3D, les pistes de genome browser et les structures chimiques. Les candidatures pour les projets pilotes sont ouvertes jusqu'au 15 juillet 2026.",
+        "title": "Runway lance Agent Skills : executer des campagnes publicitaires completes en une seule commande",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Runway a lance Agent Skills, une nouvelle fonctionnalite permettant d'executer des campagnes publicitaires completes avec une seule commande. Le systeme automatise l'ensemble du workflow creatif, de la conception a la production finale, en passant par les variantes et les declinaisons de format. Les Agent Skills representent l'evolution de Runway vers une plateforme creative agentique complete plutot qu'un simple outil de generation video.",
+        "source": "The Rundown AI",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": ""
+      },
+      {
+        "title": "Pika Labs lance MCP pour connecter son moteur creatif directement a Claude et aux agents IA",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Pika Labs a lance son integration MCP (Model Context Protocol), permettant a tout agent IA existant d'acceder aux meilleurs modeles creatifs et aux skills developpees par Pika. L'integration permet de donner a n'importe quel agent la capacite de creer du contenu riche — video, images et animations — directement depuis Claude ou d'autres plateformes compatibles MCP, sans quitter le workflow existant.",
+        "source": "NLP Newsletter",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": "https://experiment.pika.art/mcp"
+      },
+      {
+        "title": "Venice AI atteint le statut de licorne avec une Series A de 65 millions de dollars en IA privacy-first",
+        "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+        "description": "Venice AI a leve 65 millions de dollars en Series A, atteignant une valorisation de plus d'un milliard de dollars pour sa plateforme IA axee sur la confidentialite. Contrairement aux principaux labs IA qui collectent et utilisent les donnees utilisateurs, Venice AI promet de ne jamais stocker ni exploiter les conversations et donnees de ses utilisateurs, un positionnement qui seduit de plus en plus face aux preoccupations croissantes sur la vie privee.",
         "source": "DeepLearning.AI",
         "date": "1 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-01",
-        "officialUrl": "https://www.anthropic.com/news/claude-science-ai-workbench"
-      },
-      {
-        "title": "Devin Fusion : le harness multi-modeles de Cognition reduit les couts de 35% tout en maintenant les performances",
-        "url": "https://tldr.tech/ai/2026-06-30",
-        "description": "Cognition a lance Devin Fusion, un harness multi-modeles qui melange des modeles frontier et economiques pour reduire les depenses de 35% sur le benchmark FrontierCode tout en maintenant des performances de premier plan. Le systeme utilise une architecture double-agent avec un agent principal et un sidekick pour le routage dynamique des modeles. L'integration de Fable 5 ameliore encore l'efficacite avec une reduction de cout de 41%.",
-        "source": "Latent Space",
-        "date": "30 juin 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-30",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
         "officialUrl": ""
       },
       {
-        "title": "Meta Brain2Qwerty v2 convertit les signaux cerebraux en phrases en temps reel avec 61% de precision",
-        "url": "https://facebookresearch.github.io/brain2qwerty/",
-        "description": "Meta a ameliore son outil Brain2Qwerty v2 qui analyse les signaux cerebraux bruts et les convertit en phrases en temps reel, atteignant un taux de precision de 61%. C'est l'outil brain-to-text le plus performant de Meta a ce jour. L'entreprise indique qu'il pourrait beneficier aux personnes ayant perdu la capacite de parler apres un AVC, un accident ou un trouble cerebral.",
-        "source": "The Rundown AI",
-        "date": "30 juin 2026",
-        "urlType": "official",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://facebookresearch.github.io/brain2qwerty/",
-        "urlReason": "Pas de couverture newsletter ou article tiers avec URL directe disponible pour cette mise a jour de recherche Meta"
-      },
-      {
-        "title": "Google pourrait tester une mise a jour Gemini Flash sur LM Arena : Gemini 3.6 ou 4 Flash en approche",
-        "url": "https://www.testingcatalog.com/google-might-be-testing-gemini-flash-upgrade-on-lm-arena/",
-        "description": "Google testerait une nouvelle mise a jour de Gemini Flash sur LM Arena, offrant des ameliorations incrementales par rapport a la version actuelle. Bien qu'aucune confirmation officielle n'ait ete faite, les tests Arena ont souvent precede les lancements publics, attirant l'attention sur d'eventuels noms comme Gemini 3.6 Flash ou Gemini 4 Flash. Le tier Flash est crucial pour les utilisateurs gratuits et les developpeurs soucieux des couts.",
-        "source": "The Rundown AI",
-        "date": "2 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.testingcatalog.com/google-might-be-testing-gemini-flash-upgrade-on-lm-arena/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Z.ai lance ZCode : IDE multi-plateforme propulse par GLM-5.2 a un dixieme du cout des modeles frontier",
-        "url": "https://tldr.tech/ai/2026-07-02",
-        "description": "Z.ai a lance ZCode, un outil de codage IA disponible sur macOS, Windows et Linux, construit autour de son modele GLM-5.2 qui rivalise avec les modeles frontier a environ un dixieme du cout. ZCode combine les meilleurs agents IA avec les outils existants pour planifier, coder, verifier et deployer sans friction. Les abonnes GLM Coding Plan beneficient d'un quota d'utilisation 1,5x dans ZCode.",
-        "source": "Alpha Signal",
-        "date": "2 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-02",
-        "officialUrl": "https://zcode.z.ai/en"
-      },
-      {
-        "title": "Cursor arrive sur iOS en beta publique : gerer ses projets de code depuis son telephone",
-        "url": "https://tldr.tech/ai/2026-06-30",
-        "description": "Cursor a lance son application iOS en beta publique, permettant aux developpeurs de gerer leurs projets depuis n'importe ou via des agents cloud ou locaux. L'application permet de lancer et controler des agents, recevoir des mises a jour via Live Activities, et fusionner des pull requests en deplacement. Les workflows supportes incluent la gestion d'incidents, la resolution de problemes clients et le suivi des retours utilisateurs.",
+        "title": "Wayve ouvre une offre de rachat de 85 millions a ses employes a 8,5 milliards de valorisation",
+        "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation",
+        "description": "Wayve, startup britannique de conduite autonome, permet a ses employes de vendre une partie de leurs actions acquises via une offre de rachat de 85 millions de dollars a sa derniere valorisation de 8,5 milliards. C'est le deuxieme evenement de liquidite de Wayve, qui fait partie d'une tendance croissante dans les startups IA utilisant les tender offers comme outil de retention plutot que d'attendre une sortie traditionnelle.",
         "source": "Interconnects",
         "date": "30 juin 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-06-30",
-        "officialUrl": "https://cursor.com/blog/ios-mobile-app"
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation",
+        "officialUrl": ""
       },
       {
-        "title": "Laguna XS 2.1 : modele MoE 33B parametres optimise pour le codage agentique avec 63,1% sur SWE-bench Multilingual",
-        "url": "https://tldr.tech/ai/2026-07-03",
-        "description": "Laguna XS 2.1 est un modele Mixture-of-Experts de 33 milliards de parametres optimise pour le codage agentique et les taches a long horizon, affichant une amelioration de 5,4 points sur SWE-bench Multilingual a 63,1%. Il supporte diverses plateformes et offre trois checkpoints quantifies pour un deploiement econome en ressources. Le modele est distribue sous licence OpenMDW-1.1 et disponible sur Hugging Face.",
+        "title": "Sakana AI resout le Sudoku multi-agents a 92,6% la ou les rivaux plafonnent a 34% avec Sheaf-ADMM",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Sakana AI a presente Sheaf-ADMM, une nouvelle methode de coordination multi-agents qui atteint 92,6% de precision sur des problemes de Sudoku collaboratifs, la ou les approches rivales plafonnent a 34%. La methode unifie deux camps rivaux d'optimisation IA et reduit significativement les couts de fusion de LLM. Le travail demontre une avancee fondamentale dans la capacite des systemes multi-agents a resoudre des problemes de contrainte distribues.",
         "source": "NLP Newsletter",
-        "date": "3 juillet 2026",
+        "date": "5 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-03",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
         "officialUrl": ""
       },
       {
-        "title": "Amazon lance une organisation FDE a 1 milliard de dollars pour accelerer le deploiement IA en entreprise",
-        "url": "https://techcrunch.com/2026/07/01/amazon-web-services-creates-1b-ai-deployment-organization/",
-        "description": "Amazon Web Services a annonce la creation d'une organisation FDE dotee d'un milliard de dollars pour aider les entreprises a deployer l'IA a grande echelle. L'initiative intervient deux jours avant le lancement de Microsoft Frontier Company, illustrant la course entre les hyperscalers pour monetiser les deployments IA. AWS, Microsoft et les labs IA comme OpenAI et Anthropic ont tous cree des structures similaires en 2026.",
-        "source": "Interconnects",
+        "title": "Un magnat tech indien investit 30 millions de dollars dans une alternative IA a Microsoft Office",
+        "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "description": "Un dirigeant technologique indien a investi 30 millions de dollars de ses fonds propres pour construire une alternative a Microsoft Office propulsee par l'IA. Le projet vise a creer une suite bureautique nativement IA, concurrencant directement les outils de productivite etablis en integrant l'intelligence artificielle au coeur de chaque fonctionnalite plutot qu'en ajoutant l'IA comme couche supplementaire.",
+        "source": "Aakash's Newsletter",
         "date": "1 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/amazon-web-services-creates-1b-ai-deployment-organization/",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Ant Group optimise Qwen3-Omni avec vLLM : 5,4x plus rapide avec reponse audio en 0,6 seconde",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Ant Group a pousse le modele Qwen3-Omni a une vitesse 5,4 fois superieure avec un temps de reponse audio de seulement 0,6 seconde grace a des optimisations vLLM. Cette amelioration significative des performances d'inference rend les modeles multimodaux plus viables pour les applications en temps reel, rapprochant les interactions vocales IA de la fluidite des conversations humaines.",
+        "source": "Latent Space",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": ""
+      },
+      {
+        "title": "Kilo teste GLM-5.2 de Z.ai sur des bugs reels et revele une faiblesse surprenante",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Kilo a mene une evaluation approfondie du modele GLM-5.2 de Z.ai en le testant sur des bugs reels de production plutot que sur des benchmarks synthetiques. L'analyse a revele une faiblesse surprenante du modele dans certaines categories de debugging, malgre ses excellentes performances sur les benchmarks standards. L'etude souligne l'ecart persistant entre les performances en benchmark et les capacites en conditions reelles.",
+        "source": "Aakash's Newsletter",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
         "officialUrl": ""
       }
     ],
     "goodToKnow": [
       {
-        "title": "Gemini Spark arrive sur Mac : l'assistant agentique de Google travaille avec les fichiers locaux",
-        "url": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "description": "Gemini Spark est desormais disponible sur Mac via l'application macOS, capable de travailler directement avec les fichiers locaux. L'assistant peut trier un dossier Telechargements encombre ou transformer des fichiers du bureau en documents ou feuilles de calcul. Google indique que l'execution de taches a distance depuis le telephone vers le Mac arrive prochainement. La fonctionnalite est disponible en beta pour les membres Google AI Ultra.",
+        "title": "Google diffuse une pub imaginant la Declaration d'Independance ecrite avec l'aide de l'IA pour le 4 juillet",
+        "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+        "description": "Google a diffuse un spot publicitaire pour le 4 juillet 2026 imaginant ce qu'aurait ete la Declaration d'Independance americaine si ses auteurs avaient eu acces a l'IA. La publicite, diffusee pour le 250e anniversaire de l'independance americaine, a suscite des reactions mitigees sur les reseaux sociaux, illustrant les debats persistants sur la place de l'IA dans la culture et l'histoire.",
+        "source": "Mozza Bytes",
+        "date": "4 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Meta lance discretement Pocket, une app de jeux entierement vibe-codee par l'IA",
+        "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "description": "Meta a lance discrètement Pocket, une application de jeux mobile dont le code a ete entierement genere par l'IA via le processus dit de vibe coding. L'app illustre une nouvelle approche du developpement logiciel ou l'IA prend en charge l'integralite de l'implementation technique a partir de directives de haut niveau, reduisant drastiquement le temps et les couts de developpement de jeux mobiles.",
+        "source": "The Rundown AI",
+        "date": "2 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Superpowers 6 de Jesse Vincent reduit les couts de codage IA de 60% apres des experiences Fable overnight",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Jesse Vincent a lance Superpowers 6, une mise a jour qui reduit les couts de codage IA de 60% grace a des experimentations nocturnes avec Claude Fable 5. L'outil demontre que des optimisations significatives de couts sont possibles en exploitant les capacites de raisonnement avancees des modeles frontier pour reconfigurer les pipelines de codage agentique existants.",
+        "source": "Alpha Signal",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": ""
+      },
+      {
+        "title": "Alibaba Wan Video transforme n'importe quelle photo en clip dansant synchronise sur la musique",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Alibaba a lance une nouvelle fonctionnalite de Wan Video permettant de transformer n'importe quelle photo en clip video de danse synchronise sur la musique choisie. Le modele analyse le rythme musical et genere des mouvements de danse realistes appliques au sujet de la photo, illustrant les progres rapides de la generation video conditionnelle en IA generative.",
+        "source": "Mozza Bytes",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": ""
+      },
+      {
+        "title": "Sakana AI unifie deux camps rivaux d'optimisation pour reduire les couts de fusion de LLM",
+        "url": "https://tldr.tech/ai/2026-07-05",
+        "description": "Sakana AI a publie une recherche unifiant deux approches rivales d'optimisation IA — l'optimisation convexe distribuee et les methodes topologiques — en un seul framework. Cette unification permet de reduire significativement les couts de fusion de grands modeles de langage tout en maintenant la qualite. Le travail represente une avancee theorique fondamentale dans l'optimisation de modeles IA distribues.",
+        "source": "Latent Space",
+        "date": "5 juillet 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-05",
+        "officialUrl": ""
+      },
+      {
+        "title": "Vint Cerf, le Pere de l'Internet, prend sa retraite de Google apres des decennies de contribution",
+        "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+        "description": "Vint Cerf, co-inventeur du protocole TCP/IP et surnomme le Pere de l'Internet, a annonce sa retraite de Google ou il occupait le poste de Chief Internet Evangelist. Son depart marque la fin d'une ere pour l'un des architectes les plus influents de l'infrastructure numerique mondiale, au moment ou l'IA transforme profondement le web qu'il a contribue a creer.",
         "source": "DeepLearning.AI",
-        "date": "2 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "officialUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
-      },
-      {
-        "title": "Acti lance un clavier agentique IA pour iOS et Android : 3 millions de vues pour la video de lancement",
-        "url": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "description": "Acti a lance un agent IA propulse par Gemini integre directement dans le clavier du telephone, invocable en maintenant la barre d'espace dans n'importe quelle application. L'agent lit l'ecran, comprend le contexte et intervient pour aider. La video de lancement a cumule plus de 3 millions de vues, illustrant l'interet massif pour les agents IA natifs mobiles.",
-        "source": "Latent Space",
-        "date": "1 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.superhuman.ai/p/sam-altman-pushes-for-ai-sovereign-wealth-fund",
-        "officialUrl": "https://openacti.com/"
-      },
-      {
-        "title": "Devin Security Swarm : Agentic MapReduce pour detecter les vulnerabilites dans les codebases complexes",
-        "url": "https://tldr.tech/ai/2026-07-03",
-        "description": "Cognition a lance Devin Security Swarm, une architecture d'Agentic MapReduce pour le raisonnement sur des codebases entieres. Le systeme cartographie les signaux pertinents a travers un depot, deploie des agents cibles sur des partitions bornees, reduit leurs trouvailles en un rapport unique, puis verifie les vulnerabilites serieuses dans des sandboxes isolees avant de les marquer comme confirmees.",
-        "source": "NLP Newsletter",
-        "date": "3 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://tldr.tech/ai/2026-07-03",
-        "officialUrl": ""
-      },
-      {
-        "title": "Autoresearch : la boucle de feedback derriere les agents auto-ameliorants selon Introspection",
-        "url": "https://www.latent.space/p/autoresearch-introspection",
-        "description": "Latent Space a interviewe le fondateur d'Introspection sur l'autoresearch en production : des boucles ou des agents maintiennent et ameliorent le systeme principal. Le concept repose sur une boucle interieure (interaction utilisateur) et une boucle exterieure (recherche et maintenance automatique). L'approche transforme les organisations produit en mini-labos de recherche, avec des agents agissant comme des chercheurs miniatures.",
-        "source": "Latent Space",
-        "date": "1 juillet 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.latent.space/p/autoresearch-introspection",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "SGLang Agent-Assisted Development : transformer les workflows agents en fichiers SKILL.md reutilisables",
-        "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
-        "description": "L'equipe SGLang de LMSYS a detaille comment les workflows agents sont transformes en fichiers SKILL.md reutilisables, avec des contrats de benchmark, des boucles de revue et des playbooks de debugging en production. L'article presente la valeur des agents a travers la capitalisation des connaissances d'ingenierie procedurale qui peuvent etre executees, testees et revues systematiquement.",
-        "source": "Aakash's Newsletter",
-        "date": "2 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
-        "officialUrl": ""
-      },
-      {
-        "title": "ChatGPT Finance Personnel desormais disponible pour les utilisateurs Plus avec donnees financieres",
-        "url": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "description": "La plateforme de finance personnelle de ChatGPT, initialement reservee aux utilisateurs Pro, est desormais accessible aux abonnes Plus. La fonctionnalite permet d'obtenir des conseils financiers personnalises bases sur les donnees financieres de l'utilisateur. Cette expansion fait suite a l'annonce initiale de mai 2026 et elargit significativement la base d'utilisateurs potentiels du service.",
-        "source": "Aakash's Newsletter",
-        "date": "2 juillet 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.superhuman.ai/p/a-5b-startup-emerges-from-stealth",
-        "officialUrl": "https://openai.com/index/personal-finance-chatgpt/"
-      },
-      {
-        "title": "Mozza Bytes : les petits modeles IA vont-ils tuer les gros ? Le debat s'intensifie",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2eb",
-        "description": "L'edition du 30 juin de Mozza Bytes analyse le debat croissant sur la viabilite des petits modeles IA face aux grands modeles frontier. L'edition couvre egalement l'integration de Claude dans Slack permettant a l'IA de venir aux utilisateurs plutot que l'inverse, les derniers outils dont EdgeOne Makers et BrowserAct, et les evenements IA a venir.",
-        "source": "Mozza Bytes",
         "date": "30 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2eb",
-        "thirdPartyUrl": "",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
         "officialUrl": ""
       },
       {
-        "title": "Alphabet perd pres de 270 milliards de dollars apres une vague de departs chez DeepMind",
-        "url": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2eb",
-        "description": "Alphabet a perdu pres de 270 milliards de dollars de capitalisation boursiere suite a une vague de departs de chercheurs cles chez DeepMind. Cette hemorragie de talents fait suite aux recents departs de Noam Shazeer pour OpenAI et des chercheurs Gemini Jonas Adler et Alexander Pritzel pour Anthropic, dans un contexte de concurrence intense entre les labs IA pour attirer les meilleurs talents.",
-        "source": "Mozza Bytes",
+        "title": "Le trio DeepMind derriere l'IA poker EquiLibre gere desormais des fonds pour les hedge funds quantitatifs",
+        "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+        "description": "Trois anciens chercheurs de DeepMind qui ont construit une IA poker de pointe ont fonde EquiLibre Technologies et gerent desormais de l'argent pour des hedge funds quantitatifs. Leur expertise en theorie des jeux et IA s'applique directement aux marches financiers, ou les decisions sous incertitude et l'information incomplete sont centrales. Le transfert de talents de la recherche IA vers la finance s'accelere.",
+        "source": "Interconnects",
         "date": "30 juin 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://mozzabytes.substack.com/p/les-news-ia-de-la-semaine-2eb",
-        "thirdPartyUrl": "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
         "officialUrl": ""
       },
       {
-        "title": "Bridgewater et Thinking Machines : fine-tuner Qwen3-235B surpasse les modeles frontier a 1/14e du cout",
-        "url": "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/",
-        "description": "Bridgewater Associates et Thinking Machines ont fine-tune le modele Qwen3-235B d'Alibaba sur des donnees expertisees pour la pertinence financiere, passant de 50% de precision a 85%, tout en coutant environ 14 fois moins cher par tache que les modeles frontier. L'experience montre que les prompts experts ameliorent drastiquement les performances avant meme le fine-tuning, tandis que les modeles plus chers n'apportent qu'un point ou deux de gain supplementaire.",
+        "title": "OpenClaw enfin disponible sur Android et iOS : l'application de dating IA se generalise",
+        "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "description": "OpenClaw est desormais disponible sur Android et iOS, rendant l'application de dating propulsee par l'IA accessible au grand public sur les deux principales plateformes mobiles. L'application utilise l'intelligence artificielle pour ameliorer le matching et les interactions entre utilisateurs, s'inscrivant dans la tendance croissante de l'IA dans les applications de rencontre.",
+        "source": "Superhuman",
+        "date": "30 juin 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Jersey Mike's en Bourse illustre a quel point le hype IA a deraille dans les marches financiers",
+        "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+        "description": "L'introduction en Bourse de Jersey Mike's, chaine de sandwiches americaine, a illustre l'ampleur du hype IA sur les marches financiers quand l'entreprise a vu sa valorisation bondir apres avoir mentionne l'IA dans ses documents d'introduction. L'article de TechCrunch analyse comment la simple mention de l'intelligence artificielle dans un prospectus d'IPO suffit desormais a gonfler les valorisations, meme pour des entreprises sans lien reel avec le secteur.",
         "source": "Mozza Bytes",
         "date": "2 juillet 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/",
+        "thirdPartyUrl": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
         "officialUrl": ""
       }
     ]

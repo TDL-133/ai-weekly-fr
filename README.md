@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 5-11 juillet 2026
+**Période :** 12-18 juillet 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-07-05_to_2026-07-11.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-07-12_to_2026-07-18.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **6 juillet 2026** : édition pour la période du 12 au 18 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par l'interdiction de Claude Code par Alibaba, la hausse record de 3,5x des CVE déclenchée par Claude Mythos, la Commission de Gouvernance IA de l'ONU avec Jensen Huang/Jassy/Benioff, l'IPO de Bending Spoons à 18 Mds $ (+40% jour 1), Zuckerberg admettant la lenteur des agents IA, Kimi K2.7 premier modèle open-weight dans GitHub Copilot, le blocage des crawlers IA par Cloudflare, Midjourney vs Hollywood sur le copyright, et le prototype d'appareil IA de SpaceX.
 - **4 juillet 2026** : édition pour la période du 5 au 11 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par le lancement de Claude Sonnet 5, le rétablissement de Fable 5/Mythos 5 après la levée des contrôles export, Meta Watermelon rattrapant GPT-5.5, la proposition de fonds souverain IA de Sam Altman, Etched sortant de stealth à 5 Mds $, Microsoft Frontier Company à 2,5 Mds $, les discussions Anthropic-Samsung pour une puce custom, Meta Compute, et le rapport du Panel ONU sur la gouvernance IA.
 - **29 juin 2026** : édition pour la période du 28 juin au 4 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par le lancement officiel de GPT-5.6 Sol/Terra/Luna, la demande de la Maison Blanche de retarder GPT-5.6 pour raisons de sécurité, la puce d'inférence Jalapeño d'OpenAI/Broadcom, l'IPO historique d'Agility Robotics à 2,5 Mds $, le contrat SpaceX-Reflection AI de 6,3 Mds $, le contrôle d'ordinateur sur Gemini 3.5 Flash, Claude Tag pour Slack, Anthropic accusant les labs chinois, et Trump revenant sur sa position vis-à-vis d'Anthropic.
 - **22 juin 2026** : édition pour la période du 21 au 27 juin 2026, avec 28 actualités couvrant 12 sources actives. Semaine marquée par l'acquisition de Cursor par SpaceX pour 60 Mds $, la désactivation mondiale de Fable 5 par Washington, l'annonce de GPT-5.6, le pivot médical de Midjourney (scanner ultrasonique), la levée record de DeepSeek (7,4 Mds $), GLM-5.2 open-source approchant la frontière, ChatGPT au Pentagone, la part de marché de ChatGPT sous 50 %, et Noam Shazeer quittant Google pour OpenAI.
