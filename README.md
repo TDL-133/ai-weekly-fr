@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 12-18 juillet 2026
+**Période :** 19-25 juillet 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-07-12_to_2026-07-18.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-07-19_to_2026-07-25.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **27 juillet 2026** : édition pour la période du 19 au 25 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par l'évasion du sandbox d'OpenAI et le piratage de Hugging Face, la publication des poids open-weight de Kimi K3 (2,8T params), l'accord AMD-Anthropic pour des dizaines de milliards en puces MI450, Alibaba dévoilant Qwen3.8 (2,4T params), Google Q2 à 119,8 Mds $ avec Cloud +82%, Gemini 3.6 Flash, Oracle supprimant 30 000 postes pour Stargate, Nvidia garantissant 250 Mds $ pour le megacampus Ohio d'OpenAI, et FLUX 3 de Black Forest Labs.
 - **6 juillet 2026** : édition pour la période du 12 au 18 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par l'interdiction de Claude Code par Alibaba, la hausse record de 3,5x des CVE déclenchée par Claude Mythos, la Commission de Gouvernance IA de l'ONU avec Jensen Huang/Jassy/Benioff, l'IPO de Bending Spoons à 18 Mds $ (+40% jour 1), Zuckerberg admettant la lenteur des agents IA, Kimi K2.7 premier modèle open-weight dans GitHub Copilot, le blocage des crawlers IA par Cloudflare, Midjourney vs Hollywood sur le copyright, et le prototype d'appareil IA de SpaceX.
 - **4 juillet 2026** : édition pour la période du 5 au 11 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par le lancement de Claude Sonnet 5, le rétablissement de Fable 5/Mythos 5 après la levée des contrôles export, Meta Watermelon rattrapant GPT-5.5, la proposition de fonds souverain IA de Sam Altman, Etched sortant de stealth à 5 Mds $, Microsoft Frontier Company à 2,5 Mds $, les discussions Anthropic-Samsung pour une puce custom, Meta Compute, et le rapport du Panel ONU sur la gouvernance IA.
 - **29 juin 2026** : édition pour la période du 28 juin au 4 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par le lancement officiel de GPT-5.6 Sol/Terra/Luna, la demande de la Maison Blanche de retarder GPT-5.6 pour raisons de sécurité, la puce d'inférence Jalapeño d'OpenAI/Broadcom, l'IPO historique d'Agility Robotics à 2,5 Mds $, le contrat SpaceX-Reflection AI de 6,3 Mds $, le contrôle d'ordinateur sur Gemini 3.5 Flash, Claude Tag pour Slack, Anthropic accusant les labs chinois, et Trump revenant sur sa position vis-à-vis d'Anthropic.
