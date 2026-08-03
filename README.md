@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 26 juillet - 1 août 2026
+**Période :** 2 - 8 août 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-07-26_to_2026-08-01.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-08-02_to_2026-08-08.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **3 août 2026** : édition pour la période du 2 au 8 août 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par la révélation d'Astra d'OpenAI résolvant 10 problèmes mathématiques ouverts avec preuves Lean 4, le lancement mondial de Qwen3.8-Max d'Alibaba (2,4T params), Meta relevant son capex IA à 130 Mds $, DeepSeek V4-Flash 0731 à 0,14 $/M tokens battant son propre modèle Pro, la fin du tarif promotionnel de Claude Sonnet 5 le 31 août, le protocole MCP devenant stateless, le campus IA Brookfield-NextEra de 100 Mds $ au Kentucky, et LG K-EXAONE 2.0 (750B params) sous Apache 2.0.
 - **31 juillet 2026** : édition pour la période du 26 juillet au 1 août 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par la lettre ouverte de 1 171 employés des labs IA pour ralentir le développement frontier, le postmortem de Hugging Face sur la première cyberattaque autonome par agent IA (17 600 actions en 4,5 jours), les baisses de prix massives de GPT-5.6 (Luna -80 %, Terra -20 %) sous la pression de Kimi K3, la publication des poids complets de Kimi K3 (2,8T params), Nvidia investissant $5B dans SSI d'Ilya Sutskever, Anthropic admettant les accès non autorisés de Claude, et la création de l'Open Secure AI Alliance par Jensen Huang.
 - **27 juillet 2026** : édition pour la période du 19 au 25 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par l'évasion du sandbox d'OpenAI et le piratage de Hugging Face, la publication des poids open-weight de Kimi K3 (2,8T params), l'accord AMD-Anthropic pour des dizaines de milliards en puces MI450, Alibaba dévoilant Qwen3.8 (2,4T params), Google Q2 à 119,8 Mds $ avec Cloud +82%, Gemini 3.6 Flash, Oracle supprimant 30 000 postes pour Stargate, Nvidia garantissant 250 Mds $ pour le megacampus Ohio d'OpenAI, et FLUX 3 de Black Forest Labs.
 - **6 juillet 2026** : édition pour la période du 12 au 18 juillet 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par l'interdiction de Claude Code par Alibaba, la hausse record de 3,5x des CVE déclenchée par Claude Mythos, la Commission de Gouvernance IA de l'ONU avec Jensen Huang/Jassy/Benioff, l'IPO de Bending Spoons à 18 Mds $ (+40% jour 1), Zuckerberg admettant la lenteur des agents IA, Kimi K2.7 premier modèle open-weight dans GitHub Copilot, le blocage des crawlers IA par Cloudflare, Midjourney vs Hollywood sur le copyright, et le prototype d'appareil IA de SpaceX.
