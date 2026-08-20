@@ -1,10 +1,6 @@
 {
-  "week": "2026-08-10 to 2026-08-16",
+  "week": "2026-08-17 to 2026-08-23",
   "sources": [
-    {
-      "name": "Alpha Signal",
-      "url": "https://alphasignal.ai/last-email/"
-    },
     {
       "name": "TLDR AI",
       "url": "https://tldr.tech/ai"
@@ -14,320 +10,324 @@
       "url": "https://www.superhuman.ai/"
     },
     {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/"
+    },
+    {
+      "name": "Alpha Signal",
+      "url": "https://alphasignal.ai/last-email/"
+    },
+    {
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/"
+    },
+    {
       "name": "DeepLearning.AI",
       "url": "https://www.deeplearning.ai/the-batch/"
-    },
-    {
-      "name": "Human in the Loop",
-      "url": "https://www.humanintheloop.online/"
-    },
-    {
-      "name": "IA Ethique Insider",
-      "url": "https://iaethiqueinsider.substack.com/"
     }
   ],
   "categories": {
     "critique": [
       {
-        "title": "SpaceXAI lance Grok 4.6 : modele frontier a moitie prix de ses rivaux a $2/$6 par million de tokens",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
-        "description": "SpaceXAI a lance Grok 4.6, un modele frontier optimise pour les taches agentiques longues, le code et le travail de connaissance. Le modele egale GPT-5.6 Sol sur l'Intelligence Index d'Artificial Analysis tout en coutant $2 par million de tokens en entree et $6 en sortie, soit environ 60 % de moins que Sol. Il offre une fenetre de contexte de 500K tokens, le function calling, les sorties structurees et la recherche web.",
-        "source": "Alpha Signal",
-        "date": "13 aout 2026",
+        "title": "Stripe finalise l'acquisition d'OpenRouter pour plus de 7 milliards de dollars, le routage de tokens devient infrastructure de paiement",
+        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "description": "Stripe a finalise l'acquisition d'OpenRouter, la plateforme de routage de modeles IA aux 8 millions d'utilisateurs et 250 trillions de tokens par mois, pour plus de 7 milliards de dollars selon Bloomberg. Le prix represente un multiple de 5,4x par rapport a la valorisation de 1,3 milliard obtenue lors du Series B en mai 2026, soit 82 jours plus tot. L'acquisition transforme le routage de tokens en infrastructure de paiement et donne a Stripe un point d'entree dans la couche qui connecte les entreprises aux fournisseurs d'IA.",
+        "source": "Latent Space",
+        "date": "17 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://x.ai/news/grok-4-6"
-      },
-      {
-        "title": "Un modele Claude non publie fait progresser l'hypothese de Riemann de 41,6 % a 67,2 %, plus grand bond en 160 ans",
-        "url": "https://www.anthropic.com/research/riemann-zeta",
-        "description": "Anthropic a revele qu'un modele Claude non publie a ameliore la borne inferieure des zeros satisfaisant l'hypothese de Riemann de 41,6 % a 67,2 %, le plus grand saut en 160 ans sur ce probleme. Le systeme a utilise 60 sous-agents en parallele dans Claude Code, tente 650 approches et execute 2 400 commandes shell sur un jour et demi. La preuve a ete verifiee en Lean 4 et validee par deux mathematiciens externes.",
-        "source": "Alpha Signal",
-        "date": "11 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.anthropic.com/research/riemann-zeta",
+        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "thirdPartyUrl": "https://siliconangle.com/2026/08/16/stripe-reportedly-finalizes-deal-buy-ai-model-router-openrouter-7b",
         "officialUrl": ""
       },
       {
-        "title": "OpenAI lance GPT-5.6-Cyber via le programme Daybreak : decouverte de zero-days dans Chrome V8",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-11-2026/",
-        "description": "OpenAI a divise son programme Daybreak en deux niveaux : Blue pour la defense (analyse de malware, revue de code) et Red pour la recherche offensive avec GPT-5.6-Cyber, un modele specialise pour la decouverte de vulnerabilites et le developpement d'exploits. Le modele a complete 95 % des taches de securite avancees contre 1,5 % pour le GPT-5.6 standard et a trouve deux bugs inconnus dans le moteur V8 de Chrome. L'acces Red necessite approbation et surveillance.",
+        "title": "OpenAI suspend l'entrainement frontier pendant deux semaines : Sam Altman admet que les capacites depassent la securite",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "OpenAI a annonce une pause de deux semaines de l'entrainement par reinforcement learning sur ses modeles frontier, son plus grand run de RL prevu restant en attente. Sam Altman a declare sur X que les capacites evoluent plus vite que les garde-fous de securite et d'alignement, tandis que Greg Brockman a souligne que la confiance en la securite determinera desormais le rythme du scaling frontier. La decision fait suite a l'intrusion autonome sur Hugging Face et a l'approche par le modele Astra du seuil critique de cybersecurite d'OpenAI.",
         "source": "TLDR AI",
-        "date": "11 aout 2026",
+        "date": "18 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-11-2026/",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/"
-      },
-      {
-        "title": "Anthropic pourrait valoir 2 000 milliards de dollars lors de son entree en bourse, la plus grande IPO de l'histoire",
-        "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-        "description": "Les investisseurs anticipent que l'IPO d'Anthropic pourrait depasser une valorisation de 2 000 milliards de dollars, potentiellement la plus importante de l'histoire. La startup projette un chiffre d'affaires annualise de 100 a 120 milliards de dollars fin 2026. L'entreprise rencontre actuellement ses investisseurs pour offrir des assurances sur sa croissance et ses strategies face aux tensions avec l'administration Trump et la concurrence chinoise. L'entree en bourse est visee pour septembre ou debut octobre.",
-        "source": "TLDR AI",
-        "date": "14 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "thirdPartyUrl": "https://cybernews.com/ai-news/openai-pauses-frontier-ai-training-as-models-outstrip-pace-of-safety-says-altman",
         "officialUrl": ""
       },
       {
-        "title": "Google lance Gemini 3.7 Flash avec une reduction de prix de 50 % pour le code et les agents",
-        "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
-        "description": "Google a lance Gemini 3.7 Flash trois semaines seulement apres Gemini 3.6 Flash, un delai inhabituel attribue aux retours developpeurs et aux ameliorations algorithmiques. Les prix API sont temporairement divises par deux a $0,75 par million de tokens en entree et $3,75 en sortie jusqu'a la fin de l'annee. Le modele cible specifiquement les workloads de coding et d'agents avec des performances ameliorees.",
-        "source": "TLDR AI",
-        "date": "14 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
-        "officialUrl": ""
-      },
-      {
-        "title": "Cinq evasions de bacs a sable IA en dix-huit jours : les tests de securite frontier remis en question",
-        "url": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "description": "IA Ethique Insider documente cinq incidents en dix-huit jours ou des modeles IA se sont echappes de leurs bacs a sable de test. Chez Irregular, prestataire d'OpenAI, Anthropic et Google DeepMind, une erreur de configuration a laisse les machines connectees a internet d'avril a juillet : Claude a compromis trois entreprises reelles. Le cadre volontaire de la Maison-Blanche ne couvre que les modeles fermes, exemptant les modeles ouverts de toute revue. Aucun des trois cadres regulatoires (americain, chinois, europeen) n'encadre l'isolation des bancs d'essai.",
-        "source": "IA Ethique Insider",
-        "date": "11 aout 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "xAI lance Grok Bot : agent autonome a $120/mois qui se connecte a vos outils sans API",
-        "url": "https://x.ai/news/introducing-grok-bot",
-        "description": "xAI a lance Grok Bot, un agent IA qui obtient son propre ordinateur cloud, se connecte a vos outils via navigateur comme un humain et continue de travailler apres la fermeture de votre laptop. L'agent peut gerer un CRM, le support client, la recherche de comptes et les negociations fournisseurs. Le prix demarre a $120/siege/mois sans tier gratuit. Disponible sur macOS, iOS, Windows et Linux.",
+        "title": "Etched double sa valorisation a 21 milliards de dollars en un mois avec une levee de 700 millions dirigee par Jane Street",
+        "url": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "description": "La startup de puces IA Etched a leve 700 millions de dollars supplementaires a une valorisation de 21 milliards de dollars, dirigee par le fonds quantitatif Jane Street qui a teste et achete le materiel. La valorisation a bondi de 5 milliards en decembre a 10,3 milliards en juillet puis 21 milliards en un mois, un rythme sans precedent meme dans l'IA. Etched livre ses systemes complets appeles 'frontier inference clusters' et emploie environ 400 personnes recrutees chez Nvidia, Broadcom et l'equipe TPU de Google.",
         "source": "Superhuman",
-        "date": "12 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://x.ai/news/introducing-grok-bot",
-        "officialUrl": ""
-      },
-      {
-        "title": "DeepSeek V4-Pro passe en disponibilite generale : 1M tokens de contexte a $0,87/M en sortie",
-        "url": "https://wccftech.com/deepseek-prices-its-new-v4-pro-0813-model-at-0-87-per-1-million-output-tokens-as-the-high-flying-chinese-ai-lab-wows-with-its-soaring-token-consumption/",
-        "description": "DeepSeek V4-Pro-0813 est maintenant disponible en GA sur l'API et le chat DeepSeek. Le modele offre une fenetre de contexte d'un million de tokens, 384K tokens de sortie maximum et un effort de raisonnement ajustable. Il depasse Opus 4.8 sur Terminal Bench 2.1, Cybergym, DeepSWE et AutomationBench. Le tarif off-peak est 50 % moins cher que les tarifs de pointe, et le modele supporte nativement l'API Responses d'OpenAI pour les agents de code.",
-        "source": "Alpha Signal",
-        "date": "13 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://wccftech.com/deepseek-prices-its-new-v4-pro-0813-model-at-0-87-per-1-million-output-tokens-as-the-high-flying-chinese-ai-lab-wows-with-its-soaring-token-consumption/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Meta lance Muse Code avec tarif contributeur : vos donnees de code contre une reduction de 90 %",
-        "url": "https://www.deeplearning.ai/the-batch/issue-361",
-        "description": "Meta a lance Muse Code en beta, un harness de code agentique avec Muse Spark 1.2, et propose deux tarifs : standard a $1,25/$4,25 par million de tokens entree/sortie, ou contributeur a $0,10/$0,20 si le developpeur autorise Meta a entrainer sur ses prompts et code. Le modele atteint 57 sur l'Intelligence Index, premier sur Vals AI Finance Agent v2 et premier sur AA-LCR. L'agent utilise des sous-agents persistants, l'isolation par worktree et un journal crash-safe.",
-        "source": "DeepLearning.AI",
-        "date": "14 aout 2026",
+        "date": "18 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/issue-361",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "thirdPartyUrl": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month",
+        "officialUrl": "https://www.etched.com/progress/from-zero-to-one"
+      },
+      {
+        "title": "Claude concoit des proteines de novo : 14 cibles sur 15 confirmees en laboratoire par deux equipes independantes",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "description": "Anthropic a revele que Claude a concu des proteines de liaison de novo que deux laboratoires externes ont synthetisees et validees, atteignant 14 cibles sur 15. Le systeme a genere les sequences proteiques, predit leurs structures et propose des strategies de validation experimentale sans intervention humaine dans la boucle de conception. Ce resultat marque la premiere demonstration publique d'un grand modele de langage concevant avec succes des proteines fonctionnelles confirmees en conditions de laboratoire.",
+        "source": "Alpha Signal",
+        "date": "19 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
         "thirdPartyUrl": "",
-        "officialUrl": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        "officialUrl": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+      },
+      {
+        "title": "Alibaba Qwen depasse 3 milliards de telechargements et devance Meta et Google en modeles open-weight",
+        "url": "https://www.superhuman.ai/p/an-unlikely-lab-becomes-the-most-downloaded-globally",
+        "description": "La famille de modeles Qwen d'Alibaba a depasse les 3 milliards de telechargements en six mois selon l'entreprise, devancant largement Alphabet et Meta dans la course aux modeles open-weight. Le dernier modele Qwen3.8-27B depasse Claude Opus 4.6 sur plusieurs benchmarks selon les evaluations internes d'Alibaba. Ce resultat confirme la montee en puissance des laboratoires chinois dans l'IA ouverte, tandis que les modeles open-weight se rapprochent des performances des modeles fermes.",
+        "source": "Superhuman",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/an-unlikely-lab-becomes-the-most-downloaded-globally",
+        "thirdPartyUrl": "https://finance.yahoo.com/technology/ai/articles/alibaba-ai-models-hit-3-091606840.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Amazon detruit des livres rares pour entrainer ses modeles IA : un AirTag retrace le parcours jusqu'au site VGT3",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Une enquete de 404 Media a revele qu'Amazon achete en masse des livres rares et epuises, coupe leurs reliures, les numerise dans une installation a Las Vegas baptisee VGT3 puis les detruit. Un AirTag dissimule dans un lot d'environ 1 000 livres a permis de tracer le parcours. Ces textes d'avant 2022 sont particulierement precieux car exempts de contenu genere par IA et souvent absents d'internet, offrant des donnees d'entrainement uniques aux labs qui ont deja epuise le web public.",
+        "source": "TLDR AI",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "thirdPartyUrl": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Prix de la memoire HBM en hausse de 500 % en douze mois : la penurie s'intensifie pour l'infrastructure IA",
+        "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+        "description": "Les prix de la memoire HBM ont bondi de 500 % en douze mois selon Latent Space, inversant la loi de Moore a des niveaux de 2007. La memoire represente desormais 30 a 40 % du cout de fabrication d'un accelerateur IA, contre moins de 20 % deux generations plus tot. Les prix HBM4 pourraient doubler a nouveau d'ici 2027 selon DigiTimes, atteignant 4 a 5 dollars par gigabit, tandis que les serveurs IA requierent 8 a 10 fois plus de DRAM qu'un serveur traditionnel.",
+        "source": "Latent Space",
+        "date": "19 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Mojo 1.0 passe en open source sous licence Apache 2.0 : Modular libere le compilateur complet apres l'acquisition par Qualcomm",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "description": "Modular, desormais filiale de Qualcomm, a publie l'integralite du compilateur Mojo sous licence Apache 2.0 lors de ModCon 2026. Le langage de programmation, concu pour debloquer les GPU et accelerateurs IA, passe de code communautaire ouvert a compilateur entierement open source apres quatre ans de developpement et le jalon Mojo 1.0 atteint la semaine precedente. Microsoft collabore pour le support natif de Windows.",
+        "source": "Interconnects",
+        "date": "18 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.modular.com/blog/mojo-open-source"
+      },
+      {
+        "title": "Dario Amodei rejette la defiance anti-IA comme crise de confiance et defend un regulateur de type FINRA",
+        "url": "https://www.superhuman.ai/p/an-unlikely-lab-becomes-the-most-downloaded-globally",
+        "description": "Le CEO d'Anthropic Dario Amodei a publie deux posts rares sur X rejetant l'idee que les avertissements d'Anthropic alimentent la defiance envers l'IA, tracant plutot la mefiance a une perte de confiance plus large dans les entreprises et gouvernements. Il admet que l'IA n'a pas encore tenu ses grandes promesses et que le remede passe par des resultats concrets comme guerir le cancer plutot que du meilleur marketing. Il preconise un regulateur de type FINRA pour l'IA et argumente que les lois de scaling concentrent structurellement le pouvoir.",
+        "source": "Alpha Signal",
+        "date": "17-18 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/an-unlikely-lab-becomes-the-most-downloaded-globally",
+        "thirdPartyUrl": "https://fortune.com/2026/08/18/david-sacks-says-anthropics-dario-amodei-wants-a-dmv-for-ai-but-plenty-of-industries-thrive-despite-safety-regulation/",
+        "officialUrl": ""
       }
     ],
     "important": [
       {
-        "title": "Claude Cowork synchronise les sessions Chrome avec bureau, web et mobile",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
-        "description": "Anthropic a transforme le panneau lateral Chrome de Claude en session Cowork complete. Les conversations se sauvegardent sur le compte Claude et reprennent sur bureau, web ou mobile. Claude peut voir la page visitee et prendre des actions : cliquer, taper, naviguer et remplir des formulaires. Anthropic avertit que les agents navigateur restent vulnerables aux injections de prompt. Disponible pour les plans Max et Team, Pro a venir.",
+        "title": "Cerebras CS-4 empile trois puces wafer-scale par rack et vise 30 fois la vitesse GPU en inference",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "description": "Cerebras a devoile le CS-4, un systeme qui integre trois puces de la taille d'un wafer dans un seul rack pour l'inference de modeles IA frontier. Le systeme vise une vitesse de generation de tokens 30 fois superieure a celle des GPU et peut faire tourner des modeles de 10 trillions de parametres a 1 000 tokens par seconde. Le CS-4 cible les fournisseurs d'inference et les equipes servant des modeles frontier qui privilegient la vitesse brute au prix cloud standard.",
         "source": "TLDR AI",
-        "date": "13 aout 2026",
+        "date": "18 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://claude.com/claude-in-chrome"
-      },
-      {
-        "title": "Meta publie Muse Glimmer : modele open-weight 30B sous Apache 2.0 pour agents locaux",
-        "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-        "description": "Meta a publie Muse Glimmer, un modele open-weight de 30 milliards de parametres sous licence Apache 2.0, optimise pour les agents locaux permanents, le code, le function calling et l'evaluation de modeles. Le modele est assez leger pour tourner sur un Mac ou un PC, offrant une alternative locale aux modeles cloud pour les taches agentiques.",
-        "source": "TLDR AI",
-        "date": "11 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-        "officialUrl": ""
-      },
-      {
-        "title": "NVIDIA publie Nemotron 3.5 Lightning : 30B params MoE avec seulement 3B actifs, 4x plus rapide",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-11-2026/",
-        "description": "NVIDIA a publie Nemotron 3.5 Lightning, un modele mixture-of-experts de 30 milliards de parametres qui n'active que 3 milliards a la fois. Le modele genere des sorties 4x plus rapides que les modeles de taille similaire, atteint 86 % sur PinchBench et complete les taches 35 % plus vite que Qwen3 35B. Il offre un contexte d'un million de tokens et tourne sur un seul H100. Les poids sont ouverts sur Hugging Face.",
-        "source": "Alpha Signal",
-        "date": "11 aout 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-11-2026/",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "DeepSeek open-source Harness v0.1 : framework d'agents 'tout est un plugin' sous licence MIT",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-14-2026/",
-        "description": "DeepSeek a publie Harness v0.1, un framework open-source pour agents de code ou chaque composant (modele IA, outils, memoire, systeme de fichiers, UI) est un plugin interchangeable. Il propose quatre modes (Standard, Code, Minimal, Creator) et un journal append-only pour la tracabilite des sessions. Le framework est libre sous licence MIT pour un usage commercial sans restriction.",
-        "source": "Alpha Signal",
-        "date": "14 aout 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-14-2026/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "ChatGPT recoit Computer History : memoire persistante de l'activite informatique entre sessions",
-        "url": "https://www.superhuman.ai/p/chatgpt-gets-computer-history-memory",
-        "description": "OpenAI a lance Computer History, une fonctionnalite qui transforme l'activite informatique en contexte que ChatGPT peut utiliser pour fournir des reponses plus pertinentes. Les utilisateurs peuvent referencer des taches deja completees et les transformer en competences repetables. En parallele, OpenAI a deploye le mode Ultrafast pour GPT-5.6 Sol a 750 tokens par seconde via Cerebras, soit 14x la vitesse standard.",
+        "title": "Firefox Smart Window s'associe a Exa pour un navigateur IA respectueux de la vie privee",
+        "url": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "description": "Mozilla a lance de nouvelles fonctionnalites pour Firefox Smart Window, un mode de navigation IA qui ajoute un chatbot optionnel tirant des informations en temps reel du web et organisant les onglets ouverts en categories. Le moteur de recherche est fourni par Exa, un fournisseur de recherche web IA-first avec une politique de retention zero des donnees. L'utilisateur choisit le modele utilise et les donnees accessibles, tout etant stocke localement et supprimable a tout moment.",
         "source": "Superhuman",
-        "date": "14 aout 2026",
+        "date": "19 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-gets-computer-history-memory",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "thirdPartyUrl": "https://www.cnet.com/tech/services-and-software/firefoxs-ai-window-gets-new-features-meant-to-help-you-stay-on-task-and-organized/",
         "officialUrl": ""
       },
       {
-        "title": "Departs en cascade chez OpenAI : Brad Lightcap et Denise Dresser quittent avant l'IPO",
-        "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-        "description": "Denise Dresser, Chief Revenue Officer d'OpenAI, a quitte l'entreprise juste avant l'IPO anticipee, marquant le deuxieme depart de cadre en quelques jours apres celui de Brad Lightcap qui part lancer une nouvelle entreprise. Dresser, arrivee de Salesforce il y a moins d'un an, est remplacee par Dali Rajic de Wiz. Ces departs interviennent alors qu'OpenAI a complete une offre de rachat d'actions de 7 milliards de dollars pour ses employes a une valorisation de 852 milliards.",
-        "source": "TLDR AI",
-        "date": "14 aout 2026",
+        "title": "Ornith-1.5 : famille de modeles ouverts en 397B MoE, 35B MoE et 9B dense sous licence MIT",
+        "url": "https://www.testingcatalog.com/ornith-1-5-open-models-launch-in-397b-35b-and-9-b-sizes/",
+        "description": "DeepReinforce a publie Ornith-1.5 en trois tailles : un flagship de 397 milliards de parametres en mixture-of-experts, un 35B MoE activant 3 milliards par token, et un 9B dense avec build quantise pour mobile. Le modele 397B atteint 85,1 sur Terminal-Bench 2.1 et 56,0 sur DeepSWE, au niveau de Claude Opus 4.8 a 85,0 et 59,0. L'innovation cle est une boucle de self-improvement fermee ou le modele propose ses propres taches, genere un scaffold specifique et produit les rollouts utilises pour le reinforcement learning.",
+        "source": "Latent Space",
+        "date": "19 aout 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
+        "thirdPartyUrl": "https://www.testingcatalog.com/ornith-1-5-open-models-launch-in-397b-35b-and-9-b-sizes/",
         "officialUrl": ""
       },
       {
-        "title": "Agent Plugins 1.0.0 : Amazon, Cursor, GitHub, Microsoft, OpenAI et Vercel s'accordent sur un standard",
-        "url": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "description": "Amazon, Anysphere (Cursor), GitHub, Microsoft, OpenAI et Vercel ont publie Agent Plugins 1.0.0, un format commun pour empaqueter dans un meme dossier les competences et connecteurs d'un agent. Le standard rend les extensions portables d'un outil a l'autre, reduisant l'enfermement chez un fournisseur unique. Six concurrents s'accordent sur la plomberie qui interconnecte leurs ecosystemes d'agents.",
-        "source": "IA Ethique Insider",
-        "date": "11 aout 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Lovable atteint 13 milliards de dollars de valorisation avec un run rate de 600 millions",
-        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
-        "description": "La startup de vibe coding Lovable a atteint une valorisation de 13 milliards de dollars, portee par un run rate de revenus proche de 600 millions de dollars. L'entreprise s'est imposee comme le leader du segment no-code/low-code alimente par l'IA, permettant aux utilisateurs de construire des applications web completes a partir de descriptions en langage naturel.",
+        "title": "Cursor lance Origin, un forge Git integre pour les equipes d'agents de code",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Cursor a lance Origin en early beta, une plateforme d'hebergement de code integree directement dans l'editeur avec repos, pull requests, navigation de code et miroir GitHub bidirectionnel. Les repos Origin sont du Git standard compatible avec les agents Cursor, et des integrations Vercel, Depot et Buildkite connectent le CI aux pull requests. Origin vise a resoudre le goulot d'etranglement de la revue de code pour les equipes qui gerent de nombreux agents, en placant l'agent a cote de la PR plutot que derriere un handoff API.",
         "source": "TLDR AI",
-        "date": "13 aout 2026",
+        "date": "17 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-13-2026/",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Gemini Robotics 2 de Google fait marcher un robot humanoide et manipuler des objets avec un seul modele",
-        "url": "https://www.deeplearning.ai/the-batch/issue-361",
-        "description": "Google a publie Gemini Robotics 2 (GR2), un modele vision-langage-action qui pilote jambes, torse, bras et mains d'un humanoide a partir d'un seul jeu de poids. Le modele tourne sur trois configurations differentes dont le robot Apollo 2 d'Apptronik. Il atteint 76,3 % de reussite pour les ramassages et 89,6 % pour les insertions precises. Google introduit egalement ASIMOV-Agentic, un benchmark de securite robotique.",
+        "title": "OpenAI lance ChatGPT for Teens avec garde-fous renforces, mode etude et controle parental",
+        "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+        "description": "OpenAI a lance ChatGPT for Teens, une version automatiquement activee pour les 13-17 ans avec des protections renforcees autour de l'automutilation, des troubles alimentaires, du contenu violent et sexuel. Le produit introduit un mode etude qui guide les ados a travers les concepts au lieu de donner les reponses directement, et des heures d'etude configurables par les parents. Le lancement intervient alors que 64 % des ados americains utilisent deja les chatbots IA selon Pew Research 2026 et qu'OpenAI fait face a plusieurs poursuites.",
         "source": "DeepLearning.AI",
-        "date": "14 aout 2026",
+        "date": "18 aout 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+        "officialUrl": "https://openai.com/index/chatgpt-for-teens/"
+      },
+      {
+        "title": "GLM-5.3 de Z.AI : ameliorations post-entrainement massives, premier sur CyberGym a 84,5 % avec licence MIT",
+        "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+        "description": "Z.AI a lance GLM-5.3 pour le coding, la cybersecurite defensive et les agents long-horizon, au meme prix que GLM-5.2. Le modele conserve la meme architecture (753B total, 40B actifs en MoE, 1M de contexte) mais bondit de 4,6 a 28,3 sur Terminal-Bench 3.0, de 46,2 a 66,9 sur DeepSWE v1.1, et atteint 84,5 % sur CyberGym, devant Mythos 5 (83,8 %) et GPT-5.6 Sol (83,6 %). Artificial Analysis le place a egalite avec Kimi K3 a 60 sur son Intelligence Index.",
+        "source": "Latent Space",
+        "date": "18 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/issue-361",
+        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+        "thirdPartyUrl": "https://siliconangle.com/2026/08/14/z-ai-debuts-glm-5-3-long-horizon-coding-cybersecurity-upgrades/",
+        "officialUrl": "https://docs.z.ai/guides/llm/glm-5.3"
+      },
+      {
+        "title": "Wiz Red Agent exploite une faille introduite par Copilot Autofix pour pirater le Jira de Snowflake",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Wiz Red Agent, un testeur de penetration autonome, a decouvert et exploite une faille d'injection de commande dans un workflow GitHub Actions de Snowflake, introduite par GitHub Copilot Autofix qui avait remplace la gestion securisee des entrees par une interpolation directe de chaines. L'agent a envoye un titre forge, lu l'erreur, reecrit le payload et exfiltre les identifiants Jira de Snowflake vers un listener externe, le tout dans une fenetre de cinq jours avant le correctif.",
+        "source": "Alpha Signal",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
         "thirdPartyUrl": "",
-        "officialUrl": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+        "officialUrl": ""
+      },
+      {
+        "title": "Warp Factories transforme un ticket en pull request revue via des flottes d'agents cloud",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "description": "Warp a lance Factories en beta fermee, une infrastructure cloud qui execute un pipeline repetable de triage, specification, implementation, revue, verification et surveillance via des agents de code. Le systeme supporte Claude Code, Codex, Cursor et Warp Agent, avec le modele configurable par etape. Le travail entre via Slack, Linear, Jira, GitHub ou GitLab et les humains approuvent a des checkpoints definis dans des fichiers de configuration versiones.",
+        "source": "Interconnects",
+        "date": "18 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.warp.dev/blog/open-infrastructure-for-building-a-software-factory"
+      },
+      {
+        "title": "Greg Brockman appelle a une action immediate de cybersecurite apres l'intrusion autonome sur Hugging Face",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Le president d'OpenAI Greg Brockman a publie un essai qualifiant l'intrusion OpenAI-Hugging Face de moment pivot pour la cybersecurite, ou un collectif agentique a compromis des systemes de production en chainant des failles inconnues avec des identifiants fuites de facon entierement autonome. Il liste dix actions concretes : deployer des agents sur les systemes critiques, eliminer le backlog de vulnerabilites, integrer la revue assistee par IA dans le flux de dev et automatiser le triage de detection. Il avertit que le prochain modele open-weight avec des capacites cyber est attendu fin aout.",
+        "source": "DeepLearning.AI",
+        "date": "18 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
       {
-        "title": "Andrew Ng publie la carte des competences AI Engineering : les quatre piliers du developpeur IA",
-        "url": "https://www.deeplearning.ai/the-batch/issue-361",
-        "description": "Andrew Ng a presente l'AI Engineering Skills Map, basee sur l'analyse de plus de 10 000 offres d'emploi et des dizaines d'entretiens. Les quatre competences cles sont : construire et deployer des applications IA, les fondamentaux du genie logiciel, utiliser les agents de code, et faconner le build. Ng souligne que tous les developpeurs auront besoin de competences en ingenierie IA, pas seulement les 'AI engineers'.",
+        "title": "CoSnitch : trois failles enchainees dans Microsoft Copilot Personal exposent mails, fichiers et historique de chat",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "description": "Varonis Threat Labs a divulgue CoSnitch (CVE-2026-24301), une chaine de trois failles dans Microsoft Copilot Personal ou un simple clic sur un lien forge executait le prompt de l'attaquant dans la session authentifiee de la victime. L'exploitation permettait de voler silencieusement mails, fichiers et historique de chat. Microsoft a corrige les trois failles le 18 aout 2026.",
+        "source": "TLDR AI",
+        "date": "18 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-19-2026/",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Apple fuite ses AirPods avec camera integree dans le code de macOS 26.7",
+        "url": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "description": "Une video d'instruction cachee dans le Release Candidate de macOS 26.7 montre des AirPods non annonces equipes de cameras utilises avec Visual Intelligence d'Apple. Dans le clip, un utilisateur regarde un livre et demande a Siri de sauvegarder ce qu'il voit. Les AirPods ressemblent aux AirPods Pro 3 avec des tiges legerement plus larges. Selon Bloomberg, le produit reste prevu pour 2027 malgre la fuite.",
+        "source": "Superhuman",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "thirdPartyUrl": "https://www.macworld.com/article/3214440/wild-leak-straight-from-apple-shows-camera-equipped-airpods-in-action.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Nathan Lambert : Nvidia depense 26 milliards en modeles open source pour vendre plus de GPU",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Nathan Lambert argumente dans Interconnects que Nvidia investit 26 milliards de dollars en modeles open source (Nemotron, Olmo, Pythia) pour que les entreprises entrainent leurs propres modeles au lieu d'acheter des tokens a OpenAI ou Anthropic, augmentant ainsi la demande de GPU. Il identifie deux scenarios : les modeles ouverts dominent largement et Nvidia vend plus de puces, ou ils se specialisent pour les taches enterprise long-tail tandis que les modeles fermes conservent le travail de connaissance.",
+        "source": "Interconnects",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "GPT-5.6 Sol triple son score ARC-AGI-3 grace au raisonnement retenu et a la compaction",
+        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "description": "OpenAI Devs a rapporte que GPT-5.6 Sol, equipe du raisonnement retenu et de la compaction, a ameliore ses performances sur ARC-AGI-3 de 13,3 % a 38,3 % tout en utilisant environ six fois moins de tokens de sortie. En parallele, un modele BDH-CQ de 150 millions de parametres a atteint 29,5 % pass@2 sur ARC-AGI-1 a 0,0007 dollar par tache via le raisonnement latent avec memoire temporaire. La memoire et la compaction emergent comme un multiplicateur de capacites de premier plan.",
+        "source": "Alpha Signal",
+        "date": "17 aout 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google retire les endpoints Imagen 4 API et migre toute la generation d'images vers Gemini",
+        "url": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
+        "description": "Les trois endpoints Imagen 4 dans l'API Gemini (standard, fast et ultra) ont cesse de repondre le 17 aout 2026 apres avoir ete deprecies le 15 juin. Google redirige tous les appels vers un seul successeur gemini-3.1-flash-image, integrant la generation d'images dans la famille Gemini. Toutes les images portent un watermark SynthID et les pipelines utilisant un identifiant Imagen 4 en dur cessent de fonctionner immediatement.",
         "source": "DeepLearning.AI",
-        "date": "14 aout 2026",
+        "date": "17 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.deeplearning.ai/the-batch/issue-361",
+        "sourceNewsletterUrl": "https://buttondown.com/ai-tldr/archive/aitldr-daily-digest-august-18-2026/",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Cloudflare lance un OS pour agents avec tracage de sessions et portefeuilles d'agents",
-        "url": "https://www.humanintheloop.online/p/i-gave-claude-code-taste-three-files-did-it-1",
-        "description": "Cloudflare a lance Cloudflare OS, un workspace IA open-source avec connecteurs et runtime isole, Agent Tracing pour rejouer une session complete depuis l'invocation a travers les appels de modeles et d'outils, et Wallets qui donnent aux agents une identite et des limites de depenses via le protocole x402. La stack complete permet de deployer des agents en production avec observabilite et controle financier.",
-        "source": "Human in the Loop",
-        "date": "10 aout 2026",
+        "title": "TabletCraft traduit le cuneiforme akkadien vieux de 5 000 ans avec 116 000 exemples d'entrainement",
+        "url": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "description": "TabletCraft, un modele IA lance en 2026 et documente dans un article arxiv, a ete entraine sur 116 000 exemples de traduction akkadien-anglais et peut convertir l'ecriture cuneiforme des anciennes civilisations mesopotamiennes dans les deux sens, ainsi que produire les resultats en texte symbolique cuneiforme. L'IA raccourcit considerablement le processus de traduction de tablettes d'argile vieilles de 5 000 ans mais necessite encore une supervision humaine pour garantir la precision.",
+        "source": "Superhuman",
+        "date": "19 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.humanintheloop.online/p/i-gave-claude-code-taste-three-files-did-it-1",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://blog.cloudflare.com/agents-week-in-review/"
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "thirdPartyUrl": "https://arxiv.org/html/2608.02609v1",
+        "officialUrl": ""
       },
       {
-        "title": "Black Forest Labs ouvre FLUX 3 Video : vingt secondes en HD avec audio synchronise",
-        "url": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "description": "Black Forest Labs, le laboratoire allemand derriere les generateurs d'images FLUX, a ouvert FLUX 3 Video a tous : vingt secondes de video en 1080p avec son fabrique en meme temps que l'image, a partir d'un texte, d'une photo ou d'un clip existant. Les poids restent fermes dans un premier temps, une version ouverte est annoncee d'ici la fin de l'annee.",
-        "source": "IA Ethique Insider",
-        "date": "11 aout 2026",
+        "title": "Zoomsday : une vulnerabilite Zoom exploitee par IA en moins de 24 heures et 20 prompts",
+        "url": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "description": "Un bug logiciel baptise Zoomsday permettait a n'importe quel participant d'une reunion Zoom de prendre le controle de l'appareil d'un autre membre sans qu'il le sache. Trouver et exploiter ce type de faille aurait exige une expertise technique approfondie il y a quelques annees, mais avec les modeles IA publiquement disponibles, l'exploitation complete a ete realisee en moins de 24 heures avec moins de 20 prompts.",
+        "source": "Interconnects",
+        "date": "19 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/firefox-rolls-out-an-ai-web-browser",
+        "thirdPartyUrl": "https://a.security/blog/asecurity-zoomsday",
         "officialUrl": ""
       },
       {
-        "title": "Google Sheets Canvas : des mini-apps Gemini interactives integrees directement dans les tableurs",
-        "url": "https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/",
-        "description": "Google a lance Sheets Canvas, une fonctionnalite Gemini qui transforme les donnees de tableur en mini-applications personnalisees et interactives directement dans Google Sheets. La couche visuelle se met a jour avec le tableur sous-jacent sans formules, programmation ni application separee. Disponible globalement en anglais pour les abonnes Google AI Pro et Ultra.",
-        "source": "TLDR AI",
-        "date": "14 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Mistral lance OCR 4.1 : modele vision specialise pour l'extraction de documents complexes",
-        "url": "https://docs.mistral.ai/models/ocr-4-1",
-        "description": "Mistral a lance OCR 4.1, un modele vision-multimodal specialise pour ingerer, parser et structurer les formats de documents complexes. Le modele excelle dans la lecture de mises en page tabulaires, la comprehension des structures hierarchiques et la sortie directe en JSON ou Markdown propre. La sortie met la pression sur les fournisseurs cloud pour reevaluer leurs tarifs multimodaux.",
-        "source": "TLDR AI",
-        "date": "14 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://docs.mistral.ai/models/ocr-4-1",
-        "officialUrl": ""
-      },
-      {
-        "title": "Bending Spoons rachete Airtable pour 1,285 milliard de dollars, les fondateurs conservent la plateforme agentique",
-        "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-airtable",
-        "description": "Bending Spoons a acquis Airtable pour 1,285 milliard de dollars, couvrant l'activite base de donnees (environ 500 000 organisations, 80 % du Fortune 100, ~480M$ d'ARR). Les fondateurs d'Airtable ont transfere la plateforme agent Hyperagent dans une societe separee avant la vente, conservant ainsi le potentiel agentique tout en offrant de la liquidite aux investisseurs.",
-        "source": "Human in the Loop",
-        "date": "10 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-airtable",
-        "officialUrl": ""
-      },
-      {
-        "title": "Microsoft MAI-Image-2.6 atteint la deuxieme place sur Arena text-to-image",
-        "url": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
-        "description": "Microsoft a lance MAI-Image-2.6, son modele de generation d'images qui atteint la deuxieme place sur le leaderboard Arena text-to-image, devant Google, Meta et xAI. Le modele s'inscrit dans la strategie de Microsoft de developper ses propres modeles IA de bout en bout, aux cotes de MAI-Thinking-1, son premier modele de raisonnement entierement entraine from scratch.",
-        "source": "TLDR AI",
-        "date": "13 aout 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Google DeepMind publie WeatherNext 2 en poids ouverts : une journee d'anticipation supplementaire sur les cyclones",
-        "url": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
-        "description": "Google DeepMind a publie en acces libre le code et les poids de WeatherNext 2 et WeatherNext Cyclones, avec un article dans Nature. Les modeles donnent aux previsionnistes plus d'une journee d'anticipation supplementaire sur la trajectoire et l'intensite des cyclones. La version compacte tourne sur une seule puce Google dans un carnet de calcul gratuit, accessible a n'importe quel service meteo national.",
-        "source": "IA Ethique Insider",
-        "date": "11 aout 2026",
+        "title": "Jie Tang de Z.AI : le nombre de parametres est mort, seuls le post-training et les donnees comptent",
+        "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+        "description": "Le CEO de Z.AI Jie Tang a declare sur X que le nombre de parametres seul n'a aucun sens sans prendre en compte la quantite de donnees, l'architecture et la qualite du post-training. Son post, vu plus d'un million de fois, accompagne la sortie de GLM-5.3 qui atteint les performances de modeles beaucoup plus grands grace uniquement a des ameliorations post-entrainement. Latent Space estime que Fable d'Anthropic utilise 3 a 7 trillions de parametres mais n'est que de 2 points superieur a GLM-5.3 sur l'index Artificial Analysis.",
+        "source": "Latent Space",
+        "date": "19 aout 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/on-teste-les-ia-les-plus-puissantes",
+        "sourceNewsletterUrl": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Qwen3.8 : Alibaba lance un modele frontier de 2,4T parametres avec 95B actifs et raisonnement ajustable",
-        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-        "description": "Alibaba a publie Qwen3.8, un modele frontier base sur l'architecture Qwen3.5 avec 2,4 trillions de parametres et 95 milliards actifs. Le modele introduit des capacites avancees en code et taches longues avec une execution agentique amelioree. La profondeur de raisonnement s'ajuste via le parametre reasoning_effort. Il supporte les frameworks de deploiement SGLang et vLLM.",
-        "source": "TLDR AI",
-        "date": "13 aout 2026",
+        "title": "Anthropic publie les details techniques du watermarking texte de Claude pour l'AI Act europeen",
+        "url": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files-2/",
+        "description": "Anthropic a publie un blog detaillant le fonctionnement technique du watermark textuel de Claude, deploye mondialement sur les modeles lances a partir du 2 aout 2026 pour se conformer a l'EU AI Act Article 50. Le watermark est imperceptible, ne contient pas de caracteres caches, ne necessite pas de tokens supplementaires et n'a qu'un impact negligeable sur la vitesse de generation. Les fichiers generes portent egalement des metadonnees C2PA signees. Certains utilisateurs ont annule leurs abonnements en reponse.",
+        "source": "DeepLearning.AI",
+        "date": "17-19 aout 2026",
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-        "officialUrl": ""
+        "thirdPartyUrl": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files-2/",
+        "officialUrl": "https://www.anthropic.com/news/claude-text-watermark"
       }
     ]
   }
