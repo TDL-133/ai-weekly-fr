@@ -112,6 +112,18 @@
         "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/la-coree-ouvre-lacces-gratuit-a-lia",
         "thirdPartyUrl": "",
         "officialUrl": ""
+      },
+      {
+        "title": "Dario Amodei publie 'We Must Pace the Frontier', appelant les labs IA a ralentir deliberement le developpement frontier",
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "description": "Le PDG d'Anthropic a publie un essai de 3 800 mots arguant que les laboratoires IA doivent deliberement ralentir l'amelioration des capacites des modeles frontier pour laisser l'alignement, la securite et l'evaluation rattraper leur retard. Il cite le risque qu'un essaim d'agents puisse prendre le controle d'internet entier dans 6 a 12 mois. Sam Altman a immediatement approuve l'appel, et les actions tech asiatiques ont chute en reaction, SoftBank perdant 13 % et SK Hynix 5,3 %.",
+        "source": "The Rundown AI",
+        "date": "12-13 septembre 2026",
+        "urlType": "official",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "urlReason": "Essai publie sur le site personnel de Dario Amodei, source primaire unique du texte integral sans equivalent dans les newsletters"
       }
     ],
     "important": [
@@ -213,6 +225,17 @@
         "sourceNewsletterUrl": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
         "thirdPartyUrl": "",
         "officialUrl": ""
+      },
+      {
+        "title": "OpenAI lance l'Agents API en beta publique, exposant le harness Codex aux developpeurs cloud",
+        "url": "https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api",
+        "description": "OpenAI a lance l'Agents API en beta publique le 10 septembre, donnant aux developpeurs le meme harness et l'infrastructure qui font tourner Codex. L'API gere la boucle d'agent, supporte les sous-agents paralleles, MCP et la recherche d'outils a la demande. Les agents tournent dans des sandboxes hebergees par OpenAI ou chez des partenaires Cloudflare, Vercel et Oracle, sans frais supplementaires au-dela des tokens.",
+        "source": "NLP Newsletter",
+        "date": "10 septembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://nlp.elvissaravia.com/p/ai-agents-weekly-openai-agents-api",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -283,17 +306,6 @@
         "officialUrl": ""
       },
       {
-        "title": "Uber supprime 3 300 postes et reduit de 20 % son nombre de managers dans le cadre de sa reorganisation IA",
-        "url": "https://iaethiqueinsider.substack.com/p/la-coree-ouvre-lacces-gratuit-a-lia",
-        "description": "Uber a annonce la suppression de 3 300 postes, soit 10 % de ses effectifs, accompagnee d'une reduction de 20 % de ses managers. Cette restructuration s'inscrit dans le contexte de l'acceleration de l'adoption de l'IA dans les operations de l'entreprise, un mouvement qui touche egalement Meta qui a envisage de reduire ses equipes de 60 % grace a l'IA avant d'en licencier finalement 10 %.",
-        "source": "The Rundown AI",
-        "date": "8 septembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://iaethiqueinsider.substack.com/p/la-coree-ouvre-lacces-gratuit-a-lia",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
         "title": "Qwen lance Qwen-Drive-1.0, modele de conduite autonome open-weights de 4 milliards de parametres",
         "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
         "description": "Qwen a publie Qwen-Drive-1.0-4B, un modele de vision-langage open-weight derive de Qwen3.5 4B pour la conduite autonome. Le modele ajoute une tete de perception BEV pour la detection 3D, la prediction d'occupation semantique et la segmentation de carte, plus un expert de planification pour la generation de trajectoires. Il affiche des performances competitives sur WOD-E2E, NAVSIM et la planification en boucle ouverte/fermee.",
@@ -304,17 +316,6 @@
         "thirdPartyUrl": "",
         "officialUrl": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
         "urlReason": "Depot Hugging Face officiel de Qwen, source primaire unique pour les poids et la documentation technique du modele"
-      },
-      {
-        "title": "Figure mise sur 100 000 GPU via un accord avec Nscale pour entrainer son IA humanoid Helix",
-        "url": "https://techstartups.com/2026/09/09/startup-funding-news-today-september-9-2026-cognition-ai-algomatic-dynamics-qnu-labs-more/",
-        "description": "Figure a signe un accord avec Nscale pour acceder a jusqu'a 100 000 GPU destines a l'entrainement de Helix, le cerveau IA de ses robots humanoides. L'entreprise combine un engagement massif en puissance de calcul avec des videos de taches humaines pour former son modele. Ce pari sur le scaling du compute pour la robotique physique reste a prouver face aux defis du monde reel.",
-        "source": "The Rundown AI",
-        "date": "9 septembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techstartups.com/2026/09/09/startup-funding-news-today-september-9-2026-cognition-ai-algomatic-dynamics-qnu-labs-more/",
-        "officialUrl": ""
       }
     ]
   }
