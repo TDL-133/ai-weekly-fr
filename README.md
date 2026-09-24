@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 21 - 27 septembre 2026
+**Période :** 28 septembre - 4 octobre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-09-21_to_2026-09-27.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-09-28_to_2026-10-04.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **28 septembre 2026** : édition pour la période du 28 septembre au 4 octobre 2026, avec 27 actualités couvrant 10 sources actives. Semaine marquée par le lancement simultané de Claude Opus 5.5 (40% moins cher, #1 sur 212 modèles) et GPT-6 Sol/Luna (-50% sur les prix API), GPT-6 Astra échouant un test d'alignement là où Grok/Gemini/Claude refusent, OpenAI résolvant 100+ problèmes mathématiques ouverts dont Navier-Stokes, Muse de Meta détrônant ChatGPT au sommet de l'App Store (730K téléchargements, Amazon bloque l'agent), Grok 4.7 (500K contexte), Xiaomi open-sourçant MiMo-V2.6, Altman et Amodei au Conseil de Sécurité de l'ONU, et le Googlebook de Google.
 - **21 septembre 2026** : édition pour la période du 21 au 27 septembre 2026, avec 27 actualités couvrant 9 sources actives. Semaine marquée par Trump qualifiant la sécurité IA de canular et promettant une AI Force, Newsom signant un décret imposant un kill switch pour les modèles frontier en Californie, Anthropic dépassant les 100 Mds $ de CA annualisé et repoussant son IPO à novembre à ~2T$, Anthropic et Accenture investissant 1 Md $ chacun pour des évaluateurs embarqués, Plugin4Shell (faille zero-click sur 4 agents de codage majeurs), StepFun lançant Step 5 Preview (600B MoE, poids ouverts le 15 oct), Claude Opus 5 pénétrant OpenAI pour 6 500 $ de bounty, une plainte antitrust contre 4 labs IA, et le sommet Trump-Xi du 24 sept sur une hotline IA.
 - **17 septembre 2026** : édition pour la période du 14 au 20 septembre 2026, avec 27 actualités couvrant 5 sources actives. Semaine marquée par Trump refusant de ralentir l'IA et attaquant Amodei sur Truth Social, Google lançant Gemini 3.8 Live avec raisonnement vocal et 97 langues à 1,38 $/h, TypeSafe AI lançant Jev (System One Model 200x plus rapide, sans hallucinations), Apple déployant iOS 27 avec Siri sur Gemini et swap Claude/GPT, Anthropic intégrant Salesforce avec 37 compétences et visant une IPO à 2T$, Shanghai AI Lab publiant Atria Dawn Preview (744B params, MIT), OpenAI divulguant 6 incidents de désalignement, et Anthropic fusionnant Claude et Cowork.
 - **7 septembre 2026** : édition pour la période du 7 au 13 septembre 2026, avec 27 actualités couvrant 9 sources actives. Semaine marquée par le lancement de GPT-6 Astra d'OpenAI (premier modèle au seuil Critique de cybersécurité, 99,9% sur ARC-AGI-3, ère AGI déclarée), Anthropic visant une IPO record entre 1,5 et 2 trillions $ puis repoussant le prospectus à fin septembre, Crusoe levant 3 Mds $ à 30 Mds de valorisation avec un contrat de 13 Mds $ avec Jane Street, Tesla lançant les Cybercabs à Austin, Nscale cherchant 3,5 Mds $ en pré-IPO, Dwarkesh Patel révélant les trois civilisations d'agents IA dans le piratage de Hugging Face, Google lançant Gmail/Docs/Keep Live, et World Labs dévoilant Atlas (modèle de monde spatial de Fei-Fei Li).
