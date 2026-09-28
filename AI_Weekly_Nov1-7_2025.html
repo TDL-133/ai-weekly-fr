@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weekly Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            color: #111827;
+            background-color: white;
+        }
+
+        /* Container */
+        .min-h-screen { min-height: 100vh; }
+        .max-w-3xl { max-width: 48rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        /* Spacing */
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-16 { margin-bottom: 4rem; }
+        .mt-1 { margin-top: 0.25rem; }
+
+        /* Typography */
+        .text-center { text-align: center; }
+        .text-xs { font-size: 0.75rem; line-height: 1rem; }
+        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-light { font-weight: 300; }
+        .font-medium { font-weight: 500; }
+        .leading-relaxed { line-height: 1.625; }
+
+        /* Colors */
+        .text-gray-400 { color: #9ca3af; }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-600 { color: #4b5556; }
+
+        /* Category colors */
+        .text-red-500 { color: #ef4444; }
+        .text-yellow-500 { color: #eab308; }
+        .text-green-500 { color: #22c55e; }
+
+        /* Subtitle styling */
+        .subtitle {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .date-note {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-top: 0.5rem;
+        }
+
+        /* Category section styling */
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-header {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-divider {
+            height: 2px;
+            width: 3rem;
+        }
+
+        .category-divider.red { background-color: #ef4444; }
+        .category-divider.yellow { background-color: #eab308; }
+        .category-divider.green { background-color: #22c55e; }
+
+        /* Layout */
+        .flex { display: flex; }
+        .flex-1 { flex: 1 1 0%; }
+        .items-start { align-items: flex-start; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .space-y-12 > * + * { margin-top: 3rem; }
+
+        /* Divider */
+        .divider {
+            width: 4rem;
+            height: 1px;
+            background-color: #d1d5db;
+            margin: 1rem auto;
+        }
+
+        /* Article styling */
+        .group {
+            transition: all 0.2s ease;
+        }
+
+        .group:hover .article-title {
+            color: #2563eb;
+        }
+
+        .article-title {
+            transition: color 0.2s ease;
+            text-decoration: none;
+            color: #111827;
+        }
+
+        .article-title:hover {
+            color: #2563eb;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        article {
+            animation: fadeIn 0.5s ease-out forwards;
+            animation-fill-mode: both;
+        }
+
+        article:nth-child(1) { animation-delay: 0.1s; }
+        article:nth-child(2) { animation-delay: 0.2s; }
+        article:nth-child(3) { animation-delay: 0.3s; }
+        article:nth-child(4) { animation-delay: 0.4s; }
+        article:nth-child(5) { animation-delay: 0.5s; }
+        article:nth-child(6) { animation-delay: 0.6s; }
+        article:nth-child(7) { animation-delay: 0.7s; }
+        article:nth-child(8) { animation-delay: 0.8s; }
+        article:nth-child(9) { animation-delay: 0.9s; }
+        article:nth-child(10) { animation-delay: 1.0s; }
+
+        /* Footer */
+        .footer-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #d1d5db;
+        }
+
+        .sources-list {
+            margin-top: 1rem;
+            line-height: 1.8;
+        }
+
+        .sources-list a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .sources-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .px-8 { padding-left: 1rem; padding-right: 1rem; }
+            .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+            .text-4xl { font-size: 1.875rem; }
+            .text-xl { font-size: 1.125rem; }
+            .mb-16 { margin-bottom: 2rem; }
+            .space-y-12 > * + * { margin-top: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <div class="max-w-3xl mx-auto px-8 py-16">
+            <!-- Header -->
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-light mb-4">AI Weekly</h1>
+                <p class="subtitle">Design by Dagorsey & Claude</p>
+                <div class="divider"></div>
+                <p class="text-gray-500">1-7 Novembre 2025</p>
+                <p class="date-note">Les sources sont disponibles à la fin de la newsletter</p>
+            </div>
+
+            <!-- Content -->
+            <div id="minimal-news-container">
+
+                <!-- Critical Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-red-500">Critique</h2>
+                        <div class="category-divider red"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.anthropic.com/news/claude-sonnet-4-5" class="article-title" target="_blank">Anthropic lance Claude Sonnet 4.5 : le meilleur modèle de codage au monde</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Claude Sonnet 4.5 établit de nouveaux standards en matière de codage, d'agents complexes et d'interaction avec les ordinateurs. Le modèle montre des gains substantiels en raisonnement mathématique et est disponible dès aujourd'hui sur toutes les plateformes.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.cnbc.com/2025/01/06/artificial-intelligence-regulation-in-2025-musk-and-trump-eu-ai-act.html" class="article-title" target="_blank">L'UE lance le code de pratique pour l'IA tandis que les États-Unis changent de cap</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">La Commission européenne a lancé les travaux sur un code de pratique pour le marquage du contenu généré par l'IA le 5 novembre 2025. Parallèlement, l'administration Trump adopte une approche de dérégulation, créant une divergence transatlantique majeure.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/" class="article-title" target="_blank">OpenAI lance GPT-5 avec des capacités de raisonnement avancées</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">GPT-5 combine pour la première fois un grand modèle de langage traditionnel avec des capacités de raisonnement. OpenAI promet moins d'hallucinations et de meilleures performances sur les tâches liées à la santé.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Alpha Signal</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" class="article-title" target="_blank">Nvidia atteint une valorisation historique de 5 000 milliards de dollars</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Nvidia devient la première entreprise à atteindre une valorisation de 5 000 milliards de dollars, portée par la demande en calcul IA. L'entreprise commence à livrer les puces Blackwell conçues pour les clouds nationaux et les usines d'IA.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://blog.google/technology/google-deepmind/ai-for-math/" class="article-title" target="_blank">Google DeepMind lance l'initiative "AI for Math" avec 5 institutions prestigieuses</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">L'initiative réunit cinq des institutions de recherche les plus prestigieuses au monde pour pionniers l'utilisation de l'IA en recherche mathématique. Elle inclut Gemini Deep Think, AlphaEvolve pour la découverte d'algorithmes, et AlphaProof pour les preuves formelles.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://deepmind.google/research/" class="article-title" target="_blank">Percée quantique : l'algorithme "Quantum Echoes" surpasse les superordinateurs</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">L'algorithme "Quantum Echoes" a démontré un avantage quantique vérifiable, surpassant les superordinateurs classiques de 13 000 fois dans le calcul de structures moléculaires. Cette avancée ouvre la voie aux découvertes en médecine et en science des matériaux.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>AI Tidbits</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.chiangraitimes.com/news/breaking-ai-news-updates/" class="article-title" target="_blank">OpenAI lance "Atlas", un navigateur web alimenté par l'IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">OpenAI intensifie la concurrence avec Google en lançant "Atlas", un nouveau navigateur alimenté par l'IA. Le navigateur intègre un assistant IA capable de résumer des informations complexes, mener des recherches en plusieurs étapes et automatiser des tâches en ligne.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.techi.com/anthropic-blocks-claude-access-to-openai-over-tos-breach/" class="article-title" target="_blank">Anthropic coupe l'accès API d'OpenAI, intensifiant la rivalité IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Anthropic a coupé l'accès d'OpenAI à l'API Claude, citant une violation des conditions d'utilisation concernant les tests de GPT-5. Anthropic révèle que les ingénieurs d'OpenAI utilisaient Claude Code avant le lancement de GPT-5.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Mozza Bytes</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Important Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-yellow-500">Important</h2>
+                        <div class="category-divider yellow"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.anthropic.com/news/claude-haiku-4-5" class="article-title" target="_blank">Claude Haiku 4.5 : performance de pointe à un tiers du coût</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Le dernier petit modèle d'Anthropic offre des performances de codage similaires à Claude Sonnet 4 mais à un tiers du coût et plus de deux fois la vitesse. Disponible dès aujourd'hui pour tous les utilisateurs.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/" class="article-title" target="_blank">MIT utilise l'IA générative pour découvrir de nouveaux antibiotiques</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Des chercheurs du MIT ont utilisé l'IA générative pour concevoir des millions de composés antibiotiques potentiels, identifiant deux candidats prometteurs (NG1 et DN1) efficaces contre les souches de gonorrhée et de SARM résistantes aux médicaments.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://medium.com/@Techsankar381/november-2025-tech-news-major-launches-ai-breakthroughs-industry-shifts-2a9e34ccfac2" class="article-title" target="_blank">Dell améliore sa plateforme de données IA avec NVIDIA et Elastic</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Dell Technologies annonce des améliorations majeures de sa plateforme de données IA, co-développée avec NVIDIA. La mise à niveau intègre le moteur de recherche vectorielle cuVS de NVIDIA, la recherche de données Elastic, l'analytique Starburst et une architecture de données unifiée.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.startuphub.ai/ai-news/ai-research/2025/google-gemini-updates-chart-ais-future-across-industries/" class="article-title" target="_blank">Google Gemini trace l'avenir de l'IA dans tous les secteurs</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Les mises à jour de Google Gemini montrent des avancées significatives dans l'IA multimodale, avec des applications s'étendant de la santé à la finance. Les nouvelles capacités incluent une compréhension contextuelle améliorée et un raisonnement multi-étapes.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>AI Tidbits</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.tomsguide.com/ai/anthropic-is-leading-the-ai-race-and-its-all-thanks-to-this-one-problem-openai-cant-solve" class="article-title" target="_blank">Course aux revenus : Anthropic rattrape OpenAI avec 7 milliards de dollars</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Malgré une popularité moindre, Anthropic n'est pas loin derrière OpenAI en termes de profits, avec un taux annuel attendu de 7 milliards de dollars contre 9 milliards pour OpenAI. Anthropic détient 42% de parts de marché pour le codage, contre 21% pour OpenAI.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.seamgen.com/blog/artificial-intelligence-updates-on-google-deepmind" class="article-title" target="_blank">Partenariat DeepMind-CFS pour l'énergie de fusion propre</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">La collaboration de Google DeepMind avec Commonwealth Fusion Systems (CFS) se concentre sur l'application de l'IA avancée pour rapprocher l'énergie de fusion propre, sûre et illimitée de la réalité.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>IA Ethique Insider</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://fortune.com/2025/10/03/weather-forecasting-ai-google-deepmind-hurricanes-nvidia-huawei/" class="article-title" target="_blank">L'IA de prévision des ouragans de DeepMind bat le National Hurricane Center</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Lors du test sur l'ouragan Erin, la technologie de prévision d'ouragans de Google DeepMind a non seulement battu les prévisions "officielles" du National Hurricane Center des États-Unis pendant les 72 premières heures, mais aussi surpassé plusieurs modèles basés sur la physique.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Alpha Signal</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://blog.google/technology/google-deepmind/ai-for-math/" class="article-title" target="_blank">AlphaEvolve bat un record vieux de 50 ans en multiplication matricielle</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">AlphaEvolve a découvert un algorithme pour multiplier des matrices 4x4 en utilisant seulement 48 multiplications scalaires, battant un record vieux de 50 ans établi par l'algorithme de Strassen en 1969.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.seamgen.com/blog/artificial-intelligence-updates-on-google-deepmind" class="article-title" target="_blank">Modèle d'IA pour la thérapie du cancer développé avec Yale</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Google DeepMind et Google Research se sont associés à Yale pour créer Cell2Sentence-Scale, un modèle d'IA basé sur la famille de modèles ouverts Gemma. Il pourrait aider à rendre les tumeurs plus faciles à repérer et à combattre pour le système immunitaire.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Human in the Loop</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Good to Know Section -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h2 class="category-title text-green-500">Bon à Savoir</h2>
+                        <div class="category-divider green"></div>
+                    </div>
+                    <div class="space-y-12">
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://machinelearningmastery.com/5-breakthrough-machine-learning-research-papers-already-in-2025/" class="article-title" target="_blank">Emu3.5 : un modèle mondial multimodal pré-entraîné sur 10 trillions de tokens</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Publié le 30 octobre 2025, Emu3.5 est un modèle mondial multimodal à grande échelle qui présente des capacités de génération vision-langage à long horizon, de génération any-to-image, et des capacités de modélisation mondiale généralisables.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>NLP Newsletter</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://machinelearningmastery.com/5-breakthrough-machine-learning-research-papers-already-in-2025/" class="article-title" target="_blank">Tool-N1 : famille de LLMs utilisant des outils avec apprentissage par renforcement</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Une famille de LLMs utilisant des outils entraînés avec apprentissage par renforcement basé sur des règles. Tool-N1-7B et Tool-N1-14B surpassent GPT-4o sur les benchmarks BFCL, API-Bank et ACEBench.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>AI Tidbits</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://machinelearningmastery.com/5-breakthrough-machine-learning-research-papers-already-in-2025/" class="article-title" target="_blank">Kimi Linear : architecture d'attention hybride réduisant le cache KV de 75%</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Une architecture d'attention linéaire hybride qui surpasse l'attention complète, réduisant l'utilisation du cache KV jusqu'à 75% et atteignant jusqu'à 6x le débit de décodage pour un contexte de 1M.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>TLDR AI</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.euronews.com/my-europe/2025/11/04/europeans-are-embracing-ai-but-still-want-tighter-regulations" class="article-title" target="_blank">Sondage YouGov : les Européens privilégient la régulation de l'IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">La plupart des répondants de l'UE en France, Allemagne, Italie, Pays-Bas, Pologne, Roumanie et Espagne pensent qu'une régulation efficace de l'IA est une priorité plus grande que l'encouragement de son développement.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>IA Ethique Insider</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.kennedyslaw.com/en/thought-leadership/article/2025/key-insights-into-ai-regulations-in-the-eu-and-the-us-navigating-the-evolving-landscape/" class="article-title" target="_blank">Plus de 500 projets de loi sur l'IA proposés aux États-Unis au T1 2025</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">La gouvernance de l'IA aux États-Unis tend à être plus fragmentée et réactive, particulièrement au niveau des États où plus de 500 projets de loi sur l'IA ont été proposés au premier trimestre 2025 seulement.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>The AI Report</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://intuitionlabs.ai/articles/llm-api-pricing-comparison-2025" class="article-title" target="_blank">Comparaison des prix des API LLM en novembre 2025</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Le snapshot de novembre 2025 révèle un marché des API LLM hautement compétitif avec les modèles GPT d'OpenAI à des prix premium, Google Gemini trouvant un juste milieu, et Claude d'Anthropic offrant une sécurité robuste à coût modéré.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Superhuman</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://cepa.org/article/how-america-first-ai-holds-an-open-hand-to-europe/" class="article-title" target="_blank">Divergence transatlantique : approche "America First" pour l'IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Cette politique américaine axée sur l'innovation contraste avec l'approche prudente et axée sur les risques de l'Europe. Les lois de l'UE s'appliqueront aux fournisseurs non-UE, exportant ses normes réglementaires.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Mozza Bytes</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://neontri.com/blog/chatgpt-vs-claude/" class="article-title" target="_blank">ChatGPT vs Claude : deux géants, différentes forces</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Une analyse comparative des deux principaux assistants IA révèle que ChatGPT excelle dans la polyvalence et l'accessibilité grand public, tandis que Claude se distingue par sa sécurité, son raisonnement éthique et ses capacités de codage.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Upmynt</span>
+                            </div>
+                        </article>
+
+                        <article class="group">
+                            <h2 class="text-xl font-medium mb-3">
+                                <a href="https://www.brookings.edu/articles/the-eu-and-us-diverge-on-ai-regulation-a-transatlantic-comparison-and-steps-to-alignment/" class="article-title" target="_blank">Pistes d'alignement pour la régulation transatlantique de l'IA</a>
+                            </h2>
+                            <p class="text-gray-600 mb-4 leading-relaxed">Alors que l'UE et les États-Unis divergent sur la régulation de l'IA, des experts de Brookings proposent des étapes concrètes pour un alignement transatlantique qui pourrait favoriser l'innovation tout en protégeant les droits fondamentaux.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span>Human in the Loop</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer with Sources -->
+            <div class="footer-section">
+                <h3 class="text-xl font-medium mb-4 text-center">Sources</h3>
+                <div class="sources-list text-sm text-gray-600">
+                    <p><strong>Alpha Signal</strong> - <a href="https://alphasignal.ai/last-email/" target="_blank">https://alphasignal.ai/last-email/</a></p>
+                    <p><strong>Mozza Bytes</strong> - <a href="https://mozzabytes.substack.com/" target="_blank">https://mozzabytes.substack.com/</a></p>
+                    <p><strong>Upmynt</strong> - <a href="https://www.upmynt.com/" target="_blank">https://www.upmynt.com/</a></p>
+                    <p><strong>NLP Newsletter (Elvis Saravia)</strong> - <a href="https://nlp.elvissaravia.com/" target="_blank">https://nlp.elvissaravia.com/</a></p>
+                    <p><strong>The AI Report</strong> - <a href="https://www.theaireport.ai/newsletters" target="_blank">https://www.theaireport.ai/newsletters</a></p>
+                    <p><strong>TLDR AI</strong> - <a href="https://tldr.tech/ai" target="_blank">https://tldr.tech/ai</a></p>
+                    <p><strong>AI Tidbits (Sahar Mor)</strong> - <a href="https://www.aitidbits.ai/" target="_blank">https://www.aitidbits.ai/</a></p>
+                    <p><strong>Superhuman (Zain Kahn)</strong> - <a href="https://www.superhuman.ai/" target="_blank">https://www.superhuman.ai/</a></p>
+                    <p><strong>IA Ethique Insider (Daphnée)</strong> - <a href="https://iaethiqueinsider.substack.com/" target="_blank">https://iaethiqueinsider.substack.com/</a></p>
+                    <p><strong>Human in the Loop (Andreas Horn)</strong> - <a href="https://www.humanintheloop.online/" target="_blank">https://www.humanintheloop.online/</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
