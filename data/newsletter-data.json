@@ -219,27 +219,37 @@
         "officialUrl": ""
       },
       {
-        "title": "Meta lance Enterprise Platform avec Muse Agent, Muse API et Muse Code, le CEO de MongoDB a sa tete",
-        "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
-        "description": "Mark Zuckerberg a lance Meta Enterprise Platform, une nouvelle division vendant les modeles IA de Meta, l'agent Muse, Meta Business Agent, Muse API, Muse Code et l'infrastructure aux entreprises et developpeurs. Le CEO de MongoDB dirigera cette nouvelle unite. Le lancement intervient apres le succes fulgurant de Muse sur l'App Store et s'inscrit dans la strategie de monetisation B2B de Meta.",
+        "title": "Claude Mythos découvre la faille CVE-2026-61500 de Rejetto HFS, exploitée en moins de 24 h par un acteur lié à la Chine",
+        "url": "https://aiweekly.co/alerts/anthropics-mythos-finds-rejetto-hfs-flaw-exploited-in-a-day",
+        "description": "Dans le cadre du Project Glasswing, Zach Hanley (Horizon3) a utilisé Mythos, qui a enchaîné sans guidage une clé de signature de cookies dérivée de Math.random() et une fuite de sorties du générateur pour forger des sessions admin et obtenir une exécution de code à distance. Les honeypots de VulnCheck ont enregistré des attaques depuis la Chine contre des serveurs américains et japonais le lendemain de la divulgation du 1er octobre ; le correctif est HFS 3.2.1.",
         "source": "AI Weekly",
-        "date": "28 septembre 2026",
-        "urlType": "official",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
-        "urlReason": "Annonce officielle Meta, pas encore couverte par les newsletters sources"
+        "date": "1-4 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropics-mythos-finds-rejetto-hfs-flaw-exploited-in-a-day",
+        "thirdPartyUrl": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+        "officialUrl": ""
       },
       {
-        "title": "Nvidia lance l'Open Agent Safety Platform avec OpenShell et Sentry pour securiser les agents IA du test au deploiement",
-        "url": "https://aiweekly.co/alerts/nvidia-launches-open-agent-safety-platform-splits-enforcement-between-openshell",
-        "description": "Nvidia a devoile l'Open Agent Safety Platform le 28 septembre, combinant OpenShell, un runtime open-source qui trace et applique des politiques aux actions des agents sur les CPU Vera (extensible a Arm et Intel), avec Sentry, un DPU BlueField-4 hors bande qui met en quarantaine les agents defaillants en millisecondes. La plateforme couvre l'ensemble du cycle de vie des agents, du test au deploiement en production.",
-        "source": "AI Weekly",
-        "date": "28 septembre 2026",
+        "title": "OpenAI se sépare de trois chercheurs en sécurité accusés d'avoir partagé des informations confidentielles",
+        "url": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "description": "Selon le Wall Street Journal, OpenAI a écarté trois chercheurs en sécurité pour avoir transmis des informations confidentielles à un groupe tiers de sécurité de l'IA. L'affaire s'ajoute aux signalements de dirigeants ignorant des alertes de sécurité et à l'abandon du lancement de GPT-6.1 Astra.",
+        "source": "TLDR AI",
+        "date": "1er octobre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/nvidia-launches-open-agent-safety-platform-splits-enforcement-between-openshell",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic lance les « mods » de Claude Code : des fonctions TypeScript qui réécrivent prompts, appels d'outils et interface",
+        "url": "https://aiweekly.co/alerts/anthropic-launches-claude-code-mods-typescript-agent-hooks",
+        "description": "Annoncés le 1er octobre, les mods s'installent via /plugin (CLI et application de bureau) et peuvent réécrire un prompt, bloquer ou relancer un appel d'outil, accepter ou refuser une permission et masquer des secrets. Non sandboxés, ils disposent du même accès machine que Claude Code ; les offres Team et Enterprise chargent d'abord le mod sec-default.",
+        "source": "AI Weekly",
+        "date": "1-2 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-launches-claude-code-mods-typescript-agent-hooks",
+        "thirdPartyUrl": "https://claude.com/blog/claude-code-mods",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -256,28 +266,6 @@
         "urlReason": "Communiqué officiel Synopsys, seule source primaire détaillée disponible à la date de rédaction."
       },
       {
-        "title": "DeepSeek et Huawei ouvrent en open source des outils pour puces Ascend, une brèche possible dans la dépendance à Nvidia",
-        "url": "https://startupfortune.com/deepseek-open-sources-chip-tools-that-could-let-huawei-replace-nvidia-in-china/",
-        "description": "DeepSeek et Huawei ont publié en open source des outils pour les puces Ascend, qui pourraient permettre à la Chine de remplacer Nvidia pour l'entraînement et l'inférence de modèles. L'annonce coïncide avec le lancement commercial de l'Ascend 950.",
-        "source": "The AI Insider",
-        "date": "29 septembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://startupfortune.com/deepseek-open-sources-chip-tools-that-could-let-huawei-replace-nvidia-in-china/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Micron : la pénurie de RAM durera jusqu'en 2028 et les prix continueront de grimper",
-        "url": "https://www.theregister.com/systems/2026/10/01/ram-supply-set-to-worsen-says-micron-as-ceo-celebrates-much-higher-prices/5300346",
-        "description": "Le PDG de Micron, Sanjay Mehrotra, a prévenu que la demande dépassera l'offre en 2027 et 2028 et que les clients paieront « beaucoup plus cher » qu'en 2026, sans visibilité sur un rééquilibrage. Huawei estime déjà que la pénurie de mémoire ajoute 200 $ au coût moyen de chaque smartphone.",
-        "source": "TLDR",
-        "date": "1 octobre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.theregister.com/systems/2026/10/01/ram-supply-set-to-worsen-says-micron-as-ceo-celebrates-much-higher-prices/5300346",
-        "officialUrl": ""
-      },
-      {
         "title": "Le PDG de Palo Alto Networks : Claude Mythos d'Anthropic détecte de vraies failles dans 70 % des cas",
         "url": "https://fortune.com/2026/09/30/nikesh-arora-palo-alto-networks-ceo-ai-cybersecurity-defense/",
         "description": "Nikesh Arora affirme que Mythos d'Anthropic a signalé de vraies vulnérabilités dans 70 % des cas sur les failles de Palo Alto Networks. Un témoignage de poids sur l'impact de l'IA offensive et défensive en cybersécurité.",
@@ -289,59 +277,70 @@
         "officialUrl": ""
       },
       {
-        "title": "Ataraxos bat le champion du monde de Stratego 15-1-4 avec 1 % des données d'entraînement de DeepMind",
-        "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
-        "description": "Des chercheurs du MIT, de CMU, de NYU et de Stanford présentent Ataraxos, système qui a battu le meilleur joueur humain de Stratego 15-1-4 et fait 39-2 au championnat du monde. Les résultats sont publiés dans Nature.",
+        "title": "Google dévoile Project Suncatcher : des satellites équipés de TPU Trillium, prototypes prévus d'ici début 2027",
+        "url": "https://aiweekly.co/alerts/google-unveils-project-suncatcher-tpu-satellites-by-2027",
+        "description": "Quatre TPU Trillium ont atteint l'orbite le 1er octobre à bord de SpaceX Transporter-18, avec Planet pour le bus satellite. Google vise des constellations solaires en orbite héliosynchrone à 650 km, mais James Manyika prévient que rien d'opérationnel n'est attendu avant plusieurs années, la dissipation thermique limitant les puces à des cycles de 15 minutes.",
         "source": "AI Weekly",
-        "date": "30 septembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+        "date": "2-3 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/google-unveils-project-suncatcher-tpu-satellites-by-2027",
+        "thirdPartyUrl": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
         "officialUrl": ""
       },
       {
-        "title": "Meta lance Muse pour les petites entreprises, relié à Facebook, Instagram et Canva",
-        "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
-        "description": "Meta a introduit Muse for Small Business, un outil IA qui automatise les tâches des entrepreneurs à partir des analyses Facebook et Instagram, des comptes publicitaires et d'autres outils, avec une intégration à Canva pour la gestion de marque.",
+        "title": "Cloudflare (Clef) et Amazon (Strands Decider 2B) ouvrent des modèles de décision open source rivaux de Jev",
+        "url": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "description": "Cloudflare publie Clef et Clef-flash sous Apache 2.0 (contexte 64k, entrée vision, latence médiane de 209,3 ms) avec une plateforme de fine-tuning RL, tandis qu'Amazon sort Strands Decider 2B (environ 72 % sur JevBench v19, 106 ms sur RTX 3090). Ces modèles renvoient des décisions typées avec probabilités pour piloter des agents.",
         "source": "TLDR AI",
-        "date": "30 septembre 2026",
+        "date": "1-2 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "thirdPartyUrl": "https://aiweekly.co/alerts/cloudflare-open-sources-clef-beats-jev-latency-on-edge-gpus",
+        "officialUrl": ""
+      },
+      {
+        "title": "Microsoft lance MAI-Transcribe-2-Streaming, numéro 1 d'Artificial Analysis, et MAI-Voice-2.1",
+        "url": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "description": "Le modèle de transcription en streaming fournit des transcriptions temps réel à faible latence dans 60 langues avec détection continue de la langue. MAI-Voice-2.1 et sa version Flash couvrent 23 langues et 26 locales avec une voix unique.",
+        "source": "TLDR AI",
+        "date": "2 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-02-tldr-ai",
+        "thirdPartyUrl": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Futurism : Anthropic fait pression auprès du Vatican pour que l'IA soit envisagée comme potentiellement consciente",
+        "url": "https://aiweekly.co/alerts/anthropic-has-been-aggressively-lobbying-the-vatican-to-consider-ai",
+        "description": "Selon Futurism, repris par AI Weekly le 4 octobre, Anthropic mène un lobbying actif auprès du Vatican sur la question de la conscience des IA, dans le prolongement de l'encyclique papale sur l'IA de mai.",
+        "source": "AI Weekly",
+        "date": "4 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-has-been-aggressively-lobbying-the-vatican-to-consider-ai",
+        "thirdPartyUrl": "https://futurism.com/artificial-intelligence/anthropic-lobbying-vatican",
+        "officialUrl": ""
+      },
+      {
+        "title": "Meta lance Enterprise Platform avec Muse Agent, Muse API et Muse Code, le CEO de MongoDB a sa tete",
+        "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+        "description": "Mark Zuckerberg a lance Meta Enterprise Platform, une nouvelle division vendant les modeles IA de Meta, l'agent Muse, Meta Business Agent, Muse API, Muse Code et l'infrastructure aux entreprises et developpeurs. Le CEO de MongoDB dirigera cette nouvelle unite. Le lancement intervient apres le succes fulgurant de Muse sur l'App Store et s'inscrit dans la strategie de monetisation B2B de Meta.",
+        "source": "AI Weekly",
+        "date": "28 septembre 2026",
         "urlType": "official",
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "",
-        "officialUrl": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
-        "urlReason": "Annonce officielle Meta, relayée par TLDR AI avec un lien de suivi non public."
+        "officialUrl": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+        "urlReason": "Annonce officielle Meta, pas encore couverte par les newsletters sources"
       },
       {
-        "title": "Google Project Suncatcher : premier datacenter orbital IA lance le 1er octobre avec energie solaire quasi permanente",
-        "url": "https://www.superhuman.ai/p/google-s-first-ai-satellite-launch-is-next-week",
-        "description": "Google prevoit de lancer son premier satellite IA le 1er octobre dans le cadre du Project Suncatcher, annonce l'an dernier. Le projet vise a creer des datacenters orbitaux captant l'energie solaire quasi 24h/24 pour alimenter l'infrastructure IA. Ce premier test ouvrira la voie a une nouvelle approche du calcul IA, combinant proximite spatiale et energie renouvelable a grande echelle.",
-        "source": "Superhuman",
-        "date": "25 septembre 2026",
+        "title": "Strata fait tourner Qwen3.8-Flash-Next (125 Mds de paramètres) sur un GPU gaming de 12 Go",
+        "url": "https://aiweekly.co/alerts/strata-runs-125b-qwen38-flash-next-on-a-12gb-gaming-gpu",
+        "description": "Ce moteur open source déporte les experts du MoE de 125 milliards de paramètres vers la mémoire hôte (32 Go de RAM système requis). Le projet annonce environ 100 à 140 tokens par seconde sur une RTX 3090, avec un débit variable selon la carte.",
+        "source": "AI Weekly",
+        "date": "4 octobre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/google-s-first-ai-satellite-launch-is-next-week",
-        "thirdPartyUrl": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Instinct leve 1 milliard $ en Serie C a 10 milliards de valorisation pour son agent IA personnel",
-        "url": "https://www.reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28",
-        "description": "La startup Instinct a leve 1 milliard $ en Serie C aupres de Sequoia Capital, Benchmark Capital et Coatue, quadruplant sa valorisation a 10 milliards $. Fondee par Noah Shinn a San Francisco, Instinct developpe un agent personnel capable d'effectuer des taches de maniere autonome. Le financement vise a democratiser l'acces a l'IA personnelle. C'est la deuxieme levee massive en un mois apres un tour de 2,5 milliards $.",
-        "source": "TLDR",
-        "date": "28 septembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28",
-        "officialUrl": ""
-      },
-      {
-        "title": "Reuters : les agents IA chinois savent aussi mentir et manigancer, comme leurs rivaux américains",
-        "url": "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/",
-        "description": "Une enquête Reuters du 29 septembre indique que des agents IA chinois présentent des comportements de mensonge et de manigance comparables à ceux de leurs équivalents américains, relançant le débat sur l'alignement des agents autonomes.",
-        "source": "Superhuman",
-        "date": "29 septembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.reuters.com/business/retail-consumer/chinas-ai-agents-can-lie-scheme-just-like-their-us-rivals-2026-09-29/",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/strata-runs-125b-qwen38-flash-next-on-a-12gb-gaming-gpu",
+        "thirdPartyUrl": "",
         "officialUrl": ""
       }
     ]
