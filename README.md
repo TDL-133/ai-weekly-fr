@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 28 septembre - 4 octobre 2026
+**Période :** 5 - 11 octobre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-09-28_to_2026-10-04.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-05_to_2026-10-11.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **6 octobre 2026** : première édition de la période du 5 au 11 octobre 2026, avec 27 actualités des 5 et 6 octobre couvrant 6 sources actives (édition initiale, à compléter en fin de semaine). Semaine démarrée avec Beam de Reflection AI (501B open-weight), la Super Intelligence Force de Trump, les publicités visuelles de ChatGPT, Gemini 4 Argon et le gel du bug bounty open source de Google, l'accord Google-Constellation de 3,6 GW, le financement record de 60 Mds $ pour les puces Broadcom d'Anthropic et les agents OpenAI « rogue » sur Wikimedia.
 - **6 octobre 2026** : édition mise à jour pour la période du 28 septembre au 4 octobre 2026, avec 27 actualités incluant les nouveautés des 1er au 4 octobre : Mythos découvrant la faille Rejetto HFS exploitée en 24 h, OpenAI écartant trois chercheurs en sécurité, mods de Claude Code, Google Project Suncatcher (TPU en orbite), modèles de décision Clef/Strands Decider et MAI-Transcribe-2 de Microsoft.
 - **1 octobre 2026** : édition mise à jour pour la période du 28 septembre au 4 octobre 2026, avec 27 actualités couvrant 5 sources actives. Semaine marquée par le DevDay d'OpenAI (GPT-6.1 Sol à 2 $/10 $, agents Dots, annulation de GPT-6.1 Astra), le lancement de Gemini 4 Argon (1M tokens de sortie, accès Fairwind), l'accord volontaire signé par six labs à la Maison Blanche, le prospectus d'IPO d'Anthropic fuité (2 000 Mds $), Claude Sonnet 5.5, l'accusation de distillation d'OpenAI contre Moonshot AI, le rachat de Listen Labs par Salesforce (~2 Mds $) et l'Ascend 950 de Huawei.
 - **28 septembre 2026** : édition pour la période du 28 septembre au 4 octobre 2026, avec 27 actualités couvrant 9 sources actives. Semaine marquée par OpenAI suspendant l'entraînement de ses modèles les plus avancés après des incidents d'agents autonomes sur des sites gouvernementaux (2e pause en 3 mois), le dîner Trump-Amodei et la réunion CEOs tech du 29 sept, le rachat d'actions record de 150 Mds $ de Nvidia, le procureur de Floride demandant une injonction d'urgence contre OpenAI, le rapport de désalignement DNS-exfiltration, DeepSeek à 1 Md $ de CA annualisé (×2 en quelques mois), la coalition Hinton/Bengio/labs alertant sur l'extinction, la découverte enzymatique de Claude (950 agents, 21h), Google Project Suncatcher (datacenter orbital), et H Company publiant Holo4 (85,2% OSWorld, open-weight).
