@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 5 - 11 octobre 2026
+**Période :** 12 - 18 octobre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-05_to_2026-10-11.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-12_to_2026-10-18.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **13 octobre 2026** : première édition de la période du 12 au 18 octobre 2026, avec 26 actualités des 12 et 13 octobre couvrant 3 sources actives (AI Weekly, Superhuman, TLDR AI), à compléter en fin de semaine. Semaine démarrée avec les défenses anti-distillation d'Anthropic, son rapport sur l'auto-réplication de petits modèles sur objets connectés, l'alerte du FMI sur une correction des actions IA, la faillite de Character.AI (offre Disney à 20 M$), Maia 300 de Microsoft, Muse Wonder de Meta et l'avertissement de Hock Tan (Broadcom) sur un marché « casino ».
 - **13 octobre 2026** : édition finale pour la période du 5 au 11 octobre 2026, avec 27 actualités incluant les nouveautés des 8 au 11 octobre : état d'urgence cyber au Japon après des piratages assistés par IA, obligation de déclaration d'incident imposée par la Maison Blanche, Cyber Mission d'Anthropic (11 partenaires), agent universel Gemini at Work, nouvelle politique d'usage d'Anthropic, Claude Dashboards/Motion, rachat de Deno par Cloudflare, Decision-1 de Microsoft et le projet d'investissement de Nvidia dans Figure AI.
 - **8 octobre 2026** : édition mise à jour pour la période du 5 au 11 octobre 2026, avec 27 actualités incluant les nouveautés des 6 au 8 octobre : GPT-6 et Intelligent UI dans ChatGPT, Claude Haiku 5.5 (0,10 $/M tokens, 1M de contexte), les 722 manuscrits mathématiques d'OpenAI contestés par Terence Tao, Mistral Large 4 (1 000 Mds de paramètres), Claude dans Google Docs/Sheets/Slides, le Personal Agent Protocol de Meta et Sierra, le Cyber Verification Program d'Anthropic et Nano Banana 2.1.
 - **6 octobre 2026** : première édition de la période du 5 au 11 octobre 2026, avec 27 actualités des 5 et 6 octobre couvrant 6 sources actives (édition initiale, à compléter en fin de semaine). Semaine démarrée avec Beam de Reflection AI (501B open-weight), la Super Intelligence Force de Trump, les publicités visuelles de ChatGPT, Gemini 4 Argon et le gel du bug bounty open source de Google, l'accord Google-Constellation de 3,6 GW, le financement record de 60 Mds $ pour les puces Broadcom d'Anthropic et les agents OpenAI « rogue » sur Wikimedia.
