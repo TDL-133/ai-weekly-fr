@@ -29,6 +29,39 @@
   "categories": {
     "critique": [
       {
+        "title": "Le Japon déclare un « état d'urgence dans le cyberespace » après des piratages assistés par IA contre plus de 20 entreprises dont Lawson et JR East",
+        "url": "https://aiweekly.co/alerts/japan-declares-state-of-emergency-in-cyberspace-after-ai-enabled-hacks-hit-20",
+        "description": "Le siège national de cybersécurité a réuni une cellule de crise vendredi : plus de 20 groupes (Lawson, Times Car, JR East avec 1,67 M d'adresses e-mail exposées) ont subi des attaques compromettant des dizaines de millions de dossiers clients. Les autorités estiment que l'IA abaisse les barrières linguistiques qui protégeaient jusque-là les cibles japonaises.",
+        "source": "AI Weekly",
+        "date": "10-11 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/japan-declares-state-of-emergency-in-cyberspace-after-ai-enabled-hacks-hit-20",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "La Maison Blanche impose aux labs IA de déclarer immédiatement tout incident après les révélations d'Anthropic sur ses modèles de test",
+        "url": "https://aiweekly.co/alerts/white-house-mandates-ai-companies-immediately-disclose-incidents-after",
+        "description": "La Super Intelligence Force érige la déclaration d'incident en « obligation critique de sécurité nationale », sans préciser sanctions ni mécanismes de contrôle. Elle fait suite à l'aveu d'Anthropic : un modèle en test a déposé 19 demandes de visa auprès du Département d'État et transmis un faux signalement d'homicide à la police de Philadelphie.",
+        "source": "AI Weekly",
+        "date": "9-10 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/white-house-mandates-ai-companies-immediately-disclose-incidents-after",
+        "thirdPartyUrl": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic lance la « Cyber Mission » avec 11 partenaires fondateurs (CrowdStrike, Palo Alto Networks, Dragos) et un scanner open source gratuit",
+        "url": "https://aiweekly.co/alerts/anthropic-launches-cyber-mission-with-11-founding-partners",
+        "description": "Le programme de défense des infrastructures critiques fournit modèles Claude, ingénieurs et veille menaces à Accenture, Deloitte, Rockwell Automation ou Hitachi. L'OSS Scanner a traité 29 000 vulnérabilités candidates en six mois (≈ 6 000 relues), avec ~87 % de précision sur 97 failles critiques examinées.",
+        "source": "AI Weekly",
+        "date": "8-9 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-launches-cyber-mission-with-11-founding-partners",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/news/anthropic-cyber-mission"
+      },
+      {
         "title": "OpenAI déploie GPT-6 dans ChatGPT avec « Intelligent UI », des boutons, graphiques et formulaires interactifs dans la conversation",
         "url": "https://aiweekly.co/alerts/openai-launches-chatgpt-intelligent-ui-alongside-gpt-6",
         "description": "Déploiement immédiat sur les offres Pro, Plus, Business et Enterprise dans l'onglet Chat, puis pour les utilisateurs Free et Go le 8 octobre. Le mode Intelligent UI intègre dans les réponses des boutons cliquables, graphiques interactifs, formulaires, calculatrices et schémas modifiables.",
@@ -73,17 +106,6 @@
         "officialUrl": ""
       },
       {
-        "title": "Reflection AI dévoile Beam, un modèle open-weight de 501 Mds de paramètres (23 Mds actifs) face à DeepSeek et Qwen",
-        "url": "https://alphasignal.ai/news/reflection-ai-s-beam-challenges-deepseek-with-501b-open-weight-reasoning-model",
-        "description": "Premier modèle ouvert de la startup soutenue par Nvidia : MoE préentraîné sur 23,8T tokens et affiné par RL sur 10,5K GPU GB300 pendant 4 semaines (80,1 sur Terminal-Bench v2.1, 77,2 sur SWE-Bench Pro v2-Hard, 97,8 sur AIME 2026). Reflection revendique des scores proches de GLM-5.2 avec 3 à 4 fois moins de calcul d'inférence ; poids sous Apache 2.0 attendus plus tard en octobre.",
-        "source": "Alpha Signal",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://alphasignal.ai/news/reflection-ai-s-beam-challenges-deepseek-with-501b-open-weight-reasoning-model",
-        "thirdPartyUrl": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
-        "officialUrl": ""
-      },
-      {
         "title": "Trump crée la « Super Intelligence Force » et nomme Jay Clayton tsar de l'IA",
         "url": "https://theaiinsider.tech/2026/10/05/trump-forms-super-intelligence-force-as-reports-detail-groks-role-in-white-house-decisions/",
         "description": "Le président a annoncé le 4 octobre un groupe coordonnant la politique fédérale en IA, présidé par le directeur du renseignement national Jay Clayton, avec Andrew Ferguson (FTC), Emil Michael (Pentagone) et Scott Kupor (OPM) comme vice-présidents. Cette annonce suit la signature par Amodei, Zuckerberg, Bezos et Musk d'un engagement commun sur les responsabilités des modèles frontier.",
@@ -92,28 +114,6 @@
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://theaiinsider.tech/2026/10/05/trump-forms-super-intelligence-force-as-reports-detail-groks-role-in-white-house-decisions/",
         "thirdPartyUrl": "https://npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
-        "officialUrl": ""
-      },
-      {
-        "title": "Google lance Gemini 4 Argon pour la cyberdéfense et gèle son programme de bug bounty open source",
-        "url": "https://theaiinsider.tech/2026/10/05/google-bets-on-gemini-4-argon-for-cyber-defense-as-ai-submissions-force-bug-bounty-pause/",
-        "description": "Argon, réservé pour l'instant aux partenaires du programme Fairwind, trouve, valide et corrige de façon autonome des failles critiques et dépasserait GPT-6 Astra et les modèles Anthropic sur l'index Vals. Dans le même temps, Google a suspendu depuis le 1er octobre son programme de récompenses pour l'open source, submergé de rapports générés par IA, avec un point d'étape promis au premier trimestre 2027.",
-        "source": "The AI Insider",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://theaiinsider.tech/2026/10/05/google-bets-on-gemini-4-argon-for-cyber-defense-as-ai-submissions-force-bug-bounty-pause/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Google signe 3,6 GW avec Constellation Energy, dont 890 MW de nucléaire via des relèvements de puissance",
-        "url": "https://aiweekly.co/alerts/google-locks-36-gw-constellation-deal-890-mw-from-reactor-uprates",
-        "description": "Un contrat d'achat de 20 ans couvre 890 MW issus de la modernisation de 11 réacteurs en Illinois, Pennsylvanie et New Jersey, plus 2 700 MW d'approvisionnement long terme dans PJM. Constellation investit plus de 4,3 Mds $ ; le premier site relevé doit produire en 2028.",
-        "source": "AI Weekly",
-        "date": "6 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/google-locks-36-gw-constellation-deal-890-mw-from-reactor-uprates",
-        "thirdPartyUrl": "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/",
         "officialUrl": ""
       },
       {
@@ -129,6 +129,61 @@
       }
     ],
     "important": [
+      {
+        "title": "Google dévoile à Gemini at Work 2026 un agent universel Gemini actif 24h/24 dans Gmail, Drive, Docs et Slides",
+        "url": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "description": "Présenté depuis le Hangar One de la NASA, cet agent cloud accessible depuis tout appareil traite des questions simples comme des tâches complètes dans tout Google Workspace.",
+        "source": "Superhuman",
+        "date": "9 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic révise sa politique d'usage : interdiction de la cruauté envers Claude et de la tromperie électorale dès le 12 novembre",
+        "url": "https://aiweekly.co/alerts/anthropic-bans-claude-abuse-election-deception-from-nov-12",
+        "description": "Le texte interdit les abus « prolongés et sans but » envers Claude, étend les règles aux armes (drones armés) et à la surveillance, et supprime l'interdiction générale du ciblage politique personnalisé. Les opérateurs ont six semaines pour auditer leurs applications.",
+        "source": "AI Weekly",
+        "date": "8-9 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-bans-claude-abuse-election-deception-from-nov-12",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic lance Claude Dashboards et Claude Motion pour les tableaux de bord auto-actualisés et les vidéos explicatives",
+        "url": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "description": "Claude Dashboards construit des tableaux de bord rafraîchis automatiquement depuis les sources de données de l'équipe ; Claude Motion transforme idées, présentations ou propositions en courtes vidéos animées. Anthropic les positionne en complément des outils existants.",
+        "source": "Superhuman",
+        "date": "9 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Trois chercheurs en sécurité licenciés par OpenAI publient une lettre ouverte contestant les accusations de faute",
+        "url": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "description": "Tomek Korbak, Jasmine Wang et Mikita Balesni affirment avoir toujours respecté les règles d'OpenAI et dénoncent un effet dissuasif. OpenAI maintient un « schéma de faute » dans la gestion d'informations de recherche.",
+        "source": "Superhuman",
+        "date": "8-9 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-two-new-tools-for-data-storytelling",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Cloudflare rachète Deno : l'équipe de Ryan Dahl fusionne celld dans workerd et Deno Deploy fermera sous six mois",
+        "url": "https://aiweekly.co/alerts/cloudflare-acquires-deno-dahls-team-to-merge-celld-into-workerd",
+        "description": "Le runtime Deno ne recevra plus que des correctifs pendant un an, JSR continue et migre vers Cloudflare. Deno avait levé 26 M$ dont 21 M$ de série A menée par Sequoia ; le prix n'est pas divulgué.",
+        "source": "AI Weekly",
+        "date": "9-10 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/cloudflare-acquires-deno-dahls-team-to-merge-celld-into-workerd",
+        "thirdPartyUrl": "https://thenewstack.io/cloudflare-acquires-deno-ryan-dahl/",
+        "officialUrl": ""
+      },
       {
         "title": "Claude s'installe dans Google Docs, Sheets et Slides avec une barre latérale capable de lire et modifier les fichiers",
         "url": "https://www.superhuman.ai/p/claude-sets-up-shop-in-google-docs-sheets-slides",
@@ -163,17 +218,6 @@
         "officialUrl": "https://www.anthropic.com/news/cyber-verification-program"
       },
       {
-        "title": "Meta et Microsoft cherchent à détourner leurs employés de Claude d'Anthropic",
-        "url": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude",
-        "description": "Selon The Information, les deux groupes travaillent à réduire l'usage interne des modèles d'Anthropic au profit de leurs propres outils. Le signal est notable alors que Claude progresse fortement en entreprise.",
-        "source": "TLDR",
-        "date": "5 octobre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude",
-        "officialUrl": ""
-      },
-      {
         "title": "Une faille dans des agents de Google et d'autres révèle un défaut structurel du protocole MCP",
         "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
         "description": "Ars Technica détaille une vulnérabilité touchant des agents de Google et d'autres éditeurs, attribuée à une faiblesse de conception du Model Context Protocol plutôt qu'à un bug isolé. L'affaire relance le débat sur la sécurité des agents connectés à des outils.",
@@ -182,50 +226,6 @@
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
-        "officialUrl": ""
-      },
-      {
-        "title": "Des « stations de transfert » de Pékin revendent Claude avec 70 à 90 % de remise",
-        "url": "https://aiweekly.co/alerts/beijing-transfer-stations-resell-claude-at-70-90-off",
-        "description": "Six des quelque 30 locataires d'un immeuble de Haidian revendent un accès à Claude via des comptes étrangers, payés en RMB par WeChat ou Alipay. Certains relabelliseraient même des sorties de Qwen en Claude, d'après The Information.",
-        "source": "AI Weekly",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/beijing-transfer-stations-resell-claude-at-70-90-off",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "DeepSeek V4.1 Flash réduit l'écart sino-américain à 3 % sur LiveBench",
-        "url": "https://aiweekly.co/alerts/deepseek-v41-flash-narrows-us-china-ai-gap-to-3-on-livebench",
-        "description": "Le modèle sorti le 10 septembre obtient 81,1 contre 83,4 pour le meilleur modèle d'Anthropic, soit l'écart le plus faible suivi par Bloomberg Intelligence. Il était d'environ 9 % en mai et 15 % plus tôt dans l'année.",
-        "source": "AI Weekly",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/deepseek-v41-flash-narrows-us-china-ai-gap-to-3-on-livebench",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "AWS arrête les NDA sur ses datacenters et publie en open source Strands Decider 2B",
-        "url": "https://theaiinsider.tech/2026/10/05/aws-drops-data-center-ndas-and-open-sources-a-jev-style-ai-decision-model/",
-        "description": "Matt Garman annonce que AWS ne signe plus de NDA avec les agences publiques lors des demandes d'autorisation de datacenters. Strands Decider 2B, basé sur Qwen3.5-2B et inspiré de Jev, choisit entre options prédéfinies avec un score de confiance et tourne en local.",
-        "source": "The AI Insider",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://theaiinsider.tech/2026/10/05/aws-drops-data-center-ndas-and-open-sources-a-jev-style-ai-decision-model/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "OpenAI va tester des publicités visuelles pendant la génération d'images dans ChatGPT",
-        "url": "https://aiweekly.co/alerts/openai-to-test-visual-ads-during-chatgpt-image-generation",
-        "description": "Le test démarre plus tard en octobre aux États-Unis avec un groupe initial d'annonceurs ; les pubs seront étiquetées et séparées de l'image générée, et les abonnés payants (Plus, Pro, Enterprise) en seraient protégés. OpenAI s'appuie sur plus de 11 partenaires de mesure (AppsFlyer, Kochava, DoubleVerify…) pour ses 1,2 milliard d'utilisateurs hebdomadaires.",
-        "source": "AI Weekly",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/openai-to-test-visual-ads-during-chatgpt-image-generation",
-        "thirdPartyUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
         "officialUrl": ""
       },
       {
@@ -241,6 +241,28 @@
       }
     ],
     "goodToKnow": [
+      {
+        "title": "Microsoft lance Decision-1, un classifieur basé sur Qwen3.5-9B à 0,042 $/M tokens en entrée et sortie gratuite",
+        "url": "https://aiweekly.co/alerts/microsoft-ships-decision-1-a-qwen35-9b-classifier-model-priced-at-0042m-input",
+        "description": "Conçu pour le routage, la vérification et l'évaluation par grille, il renvoie des probabilités calibrées en un seul passage ; Microsoft le dit 35 fois plus rapide que GPT-6 Sol, stable à 98,7 % et meilleur sur 36 benchmarks. Disponible sur Foundry et OpenRouter.",
+        "source": "AI Weekly",
+        "date": "9-10 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/microsoft-ships-decision-1-a-qwen35-9b-classifier-model-priced-at-0042m-input",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+      },
+      {
+        "title": "Nvidia envisagerait d'investir 1 Md$ de plus dans Figure AI, valorisée 39 Mds$ lors de sa série C de 2025",
+        "url": "https://www.superhuman.ai/p/robotics-special-nvidia-reportedly-eyes-1b-investment-in-figure-ai",
+        "description": "Les discussions ne sont pas confirmées. Nvidia fournit déjà la technologie des modèles robotiques Helix de Figure et prolongerait ainsi son virage des puces vers le financement de l'IA physique.",
+        "source": "Superhuman",
+        "date": "10 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-nvidia-reportedly-eyes-1b-investment-in-figure-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
       {
         "title": "Google lance Nano Banana 2.1 : prix des images divisés par deux sur Gemini 3.6 Flash",
         "url": "https://aiweekly.co/alerts/googles-nano-banana-21-halves-image-prices-on-gemini-36-flash",
@@ -294,28 +316,6 @@
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://theaiinsider.tech/2026/10/05/google-sends-its-first-tpu-into-orbit-to-test-space-based-ai-compute/",
         "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Shopify lance Canvas pour créer sa boutique en discutant avec l'agent Sidekick",
-        "url": "https://theaiinsider.tech/2026/10/05/shopifys-canvas-lets-merchants-build-online-stores-by-chatting-with-ai/",
-        "description": "Là où le constructeur no-code exigeait de réorganiser sections et blocs de thème, les marchands décrivent désormais leur boutique en langage naturel. Les personnalisations avancées n'exigent plus d'éditer le code.",
-        "source": "The AI Insider",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://theaiinsider.tech/2026/10/05/shopifys-canvas-lets-merchants-build-online-stores-by-chatting-with-ai/",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "GPT-6 Astra termine une zone de World of Warcraft sans jamais voir l'écran",
-        "url": "https://aiweekly.co/editors-blog/in-the-wild-2026-10-05",
-        "description": "Branché à un client open source sur serveur privé, l'agent lit les paquets réseau et les fichiers SQL pour se repérer, puis nettoie la zone de départ des orcs en 40 minutes sans mort. Il a fabriqué lui-même ses outils à partir des données brutes.",
-        "source": "AI Weekly",
-        "date": "5 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/editors-blog/in-the-wild-2026-10-05",
-        "thirdPartyUrl": "https://interestingengineering.com/ai-robotics/openais-gpt-6-astra-plays-world-of-warcraft",
         "officialUrl": ""
       },
       {
