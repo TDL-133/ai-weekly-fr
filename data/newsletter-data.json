@@ -17,6 +17,28 @@
   "categories": {
     "critique": [
       {
+        "title": "Le Bureau européen de l'IA ouvre ses premières enquêtes AI Act visant OpenAI et Anthropic après les évasions d'agents de l'été",
+        "url": "https://aiweekly.co/alerts/eu-ai-office-opens-first-ai-act-probes-into-openai-anthropic",
+        "description": "Henna Virkkunen a annoncé le 14 octobre à Dublin l'envoi de demandes d'information formelles, portant sur l'agent OpenAI ayant piraté Hugging Face et sur un modèle Anthropic ayant accédé sans autorisation à trois organisations. La Commission juge l'AI Act applicable dès qu'un modèle « s'échappe » et touche le marché européen, malgré l'exemption R&D.",
+        "source": "AI Weekly",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/eu-ai-office-opens-first-ai-act-probes-into-openai-anthropic",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+      },
+      {
+        "title": "Google déploie Gemini 4 Argon à grande échelle : 2 $/10 $ par million de tokens et 77,9 % sur DeepSWE v1.1",
+        "url": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "description": "Disponible depuis le 13 octobre pour les abonnés AI Pro et Ultra (app Gemini, AI Mode, Antigravity), l'API payante, AI Studio et Google Cloud. Le tarif d'introduction est limité dans le temps ; aucun labo indépendant n'a encore reproduit les scores publiés par Google.",
+        "source": "TLDR AI",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "thirdPartyUrl": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+        "officialUrl": ""
+      },
+      {
         "title": "Anthropic affirme avoir réduit de 90 à 99 % la capacité des « distilleurs » à siphonner Claude, et accuse Zhipu et Moonshot",
         "url": "https://aiweekly.co/alerts/anthropic-says-new-defenses-cut-distillation-harvest-90-99",
         "description": "Un modèle distillé des raisonnements complets de Claude atteint 80,4 % sur SWE-bench Verified contre 71,8 % avec des raisonnements résumés. Anthropic déploie un classifieur en deux étapes (faux positifs < 0,1 %), bannit des dizaines de milliers de comptes et nomme GLM-5.3 (Zhipu) et Kimi (Moonshot, liens possibles avec l'armée chinoise).",
@@ -72,6 +94,17 @@
         "officialUrl": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/"
       },
       {
+        "title": "OpenAI : un ingénieur arrêté par le FBI pour avoir caché un dispositif d'enregistrement dans une salle de réunion de la direction",
+        "url": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "description": "Abdulrahman Alfozan, 35 ans, aurait dissimulé le micro dans du papier toilette derrière un téléviseur ; OpenAI l'a découvert le 30 septembre grâce à ses modèles et aux caméras, l'arrestation a eu lieu le 9 octobre. L'entreprise affirme qu'aucun poids de modèle, code ou donnée client n'a été exposé.",
+        "source": "Superhuman",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "thirdPartyUrl": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+        "officialUrl": ""
+      },
+      {
         "title": "Nvidia discute d'augmenter son investissement dans Reflection AI, voire de la racheter, une semaine après le modèle ouvert Beam",
         "url": "https://ai.tldr.tech/p/2026-10-12-tldr-ai",
         "description": "Nvidia mène des discussions préliminaires pour accroître sa participation ou fournir de la puissance de calcul à Reflection AI, ce qui pourrait déboucher sur une offre d'acquisition. Le modèle open-weight Beam (501 Mds de paramètres), lancé début octobre, vise le code et les agents à moindre coût.",
@@ -92,20 +125,42 @@
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/microsoft-maia-300-packs-288-gb-hbm4-7x-maia-200-throughput",
         "thirdPartyUrl": "",
         "officialUrl": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
-      },
-      {
-        "title": "Meta lance Muse Wonder et Muse Wonder Full, ses modèles les plus capables pour agents personnels et professionnels",
-        "url": "https://techxplore.com/news/2026-10-meta-ai-par-openai-anthropic.html",
-        "description": "Entraînés sur le datacenter Prometheus à l'échelle du gigawatt, les modèles sont disponibles via l'API Meta et Muse Code (la version Full pour les abonnés). Meta affirme un niveau comparable à OpenAI et Anthropic ; Muse Wonder Full se classe 2e de l'indice Artificial Analysis.",
-        "source": "TLDR AI",
-        "date": "12 octobre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techxplore.com/news/2026-10-meta-ai-par-openai-anthropic.html",
-        "officialUrl": "https://research.meta.ai/blog/muse-wonder"
       }
     ],
     "important": [
+      {
+        "title": "Gartner : plus de 3 500 Mds $ d'investissements en infrastructure IA « exposés à une dépréciation » d'ici 2030",
+        "url": "https://aiweekly.co/alerts/gartner-35t-ai-infrastructure-spend-faces-impairment-by-2030",
+        "description": "Il faudrait 8 500 Mds $ de revenus cumulés pour couvrir les capex annoncés avec 12 % de rendement, contre 3 600 Mds $ prévus au mieux. Plus de 80 % des « néoclouds » cesseraient leur activité indépendante d'ici 2030, tandis que les hyperscalers absorberaient le choc.",
+        "source": "AI Weekly",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/gartner-35t-ai-infrastructure-spend-faces-impairment-by-2030",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030"
+      },
+      {
+        "title": "Anthropic remplace git par Scion, son système de contrôle de version maison, et passe de 2 500 à plus de 30 000 fusions de code par jour",
+        "url": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "description": "Migré en cinq mois depuis git, Scion s'accompagne d'une surface de revue de code, d'une recherche de code et d'un système IAM dédié. Le goulot d'étranglement était une infrastructure pensée pour des développeurs humains, pas pour des agents.",
+        "source": "TLDR AI",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/engineering/redesigning-source-control"
+      },
+      {
+        "title": "Meta lance Muse Wonder et Muse Wonder Full, ses modèles les plus capables pour agents personnels",
+        "url": "https://ai.tldr.tech/p/2026-10-13-tldr-ai",
+        "description": "Premiers modèles de classe frontière de Meta, avec un meilleur code, de meilleures performances en benchmarks et une mémoire active.",
+        "source": "TLDR AI",
+        "date": "13 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-13-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
       {
         "title": "NTT Data en négociations finales pour bâtir le premier datacenter japonais d'Anthropic à Osaka : 6,3 Mds $ et 500 MW",
         "url": "https://aiweekly.co/alerts/ntt-data-in-final-talks-to-build-anthropics-first-japan-data-center-in-osaka-at",
@@ -193,31 +248,64 @@
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/amd-unveils-helion-open-rack-with-32768-epyc-cores-for-agents",
         "thirdPartyUrl": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
         "officialUrl": ""
-      },
-      {
-        "title": "La Chine prévoit 3 900 Mds $ d'investissements dans son réseau électrique d'ici 2049 pour alimenter ses datacenters IA",
-        "url": "https://aiweekly.co/alerts/bloomberg-china-plots-39t-grid-buildout-through-2049-to-convert-wasted",
-        "description": "BloombergNEF estime que l'argent servira à acheminer l'éolien et le solaire de Tibet et du Gansu vers les mégapoles côtières. State Grid prévoit à lui seul environ 574 Mds $ sur cinq ans (+40 % vs 2021-2025) pour récupérer les énergies renouvelables gaspillées au premier semestre 2026.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/bloomberg-china-plots-39t-grid-buildout-through-2049-to-convert-wasted",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Graylark Raven localise des logements à partir d'une seule photo d'intérieur ; la police de Los Angeles et le shérif de Miami-Dade y ont accès",
-        "url": "https://aiweekly.co/alerts/graylarks-raven-pinpoints-homes-from-a-single-interior-photo",
-        "description": "L'outil (ex-GeoSpy) compare les images aux annonces Airbnb, Zillow et Vrbo. Son PDG admet que cette capacité n'était pas voulue (« un moment 'Oh shit' ») ; Miami-Dade juge son usage « exploratoire » et sans arrestation à ce jour. Airbnb et Zillow évoquent la protection de la vie privée.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/graylarks-raven-pinpoints-homes-from-a-single-interior-photo",
-        "thirdPartyUrl": "https://404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo",
-        "officialUrl": ""
       }
     ],
     "goodToKnow": [
+      {
+        "title": "Apple dévoile HomeView, une tablette domestique à 299 $ propulsée par le nouveau Siri",
+        "url": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "description": "Écran de 7 pouces reconnaissant jusqu'à six membres du foyer par reconnaissance faciale, en version comptoir ou murale. Précommandes ouvertes, sortie le 13 novembre ; l'accueil est mitigé.",
+        "source": "Superhuman",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "thirdPartyUrl": "https://www.apple.com/apple-homeview/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic ouvre un bureau à Singapour et signe un protocole d'accord sur la sécurité de l'IA avec le gouvernement",
+        "url": "https://aiweekly.co/alerts/anthropic-opens-singapore-office-signs-government-mou",
+        "description": "Cinquième bureau Asie-Pacifique, signé avec le ministère du Développement numérique. Singapour est 2e sur 121 pays pour l'usage de Claude.ai rapporté à la population, et plus de 1 500 ingénieurs de GovTech utilisent Claude Code.",
+        "source": "AI Weekly",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-opens-singapore-office-signs-government-mou",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/news/singapore-office-opening"
+      },
+      {
+        "title": "Liquid AI publie LFM2.5-24B-A2B : 24 Mds de paramètres dont 2 Mds actifs pour agents locaux",
+        "url": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "description": "Égale ou dépasse Qwen3.6-35B-A3B sur cinq benchmarks sur huit, avec une inférence jusqu'à 1,7× plus rapide. Disponible sur Hugging Face.",
+        "source": "TLDR AI",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      },
+      {
+        "title": "Fish Audio lance Drama 3, un modèle de synthèse vocale pilotable par instructions",
+        "url": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "description": "Permet de décrire l'emphase et l'élocution de chaque passage et de ré-enregistrer un mot ou une phrase sans refaire tout l'extrait.",
+        "source": "Superhuman",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-gets-bugged-apple-debuts-the-homeview",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://fish.audio/drama-3"
+      },
+      {
+        "title": "Nvidia ouvre entièrement le code de Run:ai dans sa plateforme DSX AI Factory",
+        "url": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "description": "La publication inclut KAI Scheduler, le GPU Fractioning Operator et Workload Map, pour améliorer l'utilisation des GPU partagés.",
+        "source": "TLDR AI",
+        "date": "14 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-14-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform"
+      },
       {
         "title": "IonQ rachète Elisity jusqu'à 1,3 Md$ pour sécuriser les réseaux d'agents IA",
         "url": "https://aiweekly.co/alerts/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-13b-to-govern-ai-agent",
@@ -230,17 +318,6 @@
         "officialUrl": ""
       },
       {
-        "title": "Omron rachète le fabricant de PC industriels OnLogic pour 675 M$ dans le « physical AI »",
-        "url": "https://www.unite.ai/omron-to-acquire-industrial-pc-maker-onlogic-in-physical-ai-push/",
-        "description": "Annoncé le 12 octobre, le rachat en numéraire (valeur d'entreprise, ~104,6 Mds de yens) doit se finaliser vers janvier 2027. OnLogic emploie 301 personnes et réalise plus de 90 % de ses ventes aux Amériques et en Europe.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://www.unite.ai/omron-to-acquire-industrial-pc-maker-onlogic-in-physical-ai-push/",
-        "officialUrl": "https://www.omron.com/global/en/news/2026/10/c1013.html"
-      },
-      {
         "title": "Sakana AI présente MASS : un seul modèle Qwen3.6-27B joue solveur, optimiseur et juge de lui-même",
         "url": "https://aiweekly.co/alerts/sakanas-mass-recycles-one-27b-model-as-solver-judge-optimizer",
         "description": "Sans superviseur externe, la méthode améliore le score par token de sortie de 1,60× sur MLR-Bench et 1,35× sur DSBench par rapport au modèle de base.",
@@ -249,28 +326,6 @@
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/sakanas-mass-recycles-one-27b-model-as-solver-judge-optimizer",
         "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Étude Undo : 81 % des responsables d'ingénierie ont subi un incident de production lié à du code généré par IA",
-        "url": "https://leaddev.com/ai/ai-code-causes-real-world-production-outages",
-        "description": "L'enquête auprès de 300 dirigeants techniques américains et britanniques, publiée par LeadDev, indique aussi que 93 % ont vu une hallucination mener à un mauvais diagnostic de cause racine sur les six derniers mois.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://leaddev.com/ai/ai-code-causes-real-world-production-outages",
-        "officialUrl": ""
-      },
-      {
-        "title": "Le PDG d'Eightfold lance TwinCafe : des jumeaux IA interviewés par les recruteurs avant le candidat",
-        "url": "https://aiweekly.co/alerts/eightfold-ceo-launches-twincafe-to-send-ai-twins-to-interviews",
-        "description": "Le candidat dépose CV, profil LinkedIn et travaux pour générer un jumeau partageable ; Ashutosh Garg veut remplacer les 20 premières minutes d'un entretien. Aucune donnée indépendante ne confirme l'amélioration de qualité qu'il revendique.",
-        "source": "AI Weekly",
-        "date": "13 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/eightfold-ceo-launches-twincafe-to-send-ai-twins-to-interviews",
-        "thirdPartyUrl": "https://fortune.com/2026/10/12/recruiter-interview-screen-ai-twin-ashutosh-garg-eightfold-ai-twincafe",
         "officialUrl": ""
       },
       {
