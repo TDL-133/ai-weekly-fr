@@ -125,6 +125,39 @@
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/microsoft-maia-300-packs-288-gb-hbm4-7x-maia-200-throughput",
         "thirdPartyUrl": "",
         "officialUrl": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
+      },
+      {
+        "title": "Meta publie Muse Spark Open, un modèle ouvert de 816 Mds de paramètres qui tourne sur deux Mac Studio M5 Ultra",
+        "url": "https://ai.tldr.tech/p/2026-10-16-tldr-ai",
+        "description": "Multimodal, 42 Mds de paramètres actifs et 1 M de tokens de contexte, optimisé pour le code et les agents via MLX. Il exige environ 1 To de RAM (deux Mac Studio de 512 Go), signe d'un rapprochement Meta-Apple selon Alexandr Wang.",
+        "source": "TLDR AI",
+        "date": "15-16 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-16-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://research.meta.ai/blog/muse-spark-open"
+      },
+      {
+        "title": "La FTC adresse à OpenAI et Anthropic des demandes d'enquête civiles de 50 pages sur leurs incidents de sécurité IA",
+        "url": "https://aiweekly.co/alerts/ftc-hits-openai-and-anthropic-with-50-page-civil-investigative-demands-over-ai",
+        "description": "Après les premières enquêtes AI Act de l'UE, le régulateur américain ouvre à son tour le dossier des évasions et incidents d'agents. Les deux laboratoires font face à une pression réglementaire simultanée des deux côtés de l'Atlantique.",
+        "source": "AI Weekly",
+        "date": "15 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/ftc-hits-openai-and-anthropic-with-50-page-civil-investigative-demands-over-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "L'introduction en Bourse d'Anthropic : la valorisation visée retombe à 1 500 Mds $ contre 2 000 Mds $ après un T3 plus lent",
+        "url": "https://aiweekly.co/alerts/reuters-anthropic-ipo-investors-push-valuation-down-to-15t-from-2t-over-q3",
+        "description": "Selon Reuters, lors de la journée investisseurs de San Francisco, la vente d'actions de novembre est évoquée à 1 500 Mds $. Le chiffre d'affaires du T3 atteint 16,8 Mds $ (+45 % sur le trimestre), contre une quasi-doublement au T2.",
+        "source": "AI Weekly",
+        "date": "15 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/reuters-anthropic-ipo-investors-push-valuation-down-to-15t-from-2t-over-q3",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "important": [
@@ -248,6 +281,61 @@
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/amd-unveils-helion-open-rack-with-32768-epyc-cores-for-agents",
         "thirdPartyUrl": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
         "officialUrl": ""
+      },
+      {
+        "title": "Anthropic : les heures d'agents dépassent six fois les heures humaines et la part de recrutements juniors passe de 27 % à 9 %",
+        "url": "https://aiweekly.co/alerts/anthropic-junior-technical-hire-share-fell-from-27-to-9",
+        "description": "Le rapport montre que les heures d'agents interactifs ont dépassé celles des humains en mars 2026 et atteignent 6 pour 1 en août. Les ingénieurs adoptant les agents de code multiplient par 5 leurs commits, sans hausse des retours en arrière.",
+        "source": "AI Weekly",
+        "date": "16-17 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-junior-technical-hire-share-fell-from-27-to-9",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "DeepSeek publie V4.1-Flash-1017 sous licence MIT : 77,0 % sur DeepSWE v1.1 et une API de recherche à 0,75 $ les 1 000 requêtes",
+        "url": "https://aiweekly.co/alerts/deepseek-opens-v41-flash-1017-weights-and-075-search-api",
+        "description": "Le modèle MoE de 552 Mds de paramètres passe de 31,2 à 42,3 sur Terminal-Bench 4.0 et coûte 3,6 fois moins cher par exécution que GPT-6.1 Sol (0,016 $ contre 0,058 $). Le déploiement s'est fait silencieusement sous le même identifiant d'API.",
+        "source": "AI Weekly",
+        "date": "17 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/deepseek-opens-v41-flash-1017-weights-and-075-search-api",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Anthropic signe un bail de 20 ans sur le campus de 10 Mds C$ d'EverWind en Nouvelle-Écosse, son premier datacenter canadien",
+        "url": "https://aiweekly.co/ai-news-today",
+        "description": "Après le projet d'Osaka avec NTT Data, c'est la deuxième grande implantation d'infrastructure annoncée en une semaine par le laboratoire.",
+        "source": "AI Weekly",
+        "date": "17 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/ai-news-today",
+        "thirdPartyUrl": "https://www.thestar.com.my/tech/tech-news/2026/10/17/anthropic-signs-lease-for-first-canadian-data-center",
+        "officialUrl": ""
+      },
+      {
+        "title": "Les assureurs plafonnent à environ 50 M$ la couverture des erreurs d'IA, face à des passifs de plusieurs dizaines de milliards",
+        "url": "https://aiweekly.co/alerts/wsj-ai-firms-rack-up-tens-of-billions-in-potential-liabilities-as-insurer",
+        "description": "Le WSJ rapporte que l'exposition juridique des développeurs de modèles de pointe se chiffre en dizaines, voire centaines de milliards de dollars. Des assureurs refusent ou excluent désormais les risques IA, et certains évoquent une garantie de l'État américain.",
+        "source": "AI Weekly",
+        "date": "17 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/wsj-ai-firms-rack-up-tens-of-billions-in-potential-liabilities-as-insurer",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Environ 400 scientifiques de 34 pays, dont Hinton et Bengio, réclament une supervision internationale indépendante de l'IA",
+        "url": "https://www.superhuman.ai/p/aonic-club-is-using-ai-to-make-life-cheaper",
+        "description": "Leur lettre ouverte juge insuffisants les engagements volontaires, comme l'accord de sécurité signé par plusieurs géants américains fin septembre. Ils proposent d'isoler les modèles de pointe des réseaux externes sous contrôle indépendant.",
+        "source": "Superhuman",
+        "date": "15 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/aonic-club-is-using-ai-to-make-life-cheaper",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -307,39 +395,6 @@
         "officialUrl": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform"
       },
       {
-        "title": "IonQ rachète Elisity jusqu'à 1,3 Md$ pour sécuriser les réseaux d'agents IA",
-        "url": "https://aiweekly.co/alerts/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-13b-to-govern-ai-agent",
-        "description": "L'accord en actions, dont 150 M$ d'earn-outs, vise une clôture au T4. La plateforme zero-trust d'Elisity restreint quels utilisateurs, appareils, charges de travail et agents d'IA peuvent communiquer sur un réseau d'entreprise.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-13b-to-govern-ai-agent",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Sakana AI présente MASS : un seul modèle Qwen3.6-27B joue solveur, optimiseur et juge de lui-même",
-        "url": "https://aiweekly.co/alerts/sakanas-mass-recycles-one-27b-model-as-solver-judge-optimizer",
-        "description": "Sans superviseur externe, la méthode améliore le score par token de sortie de 1,60× sur MLR-Bench et 1,35× sur DSBench par rapport au modèle de base.",
-        "source": "AI Weekly",
-        "date": "12 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://aiweekly.co/alerts/sakanas-mass-recycles-one-27b-model-as-solver-judge-optimizer",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Atomic Machines (Jeff Holden) sort de l'ombre avec 250 M$ et son « Matter Compiler » pour fabriquer des micro-machines à partir de code",
-        "url": "https://www.superhuman.ai/p/new-ai-startup-aims-to-build-previously-unbuildable-products",
-        "description": "Le fondateur de Prime chez Amazon et ancien directeur produit d'Uber vise d'abord les systèmes de refroidissement et les commutateurs de puissance des datacenters IA, avec une précision de l'ordre du micron : la promesse d'une « vibe manufacturing ».",
-        "source": "Superhuman",
-        "date": "12 octobre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/new-ai-startup-aims-to-build-previously-unbuildable-products",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://www.atomicmachines.com/matter-compiler"
-      },
-      {
         "title": "Le Biohub de Zuckerberg lève 1,8 Md$ pour construire une « cellule virtuelle » avec le DOE, le NIH, DeepMind et Isomorphic",
         "url": "https://www.superhuman.ai/p/new-ai-startup-aims-to-build-previously-unbuildable-products",
         "description": "Le modèle simulerait le comportement des cellules humaines afin de tester des milliers d'hypothèses sans laboratoire. Isomorphic Labs viserait 40 Mds$ de valorisation, et Jeff Dean cofonde Discovery Loop après 27 ans chez Google.",
@@ -359,6 +414,28 @@
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+        "officialUrl": ""
+      },
+      {
+        "title": "Les dépenses publicitaires en IA dans les élections américaines dépassent 137 M$, et 70 % des publicités ne portent aucune mention",
+        "url": "https://aiweekly.co/issues/ai-made-midterm-ads-top-137-million-and-70-carry-no-ai-label",
+        "description": "Selon le New York Times, d'après les données de Wesleyan Media Project et AdImpact. Wired révèle par ailleurs qu'un réseau de super PAC pro-IA a versé environ 20 M$ à une société du Nevada qui n'existe qu'à l'état de boîte postale.",
+        "source": "AI Weekly",
+        "date": "16-17 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/issues/ai-made-midterm-ads-top-137-million-and-70-carry-no-ai-label",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Amazon dévoile Bee Frontier et Bee Eclipse, deux appareils portables qui résument vos conversations",
+        "url": "https://www.superhuman.ai/p/meta-s-muse-is-coming-to-mac",
+        "description": "Le bracelet Frontier et le module Eclipse (fixé au téléphone) sont les premiers appareils de Bee depuis son rachat par Amazon. Un voyant signale l'écoute et, selon Amazon, les enregistrements ne sont pas conservés à long terme.",
+        "source": "Superhuman",
+        "date": "16 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/meta-s-muse-is-coming-to-mac",
+        "thirdPartyUrl": "",
         "officialUrl": ""
       }
     ]
