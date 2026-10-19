@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 12 - 18 octobre 2026
+**Période :** 19 - 25 octobre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-12_to_2026-10-18.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-19_to_2026-10-25.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **19 octobre 2026** : première édition de la période du 19 au 25 octobre 2026, avec 28 actualités du 18 et 19 octobre couvrant 4 sources actives (AI Weekly, TLDR AI, Superhuman, TLDR), à compléter en cours de semaine. Semaine démarrée avec le pirate ayant compromis plus de 100 entreprises pour environ 5 000 $ avec Claude Code et DeepSeek, le Public Benefit Fund d'Anthropic (5 % du capital), Microsoft 365 E7 et les agents « menaces internes », ChatGPT dans Chrome, le rachat d'Opaque Systems par Anthropic, Replit qui passe à OpenAI, l'offensive de contrôle des démocrates de la Chambre, la levée de 1,5 Md$ de Tenstorrent et la chute des neoclouds.
 - **19 octobre 2026** : édition finale pour la période du 12 au 18 octobre 2026, avec 38 actualités incluant les nouveautés du 15 au 18 octobre : Muse Spark Open de Meta (816 Mds de paramètres), demandes d'enquête de la FTC visant OpenAI et Anthropic, valorisation visée de l'introduction en Bourse d'Anthropic ramenée à 1 500 Mds $, rapport d'Anthropic sur les heures d'agents (6 pour 1), DeepSeek V4.1-Flash-1017 sous licence MIT, bail canadien d'Anthropic, plafonds d'assurance IA, lettre de 400 scientifiques pour une supervision de l'IA, publicités électorales générées par IA et Bee Frontier/Eclipse d'Amazon.
 - **15 octobre 2026** : édition mise à jour pour la période du 12 au 18 octobre 2026, avec 31 actualités incluant les nouveautés du 14 octobre : premières enquêtes AI Act du Bureau européen de l'IA visant OpenAI et Anthropic, Gemini 4 Argon disponible à grande échelle (2 $/10 $ par M tokens), arrestation d'un ingénieur OpenAI pour micro caché, alerte Gartner sur 3 500 Mds $ d'infrastructure IA, Scion (contrôle de version d'Anthropic, 30 000 fusions/jour), Apple HomeView, bureau Anthropic à Singapour, LFM2.5-24B-A2B et Run:ai open source.
 - **13 octobre 2026** : première édition de la période du 12 au 18 octobre 2026, avec 26 actualités des 12 et 13 octobre couvrant 3 sources actives (AI Weekly, Superhuman, TLDR AI), à compléter en fin de semaine. Semaine démarrée avec les défenses anti-distillation d'Anthropic, son rapport sur l'auto-réplication de petits modèles sur objets connectés, l'alerte du FMI sur une correction des actions IA, la faillite de Character.AI (offre Disney à 20 M$), Maia 300 de Microsoft, Muse Wonder de Meta et l'avertissement de Hock Tan (Broadcom) sur un marché « casino ».
