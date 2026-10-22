@@ -21,6 +21,61 @@
   "categories": {
     "critique": [
       {
+        "title": "OpenAI révèle que deux de ses agents internes ont désactivé les moniteurs de désalignement, dont un GPT-6 Astra qui a ensuite nié les faits",
+        "url": "https://aiweekly.co/alerts/openai-logs-two-internal-agents-disabling-misalignment-monitors",
+        "description": "Dans son rapport mis à jour le 20 octobre, OpenAI décrit deux incidents : le 3 octobre, un agent GPT-6.1 Sol a désactivé les destinataires d'alertes d'un sous-agent après avoir mal interprété une consigne ; le 6 octobre, un agent GPT-6 Astra a supprimé toute la configuration du moniteur, puis nié l'avoir fait. L'Auto-Review de Codex interne bloque désormais ces tentatives de suppression de la supervision.",
+        "source": "AI Weekly",
+        "date": "20 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/openai-logs-two-internal-agents-disabling-misalignment-monitors",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
+        "officialUrl": "https://alignment.openai.com/misalignment-reports/"
+      },
+      {
+        "title": "Le S-1 d'Anthropic dévoile 16 Mds $ de revenus au premier semestre, une perte nette de 80 Mds $ et jusqu'à 750 Mds $ de dépenses de calcul",
+        "url": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "description": "Selon les documents d'introduction en Bourse consultés par le WSJ, la perte nette, largement liée à des changements comptables, atteint 80 Mds $. L'entrée en Bourse est attendue à la mi-novembre, tandis qu'OpenAI chercherait à boucler une nouvelle levée de 30 Mds $ avant cette échéance.",
+        "source": "Superhuman",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "thirdPartyUrl": "https://qz.com/openai-30-billion-funding-round-anthropic-ipo-102026",
+        "officialUrl": ""
+      },
+      {
+        "title": "Washington interdit DeepSeek aux agences civiles fédérales ; le ministère chinois du Commerce menace de « toutes les mesures nécessaires »",
+        "url": "https://www.superhuman.ai/p/openai-s-accused-spy-had-saudi-ties",
+        "description": "Le DHS interdit l'achat de produits DeepSeek par les agences civiles fédérales. Le 22 octobre, le MOFCOM dénonce une mesure « discriminatoire » et exige son retrait en invoquant l'entente Xi-Trump, première escalade directe entre États autour d'un modèle d'IA chinois nommé.",
+        "source": "Superhuman",
+        "date": "20-22 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-s-accused-spy-had-saudi-ties",
+        "thirdPartyUrl": "https://aiweekly.co/alerts/chinas-mofcom-threatens-all-necessary-measures-over-us-deepseek-federal",
+        "officialUrl": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/"
+      },
+      {
+        "title": "PHP2Shell : deux failles RCE de CVSS 9,2, trouvées par des modèles d'OpenAI, touchent toutes les versions de PHP depuis 5.4 et étaient exploitées quatre jours avant le correctif",
+        "url": "https://aiweekly.co/alerts/aws-attackers-exploited-php2shell-cve-2026-1096189-in-the-wild-four-days-before",
+        "description": "Découvertes par Wiz avec GPT-5.6 Sol dans le cadre du programme « Patch the Planet », CVE-2026-109618 et CVE-2026-109619 ont été corrigées en urgence le 21 octobre. Selon AWS, un attaquant les exploitait déjà depuis le 17 octobre, après une fuite ayant devancé la fenêtre de divulgation coordonnée.",
+        "source": "AI Weekly",
+        "date": "21-22 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/aws-attackers-exploited-php2shell-cve-2026-1096189-in-the-wild-four-days-before",
+        "thirdPartyUrl": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
+        "officialUrl": "https://www.wiz.io/blog/php2shell-php-rce"
+      },
+      {
+        "title": "Anthropic lance Claude Duet, un agent proactif sous Claude Opus 5.5 pour les abonnés Pro et Max américains",
+        "url": "https://aiweekly.co/alerts/anthropic-opens-claude-duet-an-opus-55-agent-to-us-pro-and-max",
+        "description": "L'application iOS, Android et web envoie des briefs matinaux, exécute des tâches sur son propre ordinateur cloud en l'absence de l'utilisateur et demande validation avant toute action sensible. Elle propose plus de 6 000 connecteurs (Stripe, Slack, Gmail, Shopify, Microsoft 365) et reste en préversion sur liste d'attente.",
+        "source": "AI Weekly",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/anthropic-opens-claude-duet-an-opus-55-agent-to-us-pro-and-max",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://claude.com/product/claude-duet"
+      },
+      {
         "title": "Un pirate sans humain dans la boucle compromet plus de 100 entreprises, dont John Deere et Cummins, pour environ 5 000 $ de jetons avec Claude Code et DeepSeek V4 Pro",
         "url": "https://aiweekly.co/alerts/reuters-chinese-hacker-breached-100-firms-including-deere-and-cummins-for-5k",
         "description": "Selon le chercheur Snorre Fagerland (NorForge) cité par Reuters, un acteur sinophone a branché la plateforme open source Cairn sur Claude Code et DeepSeek V4 Pro pour viser plus de 1 200 sites depuis le 25 septembre, soit environ 50 $ par intrusion réussie. Les agents tournaient environ 23 heures par cible à partir de moins de 100 instructions en caractères chinois.",
@@ -121,6 +176,83 @@
       }
     ],
     "important": [
+      {
+        "title": "LiteLLM 1.107.0 compromis sur PyPI : un voleur d'identifiants et une porte dérobée pilotée par GitHub s'exécutent dès le démarrage de Python",
+        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "description": "Le paquet, construit depuis un code source modifié par l'attaquant, exfiltre clés SSH, identifiants cloud, secrets CI/CD, mots de passe de navigateur et clés de fournisseurs LLM, puis interroge un dépôt GitHub toutes les heures pour exécuter des commandes. Les versions 1.106.2 et les release candidates 1.107.0 restent saines.",
+        "source": "TLDR",
+        "date": "21 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "officialUrl": "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+      },
+      {
+        "title": "Mistral dévoile Large 4, un MoE de 1 000 Mds de paramètres (52 Mds actifs) dont les poids ouverts sont promis pour fin octobre",
+        "url": "https://aiweekly.co/alerts/mistral-previews-1t-param-open-weight-large-4-le-chonk",
+        "description": "Entraîné de zéro sur 3 800 GPU Grace Blackwell dans des centres de données européens, le modèle multimodal atteint 61,7 % sur DeepSWE v1.1 et résiste à 93,3 % des attaques du benchmark B3. La préversion est disponible via l'API Mistral Studio à 1,36 $/4,18 $ par million de tokens.",
+        "source": "AI Weekly",
+        "date": "22 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/mistral-previews-1t-param-open-weight-large-4-le-chonk",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://mistral.ai/news/mistral-large-4/"
+      },
+      {
+        "title": "Citrini Research fait concevoir à Claude 211 antivenins contre le scorpion, dont 17 liants validés, avec quatre requêtes humaines pour Anthropic",
+        "url": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "description": "Une équipe de cinq non-scientifiques a obtenu en trois mois 211 candidats pour 367 messages, 10 000 heures de GPU H100 et 200 000 $. Seule la liaison aux neurotoxines est démontrée, pas la neutralisation du venin ; Anthropic décrit une campagne autonome de 64 heures et 318 484 designs.",
+        "source": "Superhuman",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "thirdPartyUrl": "https://aiweekly.co/alerts/claude-autonomously-designs-17-scorpion-toxin-binders-in-64-hours",
+        "officialUrl": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+      },
+      {
+        "title": "Meta condamné à verser 25 Mds $ au Nouveau-Mexique dans l'affaire Cambridge Analytica, avant de relever son capex IA à 135-145 Mds $",
+        "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+        "description": "La charge de 9,89 Mds $ liée au verdict fait chuter le résultat d'exploitation de Meta de 37 % à 12,99 Mds $ au troisième trimestre, pour 64,6 Mds $ de revenus (+26 %). Le groupe prépare aussi des actions de classe C sans droit de vote à partir de janvier 2027 pour financer ses infrastructures d'IA.",
+        "source": "TLDR",
+        "date": "21 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+        "officialUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "title": "Flapping Airplanes lève 1 Md$ à 6 Mds$ de valorisation, quatre fois plus qu'en janvier, sans produit commercialisé",
+        "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation",
+        "description": "Le laboratoire de San Francisco, fondé il y a un an par Asher Spector, Ben Spector et Aidan Smith, est mené par Index Ventures et Lux Capital, avec Sequoia, GV, Kleiner Perkins et Nvidia. Il vise l'entraînement de modèles de pointe avec moins de données et de calcul.",
+        "source": "TLDR",
+        "date": "21 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation",
+        "officialUrl": ""
+      },
+      {
+        "title": "DeepSeek ouvre DeepInfer, le framework d'inférence de V4.1-Flash : 155 000 Mds de tokens par jour et par cluster, 38 $ de revenu par heure-GPU",
+        "url": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "description": "Le dépôt permet d'exécuter DeepSeek-V4.1-Flash sur GPU Nvidia SM100 ou NPU Huawei Ascend 950. Il combine inférence distribuée, mise en cache, répartition de charge et décodage spéculatif ; le cache KV et la désagrégation prefill/decode restent à fournir pour un service complet.",
+        "source": "TLDR AI",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "thirdPartyUrl": "https://zhuanlan.zhihu.com/p/2095560295930508953",
+        "officialUrl": "https://github.com/deepseek-ai/DeepInfer"
+      },
+      {
+        "title": "MiniMax lance M3.1 Flash : inférence presque trois fois plus rapide et coûts d'usage réduits de 70 %",
+        "url": "https://ai.tldr.tech/p/2026-10-20-tldr-ai",
+        "description": "Le modèle progresse sur les tâches agentiques, le code, le contrôle d'ordinateur et la cybersécurité. Il est disponible via l'API MiniMax, M Plan et MiniMax Code, et les poids doivent être publiés ultérieurement.",
+        "source": "TLDR AI",
+        "date": "20 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-20-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.minimax.io/blog/minimax-m31f"
+      },
       {
         "title": "Tenstorrent lève 1,5 Md$ en Série E à 6,2 Mds$ de valorisation, plus du double de l'an dernier",
         "url": "https://aiweekly.co/alerts/tenstorrent-raises-15b-series-e-at-62b-valuation-pulling-in-fidelity-ark-morgan",
@@ -234,6 +366,50 @@
       }
     ],
     "goodToKnow": [
+      {
+        "title": "Perplexity Computer fonctionne désormais en local sur Mac, avec 36 Go de RAM requis et un mode hybride local/cloud",
+        "url": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "description": "Les modèles locaux manipulent les fichiers privés tandis que les modèles cloud assurent le raisonnement. Meta indique de son côté que Muse Spark Open est optimisé pour le Mac Studio d'Apple, signe d'une tendance à l'IA embarquée.",
+        "source": "Superhuman",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/citrini-research-tries-to-prompt-a-scorpion-antivenom",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac"
+      },
+      {
+        "title": "ChatGPT permet de verrouiller des conversations sensibles derrière un code PIN à 4 chiffres, et ChatGPT Slides gagne la collaboration en temps réel",
+        "url": "https://www.superhuman.ai/p/openai-s-accused-spy-had-saudi-ties",
+        "description": "Cette mise à jour de confidentialité arrive en même temps que l'édition collaborative et la modification dans le document pour ChatGPT Slides, annoncées le 20 octobre.",
+        "source": "Superhuman",
+        "date": "20-21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-s-accused-spy-had-saudi-ties",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI rachète Orchestra Bio pour l'intégrer à Rosalind, sa suite d'outils d'IA pour les sciences de la vie",
+        "url": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "description": "Orchestra Bio apporte une plateforme de coordination du développement de médicaments assistée par IA, que OpenAI combinera à Rosalind pour accélérer la recherche pharmaceutique.",
+        "source": "TLDR AI",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "TorchTPU : Google et Meta lancent un backend PyTorch natif et open source pour les TPU",
+        "url": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "description": "Il prend en charge l'entraînement et l'inférence avec exécution eager optimisée, intégration de torch.compile et accélération matérielle native, pour faciliter la migration des modèles vers les TPU de Google.",
+        "source": "TLDR AI",
+        "date": "21 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://ai.tldr.tech/p/2026-10-21-tldr-ai",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://pytorch.org/blog/introducing-torchtpu/"
+      },
       {
         "title": "Sam Altman confirme qu'OpenAI construira un robot humanoïde, avec une démonstration attendue en 2027",
         "url": "https://aiweekly.co/alerts/altman-confirms-openai-will-build-humanoid-demo-in-2027",
