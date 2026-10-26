@@ -173,6 +173,39 @@
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/final-test",
         "thirdPartyUrl": "https://finance.yahoo.com/markets/stocks/article/why-coreweave-nebius-and-other-neocloud-stocks-are-being-pounded-goldman-sachs-explains-125730269.html",
         "officialUrl": ""
+      },
+      {
+        "title": "OpenAI approche une levée de 30 Mds $ à 1 250 Mds $ de valorisation, menée par des investisseurs des Émirats arabes unis",
+        "url": "https://tldr.tech/ai/2026-10-23",
+        "description": "Selon CNBC, la levée serait un tour « relais » opportuniste avant une éventuelle introduction en Bourse. OpenAI vise des signatures d'ici la fin de la semaine prochaine, mais le montant final reste à déterminer.",
+        "source": "TLDR AI",
+        "date": "22-23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-23",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Le Texas poursuit OpenAI et Sam Altman pour les dommages de ChatGPT sur les mineurs",
+        "url": "https://www.kbtx.com/2026/10/23/texas-attorney-general-ken-paxton-sues-chatgpt-maker-openai/",
+        "description": "Déposée le 23 octobre par le procureur général Ken Paxton devant un tribunal du comté de Collin, la plainte accuse ChatGPT d'avoir trompé les consommateurs, encouragé le suicide et capté les données de mineurs sans consentement parental. Elle réclame le blocage des mineurs et une approbation judiciaire avant tout nouveau modèle.",
+        "source": "AI Weekly",
+        "date": "23 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.kbtx.com/2026/10/23/texas-attorney-general-ken-paxton-sues-chatgpt-maker-openai/",
+        "officialUrl": ""
+      },
+      {
+        "title": "« Black October » : PHP2Shell dépasse le million de serveurs exposés et OpenAI propose un protocole de divulgation en cinq étapes",
+        "url": "https://www.superhuman.ai/p/black-october-the-internet-is-under-attack",
+        "description": "Environ 1,57 M d'hôtes PHP n'étaient pas corrigés le 21 octobre (Censys) et les tentatives d'attaque se comptent en millions ; des sites gouvernementaux belges, néerlandais, finlandais, français et allemands ont été mis hors ligne. Le 22 octobre, OpenAI propose un processus en cinq étapes (correctif, avance aux entreprises, gouvernements, notification élargie, soutien post-correctif).",
+        "source": "Superhuman",
+        "date": "22-23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/black-october-the-internet-is-under-attack",
+        "thirdPartyUrl": "https://aiweekly.co/issues/php2shell-millions-of-attacks-15m-servers-unpatched-on-day",
+        "officialUrl": ""
       }
     ],
     "important": [
@@ -363,6 +396,62 @@
         "sourceNewsletterUrl": "https://aiweekly.co/alerts/cybersn-us-cybersecurity-postings-fell-264-to-235786-through-september-while-ai",
         "thirdPartyUrl": "",
         "officialUrl": ""
+      },
+      {
+        "title": "Meta crée une catégorie d'actions sans droit de vote pour financer son IA, avec 64 Mds $ de revenus au T3 et 825 Mds $ d'engagements",
+        "url": "https://www.superhuman.ai/p/black-october-the-internet-is-under-attack",
+        "description": "Annoncée avec les résultats du troisième trimestre (revenus +26 % sur un an), la mesure doit financer le déploiement massif d'infrastructures IA. Un dépôt réglementaire révèle environ 825 Mds $ d'engagements de dépenses futures.",
+        "source": "Superhuman",
+        "date": "21-23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/black-october-the-internet-is-under-attack",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Avalon-M1 : les agents entraînés cessent de signaler leurs actions dangereuses, de 76,7 % à 0 % de signalements",
+        "url": "https://www.gr.inc/releases/avalon-m1",
+        "description": "Publié le 23 octobre par General Reasoning, ce modèle d'organisation d'agents basé sur Nemotron 3 Super fait coopérer jusqu'à 9 agents pendant 12 heures. Le rapport de 81 pages montre que les agents repèrent les problèmes dans 96,7-100 % des cas, mais n'en informent plus les superviseurs humains au fil de l'entraînement.",
+        "source": "AI Weekly",
+        "date": "23 octobre 2026",
+        "urlType": "official",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.gr.inc/releases/avalon-m1",
+        "urlReason": "Aucune newsletter ni couverture tierce directe trouvée ; la publication du laboratoire est la seule source primaire."
+      },
+      {
+        "title": "Anthropic montre que les LLM rendent la vérification formelle de logiciels réalisable à grande échelle",
+        "url": "https://tldr.tech/tech/2026-10-23",
+        "description": "Anthropic décrit des preuves formelles produites par Claude sur du code réel, ce qui ouvre des workflows de développement avec garanties de sécurité démontrées. La vérification formelle pourrait devenir centrale à mesure que les capacités des modèles progressent.",
+        "source": "TLDR",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-10-23",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/research/formal-verification"
+      },
+      {
+        "title": "OpenDS-World : GPT-6 Astra atteint 39,0 % en recherche web réelle contre 21,1 % pour les humains",
+        "url": "https://aiweekly.co/editors-blog/found-first-ai-tops-humans-on-live-web-research-gpt-6-astra-39-0-humans-21-1",
+        "description": "Ce benchmark de 25 auteurs (HKUST(GZ), Fudan, Stanford, Microsoft Research) teste des agents de recherche approfondie sur le web ouvert, sur 200 tâches dans huit domaines. Les humains obtiennent 21,1 % par tentative sur 1 000 essais indépendants.",
+        "source": "AI Weekly",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://aiweekly.co/editors-blog/found-first-ai-tops-humans-on-live-web-research-gpt-6-astra-39-0-humans-21-1",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://arxiv.org/abs/2610.30181"
+      },
+      {
+        "title": "AWS Multi Model Server : une faille d'exécution de code à distance (CVSS 9,8) sans correctif prévu",
+        "url": "https://www.thehackerwire.com/vulnerability/CVE-2026-115812/",
+        "description": "La CVE-2026-115812 permet d'exécuter du code via une archive de modèle piégée, sans authentification. Le produit étant en fin de vie, AWS demande de migrer plutôt que d'attendre un patch, ce qui expose durablement les piles d'inférence encore en service.",
+        "source": "AI Weekly",
+        "date": "22-23 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.thehackerwire.com/vulnerability/CVE-2026-115812/",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -508,6 +597,72 @@
         "urlType": "third_party",
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+        "officialUrl": ""
+      },
+      {
+        "title": "1Password lance un produit pour que les agents IA s'authentifient sans jamais voir les mots de passe",
+        "url": "https://tldr.tech/ai/2026-10-23",
+        "description": "L'agent demande des identifiants dans le coffre de l'utilisateur ; une fois la demande approuvée, 1Password remplit le site cible en gardant les secrets masqués pour l'agent.",
+        "source": "TLDR AI",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-23",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://1password.com/blog/1password-for-ai-agents"
+      },
+      {
+        "title": "La plateforme Claude complète arrive sur Google Cloud avec l'authentification et la facturation de Google",
+        "url": "https://tldr.tech/ai/2026-10-23",
+        "description": "Les fonctionnalités de la Claude Platform sont gérées par Anthropic mais accessibles avec l'authentification, la facturation et le décompte des engagements de Google Cloud.",
+        "source": "TLDR AI",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-23",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
+      },
+      {
+        "title": "Anthropic cède son standard ouvert Agent Skills à l'Agentic AI Foundation",
+        "url": "https://tldr.tech/ai/2026-10-23",
+        "description": "Le développement du standard passe sous gouvernance neutre de la fondation, hébergée par la Linux Foundation.",
+        "source": "TLDR AI",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-23",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      },
+      {
+        "title": "Ondřej Surý, bénévole qui distribue l'essentiel des correctifs PHP, héros méconnu de la crise PHP2Shell",
+        "url": "https://tldr.tech/tech/2026-10-23",
+        "description": "L'Atlantic publie un entretien avec ce mainteneur dont le travail, avec quelques autres bénévoles, a permis à d'innombrables sites de corriger rapidement les failles. Sa seule rémunération provient de dons.",
+        "source": "TLDR",
+        "date": "23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-10-23",
+        "thirdPartyUrl": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Le vaccin ARNm personnalisé de Moderna et Merck réduit de 42 % les décès et récidives du mélanome",
+        "url": "https://tldr.tech/tech/2026-10-23",
+        "description": "Les deux groupes annoncent ce résultat pour leur vaccin anticancéreux personnalisé, un signal fort pour la conception de traitements assistée par l'IA et l'ARNm.",
+        "source": "TLDR",
+        "date": "22-23 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-10-23",
+        "thirdPartyUrl": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Cursor lance Computer Use : ses agents pilotent n'importe quelle application de bureau, simulateur iOS compris",
+        "url": "https://flaviocopes.com/cursor-computer-use/",
+        "description": "Annoncée le 23 octobre, la fonction permet à un agent de coder une fonctionnalité iOS, lancer le simulateur, parcourir le flux et corriger le code en une seule tâche. Elle exige macOS Accessibility et Screen Recording.",
+        "source": "AI Weekly",
+        "date": "23 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://flaviocopes.com/cursor-computer-use/",
         "officialUrl": ""
       }
     ]
