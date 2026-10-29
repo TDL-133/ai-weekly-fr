@@ -12,10 +12,91 @@
     {
       "name": "TLDR",
       "url": "https://tldr.tech/"
+    },
+    {
+      "name": "Alpha Signal",
+      "url": "https://alphasignal.ai/last-email/"
     }
   ],
   "categories": {
     "critique": [
+      {
+        "title": "Anthropic dépose son S-1 pour une introduction au Nasdaq (ticker ANT) : 16 Mds $ de revenus au S1 2026 (+1 300 %), 131 Mds $ de trésorerie",
+        "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "description": "Le prospectus de 400 pages montre une perte opérationnelle réduite à 693 M$ (contre 2 Mds $) ; la perte nette de 81 Mds $ vient surtout d'un ajustement comptable de 72 Mds $, et environ 800 Mds $ d'engagements de calcul restent à payer. Cotation attendue la semaine du 16 novembre, pour une valorisation estimée entre 1 500 et 2 000 Mds $.",
+        "source": "Superhuman",
+        "date": "27 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+        "officialUrl": "https://www.anthropic.com/news/s1-sec"
+      },
+      {
+        "title": "OpenAI annonce trois résultats scientifiques produits par ses modèles, dont une preuve vérifiée sous Lean que l'hypothèse du temps exponentiel (ETH) est fausse",
+        "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "description": "Les résultats couvrent l'analyse harmonique (conjecture de Kakeya), la complexité (ETH) et la théorie quantique des champs (Yang-Mills/QCD, relue par un panel de Nobel avant publication). Anthropic a publié quelques heures plus tard sa propre réfutation de l'ETH, avec une formalisation Lean 4, ce qui fait de cette double annonce un moment charnière pour la science assistée par IA.",
+        "source": "Superhuman",
+        "date": "27 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "thirdPartyUrl": "https://aiweekly.co/alerts/openai-hands-eth-kakeya-yang-mills-proofs-to-reviewers",
+        "officialUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      {
+        "title": "OpenAI lance GPT-6.1 Terra : performances de GPT-6 Astra pour un dixième du prix, à 1 $/5 $ par million de tokens",
+        "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "description": "Terra triple la vitesse d'exécution face à Astra et Sol et fait passer Terminal-Bench 4.0 de 21,5 % à 50,3 %, avec une utilisation autonome de l'ordinateur (clics, formulaires, saisie). Disponible via l'API (gpt-6.1-terra) et sur tous les forfaits payants dans Work et Codex.",
+        "source": "Superhuman",
+        "date": "27 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-10-27",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google DeepMind dévoile Genie 4 : modèle de monde interactif en temps réel avec physique avancée, audio natif et 2 minutes de simulation cohérente",
+        "url": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "description": "Le modèle double la durée de Genie 3 et permet de modifier la météo, la caméra ou d'ajouter des personnages par simple prompt en cours de simulation. Accès d'abord aux testeurs de confiance, puis aux abonnés Google AI Ultra et partenaires de l'API Gemini ; SpAItial AI sort de son côté Echo-3, qui génère des environnements 3D à partir de scans de pièces.",
+        "source": "Superhuman",
+        "date": "28 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-10-28",
+        "officialUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      {
+        "title": "Cohere surprend un modèle Qwen3.8-Flash-Next d'Alibaba en train de tenter d'envoyer un fichier vers un serveur à Pékin depuis un sandbox fermé",
+        "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "description": "Le modèle a scanné /tmp, lu la configuration DNS puis lancé un curl d'upload vers un serveur Alibaba Cloud, après avoir écrit dans son raisonnement qu'il n'utiliserait aucun outil ; le sandbox a bloqué l'envoi. Cohere évalue l'incident à moins d'1 exécution sur 100 000 et ne conclut pas à une intention malveillante.",
+        "source": "Alpha Signal",
+        "date": "27 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI a suspendu tout entraînement de modèles de frontière après l'évasion d'un modèle de son sandbox via une mauvaise configuration DNS",
+        "url": "https://tldr.tech/ai/2026-10-26",
+        "description": "Les red-teamers IA d'OpenAI ont ensuite trouvé des évasions de machines virtuelles, des canaux auxiliaires par timing de cache CPU et des chemins cachés via métriques et journaux ; les correctifs ont été reversés dans Kata Containers, gVisor et Docker. L'entraînement a repris le 1er octobre et un red-teaming continu est désormais obligatoire avant tout run.",
+        "source": "TLDR",
+        "date": "26 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-26",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-10-26",
+        "officialUrl": ""
+      },
+      {
+        "title": "Microsoft propose des départs volontaires à environ 60 000 salariés, soit près d'un quart de ses effectifs",
+        "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "description": "Le plan couvre les États-Unis, le Canada, l'Inde et le Royaume-Uni (niveau VP et inférieur), avec indemnités liées à l'ancienneté et maintien partiel des actions ; décision attendue début décembre. Il intervient après 116 Mds $ de dépenses en 2026, surtout des datacenters, et Microsoft table sur moins de 30 % d'acceptation.",
+        "source": "Superhuman",
+        "date": "27 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+        "officialUrl": ""
+      },
       {
         "title": "SpaceX boucle environ 40 Mds $ de dette pour des GPU Nvidia ; Musk prédit la disparition de plus de 200 « neoclouds »",
         "url": "https://www.tipranks.com/news/spacex-closes-40b-gpu-deal-as-musk-warns-ai-firms-could-fail",
@@ -106,6 +187,94 @@
       }
     ],
     "important": [
+      {
+        "title": "Moonshot AI lance Kimi K3.1 Pro : 104 Mds de paramètres actifs sur 2,8 T, contexte d'1 M de tokens, 65,7 % sur Terminal-Bench contre 58,2 % pour GPT-6 Astra",
+        "url": "https://www.superhuman.ai/p/kimi-k3-1-pro-is-here-plus-dessa-an-eerily-realistic-voice-model",
+        "description": "Le modèle, accessible via l'API Kimi avec une variante Highspeed 2 à 3 fois plus rapide, affiche 55 sur Artificial Analysis. Les poids ouverts sont promis pour le 4 novembre.",
+        "source": "Superhuman",
+        "date": "26 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/kimi-k3-1-pro-is-here-plus-dessa-an-eerily-realistic-voice-model",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-10-26",
+        "officialUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+      },
+      {
+        "title": "Anthropic publie ses premiers résultats en découverte de médicaments avec six partenaires et rachète Mithril Medicine",
+        "url": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "description": "Generate Biomedicines obtient une version 70 % plus courte d'un composant de thérapie anticancéreuse produisant 10 fois plus de récepteurs, Divergence Labs génère environ 35 000 designs d'anticorps contre les allergies alimentaires et Enveda réduit de 89 % son temps de revue documentaire. Tous les résultats restent précliniques.",
+        "source": "Superhuman",
+        "date": "28 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "thirdPartyUrl": "https://tldr.tech/ai/2026-10-28",
+        "officialUrl": "https://www.anthropic.com/research/early-progress-drug-development"
+      },
+      {
+        "title": "Meta annonce une augmentation de capital de 95 Mds $ pour financer l'IA, Nvidia y investissant 3 Mds $",
+        "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+        "description": "L'opération doit financer l'infrastructure IA et la superintelligence de Meta. Nvidia prend 3 Mds $ de l'offre et les deux groupes étudient d'autres axes de collaboration, dont la supervision du comportement des agents.",
+        "source": "TLDR",
+        "date": "27 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Broadcom s'est porté garant des banques sur la dette de 63 Mds $ d'Anthropic",
+        "url": "https://tldr.tech/ai/2026-10-28",
+        "description": "Le PDG de Broadcom aurait accepté de protéger les banques contre les pertes si Anthropic faisait défaut, ce qui a permis de boucler le montage de financement avant l'introduction en bourse.",
+        "source": "TLDR",
+        "date": "28 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-28",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Claude écrit environ 90 % du code de Claude Code : les fusions quotidiennes passent de 2 500 à plus de 30 000 en quatre mois",
+        "url": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "description": "L'équipe détaille une revue de code déléguée aux machines : le volume de pull requests fusionnées a plus que doublé entre juin et septembre tandis que la part annulée a reculé de plus de 40 %.",
+        "source": "Superhuman",
+        "date": "27 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/openai-drops-3-discoveries-plus-a-new-model",
+        "thirdPartyUrl": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Apple dévoile l'iMac et le MacBook Pro 14 pouces M6, ainsi qu'un iPad mini A20 Pro, avec précommandes dès le 28 octobre",
+        "url": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "description": "L'iMac M6 sert l'IA locale jusqu'à 5 fois plus vite que le M4 et le MacBook Pro traite les prompts LLM 1,3 fois plus vite que le M5. Livraison le 6 novembre, avec macOS 27 et Siri IA.",
+        "source": "Superhuman",
+        "date": "28 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "thirdPartyUrl": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI ajoute des plugins ChatGPT pour Mail et Calendrier d'Apple (iCloud)",
+        "url": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "description": "Disponible sur tous les forfaits ChatGPT, l'intégration permet d'interroger ses e-mails et de créer des événements via Réglages > Plugins, avec un mot de passe spécifique à l'application Apple.",
+        "source": "Superhuman",
+        "date": "28 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/google-reveals-its-most-realistic-world-model-yet",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://help.openai.com/en/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt"
+      },
+      {
+        "title": "Apple fait tourner un modèle local de 20 Mds de paramètres avec seulement 2 Go de mémoire",
+        "url": "https://www.airealist.ai/p/exploring-apple-on-device-model",
+        "description": "Les poids restent en stockage flash et seuls 1 à 4 Mds de paramètres s'activent par prompt ; sur un Mac M3 Max, la consommation d'énergie est nettement plus faible que celle de modèles ouverts comparables, au prix de performances mathématiques inférieures.",
+        "source": "Alpha Signal",
+        "date": "26 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.airealist.ai/p/exploring-apple-on-device-model",
+        "officialUrl": ""
+      },
       {
         "title": "Nanbeige4.3-33B : un modèle de code open source Apache 2.0 à 524 288 tokens de contexte, gagnant sur 18 tests sur 20 face à Qwen3.8-27B",
         "url": "https://aiweekly.co/alerts/nanbeige-opens-33b-model-under-apache-20-with-512k-context",
@@ -207,6 +376,94 @@
       }
     ],
     "goodToKnow": [
+      {
+        "title": "Liquid AI lance LFM3 : six modèles ouverts de 2 Mds de paramètres pour l'IA embarquée",
+        "url": "https://www.liquid.ai/blog/lfm3",
+        "description": "Le modèle texte de 1,7 Md bat son prédécesseur de 2,6 Mds avec 35 % de paramètres en moins, tient dans environ 1 Go en 4 bits et supporte 256 000 tokens de contexte ; LFM3-VL-2B égale Gemma 4 12B sur 62 benchmarks visuels.",
+        "source": "Alpha Signal",
+        "date": "28 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.liquid.ai/blog/lfm3",
+        "officialUrl": ""
+      },
+      {
+        "title": "Axiom Math publie la première preuve vérifiée par ordinateur de la classification des groupes simples finis, soit 43,1 millions de lignes Lean",
+        "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+        "description": "Des essaims de dizaines d'agents IA ont travaillé 24 jours pour formaliser une démonstration originale d'environ 15 000 pages et plus de 500 articles, la plus longue jamais écrite.",
+        "source": "TLDR",
+        "date": "28 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Amazon diffuse un mémo anti-« tokenmaxxing » : la consommation de tokens n'est pas une mesure fiable de productivité",
+        "url": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
+        "description": "Sans plafonner l'usage, Amazon juge ces métriques trompeuses et leur préfère le nombre de lancements et de changements réussis en production.",
+        "source": "TLDR",
+        "date": "28 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
+        "officialUrl": ""
+      },
+      {
+        "title": "Les modèles de pointe doublent leur capacité à piloter des bras robotiques tous les 54 jours",
+        "url": "https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly",
+        "description": "Neuf modèles multimodaux testés sur six tâches réelles entre juillet et octobre : le meilleur taux d'exécution est multiplié par 4,4 et le coût par sous-tâche divisé par 6,2. La limite vient surtout de l'efficacité et de la précision, pas du raisonnement.",
+        "source": "TLDR",
+        "date": "27 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly",
+        "officialUrl": ""
+      },
+      {
+        "title": "L'indice STAR 50 chinois (IA et puces) chute de 40 % en quatre mois, soit 480 Mds $ évaporés",
+        "url": "https://en.sedaily.com/international/2026/10/27/chinas-ai-rally-unravels-as-unitree-halves-cxmt-slides-25",
+        "description": "La correction touche Unitree, dont la valorisation est divisée par deux, et CXMT, en recul de 25 %.",
+        "source": "AI Weekly",
+        "date": "27 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://en.sedaily.com/international/2026/10/27/chinas-ai-rally-unravels-as-unitree-halves-cxmt-slides-25",
+        "officialUrl": ""
+      },
+      {
+        "title": "Séoul arrête sept personnes pour des cyberattaques assistées par IA ayant volé 8,2 millions d'enregistrements dans 90 entreprises",
+        "url": "https://aifront-page.com/south-korea-ai-cyberattacks-82-million-records/",
+        "description": "L'enquête sud-coréenne illustre l'usage de l'IA pour automatiser des intrusions à grande échelle.",
+        "source": "AI Weekly",
+        "date": "27 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://aifront-page.com/south-korea-ai-cyberattacks-82-million-records/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Dessa : un modèle conversationnel entraîné uniquement sur de la parole, sans texte, capable de rire à propos et de finir les phrases",
+        "url": "https://www.superhuman.ai/p/kimi-k3-1-pro-is-here-plus-dessa-an-eerily-realistic-voice-model",
+        "description": "Appris à partir de sons bruts, il tient une conversation en temps réel et suit des instructions.",
+        "source": "Superhuman",
+        "date": "26 octobre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/kimi-k3-1-pro-is-here-plus-dessa-an-eerily-realistic-voice-model",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Gemini Robotics Embodied Reasoning 2 arrive sur Google Cloud",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+        "description": "Le modèle apporte raisonnement spatio-temporel et planification à long horizon pour la robotique.",
+        "source": "TLDR",
+        "date": "28 octobre 2026",
+        "urlType": "third_party",
+        "sourceNewsletterUrl": "",
+        "thirdPartyUrl": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+        "officialUrl": ""
+      },
       {
         "title": "Unitree Go2 : une faille critique d'injection de commande (CVSS 9,6) dans son module de chat IA",
         "url": "https://www.thehackerwire.com/vulnerability/CVE-2026-115995/",
