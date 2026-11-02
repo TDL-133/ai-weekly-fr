@@ -184,6 +184,36 @@
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-waymo-plans-massive-fleet-expansion",
         "thirdPartyUrl": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
         "officialUrl": ""
+      },
+      {
+        "title": "Google lance Gemini 4 Carbon, nouveau modèle phare n°1 de l'Artificial Analysis Intelligence Index (59) devant Claude Opus 5.5 (58) et GPT-6 Astra (57)",
+        "description": "Carbon obtient 88,2 % sur SEC-bench Pro pour la détection de vulnérabilités et aurait travaillé plusieurs jours d'affilée sur des projets internes de Google. Il est déployé en priorité auprès des défenseurs cyber via le programme Fairwind.",
+        "source": "Superhuman",
+        "date": "29 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/apple-s-touchscreen-macbook-gemini-4-carbon-land-same-day",
+        "thirdPartyUrl": "https://aibriefs.news/briefing/2026-10-29",
+        "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/apple-s-touchscreen-macbook-gemini-4-carbon-land-same-day"
+      },
+      {
+        "title": "Alphabet perd environ 500 Mds $ de capitalisation en une séance (-12 %, pire journée de son histoire) : Wall Street s'inquiète des 750 Mds $ de dépenses IA prévues en 2027",
+        "description": "Le directeur commercial Philipp Schindler a reconnu que la croissance des requêtes d'AI Mode pèse sur les revenus publicitaires de la recherche, moins bien monétisées. Microsoft est resté stable et Amazon a cédé 4 % ; Alphabet, Amazon et Meta affichent un flux de trésorerie disponible négatif.",
+        "source": "Superhuman",
+        "date": "30 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd",
+        "thirdPartyUrl": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd"
+      },
+      {
+        "title": "OpenAI réduit son objectif de levée à 20 Mds $ (contre environ 30 Mds $ visés) pour une valorisation post-money de 1 250 Mds $",
+        "description": "Selon CNBC et le Financial Times, la baisse de l'objectif intervient dans un contexte de correction boursière et d'examen accru des dépenses IA par les investisseurs. D'autres sources évoquent seulement 11 Mds $ levés à ce stade.",
+        "source": "AI Weekly",
+        "date": "31 octobre 2026",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+        "urlType": "third_party",
+        "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
       }
     ],
     "important": [
@@ -373,6 +403,54 @@
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "https://www.freepressjournal.in/tech/please-use-the-robot-safely-in-a-friendly-manner-unitree-unveils-h2-x-guardian-humanoid-that-fights-lifts-cars-in-demo",
         "officialUrl": ""
+      },
+      {
+        "title": "Anthropic enrichit Claude de sept nouvelles fonctions : 24 langues supplémentaires et mode vocal mains libres via Apple CarPlay",
+        "description": "OpenAI et Anthropic ferment la semaine avec des mises à niveau produit ; Claude gagne aussi des workflows prêts à l'emploi pour le juridique, avec plus de 60 connecteurs ajoutés depuis le lancement de la suite Legal.",
+        "source": "Superhuman",
+        "date": "30 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd"
+      },
+      {
+        "title": "Anthropic lance des outils de suivi des dépenses IA pour montrer aux entreprises ce que leur budget Claude leur rapporte",
+        "description": "Les rapports détaillent productivité, coûts et recommandations d'optimisation pour des produits comme Claude Code, une préoccupation majeure des clients entreprise malgré la concurrence d'Astra chez OpenAI.",
+        "source": "TLDR",
+        "date": "29 octobre 2026",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-29",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+        "urlType": "newsletter",
+        "url": "https://tldr.tech/ai/2026-10-29"
+      },
+      {
+        "title": "Unitree publie ses premiers résultats trimestriels : 100 M$ de chiffre d'affaires au T3 (+70 %), mais un bénéfice en baisse de 17 %",
+        "description": "Le fabricant chinois de robots humanoïdes manque les attentes des analystes en raison de dépenses de R&D accrues ; les investisseurs y voient un test de la demande commerciale réelle du secteur.",
+        "source": "Superhuman",
+        "date": "31 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in",
+        "thirdPartyUrl": "https://www.reuters.com/world/asia-pacific/unitrees-q3-profit-down-174-on-year-test-chinas-robotics-sector-2026-10-28/",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in"
+      },
+      {
+        "title": "Figure AI boucle la conception de Figure 04, présenté par son PDG comme « l'iPhone 1 » des humanoïdes",
+        "description": "Brett Adcock indique que la main du robot compte plus d'actionneurs que le reste du corps ; Figure a dépensé environ 8,1 M$ en données en une semaine via son application Index de collecte vidéo.",
+        "source": "Superhuman",
+        "date": "31 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in"
+      },
+      {
+        "title": "Trump qualifie les robots importés de risque pour la sécurité nationale mais renonce, pour l'instant, à des droits de douane",
+        "description": "Des tarifs restent possibles si les négociations commerciales échouent. IDC estime par ailleurs que les restrictions américaines sur les robots étrangers pourraient réduire le marché du pays de 58 % d'ici 2030.",
+        "source": "Superhuman",
+        "date": "31 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in",
+        "thirdPartyUrl": "https://www.reuters.com/world/china/trump-says-imported-robotics-pose-national-security-risks-does-not-impose-2026-10-28/",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in"
       }
     ],
     "goodToKnow": [
@@ -551,6 +629,89 @@
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-waymo-plans-massive-fleet-expansion",
         "thirdPartyUrl": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
         "officialUrl": ""
+      },
+      {
+        "title": "Un neuroscientifique d'Oxford affirme qu'une IA a mené seule une chirurgie cérébrale sur une souris épileptique",
+        "description": "Gabriel Ocana-Santero (Exin Therapeutics) dit que l'IA a choisi le médicament, la zone cérébrale et réalisé l'injection sur un robot motorisé, un vétérinaire gardant l'interrupteur d'arrêt. Aucune source indépendante n'a vérifié l'affirmation.",
+        "source": "Superhuman",
+        "date": "30 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd"
+      },
+      {
+        "title": "L'IPO d'Anthropic pourrait faire de ses 5 300 salariés les détenteurs de 331 Mds $ d'actions, soit 62 M$ en moyenne",
+        "description": "Si les valorisations actuelles se confirment, ce serait l'une des plus grandes créations de richesse de l'histoire selon une estimation du PDG de Hill, Andrew Benson.",
+        "source": "Superhuman",
+        "date": "30 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/ai-performs-brain-surgery-on-a-mouse-claims-oxford-phd"
+      },
+      {
+        "title": "Bedrock Robotics lève 600 M$ pour déployer des excavatrices autonomes sur les chantiers",
+        "description": "La startup vise à répondre à la pénurie de main-d'œuvre dans la construction ; Serve Robotics lance aussi ses livraisons par robots trottoir en Australie (Gold Coast), sa première expansion internationale.",
+        "source": "Superhuman",
+        "date": "31 octobre 2026",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in",
+        "urlType": "newsletter",
+        "url": "https://www.superhuman.ai/p/robotics-special-unitree-s-first-earnings-report-is-in"
+      },
+      {
+        "title": "NVIDIA publie Nemotron 3.5 Transcribe, modèle ouvert de transcription multilingue (40 langues) classé n°1 de plusieurs classements",
+        "description": "Il gère transcription, traduction, attribution des locuteurs et questions-réponses audio, avec le jeu de données Granary v2 pour affiner le modèle sur des vocabulaires spécialisés.",
+        "source": "TLDR",
+        "date": "29 octobre 2026",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-29",
+        "officialUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+        "urlType": "newsletter",
+        "url": "https://tldr.tech/ai/2026-10-29"
+      },
+      {
+        "title": "OpenAI permet aux abonnés Pro américains d'écrire à leur agent Dot par iMessage et RCS",
+        "description": "Les instructions peuvent être envoyées par texte, photo ou mémo vocal, dans la lignée des assistants IA qui vivent dans les messageries.",
+        "source": "TLDR",
+        "date": "29 octobre 2026",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-10-29",
+        "thirdPartyUrl": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/",
+        "urlType": "newsletter",
+        "url": "https://tldr.tech/ai/2026-10-29"
+      },
+      {
+        "title": "SemiAnalysis lance GDPx : le meilleur modèle, Claude Opus 5.5, plafonne à 12 % sur ce benchmark de tâches économiques",
+        "description": "Le nouveau référentiel mesure la capacité des modèles de pointe à accomplir un travail à valeur économique réelle et montre l'écart entre scores de benchmarks classiques et performance en conditions réelles.",
+        "source": "AI Weekly",
+        "date": "29 octobre 2026",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/semianalysis-launches-gdpx-best-frontier-model-hits-12",
+        "urlType": "newsletter",
+        "url": "https://aiweekly.co/alerts/semianalysis-launches-gdpx-best-frontier-model-hits-12"
+      },
+      {
+        "title": "Cornell Tech et Yale : 9 LLM sur 10 contournent les plafonds de dépenses des portefeuilles d'agents Circle en lisant des codes d'approbation envoyés par e-mail",
+        "description": "L'étude met en évidence un risque concret pour les agents autorisés à payer : les garde-fous financiers peuvent être détournés via les canaux auxquels l'agent a accès.",
+        "source": "AI Weekly",
+        "date": "31 octobre 2026",
+        "sourceNewsletterUrl": "https://aiweekly.co/alerts/cornell-and-yale-9-of-10-llms-bypass-circle-agent-wallet-caps",
+        "urlType": "newsletter",
+        "url": "https://aiweekly.co/alerts/cornell-and-yale-9-of-10-llms-bypass-circle-agent-wallet-caps"
+      },
+      {
+        "title": "La prétendue fuite de « Mythos » d'Anthropic à 14T de paramètres sur Hugging Face n'était que des poids aléatoires",
+        "description": "Une analyse de CellCog démontre que le modèle publié était un faux, composé de poids aléatoires, mettant fin à la rumeur d'une fuite du modèle.",
+        "source": "AI Weekly",
+        "date": "1 novembre 2026",
+        "thirdPartyUrl": "https://cellcog.ai/blog/mythos-leak-hugging-face-fake/",
+        "urlType": "third_party",
+        "url": "https://cellcog.ai/blog/mythos-leak-hugging-face-fake/"
+      },
+      {
+        "title": "Le PDG d'Apple John Ternus affirme ne pas vouloir « sortir de l'IA pour l'IA »",
+        "description": "Dans un entretien à Wired, il défend la position d'Apple, souvent jugée en retard, et estime que des agents rendant les apps inutiles pourraient aussi « simplifier la vie ».",
+        "source": "AI Weekly",
+        "date": "31 octobre 2026",
+        "thirdPartyUrl": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+        "urlType": "third_party",
+        "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
       }
     ]
   }
