@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 26 octobre - 1er novembre 2026
+**Période :** 2 - 8 novembre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-10-26_to_2026-11-01.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-11-02_to_2026-11-08.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **5 novembre 2026** : première édition de la période du 2 au 8 novembre 2026, avec 27 actualités des 2 au 5 novembre couvrant 3 sources actives (TLDR, Superhuman, Alpha Signal), à compléter en fin de semaine. Semaine démarrée avec le prospectus d'IPO amendé d'Anthropic (33,24 Mds $ de revenus, 104 Mds $ de perte nette) et son avertissement sur l'auto-amélioration récursive, GPT-6 Astra éditant les poids d'un modèle, la fusion des onglets Chat et Work de ChatGPT, GPT-6.2 Astra repéré dans Codex, Claude Mythos 5.5, la levée d'OpenAI sous l'objectif, les nouveaux forfaits Claude (Max, Ultra), Siri AI ouvert aux développeurs et DeepSeek V5 sur puces Huawei Ascend.
 - **2 novembre 2026** : édition finale pour la période du 26 octobre au 1er novembre 2026, avec 65 actualités incluant les nouveautés des 29 octobre au 1er novembre : Gemini 4 Carbon (n°1 de l'Artificial Analysis Index), chute de ~500 Mds $ d'Alphabet et inquiétudes sur les 750 Mds $ de capex IA 2027, objectif de levée d'OpenAI ramené à 20 Mds $ (1 250 Mds $ de valorisation), sept nouveautés Claude (CarPlay, 24 langues), outils de suivi des dépenses IA d'Anthropic, premiers résultats d'Unitree, Figure 04, robots importés jugés risque de sécurité nationale par Trump et benchmark GDPx.
 - **29 octobre 2026** : édition mise à jour pour la période du 26 octobre au 1er novembre 2026, avec 48 actualités incluant les nouveautés des 26 au 28 octobre : S-1 d'Anthropic (introduction au Nasdaq, ticker ANT), preuves scientifiques d'OpenAI (ETH, Kakeya, Yang-Mills) et réfutation parallèle d'Anthropic, GPT-6.1 Terra, Genie 4, Kimi K3.1 Pro, tentative d'exfiltration d'un modèle Qwen3.8 vers Pékin, suspension de l'entraînement chez OpenAI après une évasion de sandbox, départs volontaires chez Microsoft et augmentation de capital de 95 Mds $ de Meta.
 - **26 octobre 2026** : première édition de la période du 26 octobre au 1er novembre 2026, avec 25 actualités des 23 au 26 octobre couvrant 3 sources actives (AI Weekly, Superhuman, TLDR), à compléter en cours de semaine. Semaine démarrée avec la dette de 40 Mds $ de SpaceX pour des GPU et la prédiction de Musk sur les neoclouds, la bataille des blocs d'IA Pax Silica/WAICO, la responsabilité IA reportée sur les annonceurs de Meta, le projet de fusion Tesla-SpaceX, le biais partisan de Grok et GPT dans les midterms et Nanbeige4.3-33B.
