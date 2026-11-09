@@ -103,6 +103,28 @@
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/viral-glasses-let-you-talk-without-speaking",
         "thirdPartyUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
         "officialUrl": ""
+      },
+      {
+        "title": "METR : l'accélération de la R&D IA chez Anthropic atteint environ deux fois le rythme de 2024-2025",
+        "url": "https://tldr.tech/ai/2026-11-06",
+        "description": "L'évaluation indépendante publiée le 5 novembre estime que les capacités des modèles d'Anthropic progressent sur les tâches bien définies à environ deux fois la vitesse observée en 2024-2025. METR l'attribue principalement au rôle croissant de l'IA dans la R&D, en écho à l'avertissement du prospectus d'IPO sur l'auto-amélioration récursive.",
+        "source": "TLDR",
+        "date": "5-6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-06",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+      },
+      {
+        "title": "OpenAI lance GPT-6 Cyber : 948 vulnérabilités d'élévation de privilèges Linux validées et corrigées en un seul passage",
+        "url": "https://tldr.tech/ai/2026-11-06",
+        "description": "Ce modèle de cybersécurité identifie et valide des failles exploitables tout en restant dans des limites définies par les chercheurs. OpenAI détaille un pipeline autonome de découverte, d'exploitation et de correctif qui a traité 948 failles du noyau Linux ; Alpha Signal cite aussi 81 bugs trouvés dans Firefox.",
+        "source": "TLDR",
+        "date": "5-6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-06",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/introducing-gpt-6-cyber/"
       }
     ],
     "important": [
@@ -204,6 +226,83 @@
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/viral-glasses-let-you-talk-without-speaking",
         "thirdPartyUrl": "https://finance.yahoo.com/markets/stocks/articles/why-reddit-rddt-stock-trading-163529472.html",
         "officialUrl": ""
+      },
+      {
+        "title": "Thinking Machines lance Inkling 2 Small : MoE de 594 Mds de paramètres (17 Mds actifs), poids Apache 2.0 la semaine prochaine",
+        "url": "https://tldr.tech/ai/2026-11-06",
+        "description": "Le modèle accepte les images et un niveau d'effort variable, et sait itérer sur un retour visuel pour construire sites, jeux et designs 3D. Il est d'abord disponible via Tinker avec poids fermés ; les poids complets seront publiés sous licence Apache 2.0 après les tests de sécurité externes.",
+        "source": "TLDR",
+        "date": "6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-06",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://thinkingmachines.ai/news/inkling-2-small/"
+      },
+      {
+        "title": "Ripple-65B Preview, modèle ouvert entraîné pour 32 M$, bat des modèles bien plus gros sur TerminalBench 2.1",
+        "url": "https://tldr.tech/ai/2026-11-05",
+        "description": "Il dépasse Reflection Beam 501B, Meta Muse Spark Open 816B, Inkling 975B et Nemotron 3 Ultra 550B pour environ un dixième du coût d'entraînement du précédent état de l'art ouvert en codage agentique. Disponible sur Hugging Face, Together AI, GMI Cloud et OpenRouter.",
+        "source": "TLDR",
+        "date": "5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-05",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.ricursive.com/ripple"
+      },
+      {
+        "title": "Anthropic lance Personal Finance dans Claude : lien aux comptes bancaires, en bêta aux États-Unis",
+        "url": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "description": "Les abonnés Pro, Max et Ultra américains peuvent connecter banques et cartes pour poser des questions sur leurs finances. Claude ne peut ni déplacer ni investir l'argent, seulement dégager des tendances et explorer des scénarios.",
+        "source": "Superhuman",
+        "date": "6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+      },
+      {
+        "title": "Cat Wu quitte Anthropic pour OpenAI, quatrième départ clé de l'équipe Claude Code en quelques semaines",
+        "url": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "description": "Elle rejoint OpenAI pour y construire des agents fiables qui laissent le contrôle aux utilisateurs. TLDR et Superhuman relaient le départ.",
+        "source": "Superhuman",
+        "date": "5-6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://x.com/_catwu/status/2118137612577968402"
+      },
+      {
+        "title": "Meta rachète Conductor et OpenAI acquiert Pierre Computer Company pour renforcer leurs outils de codage agentique",
+        "url": "https://tldr.tech/ai/2026-11-05",
+        "description": "Conductor permet de faire tourner plusieurs agents de code en parallèle dans des espaces de travail séparés. Pierre apportera à Codex ses outils, dont Code Storage, et ses projets open source.",
+        "source": "TLDR",
+        "date": "5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-05",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      {
+        "title": "Élections américaines : les démocrates reprennent la Chambre et le Sénat, et les projets de data centers sont restreints quasi partout",
+        "url": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "description": "Plusieurs campagnes promettaient un contrôle accru du secteur de l'IA. Les restrictions vont de l'interdiction pure et simple à la pause temporaire, avec de fortes implications pour l'infrastructure IA.",
+        "source": "Superhuman",
+        "date": "6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Tencent lance Hy4, modèle ouvert multimodal capable de piloter lignes de commande et interfaces graphiques",
+        "url": "https://tldr.tech/ai/2026-11-05",
+        "description": "Il gère l'analyse fine d'images, de graphiques et le raisonnement visuel mathématique. Les poids et les system cards doivent être publiés dans les jours suivants.",
+        "source": "TLDR",
+        "date": "5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-05",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
       }
     ],
     "goodToKnow": [
@@ -318,6 +417,61 @@
         "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-04",
         "thirdPartyUrl": "",
         "officialUrl": "https://fireworks.ai/blog/fireworks-unveils-new-products-at-forge-to-help-companies-build-specialized-intelligence"
+      },
+      {
+        "title": "OpenAI lance ChatGPT Images 2.6 : images 50 % plus rapides et GIFs animés à partir de n'importe quelle photo",
+        "url": "https://tldr.tech/ai/2026-11-05",
+        "description": "Déployé dans ChatGPT et Codex, il permet de régler la vitesse du GIF et d'éditer image par image. Les variantes Flare et Sunburst sont disponibles par API et le modèle figure près du sommet du classement Arena.",
+        "source": "TLDR",
+        "date": "5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-05",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/introducing-images-2-6/"
+      },
+      {
+        "title": "Google lance Gemini Omni 1.2 Flash : clips vidéo jusqu'à 15 secondes, API à 0,07 $ la seconde",
+        "url": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "description": "Le prix API baisse de 30 % face à la génération précédente pour du 720p, avec des mouvements de caméra plus fluides et moins de dérive visuelle. La génération dans Gemini est réservée aux abonnés Ultra.",
+        "source": "Superhuman",
+        "date": "6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/claude-gets-personal-finance-skills",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      {
+        "title": "Claude Code divise par 99 le coût des lignes de statut des sous-agents, soit environ 6 % de prompts en plus",
+        "url": "https://alphasignal.ai/news/anthropic-s-claude-code-slashes-background-agent-status-costs-by-99",
+        "description": "Haiku 5.5 rédige l'actualisation de 30 secondes à partir de courtes notes au lieu de relire toute la conversation. Anthropic l'accompagne d'un bilan des mises à jour d'octobre.",
+        "source": "Alpha Signal",
+        "date": "4-5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/anthropic-s-claude-code-slashes-background-agent-status-costs-by-99",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://x.com/claudedevs/status/2118063143167693011"
+      },
+      {
+        "title": "Apple réduit les quotas de tokens IA de ses ingénieurs et Goldman Sachs restreint les outils de codage IA",
+        "url": "https://www.superhuman.ai/p/chatgpt-gets-gifs-a-new-startup-creates-lifelike-avatars",
+        "description": "Apple cherche à réduire ses coûts, tandis que Goldman Sachs coupe l'accès de la plupart des traders et banquiers par souci de sécurité, à rebours de ses encouragements de juillet.",
+        "source": "Superhuman",
+        "date": "5 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/chatgpt-gets-gifs-a-new-startup-creates-lifelike-avatars",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://9to5mac.com/2026/11/04/report-apple-reduces-employees-ai-token-allowances-as-ternus-moves-to-cut-costs/"
+      },
+      {
+        "title": "Cursor permet de construire des applications en direct et de les partager par lien",
+        "url": "https://tldr.tech/ai/2026-11-06",
+        "description": "L'utilisateur décrit l'outil voulu ; Cursor le construit, configure une base de données, exécute des contrôles de sécurité déterministes et agentiques, puis le déploie.",
+        "source": "TLDR",
+        "date": "6 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-06",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://x.com/cursor_ai/status/2118458629091426304"
       }
     ]
   }
