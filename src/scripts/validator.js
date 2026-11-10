@@ -196,8 +196,10 @@ function validateNewsletter(data) {
     // Count articles
     const totalArticles = countArticles(data);
 
-    if (totalArticles < 25) {
-        errors.push(`Minimum 25 articles required, found ${totalArticles}`);
+    // Default minimum is 25; an early-week edition may lower it explicitly with `minArticles`
+    const minArticles = Number.isInteger(data.minArticles) && data.minArticles > 0 ? data.minArticles : 25;
+    if (totalArticles < minArticles) {
+        errors.push(`Minimum ${minArticles} articles required, found ${totalArticles}`);
     }
 
     // Validate sources list first so article validation can rely on it

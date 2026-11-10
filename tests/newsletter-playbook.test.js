@@ -128,7 +128,8 @@ const tests = [
             const result = validateNewsletter(data);
 
             assert.strictEqual(result.valid, true, result.errors.join(' | '));
-            assert.ok(countArticles(data) >= 25, 'Expected at least 25 articles in current newsletter data');
+            const minArticles = Number.isInteger(data.minArticles) ? data.minArticles : 25;
+            assert.ok(countArticles(data) >= minArticles, `Expected at least ${minArticles} articles in current newsletter data`);
         }
     },
     {

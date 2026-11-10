@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 2 - 8 novembre 2026
+**Période :** 9 - 15 novembre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-11-02_to_2026-11-08.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-11-09_to_2026-11-15.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **10 novembre 2026** : première édition de la période du 9 au 15 novembre 2026, publiée très tôt dans la semaine avec 18 actualités (au lieu de 25, minimum abaissé via le champ `minArticles`) des 8 au 9 novembre couvrant 4 sources actives (TLDR AI, TLDR, Superhuman, Upmynt), à compléter en cours de semaine. Semaine démarrée avec Claude Fable 5.2 et Mythos 5.2 (8 $/40 $ par M tokens, 30 % plus rapides), la liaison de Jensen Huang avec une présumée espionne chinoise, Siri en agent chez Apple, l'accélération de la R&D IA chez Anthropic et la preuve par IA de la conjecture d'Aaronson-Ambainis.
 - **9 novembre 2026** : édition finale pour la période du 2 au 8 novembre 2026, avec 41 actualités incluant les nouveautés des 5 au 6 novembre : évaluation METR de l'accélération de la R&D chez Anthropic, GPT-6 Cyber (948 failles Linux corrigées), Inkling 2 Small, Ripple-65B, Personal Finance dans Claude, départ de Cat Wu vers OpenAI, rachats de Conductor (Meta) et Pierre (OpenAI), élections américaines et restrictions sur les data centers, ChatGPT Images 2.6 et Gemini Omni 1.2 Flash.
 - **5 novembre 2026** : première édition de la période du 2 au 8 novembre 2026, avec 27 actualités des 2 au 5 novembre couvrant 3 sources actives (TLDR, Superhuman, Alpha Signal), à compléter en fin de semaine. Semaine démarrée avec le prospectus d'IPO amendé d'Anthropic (33,24 Mds $ de revenus, 104 Mds $ de perte nette) et son avertissement sur l'auto-amélioration récursive, GPT-6 Astra éditant les poids d'un modèle, la fusion des onglets Chat et Work de ChatGPT, GPT-6.2 Astra repéré dans Codex, Claude Mythos 5.5, la levée d'OpenAI sous l'objectif, les nouveaux forfaits Claude (Max, Ultra), Siri AI ouvert aux développeurs et DeepSeek V5 sur puces Huawei Ascend.
 - **2 novembre 2026** : édition finale pour la période du 26 octobre au 1er novembre 2026, avec 65 actualités incluant les nouveautés des 29 octobre au 1er novembre : Gemini 4 Carbon (n°1 de l'Artificial Analysis Index), chute de ~500 Mds $ d'Alphabet et inquiétudes sur les 750 Mds $ de capex IA 2027, objectif de levée d'OpenAI ramené à 20 Mds $ (1 250 Mds $ de valorisation), sept nouveautés Claude (CarPlay, 24 langues), outils de suivi des dépenses IA d'Anthropic, premiers résultats d'Unitree, Figure 04, robots importés jugés risque de sécurité nationale par Trump et benchmark GDPx.
