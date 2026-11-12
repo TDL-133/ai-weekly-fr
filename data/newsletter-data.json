@@ -21,6 +21,39 @@
   "categories": {
     "critique": [
       {
+        "title": "Anthropic lance le roadshow de son introduction en Bourse : 825 millions d'actions à 70-78 $, ticker ANT au Nasdaq",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "La société vise une cotation au Nasdaq sous le ticker ANT ; l'essentiel du produit des actions nouvellement émises revient à Anthropic.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.anthropic.com/news/roadshow-launch"
+      },
+      {
+        "title": "Google ouvre Gemini 4 Carbon à tous les développeurs : n°1 sur CursorBench 4.0, au même prix de 2 $/10 $ par M tokens",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Disponible via l'API AI Studio et Gemini for business, puis pour les abonnés AI Ultra ; Google annonce un coût par tâche plus de 2 fois inférieur et prévoit le mode multi-agents /swarm dans Antigravity.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      },
+      {
+        "title": "Anthropic lance Claude Sheets, Whiteboards et Data, et intègre Adobe, Atlassian, Salesforce, NetSuite et Workday",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Trois nouveaux types d'artefacts pour créer tableurs, tableaux blancs et tableaux de bord sans quitter Claude ; Claude Meetings, qui prendra des notes en réunion, arrive prochainement.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+      },
+      {
         "title": "Anthropic lance Claude Fable 5.2 et Mythos 5.2 : 30 % plus rapides, prix baissé à 8 $/40 $ par million de tokens",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
         "description": "Fable 5.2 (ID claude-fable-5-2, 1M de contexte, 128K de sortie) passe de 10 $/50 $ à 8 $/40 $ par million de tokens et génère jusqu'à 30 % plus vite que Fable 5.1. Mythos 5.2 reste réservé aux usages approuvés en cybersécurité et sciences de la vie ; Anthropic offre aussi un à trois resets de quota Fable aux abonnés payants.",
@@ -77,6 +110,72 @@
       }
     ],
     "important": [
+      {
+        "title": "Meta présente Muse Ember, un petit modèle de raisonnement pour agents, au tiers du coût de Claude Haiku 5.5",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "Meta affirme qu'il égale le meilleur score de raisonnement de Haiku 5.5 et surpasse GPT-6 Luna, pour l'appel d'outils, le code et l'analyse de documents.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://research.meta.ai/blog/muse-ember"
+      },
+      {
+        "title": "Google dévoile les TPU 8i Max et 8tx pour les très longs contextes et l'inférence confidentielle",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "Le 8i Max vise des fenêtres de contexte massives et une plus forte densité de calcul ; le 8tx cible l'inférence sécurisée.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+      },
+      {
+        "title": "Anthropic achète pour 3,4 Mds $ de générateurs à gaz Caterpillar (1,7 GW) pour ses data centers",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "Le laboratoire reprend les commandes du fournisseur OnePWR, face aux pénuries d'électricité et aux files d'attente de raccordement.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI lance « Businesses » et les agents d'entreprise dans ChatGPT (bêta aux États-Unis)",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Les entreprises peuvent revendiquer leur profil, fournir des flux produits avec prix et disponibilité, et déployer des Business Agents répondant aux clients.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/introducing-businesses-chatgpt/"
+      },
+      {
+        "title": "Prévisions : une IA chercheuse surhumaine dès 2027 selon AI Futures, et la R&D en IA accélère chez Anthropic selon Zvi",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Deux analyses estiment que l'auto-amélioration récursive pourrait survenir en 2027-2028, sans goulot d'étranglement évident ; les entreprises ne seraient pas prêtes à aligner un tel système.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"
+      },
+      {
+        "title": "Google DeepMind présente AlphaProof Code, qui vérifie mathématiquement la sécurité du protocole de Signal",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Ce cadre multi-agents a prouvé au niveau de l'implémentation des propriétés clés du protocole cryptographique de Signal.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
       {
         "title": "Higgsfield Miracle : l'édition de vidéo IA couche par couche, en temps réel et au pixel près",
         "url": "https://www.superhuman.ai/p/nvidia-s-ceo-had-an-affair-with-an-alleged-chinese-spy",
@@ -161,6 +260,72 @@
       }
     ],
     "goodToKnow": [
+      {
+        "title": "OpenAI présente Control Room, qui peut couper la sortie d'un modèle de recherche en 35 secondes",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "L'outil autorise de façon centralisée les requêtes d'inférence de recherche et peut interrompre une charge de travail.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openai.com/index/control-room/"
+      },
+      {
+        "title": "Microsoft lance MAI-Transcribe-2 : reconnaissance vocale à 0,10 $ de l'heure avec diarisation",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Microsoft le dit plus rapide et plus précis que Gemini 3.5 Transcribe, GPT-Transcribe, Whisper V3-Large et ScribeV2.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/"
+      },
+      {
+        "title": "NVIDIA AutoCompress compresse Nemotron 3.5 Super de 120 à 74 Mds de paramètres sans perte de performance",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "Le cadre optimise l'élagage selon les contraintes matérielles de latence, débit et mémoire plutôt que le seul nombre de paramètres.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://arxiv.org/abs/2611.08290"
+      },
+      {
+        "title": "OpenAI rachète Odessia, startup de voyage IA fondée par le créateur de Sonder",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "L'opération ressemble à un acqui-hire ; OpenAI n'a pas annoncé de produit de voyage.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Apple vend des packs d'usage IA à 49,99 $ dans Logic Pro",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "description": "Ils prolongent l'accès aux fonctions IA dans le cloud ; la capacité inutilisée est reportée chaque mois et expire après 12 mois.",
+        "source": "TLDR AI",
+        "date": "10 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-10",
+        "thirdPartyUrl": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+        "officialUrl": ""
+      },
+      {
+        "title": "Meta FAIR publie e-means, alternative à k-means jusqu'à 10 fois moins d'itérations",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "description": "Ce remplaçant direct converge vers de plus faibles pertes et s'exécute plus vite sur CPU et GPU.",
+        "source": "TLDR AI",
+        "date": "11 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-11",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://github.com/facebookresearch/faiss/tree/main/contrib/e_means"
+      },
       {
         "title": "Project EVE : Anthropic fait jouer Claude à EVE Online et EVE Frontier",
         "url": "https://tldr.tech/ai/2026-11-09",
