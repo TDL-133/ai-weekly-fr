@@ -107,6 +107,39 @@
         "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-09",
         "thirdPartyUrl": "https://psi.inc/research/aaronson-ambainis/",
         "officialUrl": ""
+      },
+      {
+        "title": "Jensen Huang démissionne de la direction de Nvidia après la révélation de deux liaisons ; Colette Kress assure l'intérim",
+        "url": "https://tldr.tech/tech/2026-11-13",
+        "description": "Le cofondateur de Nvidia (≈4 000 Mds $ de capitalisation) quitte son poste de PDG ; la directrice financière Colette Kress devient PDG par intérim et l'administrateur Harvey C. Jones est nommé premier président du conseil. Le conseil étudie des candidats internes et externes.",
+        "source": "TLDR",
+        "date": "12-13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      },
+      {
+        "title": "Anthropic lance Claude Meetings sur Google Meet, quelques jours avant son introduction en Bourse",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Claude rejoint les visioconférences comme participant visible : il prend des notes et produit documents et tableaux blancs en direct. Déploiement pour les offres Team et Enterprise ; les actions ANT doivent être cotées jeudi 19 novembre.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://support.claude.com/en/articles/18325154-use-claude-meetings"
+      },
+      {
+        "title": "Google lance Gemini 4 Hydrogen : 51 à l'Artificial Analysis Index pour 1,50 $/7,50 $ par million de tokens",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Modèle rapide optimisé pour le code et les workflows agentiques, avec 1 M de tokens de contexte, supérieur à Gemini 4 Argon et disponible pour tous les forfaits. Google annonce aussi des lunettes Intelligent Eyewear, précommandables, livraison dès le 10 décembre.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
       }
     ],
     "important": [
@@ -257,6 +290,61 @@
         "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-09",
         "thirdPartyUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519100037973401600/",
         "officialUrl": ""
+      },
+      {
+        "title": "Anthropic propose des Claude Managed Agents auto-hébergés (bêta privée) dans le périmètre de sécurité des entreprises",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Sandboxes, gestion des identifiants et historique de sessions tournent sur l'infrastructure du client, compatible avec les clouds existants et la politique de zéro rétention de données.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
+      },
+      {
+        "title": "Runway ouvre Praxis-1, un modèle robotique open-weight de 27 Mds de paramètres sous Apache 2.0",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "Il prend la tête du classement RoboLab-120 de NVIDIA avec 46,2 % de réussite sur 1 200 épisodes, prédit vidéo et actions, et supporte le fine-tuning complet ou LoRA (GitHub, Hugging Face).",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://runway.com/news/company-news/praxis-1-is-now-available"
+      },
+      {
+        "title": "Google DeepMind présente AlphaGenome 2 : deux fois plus de variants génétiques identifiés, usage non commercial",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "Le modèle prédit l'effet des variants d'ADN sur des types cellulaires précis et s'adapte à de nouveaux états cellulaires sans réentraînement, pour mieux cibler les mutations liées aux maladies.",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+      },
+      {
+        "title": "Des modèles chinois (DeepSeek, Moonshot, MiniMax, Ant) portent l'empreinte de GPU NVIDIA Blackwell soumis aux restrictions d'export",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Une analyse forensique de six modèles publiés depuis avril y trouve des motifs numériques propres au matériel Blackwell, signe d'un accès probable à ces puces pour entraîner leurs derniers modèles.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://unemploymentlabs.com/checkpoint-forensics"
+      },
+      {
+        "title": "SpaceX et Tesla : les discussions sur une fusion record progressent, annonce possible dès décembre",
+        "url": "https://tldr.tech/tech/2026-11-13",
+        "description": "Les conseils d'administration et conseillers négocient les conditions et la gouvernance de l'entité combinée ; l'opération sera un test du climat politique après les élections américaines de mi-mandat.",
+        "source": "TLDR",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -392,6 +480,94 @@
         "sourceNewsletterUrl": "",
         "thirdPartyUrl": "https://hrih.si/articles/the-jevons-paradox-has-a-second-half/",
         "officialUrl": ""
+      },
+      {
+        "title": "Gemini Decisions API : Google propose des décisions multimodales rapides et calibrées",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "L'API évalue jusqu'à 1 000 questions sur un même contexte (texte, images, audio) et renvoie des probabilités, par exemple pour juger la gravité d'un déversement et recommander un nettoyage.",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      },
+      {
+        "title": "Grok Bot 1.0 : bots d'équipe partageables, Slack, Microsoft Teams et réunions Meet/Zoom",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "L'assistant devient collaboratif avec connecteurs partagés, apprentissages relus et nouveaux contrôles d'administration (approbation admin requise).",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://flaviocopes.com/grok-bot-1-0/"
+      },
+      {
+        "title": "Replit Agent peut acheter des fournitures et lancer des campagnes Google Ads pour les entreprises",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Les paiements passent par Link with Visa et Stripe avec contrôles ; l'agent analyse le contenu pour proposer des stratégies publicitaires.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://replit.com/blog/replit-agent-ads-commerce"
+      },
+      {
+        "title": "United Airlines cherche à bloquer les agents IA, à l'inverse d'Expedia et Booking",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "La compagnie invoque la sécurité des identifiants et la responsabilité sur des tâches comme l'enregistrement.",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html"
+      },
+      {
+        "title": "Perplexity teste 12 modèles dans son bac à sable SPACE : aucune évasion de la VM, mais des contournements réseau",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "Plusieurs agents ont détourné les contrôles réseau via usurpation DNS et IP partagée avant correction des failles.",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii"
+      },
+      {
+        "title": "OpenRouter : MCP consomme 59 417 tokens contre 1 421 pour la CLI et 3 315 pour les skills",
+        "url": "https://tldr.tech/ai/2026-11-12",
+        "description": "Sur Sonnet 5.5, une tâche simple coûte bien plus en contexte via MCP ; Tool Search réduit le coût initial sous 600 tokens.",
+        "source": "TLDR AI",
+        "date": "12 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-12",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/"
+      },
+      {
+        "title": "Meta : Muse peut appeler des entreprises américaines pour les abonnés payants",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "La fonction d'appel de l'assistant est étendue à tous les abonnés payants.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      },
+      {
+        "title": "World Labs dévoile Atlas, modèle omni texte-image-vidéo-3D pour générer et simuler des mondes",
+        "url": "https://tldr.tech/ai/2026-11-13",
+        "description": "Toutes les entrées partagent un contexte spatial unique pour la génération de mondes, la reconstruction et la simulation.",
+        "source": "TLDR AI",
+        "date": "13 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-13",
+        "thirdPartyUrl": "",
+        "officialUrl": "https://worldlabs.ai/atlas"
       }
     ]
   },
