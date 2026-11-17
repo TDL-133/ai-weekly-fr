@@ -4,9 +4,9 @@ Newsletter hebdomadaire des actualités IA en français, conçue par Dagorsey & 
 
 ## 📰 Dernière édition
 
-**Période :** 9 - 15 novembre 2026
+**Période :** 16 - 22 novembre 2026
 
-[Voir la newsletter](./dist/archive/AI_Weekly_2026-11-09_to_2026-11-15.html)
+[Voir la newsletter](./dist/archive/AI_Weekly_2026-11-16_to_2026-11-22.html)
 
 ## 📊 Contenu
 
@@ -99,6 +99,7 @@ Cette newsletter est générée avec l'aide de Claude (Anthropic) et conçue pou
 
 ## 🛠️ Mises à jour récentes
 
+- **17 novembre 2026** : première édition de la période du 16 au 22 novembre 2026, avec 26 actualités des 16 au 17 novembre couvrant 6 sources actives (TLDR AI, TLDR, Superhuman, Upmynt, AINews, Alpha Signal), à compléter en cours de semaine (minimum abaissé à 20 via `minArticles`). Semaine démarrée avec la pétition de plus de 160 000 signataires pour le retour de Jensen Huang chez Nvidia, ChatGPT Wallet, Perplexity à 1 Md$ de revenu récurrent, la plainte de la Californie contre OpenAI, le durcissement américain sur l'accès distant aux puces IA et Qwen4-Max.
 - **16 novembre 2026** : édition finale pour la période du 9 au 15 novembre 2026, avec 49 actualités incluant les nouveautés des 12 au 13 novembre : démission de Jensen Huang de la direction de Nvidia (Colette Kress PDG par intérim), Gemini 4 Hydrogen, Claude Meetings sur Google Meet, Claude Managed Agents auto-hébergés, Praxis-1 de Runway, AlphaGenome 2, empreinte de GPU Blackwell sur des modèles chinois, fusion SpaceX-Tesla en discussion et Grok Bot 1.0.
 - **12 novembre 2026** : édition mise à jour pour la période du 9 au 15 novembre 2026, avec 33 actualités incluant les nouveautés des 10 au 11 novembre : roadshow de l'introduction en Bourse d'Anthropic (825 M d'actions à 70-78 $, ticker ANT), Gemini 4 Carbon ouvert à tous les développeurs, Claude Sheets, Whiteboards et Data, Muse Ember de Meta, TPU 8i Max et 8tx de Google, 3,4 Mds $ de générateurs à gaz achetés par Anthropic, Businesses dans ChatGPT, AlphaProof Code et MAI-Transcribe-2.
 - **10 novembre 2026** : première édition de la période du 9 au 15 novembre 2026, publiée très tôt dans la semaine avec 18 actualités (au lieu de 25, minimum abaissé via le champ `minArticles`) des 8 au 9 novembre couvrant 4 sources actives (TLDR AI, TLDR, Superhuman, Upmynt), à compléter en cours de semaine. Semaine démarrée avec Claude Fable 5.2 et Mythos 5.2 (8 $/40 $ par M tokens, 30 % plus rapides), la liaison de Jensen Huang avec une présumée espionne chinoise, Siri en agent chez Apple, l'accélération de la R&D IA chez Anthropic et la preuve par IA de la conjecture d'Aaronson-Ambainis.
