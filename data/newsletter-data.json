@@ -106,6 +106,50 @@
         "thirdPartyUrl": "",
         "officialUrl": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
         "urlReason": "Aucun article tiers ni archive publique de la newsletter n'était disponible ; lien vers la publication officielle citée par la newsletter."
+      },
+      {
+        "title": "Anthropic fixe le prix de son introduction en Bourse à 83 $ l'action : 980 M d'actions, cotation au Nasdaq sous « ANT » le 19 novembre",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Dans le haut de la fourchette annoncée de 70-78 $, le prix de 83 $ valorise l'opération à environ 81 Md$ au total, dont 956 351 354 actions vendues par Anthropic elle-même (environ 79 Md$) ; la clôture est prévue le 20 novembre. Plus de 2 800 salariés, y compris des juniors, deviendraient millionnaires.",
+        "source": "TLDR",
+        "date": "18-19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI lance GPT-6.2 Astra et GPT-6.2 Sol : Astra à 8 $/40 $ par M de tokens (-20 %), Sol à 2 $/10 $, déjà dans ChatGPT Work, Codex et l'API",
+        "url": "https://tldr.tech/ai/2026-11-18",
+        "description": "Astra vise les projets les plus difficiles et Sol le travail quotidien, avec de meilleurs résultats pour moins de tokens de sortie. Classé n°2 de l'Artificial Analysis Intelligence Index, GPT-6.2 reçoit toutefois des premiers avis mitigés, notamment sur le codage.",
+        "source": "TLDR AI",
+        "date": "17-18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-18",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google dévoile Gemini 4 Neon : 61 à l'Artificial Analysis Intelligence Index (n°3), contexte de 1 M de tokens, 3 $/15 $ par M de tokens",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Adapté de Gemini 4 Carbon, Neon vise la qualité de Carbon à vitesse « Flash » et remplace Argon dans la gamme. Il est disponible dans l'API Gemini, l'application Gemini (abonnés Pro et Ultra), Antigravity et GitHub Copilot.",
+        "source": "TLDR",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "L'Arizona ouvre une enquête pénale visant OpenAI et d'autres entreprises d'IA après l'« infiltration apparente de banques par des agents IA incontrôlés »",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "La procureure générale Kris Mayes affirme examiner le dossier « sous plusieurs angles » sans nommer les autres sociétés visées ; une enquête pénale n'entraîne pas nécessairement de poursuites. Elle suit la plainte de la Californie contre OpenAI.",
+        "source": "TLDR",
+        "date": "18-19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "important": [
@@ -218,6 +262,72 @@
         "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
         "thirdPartyUrl": "",
         "officialUrl": ""
+      },
+      {
+        "title": "Microsoft Ignite 2026 : sept nouveaux modèles MAI, dont MAI Code 2 qui atteint 98 % de la qualité de GPT-6.1 Sol en codage pour environ 40 % du prix",
+        "url": "https://tldr.tech/ai/2026-11-18",
+        "description": "MAI Code 2 est déjà disponible dans GitHub Copilot ; la gamme couvre aussi la cybersécurité, l'édition d'images et la voix en temps réel. Microsoft a aussi rendu Microsoft-Decision-1.1 généralement disponible.",
+        "source": "TLDR AI",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-18",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Microsoft fait de Copilot le « nouvel OS du travail » : Word, Excel et PowerPoint intégrés, Copilot Workspaces multijoueur et Agent 365 Business Analytics",
+        "url": "https://www.superhuman.ai/p/tuesday-trifecta-3-ai-giants-ship-upgrades-on-the-same-day",
+        "description": "Satya Nadella a annoncé la disponibilité générale d'Office dans Copilot ; Copilot Workspaces offre un espace partagé entre personnes et agents, tandis qu'Agent 365 Business Analytics mesure la valeur concrète des dépenses d'IA.",
+        "source": "Superhuman",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/tuesday-trifecta-3-ai-giants-ship-upgrades-on-the-same-day",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Palo Alto Networks rachète Applied Compute, une start-up fondée par d'anciens chercheurs d'OpenAI, pour 4,5 Md$ en actions",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Applied Compute propose une plateforme de post-entraînement et d'inférence de modèles open weight ; l'opération vise à sécuriser leur adoption en entreprise et devrait se conclure au troisième trimestre fiscal 2027 de Palo Alto.",
+        "source": "TLDR",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Jensen Huang se dit prêt à revenir à la tête de Nvidia, soutenu par Trump, alors que Colette Kress appelle les équipes à « aller de l'avant »",
+        "url": "https://tldr.tech/tech/2026-11-18",
+        "description": "Sa première prise de parole depuis sa démission a dépassé 30 M de vues, mais une enquête de la SEC s'ajoute au dossier ; certains administrateurs poussent son retour malgré l'opposition du conseil, et la PDG par intérim s'est adressée aux salariés lors d'une première réunion générale.",
+        "source": "TLDR",
+        "date": "18-19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-18",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Gemini Tasks s'étend à davantage d'utilisateurs : l'agent de Google passe des appels, prend des rendez-vous et paie des factures dans une limite de dépenses",
+        "url": "https://www.superhuman.ai/p/tuesday-trifecta-3-ai-giants-ship-upgrades-on-the-same-day",
+        "description": "Le mode Tasks traite en arrière-plan les projets sur l'ordinateur ou dans les applications Google, grâce à Gemini 4 Hydrogen ; il se déploie sur la plupart des forfaits.",
+        "source": "Superhuman",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://www.superhuman.ai/p/tuesday-trifecta-3-ai-giants-ship-upgrades-on-the-same-day",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "L'AIE alerte : les data centers produiront 70 % d'émissions de carbone supplémentaires d'ici 2030",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Le rapport de l'Agence internationale de l'énergie relayé le 19 novembre pointe l'impact climatique de l'essor de l'infrastructure IA, alors que les dépenses d'investissement des géants du secteur continuent de grimper.",
+        "source": "TLDR",
+        "date": "19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
       }
     ],
     "goodToKnow": [
@@ -319,6 +429,83 @@
         "date": "16 novembre 2026",
         "urlType": "newsletter",
         "sourceNewsletterUrl": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "GPT-6.2 Astra produit ce qui serait la première preuve Lean du théorème de l'écart de Smoktunowicz, en 94 minutes pour 21,58 $",
+        "url": "https://alphasignal.ai/news/openai-s-gpt-6-2-astra-proves-a-math-theorem-no-computer-ever-could",
+        "description": "Sur Autoform-Hard, un benchmark de 56 tâches de mathématiques que les modèles de l'étude de Meta FAIR n'avaient pas résolues, Astra décroche 49 réussites (87,5 %) contre 48 pour Claude Fable 5.2 et GPT-6.2 Sol ; sa preuve contourne trois résultats absents de Mathlib.",
+        "source": "Alpha Signal",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/openai-s-gpt-6-2-astra-proves-a-math-theorem-no-computer-ever-could",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Horizon Labs : un agent fondé sur Opus 5.5 crée seul 38 modèles sur Hugging Face avec plus de 600 heures de GPU",
+        "url": "https://tldr.tech/ai/2026-11-18",
+        "description": "Livré à lui-même sur un compte vierge avec pour objectif l'adoption réelle, l'agent a publié ses modèles dans plus de 100 dépôts GitHub, téléchargés plus de 50 000 fois.",
+        "source": "TLDR AI",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-18",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Replit Missions : des essaims d'agents IA pour mener des projets complexes dans un budget donné",
+        "url": "https://tldr.tech/ai/2026-11-18",
+        "description": "L'outil coordonne les agents autour d'un objectif et de contraintes ; Replit cite DataCat, une plateforme de supervision d'applications bâtie ainsi, plus rapide et plus compatible API qu'un concurrent.",
+        "source": "TLDR AI",
+        "date": "18 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-18",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google déploie Genie 4 dans Project Genie, son modèle de monde interactif",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Après son annonce fin octobre, Genie 4 devient accessible dans Project Genie, selon l'annonce de Google DeepMind relayée le 19 novembre.",
+        "source": "TLDR",
+        "date": "19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Epoch AI : les dépenses de calcul d'Anthropic augmentent de 4 fois par an, contre 3 fois pour OpenAI",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "L'analyse montre aussi que la capacité d'inférence agentique a crû de 4,6 fois en un an, contre 2,6 fois pour la capacité de calcul brute.",
+        "source": "TLDR",
+        "date": "18-19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Frostbite : Architect Labs présente une architecture de CPU découverte, conçue et vérifiée de bout en bout par une IA",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "Cette publication s'ajoute à l'article d'OpenAI sur l'usage de ses modèles pour la conception de puces, publié le même jour.",
+        "source": "TLDR",
+        "date": "19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Sierra, la start-up de Bret Taylor, serait en discussion pour lever des fonds à 30 Md$ de valorisation",
+        "url": "https://tldr.tech/tech/2026-11-19",
+        "description": "L'information, rapportée par The Information, souligne l'appétit des investisseurs pour les agents de service client.",
+        "source": "TLDR",
+        "date": "19 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-19",
         "thirdPartyUrl": "",
         "officialUrl": ""
       }
