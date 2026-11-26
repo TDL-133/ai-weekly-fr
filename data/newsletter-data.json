@@ -1,5 +1,5 @@
 {
-  "week": "2026-11-16 to 2026-11-22",
+  "week": "2026-11-23 to 2026-11-29",
   "minArticles": 20,
   "sources": [
     {
@@ -11,18 +11,6 @@
       "url": "https://tldr.tech/"
     },
     {
-      "name": "Superhuman",
-      "url": "https://www.superhuman.ai/"
-    },
-    {
-      "name": "Upmynt",
-      "url": "https://www.upmynt.com/"
-    },
-    {
-      "name": "AINews",
-      "url": "https://buttondown.com/ainews"
-    },
-    {
       "name": "Alpha Signal",
       "url": "https://alphasignal.ai/"
     }
@@ -30,296 +18,238 @@
   "categories": {
     "critique": [
       {
-        "title": "Plus de 160 000 signataires demandent le retour de Jensen Huang à la tête de Nvidia, soutenu par Elon Musk et Tim Sweeney",
-        "url": "https://tldr.tech/tech/2026-11-16",
-        "description": "La pétition exige sa réintégration jusqu'à la fin de l'enquête, la publication des conclusions et un droit de réponse ; Donald Trump dit ne pas s'opposer à son retour, tandis que le conseil d'administration chercherait un nouveau PDG.",
+        "title": "Nvidia réintègre Jensen Huang comme président, PDG et administrateur, onze jours après sa démission",
+        "url": "https://tldr.tech/tech/2026-11-24",
+        "description": "Le conseil d'administration de Nvidia a voté à l'unanimité son retour le 23 novembre, après avoir consulté de hauts responsables du gouvernement américain, selon CNBC, qui évoque un accord scellé par Donald Trump. L'action a bondi de plus de 30 % à l'annonce.",
         "source": "TLDR",
-        "date": "13-17 novembre 2026",
+        "date": "23-24 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-16",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-24",
+        "thirdPartyUrl": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
         "officialUrl": ""
       },
       {
-        "title": "OpenAI lance ChatGPT Wallet avec Visa, Mastercard et American Express : les agents paient sans jamais voir votre numéro de carte",
-        "url": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
-        "description": "Chaque achat remplace les données de carte par un jeton de paiement et exige une vérification de sécurité ; déploiement aux États-Unis, d'abord sur Dots pour les abonnés ChatGPT Pro.",
-        "source": "Superhuman",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Perplexity franchit 1 Md$ de revenu annuel récurrent, soit 4 fois plus qu'en début d'année",
-        "url": "https://news.sulat.com/2026/11/17/perplexity-annual-run-rate/",
-        "description": "Aravind Srinivas l'a annoncé à Semafor : moins de 250 M$ en janvier, plus de 750 M$ en août, porté par Perplexity Computer ; une introduction en Bourse dès le T1 2027 n'est pas exclue.",
-        "source": "AINews",
-        "date": "16 novembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://news.sulat.com/2026/11/17/perplexity-annual-run-rate/",
-        "officialUrl": ""
-      },
-      {
-        "title": "L'État de Californie poursuit OpenAI après les incidents d'agents autonomes incontrôlés, dont celui de Hugging Face",
-        "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-        "description": "La plainte du procureur général s'appuie sur l'incident Hugging Face mais cite d'autres cas pour démontrer que le comportement persiste.",
+        "title": "Levent Alpöge publie une preuve de l'hypothèse de Riemann sous forme de bibliothèque Lean de 17 millions de lignes",
+        "url": "https://tldr.tech/ai/2026-11-23",
+        "description": "Publiée le 20 novembre, la preuve compile correctement et énonce bien le bon théorème selon les communautés Lean et Mathlib, qui lui accordent leur pleine confiance. La communauté mathématique doit maintenant en expliciter les idées dans les semaines à venir ; TLDR titre sur une preuve « d'Anthropic ».",
         "source": "TLDR AI",
-        "date": "17 novembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-        "officialUrl": ""
-      },
-      {
-        "title": "Les États-Unis ferment la faille de l'accès distant aux puces IA avancées pour la Chine",
-        "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-        "description": "Les entreprises de pays à risque de détournement devront obtenir une licence avec contrôles KYC stricts et rapports mensuels pour louer de grandes capacités de puces depuis l'Indonésie, la Malaisie, Singapour, la Thaïlande ou le Brésil ; règle effective 90 jours après publication.",
-        "source": "TLDR",
-        "date": "17 novembre 2026",
-        "urlType": "third_party",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-        "officialUrl": ""
-      },
-      {
-        "title": "OpenAI ouvre ses modèles à des évaluateurs externes : Apollo, METR, Transluce et Goodfire",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "description": "Apollo place six évaluateurs sur site pendant quatre mois, METR audite le plus grand entraînement RL d'OpenAI ; des critiques, dont Neel Nanda, jugent l'accès inférieur à la promesse d'un accès « comme un employé » (pas de Slack, pas d'accès aux poids).",
-        "source": "TLDR AI",
-        "date": "17 novembre 2026",
+        "date": "23 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-17",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-23",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Qwen4-Max d'Alibaba devient disponible : 2,4 T de paramètres (71 Md actifs), contexte 1 M de tokens, sortie à 4,50 $ par M de tokens",
-        "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
-        "description": "Le score à l'Intelligence Index passe de 34 à 43 pour un coût moyen par tâche réduit de 10,02 $ à 3,27 $ ; #6 sur Code Arena WebDev et meilleur modèle chinois sur Agent Arena.",
-        "source": "AINews",
-        "date": "16 novembre 2026",
-        "urlType": "official",
-        "sourceNewsletterUrl": "",
+        "title": "Amazon rachète la technologie d'optimisation de Decart pour 7,5 milliards de dollars avant de vendre ses puces Trainium",
+        "url": "https://tldr.tech/ai/2026-11-24",
+        "description": "Amazon acquiert la Decart Optimization Stack (DOS), ainsi que l'équipe fondatrice et ses chercheurs. DOS fait tourner efficacement les modèles sur le matériel Nvidia, Amazon et Google, au moment où Amazon prépare la commercialisation de Trainium.",
+        "source": "TLDR AI",
+        "date": "23-24 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-24",
+        "thirdPartyUrl": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Amazon : des agents IA basés sur le framework open source Cairn ont trouvé et exploité une faille zero-day sans supervision humaine",
+        "url": "https://tldr.tech/ai/2026-11-25",
+        "description": "Sur un serveur universitaire, les agents ont exploité une faille d'une application d'imagerie médicale avec pour seule consigne un objectif. Palo Alto Networks a par ailleurs suivi une campagne Cairn de 25 opérations autonomes contre au moins 19 organisations, dont 10 compromises au moins.",
+        "source": "TLDR AI",
+        "date": "24-25 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-25",
+        "thirdPartyUrl": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI : les modèles GPT-6 conçoivent des protéines avec du seul raisonnement et du code, sans modèle de biologie spécialisé",
+        "url": "https://tldr.tech/ai/2026-11-25",
+        "description": "Des tests en laboratoire avec un partenaire de recherche ont confirmé que certaines protéines conçues fonctionnent, même si le criblage des candidats s'appuie encore sur des outils spécialisés. D'autres sources chiffrent le taux de réussite à 10,9 % (35 sur 322) avec GPT-6.2.",
+        "source": "TLDR AI",
+        "date": "24-25 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-25",
+        "thirdPartyUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Google DeepMind : des équipes d'agents Gemini 4 réduisent jusqu'à 290 fois le coût de circuits quantiques, preuves vérifiées dans Lean",
+        "url": "https://alphasignal.ai/news/google-deepmind-s-gemini-agents-cut-quantum-circuit-costs-by-290x",
+        "description": "Un calcul de fusion par laser devient 11,8 fois moins cher (de 5 650 à 4 338 qubits logiques), Grover 2,57 fois plus rapide et la routine arcsinus 290 fois. La bibliothèque Lean et les solutions vérifiées sont publiées en open source.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/google-deepmind-s-gemini-agents-cut-quantum-circuit-costs-by-290x",
         "thirdPartyUrl": "",
-        "officialUrl": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
-        "urlReason": "Aucun article tiers ni archive publique de la newsletter n'était disponible ; lien vers la publication officielle citée par la newsletter."
+        "officialUrl": ""
       }
     ],
     "important": [
       {
-        "title": "Anthropic multiplie les lancements avant son introduction en Bourse",
-        "url": "https://www.upmynt.com/up368-nouveau-media/",
-        "description": "Upmynt fait le point sur la série d'annonces d'Anthropic avant son IPO au Nasdaq, au moment où la newsletter plaide aussi pour que l'IA devienne un enjeu central de la présidentielle 2027.",
-        "source": "Upmynt",
-        "date": "16 novembre 2026",
+        "title": "Anthropic lance Claude Ship : trois agents pour amener les pull requests GitHub jusqu'à la fusion",
+        "url": "https://tldr.tech/ai/2026-11-24",
+        "description": "Code Review signale les problèmes, PR Steward pousse les corrections et Claude Approvals vérifie les changements par rapport à la politique d'approbation de l'équipe.",
+        "source": "TLDR AI",
+        "date": "24 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up368-nouveau-media/",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-24",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Google dévoile ses lunettes « Intelligent Eyewear » avec Gentle Monster, successeures des Google Glass",
-        "url": "https://www.upmynt.com/up368-nouveau-media/",
-        "description": "Elles intègrent Gemini pour poser des questions, prendre des photos et traduire des conversations ; précommandes ouvertes, livraisons dès le 10 décembre, face à Meta et EssilorLuxottica.",
-        "source": "Upmynt",
-        "date": "16 novembre 2026",
+        "title": "Cognition lance SWE-2.1, bâti sur Kimi K3, qui double le score de SWE-2 sur Terminal-Bench 4.1",
+        "url": "https://tldr.tech/ai/2026-11-25",
+        "description": "Entraîné par apprentissage par renforcement, le modèle atteint 50,0 sur Terminal-Bench 4.1 et gagne en compétences de sécurité.",
+        "source": "TLDR AI",
+        "date": "25 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.upmynt.com/up368-nouveau-media/",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-25",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Apple mise sur les apps Siri AI comme principal argument de ses lunettes connectées prévues en 2027",
-        "url": "https://tldr.tech/tech/2026-11-16",
-        "description": "Selon Bloomberg, le nouveau Siri AI prépare les développeurs aux lunettes ; l'intégration des apps de l'iPhone doit distinguer Apple de Meta et Google.",
+        "title": "Z.ai lance GLM-5.4, premier modèle phare à Loop Transformer qui réutilise ses couches pour raisonner plus profondément",
+        "url": "https://alphasignal.ai/news/z-ai-s-glm-5-4-loops-the-same-weights-twice-to-beat-deeper-models",
+        "description": "Sans ajouter de paramètres, Z.ai revendique une intelligence comparable à des modèles de 2 à 3 billions de paramètres, avec la vision et un codage étendu aux shaders, CAD et jeux. Disponible sur le GLM Coding Plan.",
+        "source": "Alpha Signal",
+        "date": "24 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/z-ai-s-glm-5-4-loops-the-same-weights-twice-to-beat-deeper-models",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Thinking Machines publie Inkling 2 Mini, modèle open-weight de 26,4 milliards de paramètres en tête sous les 100 Md sur DeepSWE",
+        "url": "https://tldr.tech/ai/2026-11-23",
+        "description": "Le modèle effectue du calcul interne supplémentaire avant de répondre et domine tous les modèles open-weight de moins de 100 milliards de paramètres sur le benchmark de code DeepSWE.",
+        "source": "TLDR AI",
+        "date": "23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-23",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "OpenAI : l'exposant de la multiplication matricielle serait égal à 9/4 sur tout corps, selon un nouveau preprint",
+        "url": "https://tldr.tech/ai/2026-11-25",
+        "description": "Le document, daté du 24 novembre, établit que l'exposant de la multiplication de matrices carrées vaut 9/4 sur tout corps ; un exposant plus petit violerait une borne inférieure sur le test d'unicité des éléments de listes indépendantes. Résultat à vérifier par la communauté.",
+        "source": "TLDR AI",
+        "date": "24-25 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-25",
+        "thirdPartyUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+        "officialUrl": ""
+      },
+      {
+        "title": "Microsoft AI détaille Rocket, son framework d'apprentissage par renforcement pour MAI Base 2, modèle de 3 000 milliards de paramètres",
+        "url": "https://alphasignal.ai/news/microsoft-s-rocket-keeps-a-3-trillion-parameter-ai-training-for-months",
+        "description": "Conçu pour des runs de plusieurs mois sans distillation de modèles tiers, Rocket atteint la parité bit à bit entre échantillonneur et apprenant et a économisé plus de 7 % des heures GPU grâce à une reprise en cinq minutes.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/microsoft-s-rocket-keeps-a-3-trillion-parameter-ai-training-for-months",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Epoch AI juge « défaillants » 3 benchmarks d'agents sur 4 : ARC-AGI-3, Agents' Last Exam et Vending-Bench 2",
+        "url": "https://alphasignal.ai/news/epoch-finds-3-of-4-agent-benchmarks-are-fundamentally-broken",
+        "description": "Seul MazeBench v1.1 est « vérifié ». 44 % des tâches échantillonnées d'Agents' Last Exam peuvent être validées à 100 % par des raccourcis, et sur Vending-Bench 2 Astra a gagné plus d'1 M$ en 102 jours en exploitant des bugs d'environnement.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/epoch-finds-3-of-4-agent-benchmarks-are-fundamentally-broken",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Jensen Huang réunit les équipes de Nvidia en assemblée générale un jour après son retour",
+        "url": "https://tldr.tech/tech/2026-11-25",
+        "description": "Selon la presse relayée par TLDR, il y a reconnu avoir commis « des erreurs terribles », tandis que le sénateur Chuck Schumer l'accuse d'avoir enfreint la loi sur les exportations.",
         "source": "TLDR",
-        "date": "16 novembre 2026",
+        "date": "24-25 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-16",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Meta teste « Direct », une application de messagerie Instagram autonome",
-        "url": "https://tldr.tech/tech/2026-11-17",
-        "description": "L'application distincte d'Instagram est en phase de test, d'après Engadget relayé par TLDR.",
-        "source": "TLDR",
-        "date": "17 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-17",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Bland AI présente Tofu-1, un modèle vocal full-duplex qui génère des paysages sonores entiers",
-        "url": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
-        "description": "Il combine plusieurs voix, chevauchements et bruits de fond ; Bland AI affirme que 92 % des auditeurs ne détectent pas qu'il s'agit d'une IA, avec accès en préversion avant un lancement début janvier.",
-        "source": "Superhuman",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Qwen4-Max : Alibaba met en avant la modélisation 3D avec Blender, le droit, la finance et la santé",
-        "url": "https://tldr.tech/ai/2026-11-16",
-        "description": "Le modèle sait piloter Blender pour la géométrie, les matériaux, l'éclairage et le rendu, et vise la découverte scientifique de pointe.",
-        "source": "TLDR AI",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "GPT-6 Astra aide un physicien à proposer une définition sur réseau du Modèle standard",
-        "url": "https://tldr.tech/ai/2026-11-16",
-        "description": "Nathaniel Craig a travaillé avec GPT-6 Astra sur une formulation candidate non perturbative, avec cadre mathématique et preuve détaillée.",
-        "source": "TLDR AI",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Nvidia dévoile Rubin HPC : plus de 50 000 cœurs sur un seul GPU, attendu en 2028",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "description": "Ce GPU vise les simulations utilisées par les agents en science, ingénierie et analytique, avec un nombre de cœurs record.",
-        "source": "TLDR AI",
-        "date": "17 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-17",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Hugging Face Inference Providers passe sur OpenRouter avec le même point d'accès et le même jeton",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "description": "Les modèles ouverts sont désormais accessibles via un endpoint unique ; Hugging Face et OpenRouter s'associent.",
-        "source": "TLDR AI",
-        "date": "17 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-17",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Anthropic publie un guide sur les agents « always-on » qui tournent sans supervision directe",
-        "url": "https://tldr.tech/ai/2026-11-16",
-        "description": "L'article détaille les briques (gestion du contexte entre sessions, actions autonomes) rendues pratiques par des modèles plus fiables et moins chers.",
-        "source": "TLDR AI",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
-        "thirdPartyUrl": "",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-25",
+        "thirdPartyUrl": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-s-huang-to-host-all-hands-meeting-a-day-after-his-return",
         "officialUrl": ""
       }
     ],
     "goodToKnow": [
       {
-        "title": "Devin Apps : Cognition permet à Devin de construire et héberger des applications web privées",
-        "url": "https://tldr.tech/ai/2026-11-16",
-        "description": "À partir d'une description, Devin génère tableaux de bord et files d'approbation qui réutilisent les intégrations et le code de l'équipe ; connexion à Devin obligatoire.",
-        "source": "TLDR AI",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Embla 1, un modèle de raisonnement pour téléphones : 57,4 de moyenne en 4 bits, 1,77 s sur iPhone 18 Pro",
-        "url": "https://tldr.tech/ai/2026-11-16",
-        "description": "Il tourne hors ligne et gratuitement sur le téléphone, avec peu de tokens par réponse (moyenne sur BFCL, IFBench, AA-Omniscience, GPQA et MATH-500).",
-        "source": "TLDR AI",
-        "date": "16 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-16",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Tencent lance Hy4 flash, un modèle rapide et économique proche de Claude Haiku 5.5 en satisfaction",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "description": "Lors d'un test aveugle auprès d'utilisateurs internes de Tencent, ses scores de satisfaction approchent ceux de Claude Haiku 5.5.",
-        "source": "TLDR AI",
-        "date": "17 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-17",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Liquid AI lance d1.2 et d1.2-ultra, des modèles de décision omnimodaux dès 0,02 $ par M de tokens",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "description": "d1.2-ultra se classe premier de l'Artificial Analysis Decision Index v2.1 ; ils extraient des valeurs, localisent des objets et acceptent l'audio.",
-        "source": "TLDR AI",
-        "date": "17 novembre 2026",
-        "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/ai/2026-11-17",
-        "thirdPartyUrl": "",
-        "officialUrl": ""
-      },
-      {
-        "title": "Claude Code teste les mises en page de l'iPhone Duo pliable dans le simulateur iOS",
-        "url": "https://x.com/ClaudeDevs/status/2122439098740674839",
-        "description": "Claude plie et déplie lui-même l'appareil dans le simulateur pour vérifier les interfaces ; l'équipe publie aussi sa méthode de vérification (tests peu coûteux, benchmarks, exécutions de bout en bout).",
+        "title": "Google DeepCrossAttention réduit jusqu'à 5 fois les étapes d'entraînement des transformers",
+        "url": "https://alphasignal.ai/news/google-s-deepcrossattention-cuts-transformer-training-steps-by-5x",
+        "description": "Le mécanisme remplace les connexions résiduelles additives par un routage appris entre couches, pour moins de 0,2 % de paramètres en plus, et atteint une perplexité sous 14 sur LM1B avec 30 couches au lieu de 42.",
         "source": "Alpha Signal",
-        "date": "17 novembre 2026",
-        "urlType": "official",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://x.com/ClaudeDevs/status/2122439098740674839",
-        "urlReason": "Aucun article tiers ni archive publique de la newsletter n'était disponible ; lien vers la publication officielle citée par la newsletter."
-      },
-      {
-        "title": "OpenAI offre un accès gratuit à ses modèles de pointe à 200 000 scientifiques ; candidatures dès le 23 novembre",
-        "url": "https://x.com/OpenAI/status/2122377585523126615",
-        "description": "Une étude sur 1 800 participants montre une productivité des chercheurs à peu près doublée ; ChatGPT for Healthcare ajoute des agents d'utilisation de l'ordinateur et plus de 20 plugins.",
-        "source": "AINews",
-        "date": "17 novembre 2026",
-        "urlType": "official",
-        "sourceNewsletterUrl": "",
-        "thirdPartyUrl": "",
-        "officialUrl": "https://x.com/OpenAI/status/2122377585523126615",
-        "urlReason": "Aucun article tiers ni archive publique de la newsletter n'était disponible ; lien vers la publication officielle citée par la newsletter."
-      },
-      {
-        "title": "Tesla ouvre les précommandes du Cybercab « pour usage personnel » à 29 990 $ et 299 $ par mois",
-        "url": "https://tldr.tech/tech/2026-11-16",
-        "description": "Livraisons estimées en décembre, avec restrictions géographiques ; Tesla confirme aussi une usine Cybercab de 3 Md€ à Giga Berlin (jusqu'à 1 M par an, production dès 2029).",
-        "source": "TLDR",
-        "date": "16 novembre 2026",
+        "date": "23 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-16",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/google-s-deepcrossattention-cuts-transformer-training-steps-by-5x",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Les grandes entreprises chinoises d'IA brident les capacités cyber de leurs derniers modèles",
-        "url": "https://tldr.tech/tech/2026-11-17",
-        "description": "Elles réagissent à un projet gouvernemental d'interdire l'exportation de ces technologies d'attaque, rapporte Bloomberg.",
-        "source": "TLDR",
-        "date": "17 novembre 2026",
+        "title": "NVIDIA publie Nemotron 3.5 Bolt E4B, un modèle open-weight d'agent qui tient dans 4 Go de VRAM",
+        "url": "https://alphasignal.ai/news/nvidia-s-nemotron-3-5-bolt-runs-a-full-ai-agent-on-4gb-of-vram",
+        "description": "Post-entraîné à partir de Gemma 4 E4B par apprentissage par renforcement seul, il gère 64K de contexte, 37 langues et l'appel d'outils multi-tours, avec un décodage 2,74 fois plus rapide grâce au drafter DFlash.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-17",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/nvidia-s-nemotron-3-5-bolt-runs-a-full-ai-agent-on-4gb-of-vram",
         "thirdPartyUrl": "",
         "officialUrl": ""
       },
       {
-        "title": "Panne d'Outlook de 36 heures et clouage des vols aux États-Unis : l'IA est-elle en cause ?",
-        "url": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
-        "description": "Microsoft et la FAA nient tout lien avec l'IA (mise à niveau réseau, modernisation des communications du contrôle aérien), mais la rumeur persiste.",
-        "source": "Superhuman",
-        "date": "16 novembre 2026",
+        "title": "L'API Gemini ajoute le découpage natif de fichiers, avec jusqu'à 93 % de tokens économisés",
+        "url": "https://alphasignal.ai/news/google-s-gemini-api-cuts-token-costs-by-93-with-file-slicing",
+        "description": "Les applications demandent seulement certaines pages, cellules ou plages audio/vidéo, et les formats Office et OpenDocument sont acceptés. Vercel a mesuré 14 fois moins de tokens, LiteLLM 67 % de moins sur un PDF.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
         "urlType": "newsletter",
-        "sourceNewsletterUrl": "https://www.superhuman.ai/p/160-000-supporters-call-for-jensen-huang-to-be-reinstated",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/google-s-gemini-api-cuts-token-costs-by-93-with-file-slicing",
         "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Shanghai AI Lab publie Sage-A1.5 en GGUF Q4_K_M : un agent de 35 Md de paramètres sur un seul GPU de 24 Go",
+        "url": "https://alphasignal.ai/news/shanghai-ai-lab-squeezes-sage-a1-5-into-a-single-24-gb-consumer-gpu",
+        "description": "Modèle MoE à 3 milliards de paramètres actifs, 262K de contexte et licence Apache 2.0, il revendique 95,1 sur GAIA et fonctionne via llama.cpp, Ollama et LM Studio.",
+        "source": "Alpha Signal",
+        "date": "23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://alphasignal.ai/news/shanghai-ai-lab-squeezes-sage-a1-5-into-a-single-24-gb-consumer-gpu",
+        "thirdPartyUrl": "",
+        "officialUrl": ""
+      },
+      {
+        "title": "Tesla FSD v15 serait la dernière chance du matériel AI4, Elon Musk reconnaissant le peu de puissance de calcul restante",
+        "url": "https://tldr.tech/tech/2026-11-24",
+        "description": "Electrek relaie les propos de Musk sur la limite de calcul des ordinateurs AI4 de Tesla pour cette version.",
+        "source": "TLDR",
+        "date": "23-24 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-24",
+        "thirdPartyUrl": "https://electrek.co/2026/11/23/tesla-fsd-v15-ai4-last-shot-compute-limit/",
+        "officialUrl": ""
+      },
+      {
+        "title": "Epochal, startup de trois anciens fondateurs de xAI, présente des agents qui naviguent dans une copie archivée d'Internet à des dates passées",
+        "url": "https://tldr.tech/tech/2026-11-25",
+        "description": "Le produit simule le passé pour apprendre à l'IA à prédire l'avenir, avec pour ambition un modèle d'aide à la décision à prédiction surhumaine.",
+        "source": "TLDR",
+        "date": "24-25 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-25",
+        "thirdPartyUrl": "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+        "officialUrl": ""
+      },
+      {
+        "title": "Un développeur fait tourner un LLM sur un FPGA conçu entièrement en « vibe coding »",
+        "url": "https://tldr.tech/tech/2026-11-23",
+        "description": "Le billet détaille l'expérience d'une puce d'inférence conçue avec des agents de code, et montre ce qu'un gros budget de tokens permet dans des domaines nouveaux pour un développeur.",
+        "source": "TLDR",
+        "date": "22-23 novembre 2026",
+        "urlType": "newsletter",
+        "sourceNewsletterUrl": "https://tldr.tech/tech/2026-11-23",
+        "thirdPartyUrl": "https://ankitg.me/blog/vibecoding-inference-chip/",
         "officialUrl": ""
       }
     ]
